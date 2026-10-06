@@ -257,10 +257,10 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "شجرة تخرج",
+          "searchText": "شجرةࣱ تخرج",
           "segments": [
             {
-              "text": "شَجَرَةٌۭ ",
+              "text": "شَجَرَةࣱ ",
               "role": "base"
             },
             {
@@ -277,10 +277,10 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "ليوم تشخص",
+          "searchText": "ليومࣲ تشخص",
           "segments": [
             {
-              "text": "لِيَوۡمٍۢ ",
+              "text": "لِيَوۡمࣲ ",
               "role": "base"
             },
             {
@@ -349,10 +349,10 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 1,
-          "searchText": "عين جارية",
+          "searchText": "عينࣱ جارية",
           "segments": [
             {
-              "text": "عَيۡنٌۭ ",
+              "text": "عَيۡنࣱ ",
               "role": "base"
             },
             {
@@ -369,10 +369,10 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 1,
-          "searchText": "قوما جبارين",
+          "searchText": "قومࣰا جبارين",
           "segments": [
             {
-              "text": "قَوۡمًۭا ",
+              "text": "قَوۡمࣰا ",
               "role": "base"
             },
             {
@@ -533,10 +533,10 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 3,
-          "searchText": "يوما كان",
+          "searchText": "يومࣰا كان",
           "segments": [
             {
-              "text": "يَوۡمًۭا ",
+              "text": "يَوۡمࣰا ",
               "role": "base"
             },
             {

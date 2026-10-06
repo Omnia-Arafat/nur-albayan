@@ -226,7 +226,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 3,
-          "searchText": "وتحبون ٱلمال حبا جما",
+          "searchText": "وتحبون ٱلمال حبࣰا جما",
           "segments": [
             {
               "text": "وَتُحِ",
@@ -241,7 +241,7 @@
               "role": "base"
             },
             {
-              "text": "بًّا ",
+              "text": "بࣰّا ",
               "role": "target"
             },
             {

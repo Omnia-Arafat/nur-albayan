@@ -25,7 +25,7 @@
       "items": [
         {
           "cardType": "normal",
-          "script": "naskh",
+          "script": "uthmani",
           "rowBand": 0,
           "searchText": "أف ف = أف",
           "segments": [
@@ -45,7 +45,7 @@
         },
         {
           "cardType": "normal",
-          "script": "naskh",
+          "script": "uthmani",
           "rowBand": 0,
           "searchText": "عد دو = عدو",
           "segments": [
@@ -619,7 +619,7 @@
         },
         {
           "cardType": "normal",
-          "script": "naskh",
+          "script": "uthmani",
           "rowBand": 2,
           "searchText": "وسبحه",
           "segments": [
@@ -655,7 +655,7 @@
         },
         {
           "cardType": "normal",
-          "script": "naskh",
+          "script": "uthmani",
           "rowBand": 2,
           "searchText": "تبيض",
           "segments": [
@@ -671,7 +671,7 @@
         },
         {
           "cardType": "normal",
-          "script": "naskh",
+          "script": "uthmani",
           "rowBand": 2,
           "searchText": "صدوكم",
           "segments": [

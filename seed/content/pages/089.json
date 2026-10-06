@@ -26,7 +26,7 @@
       "items": [
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 0,
           "drillable": false,
           "searchText": "علامات التشكيل",
@@ -39,7 +39,7 @@
         },
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 0,
           "drillable": false,
           "searchText": "الرسم القرآنى",
@@ -52,7 +52,7 @@
         },
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 0,
           "drillable": false,
           "searchText": "الرسم الإملائى",
@@ -78,7 +78,7 @@
       "items": [
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 0,
           "searchText": "١ السكون",
           "segments": [
@@ -146,7 +146,7 @@
         },
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 0,
           "searchText": "يستيقظ عمر من نومه عند الفجر ( )",
           "segments": [
@@ -202,7 +202,7 @@
         },
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 1,
           "searchText": "٢ التنوين",
           "segments": [
@@ -266,7 +266,7 @@
         },
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 1,
           "searchText": "رجل صادق كريم ( )",
           "segments": [
@@ -306,7 +306,7 @@
         },
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 2,
           "searchText": "٣ الشدة",
           "segments": [
@@ -358,7 +358,7 @@
         },
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 2,
           "searchText": "سؤال الميت فى قبره حق ( )",
           "segments": [
@@ -390,7 +390,7 @@
         },
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 3,
           "searchText": "٤ ألف الوصل",
           "segments": [
@@ -438,7 +438,7 @@
         },
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 3,
           "searchText": "الساعى على الأرملة والمسكين كالمجاهد ( ال ال )",
           "segments": [
@@ -482,7 +482,7 @@
         },
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 4,
           "searchText": "٥ ألف المد",
           "segments": [
@@ -535,7 +535,7 @@
         },
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 4,
           "searchText": "آمن محمد وصدق فى إيمانه ( آ )",
           "segments": [
@@ -555,7 +555,7 @@
         },
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 5,
           "searchText": "٦ الألف اللينة على صورة الياء",
           "segments": [
@@ -599,7 +599,7 @@
         },
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 5,
           "searchText": "سعى المصلحون فى الخير ( عى )",
           "segments": [
@@ -623,7 +623,7 @@
         },
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 6,
           "searchText": "٧ ياء المد",
           "segments": [
@@ -667,7 +667,7 @@
         },
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 6,
           "searchText": "سافر أخي مع أبي ( خي بي )",
           "segments": [

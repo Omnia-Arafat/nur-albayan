@@ -141,7 +141,7 @@
         },
         {
           "cardType": "normal",
-          "image": "pen",
+          "image": "pen-p60",
           "script": "naskh",
           "rowBand": 4,
           "searchText": "قلم من خشب",
@@ -166,7 +166,7 @@
         },
         {
           "cardType": "normal",
-          "image": "quran-reading",
+          "image": "quran-reading-p60",
           "script": "naskh",
           "rowBand": 5,
           "searchText": "قرآن كريم حكيم",

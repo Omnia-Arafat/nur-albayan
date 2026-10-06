@@ -25,7 +25,7 @@
       "items": [
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 0,
           "drillable": false,
           "searchText": "الرسم القرآنى",
@@ -38,7 +38,7 @@
         },
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 0,
           "drillable": false,
           "searchText": "الرسم الإملائى",
@@ -85,7 +85,7 @@
         },
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 0,
           "searchText": "هذا طالب مجتهد",
           "segments": [
@@ -117,7 +117,7 @@
         },
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 1,
           "searchText": "هذه وردة جميلة",
           "segments": [
@@ -149,7 +149,7 @@
         },
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 2,
           "searchText": "هذان ولدان نشيطان",
           "segments": [
@@ -167,7 +167,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 3,
-          "searchText": "إن هؤلآء لشرذمة قليلون",
+          "searchText": "إن هؤلآء لشرذمةࣱ قليلون",
           "segments": [
             {
               "text": "إِنَّ ",
@@ -178,14 +178,14 @@
               "role": "target"
             },
             {
-              "text": "ؤُلَآءِ لَشِرۡذِمَةٌ قَلِيلُونَ",
+              "text": "ؤُلَآءِ لَشِرۡذِمَةࣱ قَلِيلُونَ",
               "role": "base"
             }
           ]
         },
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 3,
           "searchText": "هؤلاء رجال مخلصون",
           "segments": [
@@ -217,7 +217,7 @@
         },
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 4,
           "searchText": "ذلك الكتاب أفضل الكتب",
           "segments": [
@@ -249,7 +249,7 @@
         },
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 5,
           "searchText": "ذلكم العمل فيه شرف لكم",
           "segments": [
@@ -285,7 +285,7 @@
         },
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 6,
           "searchText": "أولئك هم الصادقون حقا",
           "segments": [
@@ -325,7 +325,7 @@
         },
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 7,
           "searchText": "أخى فقير لكنه كريم",
           "segments": [

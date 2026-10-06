@@ -22,7 +22,7 @@
       "items": [
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 0,
           "drillable": false,
           "searchText": "١ تكتب الهمزة وسط الكلمة فى الرسم الإملائى على نبرة ( ئ ) إذا كانت مكسورة أو قبلها كسر",
@@ -58,7 +58,7 @@
       "items": [
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 0,
           "drillable": false,
           "searchText": "الرسم القرآنى",
@@ -71,7 +71,7 @@
         },
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 0,
           "drillable": false,
           "searchText": "الرسم الإملائى",
@@ -100,7 +100,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "كم من فئة قليلة غلبت فئة كثيرة",
+          "searchText": "كم من فئةࣲ قليلة غلبت فئةࣰ كثيرة",
           "segments": [
             {
               "text": "كَم مِّن ",
@@ -111,7 +111,7 @@
               "role": "target"
             },
             {
-              "text": "ةٍ قَلِيلَةٍ غَلَبَتۡ ",
+              "text": "ةࣲ قَلِيلَةٍ غَلَبَتۡ ",
               "role": "base"
             },
             {
@@ -119,14 +119,14 @@
               "role": "target"
             },
             {
-              "text": "ةً كَثِيرَةًۢ",
+              "text": "ةࣰ كَثِيرَةًۢ",
               "role": "base"
             }
           ]
         },
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 0,
           "searchText": "نأمل أن يسود الوئام",
           "segments": [
@@ -166,7 +166,7 @@
         },
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 1,
           "searchText": "زئير الأسد قوى",
           "segments": [
@@ -206,7 +206,7 @@
         },
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 2,
           "searchText": "أنت تقرئين كثيرا",
           "segments": [
@@ -246,7 +246,7 @@
         },
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 3,
           "searchText": "جئت من السفر",
           "segments": [
@@ -274,7 +274,7 @@
       "items": [
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 0,
           "drillable": false,
           "searchText": "٢ تكتب الهمزة وسط الكلمة فى الرسم الإملائى على الواو ( ؤ ) إذا كانت مضمومة أو قبلها ضم",
@@ -331,7 +331,7 @@
         },
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 0,
           "searchText": "يؤجر المسلم على قراءة القرآن",
           "segments": [
@@ -351,7 +351,7 @@
         },
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 1,
           "searchText": "يؤم المصلين أقرؤهم للقرآن",
           "segments": [
@@ -379,7 +379,7 @@
         },
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 1,
           "searchText": "المسلم الصادق يؤدى واجبه",
           "segments": [
@@ -399,7 +399,7 @@
         },
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 2,
           "searchText": "الصديق يؤثر فى صديقه",
           "segments": [
@@ -419,7 +419,7 @@
         },
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 2,
           "searchText": "محمد مبدؤه الصدق",
           "segments": [
@@ -439,7 +439,7 @@
         },
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 3,
           "searchText": "يرؤف الكبير بالصغير",
           "segments": [
@@ -459,7 +459,7 @@
         },
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 3,
           "searchText": "لا تؤذ الحيوان أبدا",
           "segments": [

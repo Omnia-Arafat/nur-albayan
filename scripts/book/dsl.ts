@@ -21,7 +21,8 @@
  * the game layer on top of the book; no suffix is normal. A suffix @purple (any colour name)
  * gives the item the book's decorative colour, e.g. the alphabet tiles: color.<name>.
  * A suffix &slug attaches the picture book/images/<slug>.webp (picture-word cards).
- * Header keys stage: and topic: carry over to the following pages until changed.
+ * Header keys stage: and topic: carry over to the following pages until changed. script: uthmani sets
+ * the page's default; each item still follows its own marks (see scriptOf).
  */
 import type { ContentLesson, ContentSegment } from "../../src/db/seed/content";
 
@@ -101,6 +102,20 @@ export function formatItem(cardType: string, segments: ContentSegment[]): string
   return body + (SUFFIX_BY_TYPE[cardType] ?? "");
 }
 
+/**
+ * The book prints Qur'anic text in the Uthmani script and everything else in naskh, even side by side
+ * in one table. Uthmani marks (the sukun ۡ, hamzat al-wasl ٱ, open tanween, the small meem, pause marks)
+ * make an item Uthmani; the naskh round sukun ْ makes it naskh; an item with neither takes the page's script:.
+ */
+const UTHMANI_MARKS = /[\u0671\u06D6-\u06DC\u06E1\u06E2\u06ED\u08F0-\u08F2]/;
+const NASKH_MARKS = /\u0652/;
+function scriptOf(segments: ContentSegment[], fallback: "naskh" | "uthmani"): "naskh" | "uthmani" {
+  const text = segments.map((s) => s.text).join("");
+  if (UTHMANI_MARKS.test(text)) return "uthmani";
+  if (NASKH_MARKS.test(text)) return "naskh";
+  return fallback;
+}
+
 const stripTashkeel = (s: string) =>
   s.replace(/[ً-ٰٟۖ-ۭـ‍]/g, "").replace(/\s+/g, " ").trim();
 
@@ -154,7 +169,7 @@ export function parsePage(src: string, stageOf: (page: number) => { stage: strin
         cardType,
         ...(tint ? { tint } : {}),
         ...(image ? { image } : {}),
-        script: head.script === "uthmani" ? "uthmani" : "naskh",
+        script: scriptOf(segments, head.script === "uthmani" ? "uthmani" : "naskh"),
         rowBand: row,
         ...(current.drill ? {} : { drillable: false }),
         searchText: stripTashkeel(segments.map((s) => s.text).join("")),

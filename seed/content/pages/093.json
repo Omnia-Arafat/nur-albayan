@@ -70,7 +70,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 1,
-          "searchText": "وتمت كلمت ربك صدقا وعدلا لا مبدل لكلمته",
+          "searchText": "وتمت كلمت ربك صدقࣰا وعدلࣰا لا مبدل لكلمته",
           "segments": [
             {
               "text": "وَتَمَّتۡ كَلِمَ",
@@ -85,7 +85,7 @@
               "role": "base"
             },
             {
-              "text": "دۡقًا وَ",
+              "text": "دۡقࣰا وَ",
               "role": "target"
             },
             {
@@ -93,7 +93,7 @@
               "role": "base"
             },
             {
-              "text": "لًا لَّ",
+              "text": "لࣰا لَّ",
               "role": "target"
             },
             {
@@ -118,7 +118,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 2,
-          "searchText": "وهذا كتب أنزلنه مبارك فٱتبعوه وٱتقوا لعلكم ترحمون",
+          "searchText": "وهذا كتب أنزلنه مباركࣱ فٱتبعوه وٱتقوا لعلكم ترحمون",
           "segments": [
             {
               "text": "وَ",
@@ -149,7 +149,7 @@
               "role": "base"
             },
             {
-              "text": "كٌ",
+              "text": "كࣱ",
               "role": "target"
             },
             {
@@ -162,14 +162,14 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 3,
-          "searchText": "ٱدعوا ربكم تضرعا وخفية إنه لا يحب ٱلمعتدين",
+          "searchText": "ٱدعوا ربكم تضرعࣰا وخفية إنه لا يحب ٱلمعتدين",
           "segments": [
             {
               "text": "ٱدۡعُواْ رَبَّكُمۡ تَضَرُّ",
               "role": "base"
             },
             {
-              "text": "عًا وَ",
+              "text": "عࣰا وَ",
               "role": "target"
             },
             {
@@ -204,7 +204,7 @@
         },
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 4,
           "searchText": "لا يؤمن أحدكم حتى يحب لأخيه ما يحب لنفسه",
           "segments": [
@@ -252,7 +252,7 @@
         },
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 5,
           "searchText": "المؤمن للمؤمن كالبنيان يشد بعضه بعضا",
           "segments": [
@@ -300,7 +300,7 @@
         },
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 6,
           "searchText": "لا تقوم الساعة حتى يمر الرجل بقبر الرجل فيقول يا ليتنى مكانه",
           "segments": [
@@ -332,7 +332,7 @@
         },
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 7,
           "searchText": "الجنة أقرب إلى أحدكم من شراك نعله، والنار مثل ذلك",
           "segments": [

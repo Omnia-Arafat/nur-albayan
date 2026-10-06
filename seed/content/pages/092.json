@@ -22,7 +22,7 @@
       "items": [
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 0,
           "drillable": false,
           "searchText": "٣ تكتب الهمزه وسط الكلمة فى الرسم الإملائى على الألف إذا كانت مفتوحة وقبلها ساكن أو ساكنة وقبلها فتح",
@@ -50,7 +50,7 @@
       "items": [
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 0,
           "searchText": "حفظت جزأين من القرآن",
           "segments": [
@@ -70,7 +70,7 @@
         },
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 0,
           "searchText": "تأثير الأم على أبنائها كبير",
           "segments": [
@@ -98,7 +98,7 @@
       "items": [
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 0,
           "drillable": false,
           "searchText": "٤ تكتب الهمزة على السطر إذا جاء قبلها حرف مد أو حرف ساكن",
@@ -134,7 +134,7 @@
       "items": [
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 0,
           "searchText": "سمعت نداءه من بعيد",
           "segments": [
@@ -154,7 +154,7 @@
         },
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 0,
           "searchText": "إن ضوءه شديد",
           "segments": [
@@ -182,7 +182,7 @@
       "items": [
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 0,
           "drillable": false,
           "searchText": "٤ الهمزة آخر الكلمة",
@@ -203,7 +203,7 @@
       "items": [
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 0,
           "drillable": false,
           "searchText": "الهمزة آخر الكلمة: تكتب حسب حركة الحرف قبلها ، فإن كان قبلها كسر تكتب على الياء ( ئ ) وإن كان قبلها فتح تكتب على الألف ( أ ) ولو قبلها ضم تكتب على الواو ( ؤ )",
@@ -246,8 +246,6 @@
         "columns": 2,
         "rowColors": [
           "sky",
-          "sky",
-          "sky",
           "sky"
         ]
       },
@@ -256,7 +254,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "إنه هو يبدئ ويعيدسمعت القارئ فى المذياع",
+          "searchText": "إنه هو يبدئ ويعيد",
           "segments": [
             {
               "text": "إِنَّهُۥ هُوَ يُبۡ",
@@ -268,9 +266,28 @@
             },
             {
               "text": " وَيُعِيدُ",
-              "role": "base",
-              "cellBreakAfter": true
-            },
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "تكتب الهمزة على الياء لكسر ما قبلها",
+          "segments": [
+            {
+              "text": "تكتب الهمزة على الياء لكسر ما قبلها",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "سمعت القارئ فى المذياع",
+          "segments": [
             {
               "text": "سَمِعْتُ الْقَا",
               "role": "base"
@@ -284,24 +301,24 @@
               "role": "base"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "kind": "rule_table",
+      "config": {
+        "columns": 2,
+        "rowColors": [
+          "sky",
+          "sky"
+        ]
+      },
+      "items": [
         {
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "تكتب الهمزة على الياء لكسر ما قبلها",
-          "segments": [
-            {
-              "text": "تكتب الهمزة على الياء لكسر ما قبلها",
-              "role": "rule"
-            }
-          ]
-        },
-        {
-          "cardType": "normal",
-          "script": "uthmani",
-          "rowBand": 1,
-          "searchText": "وٱتل عليهم نبأ إبرهيمقرأ محمد الكتاب",
+          "searchText": "وٱتل عليهم نبأ إبرهيم",
           "segments": [
             {
               "text": "وَٱتۡلُ عَلَيۡهِمۡ نَ",
@@ -313,9 +330,28 @@
             },
             {
               "text": " إِبۡرَٰهِيمَ",
-              "role": "base",
-              "cellBreakAfter": true
-            },
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "تكتب الهمزة على الألف لفتح ما قبلها",
+          "segments": [
+            {
+              "text": "تكتب الهمزة على الألف لفتح ما قبلها",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "قرأ محمد الكتاب",
+          "segments": [
             {
               "text": "قَ",
               "role": "base"
@@ -329,24 +365,24 @@
               "role": "base"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "kind": "rule_table",
+      "config": {
+        "columns": 2,
+        "rowColors": [
+          "sky",
+          "sky"
+        ]
+      },
+      "items": [
         {
           "cardType": "normal",
           "script": "uthmani",
-          "rowBand": 1,
-          "searchText": "تكتب الهمزة على الألف لفتح ما قبلها",
-          "segments": [
-            {
-              "text": "تكتب الهمزة على الألف لفتح ما قبلها",
-              "role": "rule"
-            }
-          ]
-        },
-        {
-          "cardType": "normal",
-          "script": "uthmani",
-          "rowBand": 2,
-          "searchText": "يخرج منهما ٱللؤلؤ وٱلمرجانالتباطؤ فى العمل من الكسل",
+          "rowBand": 0,
+          "searchText": "يخرج منهما ٱللؤلؤ وٱلمرجان",
           "segments": [
             {
               "text": "يَخۡرُجُ مِنۡهُمَا ٱللُّؤۡ",
@@ -358,9 +394,28 @@
             },
             {
               "text": " وَٱلۡمَرۡجَانُ",
-              "role": "base",
-              "cellBreakAfter": true
-            },
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "تكتب الهمزة على الضمه لضم ما قبلها",
+          "segments": [
+            {
+              "text": "تكتب الهمزة على الضمه لضم ما قبلها",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "التباطؤ فى العمل من الكسل",
+          "segments": [
             {
               "text": "التَّبَا",
               "role": "base"
@@ -374,24 +429,24 @@
               "role": "base"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "kind": "rule_table",
+      "config": {
+        "columns": 2,
+        "rowColors": [
+          "sky",
+          "sky"
+        ]
+      },
+      "items": [
         {
           "cardType": "normal",
           "script": "uthmani",
-          "rowBand": 2,
-          "searchText": "تكتب الهمزة على الضمه لضم ما قبلها",
-          "segments": [
-            {
-              "text": "تكتب الهمزة على الضمه لضم ما قبلها",
-              "role": "rule"
-            }
-          ]
-        },
-        {
-          "cardType": "normal",
-          "script": "uthmani",
-          "rowBand": 3,
-          "searchText": "كل شىء هالك إلا وجههكل شيء بقضاء وقدر",
+          "rowBand": 0,
+          "searchText": "كل شىء هالك إلا وجهه",
           "segments": [
             {
               "text": "كُلُّ شَىۡ",
@@ -403,9 +458,28 @@
             },
             {
               "text": " هَالِكٌ إِلَّا وَجۡهَهُۥ",
-              "role": "base",
-              "cellBreakAfter": true
-            },
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "تكتب الهمزة على السطر إذا جاء قبلها ساكن أو حرف مد",
+          "segments": [
+            {
+              "text": "تكتب الهمزة على السطر إذا جاء قبلها ساكن أو حرف مد",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "كل شيء بقضاء وقدر",
+          "segments": [
             {
               "text": "كُلُّ شَيْ",
               "role": "base"
@@ -417,18 +491,6 @@
             {
               "text": " بِقَضَاءٍ وَقَدَرٍ",
               "role": "base"
-            }
-          ]
-        },
-        {
-          "cardType": "normal",
-          "script": "uthmani",
-          "rowBand": 3,
-          "searchText": "تكتب الهمزة على السطر إذا جاء قبلها ساكن أو حرف مد",
-          "segments": [
-            {
-              "text": "تكتب الهمزة على السطر إذا جاء قبلها ساكن أو حرف مد",
-              "role": "rule"
             }
           ]
         }

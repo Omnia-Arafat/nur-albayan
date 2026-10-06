@@ -429,10 +429,10 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "مالا ممدودا",
+          "searchText": "مالࣰا ممدودا",
           "segments": [
             {
-              "text": "مَالًا ",
+              "text": "مَالࣰا ",
               "role": "base"
             },
             {
@@ -501,10 +501,10 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 1,
-          "searchText": "يومئذ ناضرة",
+          "searchText": "يومئذࣲ ناضرة",
           "segments": [
             {
-              "text": "يَوۡمَئِذٍ ",
+              "text": "يَوۡمَئِذࣲ ",
               "role": "base"
             },
             {
@@ -521,10 +521,10 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 1,
-          "searchText": "خير نزلا",
+          "searchText": "خيرࣱ نزلا",
           "segments": [
             {
-              "text": "خَيۡرٌ ",
+              "text": "خَيۡرࣱ ",
               "role": "base"
             },
             {
@@ -645,10 +645,10 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 3,
-          "searchText": "يومئذ يود",
+          "searchText": "يومئذࣲ يود",
           "segments": [
             {
-              "text": "يَوۡمَئِذٍ ",
+              "text": "يَوۡمَئِذࣲ ",
               "role": "base"
             },
             {
@@ -665,10 +665,10 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 3,
-          "searchText": "يوما يجعل",
+          "searchText": "يومࣰا يجعل",
           "segments": [
             {
-              "text": "يَوۡمًا ",
+              "text": "يَوۡمࣰا ",
               "role": "base"
             },
             {
@@ -786,10 +786,10 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "شىء رحمة",
+          "searchText": "شىءࣲ رحمة",
           "segments": [
             {
-              "text": "شَىۡءٍ ",
+              "text": "شَىۡءࣲ ",
               "role": "base"
             },
             {
@@ -806,10 +806,10 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "مثلا رجلين",
+          "searchText": "مثلࣰا رجلين",
           "segments": [
             {
-              "text": "مَّثَلًا ",
+              "text": "مَّثَلࣰا ",
               "role": "base"
             },
             {
@@ -878,10 +878,10 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 1,
-          "searchText": "وملك لا يبلى",
+          "searchText": "وملكࣲ لا يبلى",
           "segments": [
             {
-              "text": "وَمُلۡكٍ ",
+              "text": "وَمُلۡكࣲ ",
               "role": "base"
             },
             {

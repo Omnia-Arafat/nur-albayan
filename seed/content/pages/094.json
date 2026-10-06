@@ -78,7 +78,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 1,
-          "searchText": "للذين أحسنوا ٱلحسنى وزيادة ولا يرهق وجوههم قتر ولا ذلة",
+          "searchText": "للذين أحسنوا ٱلحسنى وزيادةࣱ ولا يرهق وجوههم قترࣱ ولا ذلة",
           "segments": [
             {
               "text": "لِّلَّذِينَ أَحۡسَنُواْ ٱلۡحُسۡ",
@@ -93,7 +93,7 @@
               "role": "base"
             },
             {
-              "text": "ةٌۖ",
+              "text": "ةࣱۖ",
               "role": "target"
             },
             {
@@ -101,7 +101,7 @@
               "role": "base"
             },
             {
-              "text": "رٌ",
+              "text": "رࣱ",
               "role": "target"
             },
             {
@@ -180,7 +180,7 @@
         },
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 4,
           "searchText": "لا تحقرن من المعروف شيئا ولو أن تلقى أخاك بوجه طلق",
           "segments": [
@@ -220,7 +220,7 @@
         },
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 5,
           "searchText": "ليس الغنى عن كثرة العرض ولكن الغنى غنى النفس",
           "segments": [
@@ -272,7 +272,7 @@
         },
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 6,
           "searchText": "صلاة الجماعة تفضل صلاة الفذ بسبع وعشرين درجة",
           "segments": [
@@ -320,7 +320,7 @@
         },
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 7,
           "searchText": "من أحدث فى أمرنا هذا ما ليس منه فهو رد",
           "segments": [

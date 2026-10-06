@@ -96,10 +96,10 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "وجوه يومئذ مسفرة",
+          "searchText": "وجوهࣱ يومئذࣲ مسفرة",
           "segments": [
             {
-              "text": "وُجُوهٌ ",
+              "text": "وُجُوهࣱ ",
               "role": "base"
             },
             {
@@ -107,7 +107,7 @@
               "role": "target"
             },
             {
-              "text": "وۡمَئِذٍ ",
+              "text": "وۡمَئِذࣲ ",
               "role": "base"
             },
             {
@@ -144,10 +144,10 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 1,
-          "searchText": "وما هو بقول شيطن رجيم",
+          "searchText": "وما هو بقول شيطنࣲ رجيم",
           "segments": [
             {
-              "text": "وَمَا هُوَ بِقَوۡلِ شَيۡطَٰنٍ ",
+              "text": "وَمَا هُوَ بِقَوۡلِ شَيۡطَٰنࣲ ",
               "role": "base"
             },
             {
@@ -184,10 +184,10 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 2,
-          "searchText": "وجوه يومئذ باسرة",
+          "searchText": "وجوهࣱ يومئذ باسرة",
           "segments": [
             {
-              "text": "وُجُوهٌ يَوۡمَئِذِ",
+              "text": "وُجُوهࣱ يَوۡمَئِذِ",
               "role": "base"
             },
             {
@@ -265,7 +265,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 1,
-          "searchText": "وأنزلنا من ٱلمعصرت ماء ثجاجا",
+          "searchText": "وأنزلنا من ٱلمعصرت ماءࣰ ثجاجا",
           "segments": [
             {
               "text": "وَأَ",
@@ -276,7 +276,7 @@
               "role": "target"
             },
             {
-              "text": "لۡنَا مِنَ ٱلۡمُعۡصِرَٰتِ مَآءً ",
+              "text": "لۡنَا مِنَ ٱلۡمُعۡصِرَٰتِ مَآءࣰ ",
               "role": "base"
             },
             {
@@ -293,10 +293,10 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 1,
-          "searchText": "فتصبح صعيدا زلقا",
+          "searchText": "فتصبح صعيدࣰا زلقا",
           "segments": [
             {
-              "text": "فَتُصۡبِحَ صَعِيدًا ",
+              "text": "فَتُصۡبِحَ صَعِيدࣰا ",
               "role": "base"
             },
             {
@@ -333,10 +333,10 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 2,
-          "searchText": "فيها عين جارية",
+          "searchText": "فيها عينࣱ جارية",
           "segments": [
             {
-              "text": "فِيهَا عَيۡنٌ ",
+              "text": "فِيهَا عَيۡنࣱ ",
               "role": "base"
             },
             {
@@ -365,10 +365,10 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "ونخيل صنوان وغير صنوان",
+          "searchText": "ونخيلࣱ صنوانࣱ وغير صنوان",
           "segments": [
             {
-              "text": "وَنَخِيلٌ صِ",
+              "text": "وَنَخِيلࣱ صِ",
               "role": "base"
             },
             {
@@ -376,7 +376,7 @@
               "role": "target"
             },
             {
-              "text": "انٌ وَغَيۡرُ صِ",
+              "text": "انࣱ وَغَيۡرُ صِ",
               "role": "base"
             },
             {
@@ -393,7 +393,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "إنما ٱلحيوة ٱلدنيا لعب ولهو",
+          "searchText": "إنما ٱلحيوة ٱلدنيا لعبࣱ ولهو",
           "segments": [
             {
               "text": "إِنَّمَا ٱلۡحَيَوٰةُ ٱلدُّ",
@@ -404,7 +404,7 @@
               "role": "target"
             },
             {
-              "text": "ا لَعِبٌ ",
+              "text": "ا لَعِبࣱ ",
               "role": "base"
             },
             {
@@ -472,7 +472,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "فكأين من قرية أهلكنها وهى ظالمة فهى خاوية على عروشها وبئر معطلة وقصر مشيد",
+          "searchText": "فكأين من قرية أهلكنها وهى ظالمةࣱ فهى خاوية على عروشها وبئرࣲ معطلةࣲ وقصرࣲ مشيد",
           "segments": [
             {
               "text": "فَكَأَيِّن ",
@@ -499,7 +499,7 @@
               "role": "target"
             },
             {
-              "text": "هۡلَكۡنَٰهَا وَهِىَ ظَالِمَةٌ فَهِىَ خَاوِيَةٌ عَلَىٰ عُرُوشِهَا وَبِئۡرٍ ",
+              "text": "هۡلَكۡنَٰهَا وَهِىَ ظَالِمَةࣱ فَهِىَ خَاوِيَةٌ عَلَىٰ عُرُوشِهَا وَبِئۡرࣲ ",
               "role": "base"
             },
             {
@@ -507,7 +507,7 @@
               "role": "target"
             },
             {
-              "text": "عَطَّلَةٍ وَقَصۡرٍ ",
+              "text": "عَطَّلَةࣲ وَقَصۡرࣲ ",
               "role": "base"
             },
             {

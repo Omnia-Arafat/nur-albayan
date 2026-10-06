@@ -1,7 +1,6 @@
 page: 89
 stage: unit-7
 topic: rasm
-script: uthmani
 unit: الوحدة السابعة
 observe: اقرأ ولاحظ
 lesson: الدرس الأول
