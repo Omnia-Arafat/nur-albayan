@@ -1,0 +1,217 @@
+{
+  "slug": "page-46",
+  "bookPage": 46,
+  "stage": "unit-3",
+  "topic": "sukun",
+  "status": "review",
+  "i18n": {
+    "ar": {
+      "title": "تدريب ( ٧) أمثلة قرآنية",
+      "teacherNote": "[للمعلم والآباء:] نحرص على سماع قراءة التدريب من كل متعلم على حده ، ولا تنسى قراءة القاعدة على الحركات والمدود والسكون صفحة [( ١٨، ٣٢، ٣٩).]",
+      "lessonTag": "الدرس الثامن",
+      "observeTag": "اقرأ ولاحظ"
+    }
+  },
+  "sections": [
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 2,
+        "rowColors": [
+          "sky",
+          "sky",
+          "peach",
+          "peach",
+          "pink",
+          "pink"
+        ],
+        "markColor": "red"
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "أوفوا ٱلكيل ولا تكونوا من ٱلمخسرين",
+          "segments": [
+            {
+              "text": "أَوۡفُوا۟ ٱلۡكَيۡلَ وَلَا تَكُونُوا۟ مِنَ ٱلۡمُخۡسِرِينَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "كذلك سلكنه فى قلوب ٱلمجرمين",
+          "segments": [
+            {
+              "text": "كَذَٰلِكَ سَلَكۡنَٰهُ فِى قُلُوبِ ٱلۡمُجۡرِمِينَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "ولا تنزعوا فتفشلوا وتذهب ريحكم",
+          "segments": [
+            {
+              "text": "وَلَا تَنَٰزَعُوا۟ فَتَفۡشَلُوا۟ وَتَذۡهَبَ رِيحُكُمۡ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "وأورثكم أرضهم وديرهم وأمولهم",
+          "segments": [
+            {
+              "text": "وَأَوۡرَثَكُمۡ أَرۡضَهُمۡ وَدِيَٰرَهُمۡ وَأَمۡوَٰلَهُمۡ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "يصلح لكم أعملكم ويغفر لكم",
+          "segments": [
+            {
+              "text": "يُصۡلِحۡ لَكُمۡ أَعۡمَٰلَكُمۡ وَيَغۡفِرۡ لَكُمۡ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "فأعرضوا فأرسلنا عليهم سيل ٱلعرم",
+          "segments": [
+            {
+              "text": "فَأَعۡرَضُوا۟ فَأَرۡسَلۡنَا عَلَيۡهِمۡ سَيۡلَ ٱلۡعَرِمِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "وأمرت أن أكون من ٱلمسلمين",
+          "segments": [
+            {
+              "text": "وَأُمِرۡتُ أَنۡ أَكُونَ مِنَ ٱلۡمُسۡلِمِينَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "وأقيموا ٱلوزن بٱلقسط ولا تخسروا",
+          "segments": [
+            {
+              "text": "وَأَقِيمُوا۟ ٱلۡوَزۡنَ بِٱلۡقِسۡطِ وَلَا تُخۡسِرُوا۟",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "ولقد سبقت كلمتنا لعبادنا ٱلمرسلين",
+          "segments": [
+            {
+              "text": "وَلَقَدۡ سَبَقَتۡ كَلِمَتُنَا لِعِبَادِنَا ٱلۡمُرۡسَلِينَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "فنادوا صاحبهم فتعاطى فعقر",
+          "segments": [
+            {
+              "text": "فَنَادَوۡا۟ صَاحِبَهُمۡ فَتَعَاطَىٰ فَعَقَرَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 5,
+          "searchText": "ونصرنهم فكانوا هم ٱلغلبين",
+          "segments": [
+            {
+              "text": "وَنَصَرۡنَٰهُمۡ فَكَانُوا۟ هُمُ ٱلۡغَٰلِبِينَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 5,
+          "searchText": "وتركنا عليهما فى ٱلأخرين",
+          "segments": [
+            {
+              "text": "وَتَرَكۡنَا عَلَيۡهِمَا فِى ٱلۡأٓخِرِينَ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 1,
+        "rowColors": [
+          "green"
+        ],
+        "markColor": "red"
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "فكبكبوا فيها هم وٱلغاون وجنود إبليس أجمعون",
+          "segments": [
+            {
+              "text": "فَكُبۡكِبُوا۟ فِيهَا هُمۡ وَٱلۡغَاوُۥنَ وَجُنُودُ إِبۡلِيسَ أَجۡمَعُونَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "له ٱلحمد فى ٱلأولى وٱلأخرة وله ٱلحكم وإليه ترجعون",
+          "segments": [
+            {
+              "text": "لَهُ ٱلۡحَمۡدُ فِى ٱلۡأُولَىٰ وَٱلۡأٓخِرَةِ وَلَهُ ٱلۡحُكۡمُ وَإِلَيۡهِ تُرۡجَعُونَ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [],
+  "games": {},
+  "source": "book page 46"
+}

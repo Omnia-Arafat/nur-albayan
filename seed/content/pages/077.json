@@ -1,0 +1,581 @@
+{
+  "slug": "page-77",
+  "bookPage": 77,
+  "stage": "unit-6",
+  "topic": "tarteel-madd",
+  "status": "review",
+  "i18n": {
+    "ar": {
+      "title": "أحكام ترتيل القرآن",
+      "subtitle": "١ـ أنواع المدود (آ)",
+      "teacherNote": "[للمعلم والآباء:] تعريف [المد] لغةً هو الزيادة ، واصطلاحًا هو إطالة الصوت بحرف المد أو اللين عند وجود همزة أو سكون بمقدار معلوم.",
+      "unitTag": "الوحدة السادسة",
+      "lessonTag": "الدرس الأول"
+    }
+  },
+  "sections": [
+    {
+      "kind": "rule_definition",
+      "config": {
+        "columns": 1
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "drillable": false,
+          "searchText": "١ المد الواجب المتصل: هو أن يأتى بعد حرف المد همزة فى كلمة واحدة يمد عندها ألف المد أربع حركات ومن أمثلته",
+          "segments": [
+            {
+              "text": "١ـ المد الواجب المتصل:",
+              "role": "target"
+            },
+            {
+              "text": " هو أن يأتى بعد حرف المد همزة فى كلمة واحدة يمد عندها ألف المد أربع حركات ",
+              "role": "base"
+            },
+            {
+              "text": "ومن أمثلته",
+              "role": "rule"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "letter_tiles",
+      "config": {
+        "columns": 6,
+        "rowColors": [
+          "sky"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "حنفآء",
+          "segments": [
+            {
+              "text": "حُنَفَ",
+              "role": "base"
+            },
+            {
+              "text": "آ",
+              "role": "target"
+            },
+            {
+              "text": "ءَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "جآءتهم",
+          "segments": [
+            {
+              "text": "جَ",
+              "role": "base"
+            },
+            {
+              "text": "آ",
+              "role": "target"
+            },
+            {
+              "text": "ءَتۡهُمۡ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "هؤم",
+          "segments": [
+            {
+              "text": "هَ",
+              "role": "base"
+            },
+            {
+              "text": "ٰٓ",
+              "role": "target"
+            },
+            {
+              "text": "ؤُمُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "أولئك",
+          "segments": [
+            {
+              "text": "أُو۟لَ",
+              "role": "base"
+            },
+            {
+              "text": "ٰٓ",
+              "role": "target"
+            },
+            {
+              "text": "ئِكَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "خطيته",
+          "segments": [
+            {
+              "text": "خَطِ",
+              "role": "base"
+            },
+            {
+              "text": "يٓـَٔ",
+              "role": "target"
+            },
+            {
+              "text": "تُهُۥ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ٱلسوء",
+          "segments": [
+            {
+              "text": "ٱلسُّ",
+              "role": "base"
+            },
+            {
+              "text": "وٓ",
+              "role": "target"
+            },
+            {
+              "text": "ءُ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "rule_definition",
+      "config": {
+        "columns": 1
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "drillable": false,
+          "searchText": "٢ المد الجائز المنفصل: هو أن يكون حرف المد آخر الكلمة والهمزة أول الكلمة التى تليها ويمد حركتين أو أربع حركات ومن أمثلته:",
+          "segments": [
+            {
+              "text": "٢ـ المد الجائز المنفصل:",
+              "role": "target"
+            },
+            {
+              "text": " هو أن يكون حرف المد آخرَ الكلمة والهمزةُ أولَ الكلمة التى تليها ويمد حركتين أو أربع حركات ",
+              "role": "base"
+            },
+            {
+              "text": "ومن أمثلته:",
+              "role": "rule"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "word_rows",
+      "config": {
+        "columns": 5,
+        "rowColors": [
+          "pink"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "إذآ أصبتهم",
+          "segments": [
+            {
+              "text": "إِذَ",
+              "role": "base"
+            },
+            {
+              "text": "آ ",
+              "role": "target"
+            },
+            {
+              "text": "أَصَٰبَتۡهُمۡ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ومآ أمروا إلا",
+          "segments": [
+            {
+              "text": "وَمَ",
+              "role": "base"
+            },
+            {
+              "text": "آ ",
+              "role": "target"
+            },
+            {
+              "text": "أُمِرُ",
+              "role": "base"
+            },
+            {
+              "text": "وٓ",
+              "role": "target"
+            },
+            {
+              "text": "ا۟ إِلَّا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "لم يلبثوا إلا",
+          "segments": [
+            {
+              "text": "لَمۡ يَلۡبَثُ",
+              "role": "base"
+            },
+            {
+              "text": "وٓ",
+              "role": "target"
+            },
+            {
+              "text": "ا۟ إِلَّا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "إنى ءانست",
+          "segments": [
+            {
+              "text": "إِنِّ",
+              "role": "base"
+            },
+            {
+              "text": "ىٓ ",
+              "role": "target"
+            },
+            {
+              "text": "ءَانَسۡتُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ومآ أدرىك ما ٱلعقبة",
+          "segments": [
+            {
+              "text": "وَمَ",
+              "role": "base"
+            },
+            {
+              "text": "آ ",
+              "role": "target"
+            },
+            {
+              "text": "أَدۡرَىٰكَ مَا ٱلۡعَقَبَةُ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "rule_definition",
+      "config": {
+        "columns": 1
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "drillable": false,
+          "searchText": "٣ مد الصلة الصغرى والكبرى: ياتى مع الياء الصغيرة () والواو الصغيرة () والصلة الصغرى تمد حركتان والصلة الكبرى تأتى عليها علامة المد () وتمد حركتين أو أربع حركات ومن الأمثلة",
+          "segments": [
+            {
+              "text": "٣ـ مد الصلة الصغرى والكبرى:",
+              "role": "target"
+            },
+            {
+              "text": " ياتى مع الياء الصغيرة (ـۦ) والواو الصغيرة (ـۥ) والصلة الصغرى تمد حركتان والصلة الكبرى تأتى عليها علامة المد (ـۥٓ) وتمد حركتين أو أربع حركات ",
+              "role": "base"
+            },
+            {
+              "text": "ومن الأمثلة",
+              "role": "rule"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "word_rows",
+      "config": {
+        "columns": 4,
+        "rowColors": [
+          "lavender"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "يضل به كثيرا",
+          "segments": [
+            {
+              "text": "يُضِلُّ بِهِ",
+              "role": "base"
+            },
+            {
+              "text": "ۦ ",
+              "role": "target"
+            },
+            {
+              "text": "كَثِيرًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "دونه أوليآء",
+          "segments": [
+            {
+              "text": "دُونِهِ",
+              "role": "base"
+            },
+            {
+              "text": "ۦٓ ",
+              "role": "target"
+            },
+            {
+              "text": "أَوۡلِيَ",
+              "role": "base"
+            },
+            {
+              "text": "آ",
+              "role": "target"
+            },
+            {
+              "text": "ءَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "له ملك",
+          "segments": [
+            {
+              "text": "لَهُ",
+              "role": "base"
+            },
+            {
+              "text": "ۥ ",
+              "role": "target"
+            },
+            {
+              "text": "مُلۡكُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "وله أسلم",
+          "segments": [
+            {
+              "text": "وَلَهُ",
+              "role": "base"
+            },
+            {
+              "text": "ۥٓ ",
+              "role": "target"
+            },
+            {
+              "text": "أَسۡلَمَ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "rule_definition",
+      "config": {
+        "columns": 1
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "drillable": false,
+          "searchText": "٤ مد البدل ومد العوض: مد البدل هو أن يأتى قبل حرف المد همزة كما هو فى المثال الأول والثانى والثالث ، ومد العوض يأتى حال الوقف على تنوين النصب كما فى المثالين الأخيرين وكلاهما يمد حركتين.",
+          "segments": [
+            {
+              "text": "٤ـ مد البدل ومد العوض:",
+              "role": "target"
+            },
+            {
+              "text": " مد البدل هو أن يأتى قبل حرف المد همزة كما هو فى المثال الأول والثانى والثالث ، ",
+              "role": "base"
+            },
+            {
+              "text": "ومد العوض",
+              "role": "rule"
+            },
+            {
+              "text": " يأتى حال الوقف على تنوين النصب كما فى المثالين الأخِيرين وكلاهما يمد حركتين.",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "letter_tiles",
+      "config": {
+        "columns": 5,
+        "rowColors": [
+          "salmon"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ءامنوا",
+          "segments": [
+            {
+              "text": "ءَا",
+              "role": "target"
+            },
+            {
+              "text": "مَنُوا۟",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "أوتوا",
+          "segments": [
+            {
+              "text": "أُو",
+              "role": "target"
+            },
+            {
+              "text": "تُوا۟",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "إيمنا",
+          "segments": [
+            {
+              "text": "إِي",
+              "role": "target"
+            },
+            {
+              "text": "مَٰنًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "حكيما",
+          "segments": [
+            {
+              "text": "حَكِي",
+              "role": "base"
+            },
+            {
+              "text": "مًا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "سوآء",
+          "segments": [
+            {
+              "text": "سَوَ",
+              "role": "base"
+            },
+            {
+              "text": "آءَ",
+              "role": "target"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [],
+  "games": {},
+  "source": "book page 77"
+}

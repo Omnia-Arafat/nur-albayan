@@ -1,0 +1,923 @@
+{
+  "slug": "page-80",
+  "bookPage": 80,
+  "stage": "unit-6",
+  "topic": "tarteel-noon",
+  "status": "review",
+  "i18n": {
+    "ar": {
+      "title": "أحكام الترتيل",
+      "subtitle": "٢ـ أحكام النون الساكنة والتنوين",
+      "teacherNote": "[للمعلم والآباء:] عند النطق بالإظهار نحرص على بيان الغنة فى النون المظهرة من غير اخفاء لها، ولا تشويه [وعند النطق بالإدغام:] يكون الإدغام كاملاً عند حروف الإدغام [(الميم والنون واللام والراء)] وناقصًا عند حرفى (الواو والياء)",
+      "lessonTag": "الدرس الأول"
+    }
+  },
+  "sections": [
+    {
+      "kind": "rule_definition",
+      "config": {
+        "columns": 1
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "drillable": false,
+          "searchText": "١ الإظهار: هو النطق بالنون الساكنة والتنوين من مخرجها مع بيانها وذلك عند ملاقاة حروف الإظهار وهى (ء ه ع ح غ خ) .",
+          "segments": [
+            {
+              "text": "١ـ الإظهار:",
+              "role": "target"
+            },
+            {
+              "text": " هو النطق بالنون الساكنة والتنوين من مخرجها مع بيانها وذلك عند ملاقاة حروف الإظهار وهى ",
+              "role": "base"
+            },
+            {
+              "text": "(ء ـ هـ ـ ع ـ ح ـ غ ـ خ)",
+              "role": "rule"
+            },
+            {
+              "text": " .",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "rule_table",
+      "config": {
+        "columns": 4,
+        "rowColors": [
+          "sky",
+          "sky",
+          "sky"
+        ],
+        "label": "أمثلة النون الساكنة والتنوين مع حروف الإظهار"
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ء",
+          "segments": [
+            {
+              "text": "ء",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "من ءامن - مثلا أفلا",
+          "segments": [
+            {
+              "text": "مَ",
+              "role": "base"
+            },
+            {
+              "text": "نۡ ءَ",
+              "role": "target"
+            },
+            {
+              "text": "امَنَ",
+              "role": "base"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "مَثَلً",
+              "role": "base"
+            },
+            {
+              "text": "ا أَ",
+              "role": "target"
+            },
+            {
+              "text": "فَلَا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ه",
+          "segments": [
+            {
+              "text": "هـ",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ينهون - يوم هو",
+          "segments": [
+            {
+              "text": "يَ",
+              "role": "base"
+            },
+            {
+              "text": "نۡهَ",
+              "role": "target"
+            },
+            {
+              "text": "وۡنَ",
+              "role": "base"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "يَوۡ",
+              "role": "base"
+            },
+            {
+              "text": "مٍ هُ",
+              "role": "target"
+            },
+            {
+              "text": "وَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "ع",
+          "segments": [
+            {
+              "text": "ع",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "ينعق - يوم عصيب",
+          "segments": [
+            {
+              "text": "يَ",
+              "role": "base"
+            },
+            {
+              "text": "نۡعِ",
+              "role": "target"
+            },
+            {
+              "text": "قُ",
+              "role": "base"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "يَوۡ",
+              "role": "base"
+            },
+            {
+              "text": "مٌ عَ",
+              "role": "target"
+            },
+            {
+              "text": "صِيبٌ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "ح",
+          "segments": [
+            {
+              "text": "ح",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "ومن حولها - ملق حسابيه",
+          "segments": [
+            {
+              "text": "وَمَ",
+              "role": "base"
+            },
+            {
+              "text": "نۡ حَ",
+              "role": "target"
+            },
+            {
+              "text": "وۡلَهَا",
+              "role": "base"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "مُلَٰ",
+              "role": "base"
+            },
+            {
+              "text": "قٍ حِ",
+              "role": "target"
+            },
+            {
+              "text": "سَابِيَهۡ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "غ",
+          "segments": [
+            {
+              "text": "غ",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "من غسلين - ميثقا غليظا",
+          "segments": [
+            {
+              "text": "مِ",
+              "role": "base"
+            },
+            {
+              "text": "نۡ غِ",
+              "role": "target"
+            },
+            {
+              "text": "سۡلِينٍ",
+              "role": "base"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "مِيثَٰ",
+              "role": "base"
+            },
+            {
+              "text": "قًا غَ",
+              "role": "target"
+            },
+            {
+              "text": "لِيظًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "خ",
+          "segments": [
+            {
+              "text": "خ",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "ومن خفت - مؤمن خير",
+          "segments": [
+            {
+              "text": "وَمَ",
+              "role": "base"
+            },
+            {
+              "text": "نۡ خَ",
+              "role": "target"
+            },
+            {
+              "text": "فَّتۡ",
+              "role": "base"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "مُؤۡمِ",
+              "role": "base"
+            },
+            {
+              "text": "نٌ خَ",
+              "role": "target"
+            },
+            {
+              "text": "يۡرٌ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "rule_definition",
+      "config": {
+        "columns": 1
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "drillable": false,
+          "searchText": "٢ الإدغام بغنه: هو ادخال النون الساكنة والتنوين فى حروف الإدغام بحيث يصيران حرفا واحدا وحروف الإدغام بغنه (م ن و ي) ومن الأمثلة:",
+          "segments": [
+            {
+              "text": "٢ـ الإدغام بغنه:",
+              "role": "target"
+            },
+            {
+              "text": " هو ادخال النون الساكنة والتنوين فى حروف الإدغام بحيث يصيران حرفًا واحدًا وحروف الإدغام بغنه ",
+              "role": "base"
+            },
+            {
+              "text": "(م ـ ن ـ و ـ ي)",
+              "role": "rule"
+            },
+            {
+              "text": " ومن الأمثلة:",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "rule_table",
+      "config": {
+        "columns": 4,
+        "rowColors": [
+          "pink",
+          "pink",
+          "pink",
+          "pink"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "م",
+          "segments": [
+            {
+              "text": "م",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ومن معه",
+          "segments": [
+            {
+              "text": "وَمَن ",
+              "role": "base"
+            },
+            {
+              "text": "مَّ",
+              "role": "target"
+            },
+            {
+              "text": "عَهُۥ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "مالا ممدودا",
+          "segments": [
+            {
+              "text": "مَالًا ",
+              "role": "base"
+            },
+            {
+              "text": "مَّ",
+              "role": "target"
+            },
+            {
+              "text": "مۡدُودًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "مبرك مصدق",
+          "segments": [
+            {
+              "text": "مُّبَٰرَكٌ ",
+              "role": "base"
+            },
+            {
+              "text": "مُّ",
+              "role": "target"
+            },
+            {
+              "text": "صَدِّقٌ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "ن",
+          "segments": [
+            {
+              "text": "ن",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "من نشآء",
+          "segments": [
+            {
+              "text": "مَن ",
+              "role": "base"
+            },
+            {
+              "text": "نَّ",
+              "role": "target"
+            },
+            {
+              "text": "شَآءُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "يومئذ ناضرة",
+          "segments": [
+            {
+              "text": "يَوۡمَئِذٍ ",
+              "role": "base"
+            },
+            {
+              "text": "نَّ",
+              "role": "target"
+            },
+            {
+              "text": "اضِرَةٌ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "خير نزلا",
+          "segments": [
+            {
+              "text": "خَيۡرٌ ",
+              "role": "base"
+            },
+            {
+              "text": "نُّ",
+              "role": "target"
+            },
+            {
+              "text": "زُلًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "و",
+          "segments": [
+            {
+              "text": "و",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "من وجد",
+          "segments": [
+            {
+              "text": "مَن ",
+              "role": "base"
+            },
+            {
+              "text": "وُ",
+              "role": "target"
+            },
+            {
+              "text": "جِدَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "مالا وولدا",
+          "segments": [
+            {
+              "text": "مَالًا ",
+              "role": "base"
+            },
+            {
+              "text": "وَ",
+              "role": "target"
+            },
+            {
+              "text": "وَلَدًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "مال ولا بنون",
+          "segments": [
+            {
+              "text": "مَالٌ ",
+              "role": "base"
+            },
+            {
+              "text": "وَ",
+              "role": "target"
+            },
+            {
+              "text": "لَا بَنُونَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "ي",
+          "segments": [
+            {
+              "text": "ي",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "من يقول",
+          "segments": [
+            {
+              "text": "مَن ",
+              "role": "base"
+            },
+            {
+              "text": "يَ",
+              "role": "target"
+            },
+            {
+              "text": "قُولُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "يومئذ يود",
+          "segments": [
+            {
+              "text": "يَوۡمَئِذٍ ",
+              "role": "base"
+            },
+            {
+              "text": "يَ",
+              "role": "target"
+            },
+            {
+              "text": "وَدُّ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "يوما يجعل",
+          "segments": [
+            {
+              "text": "يَوۡمًا ",
+              "role": "base"
+            },
+            {
+              "text": "يَ",
+              "role": "target"
+            },
+            {
+              "text": "جۡعَلُ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "rule_definition",
+      "config": {
+        "columns": 1
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "drillable": false,
+          "searchText": "٣ الإدغام بغير غنه: هو إدخال النون الساكنة والتنوين فى حرفى ( الراء واللام ) بحيث لا يبقى للنون الساكنة والتنوين أثر فى النطق ومن الأمثلة:",
+          "segments": [
+            {
+              "text": "٣ـ الإدغام بغير غنه:",
+              "role": "target"
+            },
+            {
+              "text": " هو إدخال النون الساكنة والتنوين فى حرفى ",
+              "role": "base"
+            },
+            {
+              "text": "( الراء واللام )",
+              "role": "rule"
+            },
+            {
+              "text": " بحيث لا يبقى للنون الساكنة والتنوين أثر فى النطق ",
+              "role": "base"
+            },
+            {
+              "text": "ومن الأمثلة:",
+              "role": "rule"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "rule_table",
+      "config": {
+        "columns": 5,
+        "rowColors": [
+          "lime",
+          "lime"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "الراء",
+          "segments": [
+            {
+              "text": "الراء",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "من رحيم",
+          "segments": [
+            {
+              "text": "مِن ",
+              "role": "base"
+            },
+            {
+              "text": "رَّ",
+              "role": "target"
+            },
+            {
+              "text": "حِيمٍ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "خافضة رافعة",
+          "segments": [
+            {
+              "text": "خَافِضَةٌ ",
+              "role": "base"
+            },
+            {
+              "text": "رَّ",
+              "role": "target"
+            },
+            {
+              "text": "افِعَةٌ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "شىء رحمة",
+          "segments": [
+            {
+              "text": "شَىۡءٍ ",
+              "role": "base"
+            },
+            {
+              "text": "رَّ",
+              "role": "target"
+            },
+            {
+              "text": "حۡمَةً",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "مثلا رجلين",
+          "segments": [
+            {
+              "text": "مَّثَلًا ",
+              "role": "base"
+            },
+            {
+              "text": "رَّ",
+              "role": "target"
+            },
+            {
+              "text": "جُلَيۡنِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "اللام",
+          "segments": [
+            {
+              "text": "اللام",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "ومن لم",
+          "segments": [
+            {
+              "text": "وَمَن ",
+              "role": "base"
+            },
+            {
+              "text": "لَّ",
+              "role": "target"
+            },
+            {
+              "text": "مۡ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "مبرك ليدبروا",
+          "segments": [
+            {
+              "text": "مُّبَٰرَكٌ ",
+              "role": "base"
+            },
+            {
+              "text": "لِّ",
+              "role": "target"
+            },
+            {
+              "text": "يَدَّبَّرُوٓا۟",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "وملك لا يبلى",
+          "segments": [
+            {
+              "text": "وَمُلۡكٍ ",
+              "role": "base"
+            },
+            {
+              "text": "لَّا ",
+              "role": "target"
+            },
+            {
+              "text": "يَبۡلَىٰ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "مالا لبدا",
+          "segments": [
+            {
+              "text": "مَالًا ",
+              "role": "base"
+            },
+            {
+              "text": "لُّ",
+              "role": "target"
+            },
+            {
+              "text": "بَدًا",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [],
+  "games": {},
+  "source": "book page 80"
+}

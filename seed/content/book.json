@@ -1,0 +1,503 @@
+{
+  "slug": "nur-albayan",
+  "edition": "5",
+  "i18n": {
+    "ar": {
+      "title": "نور البيان",
+      "subtitle": "لتعليم القراءة وترتيل القرآن"
+    },
+    "en": {
+      "title": "Nur Al-Bayan",
+      "subtitle": "Learning to read and recite the Quran"
+    }
+  },
+  "stages": [
+    {
+      "slug": "intro",
+      "position": 0,
+      "i18n": {
+        "ar": {
+          "title": "مقدمة"
+        },
+        "en": {
+          "title": "Introduction"
+        }
+      }
+    },
+    {
+      "slug": "alphabet",
+      "position": 1,
+      "i18n": {
+        "ar": {
+          "title": "حروف الهجاء"
+        },
+        "en": {
+          "title": "The alphabet"
+        }
+      }
+    },
+    {
+      "slug": "unit-1",
+      "position": 2,
+      "i18n": {
+        "ar": {
+          "title": "الوحدة الأولى: الحركات"
+        },
+        "en": {
+          "title": "Unit 1: The vowels"
+        }
+      }
+    },
+    {
+      "slug": "unit-2",
+      "position": 3,
+      "i18n": {
+        "ar": {
+          "title": "الوحدة الثانية: المدود"
+        },
+        "en": {
+          "title": "Unit 2: The madd letters"
+        }
+      }
+    },
+    {
+      "slug": "unit-3",
+      "position": 4,
+      "i18n": {
+        "ar": {
+          "title": "الوحدة الثالثة: السكون"
+        },
+        "en": {
+          "title": "Unit 3: Sukun"
+        }
+      }
+    },
+    {
+      "slug": "unit-4",
+      "position": 5,
+      "i18n": {
+        "ar": {
+          "title": "الوحدة الرابعة: التنوين"
+        },
+        "en": {
+          "title": "Unit 4: Tanween"
+        }
+      }
+    },
+    {
+      "slug": "unit-5",
+      "position": 6,
+      "i18n": {
+        "ar": {
+          "title": "الوحدة الخامسة: الشدة"
+        },
+        "en": {
+          "title": "Unit 5: Shaddah"
+        }
+      }
+    },
+    {
+      "slug": "unit-6",
+      "position": 7,
+      "i18n": {
+        "ar": {
+          "title": "الوحدة السادسة: أحكام ترتيل القرآن"
+        },
+        "en": {
+          "title": "Unit 6: Rules of recitation"
+        }
+      }
+    },
+    {
+      "slug": "unit-7",
+      "position": 8,
+      "i18n": {
+        "ar": {
+          "title": "الوحدة السابعة: الرسم القرآنى والإملائى"
+        },
+        "en": {
+          "title": "Unit 7: Qur'anic and ordinary spelling"
+        }
+      }
+    }
+  ],
+  "topics": [
+    {
+      "slug": "intro",
+      "stage": "intro",
+      "position": 0,
+      "i18n": {
+        "ar": {
+          "title": "مقدمة"
+        },
+        "en": {
+          "title": "Introduction"
+        }
+      }
+    },
+    {
+      "slug": "alphabet",
+      "stage": "alphabet",
+      "position": 1,
+      "i18n": {
+        "ar": {
+          "title": "حروف الهجاء"
+        },
+        "en": {
+          "title": "The alphabet"
+        }
+      }
+    },
+    {
+      "slug": "fatha",
+      "stage": "unit-1",
+      "position": 2,
+      "i18n": {
+        "ar": {
+          "title": "١ـ الحروف بحركة الفتح"
+        },
+        "en": {
+          "title": "1. Letters with fatha"
+        }
+      }
+    },
+    {
+      "slug": "kasra",
+      "stage": "unit-1",
+      "position": 3,
+      "i18n": {
+        "ar": {
+          "title": "٢ـ الحروف بحركة الكسر"
+        },
+        "en": {
+          "title": "2. Letters with kasra"
+        }
+      }
+    },
+    {
+      "slug": "damma",
+      "stage": "unit-1",
+      "position": 4,
+      "i18n": {
+        "ar": {
+          "title": "٣ـ الحروف بحركة الضم"
+        },
+        "en": {
+          "title": "3. Letters with damma"
+        }
+      }
+    },
+    {
+      "slug": "harakat-review",
+      "stage": "unit-1",
+      "position": 5,
+      "i18n": {
+        "ar": {
+          "title": "٤ـ مراجعة على الحركات"
+        },
+        "en": {
+          "title": "4. Review of the vowels"
+        }
+      }
+    },
+    {
+      "slug": "madd-alif",
+      "stage": "unit-2",
+      "position": 6,
+      "i18n": {
+        "ar": {
+          "title": "١ـ المد بالألف"
+        },
+        "en": {
+          "title": "1. Madd with alif"
+        }
+      }
+    },
+    {
+      "slug": "madd-ya",
+      "stage": "unit-2",
+      "position": 7,
+      "i18n": {
+        "ar": {
+          "title": "٢ـ المد بالياء"
+        },
+        "en": {
+          "title": "2. Madd with yaa"
+        }
+      }
+    },
+    {
+      "slug": "madd-waw",
+      "stage": "unit-2",
+      "position": 8,
+      "i18n": {
+        "ar": {
+          "title": "٣ـ المد بالواو"
+        },
+        "en": {
+          "title": "3. Madd with waw"
+        }
+      }
+    },
+    {
+      "slug": "madd-review",
+      "stage": "unit-2",
+      "position": 9,
+      "i18n": {
+        "ar": {
+          "title": "مراجعة على المدود"
+        },
+        "en": {
+          "title": "Review of the madd letters"
+        }
+      }
+    },
+    {
+      "slug": "sukun",
+      "stage": "unit-3",
+      "position": 10,
+      "i18n": {
+        "ar": {
+          "title": "١ـ السكون فى الرسم القرآنى"
+        },
+        "en": {
+          "title": "1. Sukun in Qur'anic spelling"
+        }
+      }
+    },
+    {
+      "slug": "sukun-imlai",
+      "stage": "unit-3",
+      "position": 11,
+      "i18n": {
+        "ar": {
+          "title": "٢ـ السكون فى الرسم الإملائى"
+        },
+        "en": {
+          "title": "2. Sukun in ordinary spelling"
+        }
+      }
+    },
+    {
+      "slug": "tanween-fath",
+      "stage": "unit-4",
+      "position": 12,
+      "i18n": {
+        "ar": {
+          "title": "١ـ تنوين الفتح"
+        },
+        "en": {
+          "title": "1. Tanween with fatha"
+        }
+      }
+    },
+    {
+      "slug": "tanween-kasr",
+      "stage": "unit-4",
+      "position": 13,
+      "i18n": {
+        "ar": {
+          "title": "٢ـ تنوين الكسر"
+        },
+        "en": {
+          "title": "2. Tanween with kasra"
+        }
+      }
+    },
+    {
+      "slug": "tanween-damm",
+      "stage": "unit-4",
+      "position": 14,
+      "i18n": {
+        "ar": {
+          "title": "٣ـ تنوين الضم"
+        },
+        "en": {
+          "title": "3. Tanween with damma"
+        }
+      }
+    },
+    {
+      "slug": "tanween-review",
+      "stage": "unit-4",
+      "position": 15,
+      "i18n": {
+        "ar": {
+          "title": "مراجعة على التنوين"
+        },
+        "en": {
+          "title": "Review of tanween"
+        }
+      }
+    },
+    {
+      "slug": "shadda-fath",
+      "stage": "unit-5",
+      "position": 16,
+      "i18n": {
+        "ar": {
+          "title": "١ـ الشدة مع حركة الفتح والمد بالألف"
+        },
+        "en": {
+          "title": "1. Shaddah with fatha"
+        }
+      }
+    },
+    {
+      "slug": "shadda-lam-shamsiyya",
+      "stage": "unit-5",
+      "position": 17,
+      "i18n": {
+        "ar": {
+          "title": "اللام الشمسية"
+        },
+        "en": {
+          "title": "The sun laam"
+        }
+      }
+    },
+    {
+      "slug": "shadda-kasr",
+      "stage": "unit-5",
+      "position": 18,
+      "i18n": {
+        "ar": {
+          "title": "٢ـ الشدة مع الكسرة والمد بالياء"
+        },
+        "en": {
+          "title": "2. Shaddah with kasra"
+        }
+      }
+    },
+    {
+      "slug": "shadda-damm",
+      "stage": "unit-5",
+      "position": 19,
+      "i18n": {
+        "ar": {
+          "title": "٣ـ الشدة مع الضمة والمد بالواو"
+        },
+        "en": {
+          "title": "3. Shaddah with damma"
+        }
+      }
+    },
+    {
+      "slug": "shadda-review",
+      "stage": "unit-5",
+      "position": 20,
+      "i18n": {
+        "ar": {
+          "title": "مراجعة على الشدة"
+        },
+        "en": {
+          "title": "Review of shaddah"
+        }
+      }
+    },
+    {
+      "slug": "shadda-tanween",
+      "stage": "unit-5",
+      "position": 21,
+      "i18n": {
+        "ar": {
+          "title": "٤ـ الشدة مع التنوين"
+        },
+        "en": {
+          "title": "4. Shaddah with tanween"
+        }
+      }
+    },
+    {
+      "slug": "tarteel-madd",
+      "stage": "unit-6",
+      "position": 22,
+      "i18n": {
+        "ar": {
+          "title": "١ـ أنواع المدود"
+        },
+        "en": {
+          "title": "1. Kinds of madd"
+        }
+      }
+    },
+    {
+      "slug": "tarteel-noon",
+      "stage": "unit-6",
+      "position": 23,
+      "i18n": {
+        "ar": {
+          "title": "٢ـ أحكام النون الساكنة والتنوين"
+        },
+        "en": {
+          "title": "2. Rules of sakin noon and tanween"
+        }
+      }
+    },
+    {
+      "slug": "tarteel-meem",
+      "stage": "unit-6",
+      "position": 24,
+      "i18n": {
+        "ar": {
+          "title": "٣ـ أحكام الميم الساكنة"
+        },
+        "en": {
+          "title": "3. Rules of sakin meem"
+        }
+      }
+    },
+    {
+      "slug": "tarteel-idgham",
+      "stage": "unit-6",
+      "position": 25,
+      "i18n": {
+        "ar": {
+          "title": "٤ـ المتماثلان والمتقاربان والمتجانسان"
+        },
+        "en": {
+          "title": "4. Identical, close and similar letters"
+        }
+      }
+    },
+    {
+      "slug": "tarteel-misc",
+      "stage": "unit-6",
+      "position": 26,
+      "i18n": {
+        "ar": {
+          "title": "أحكام متفرقة حول ترتيل القرآن"
+        },
+        "en": {
+          "title": "Other rules of recitation"
+        }
+      }
+    },
+    {
+      "slug": "tarteel-review",
+      "stage": "unit-6",
+      "position": 27,
+      "i18n": {
+        "ar": {
+          "title": "مراجعة على أحكام الترتيل"
+        },
+        "en": {
+          "title": "Review of the recitation rules"
+        }
+      }
+    },
+    {
+      "slug": "rasm",
+      "stage": "unit-7",
+      "position": 28,
+      "i18n": {
+        "ar": {
+          "title": "الرسم القرآنى والرسم الإملائى"
+        },
+        "en": {
+          "title": "Qur'anic and ordinary spelling"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,486 @@
+{
+  "slug": "page-91",
+  "bookPage": 91,
+  "stage": "unit-7",
+  "topic": "rasm",
+  "status": "review",
+  "i18n": {
+    "ar": {
+      "title": "الرسم القرآنى والرسم الإملائى",
+      "subtitle": "٣ـ الهمزة فى وسط الكلمة",
+      "teacherNote": "[للمعلم والآباء:] يتم تطبيق أحكام الهمزة وسط الكلمة من خلال الكلمات باللون الأحمر فى كل سطر ومناقشة المتعلم فيها وقراءتها [أكثر من مرة] ... ولمعرفة المزيد من أحكام الهمزة يرجع إلى كتاب [(الفوائد الحسان فى شرح نور البيان)] يعرف المتعلم أن رسم الهمزة فى الرسم القرآنى يوافق رسم الهمزة فى الرسم الإملائى فى بعض المواضع ويختلف عنه فى مواضع أخرى وذلك لأن رسم القرآن له أحكام خاصة به لا يخضع لقواعد الرسم الإملائى.",
+      "lessonTag": "الدرس الثالث",
+      "observeTag": "اقرأ ولاحظ"
+    }
+  },
+  "sections": [
+    {
+      "kind": "rule_definition",
+      "config": {
+        "columns": 1
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "drillable": false,
+          "searchText": "١ تكتب الهمزة وسط الكلمة فى الرسم الإملائى على نبرة ( ئ ) إذا كانت مكسورة أو قبلها كسر",
+          "segments": [
+            {
+              "text": "١ـ",
+              "role": "target"
+            },
+            {
+              "text": " تكتب الهمزة وسط الكلمة فى الرسم الإملائى على نبرة ",
+              "role": "base"
+            },
+            {
+              "text": "( ـئـ )",
+              "role": "rule"
+            },
+            {
+              "text": " إذا كانت مكسورة أو قبلها كسر",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "rule_table",
+      "config": {
+        "columns": 2,
+        "rowColors": [
+          "lavender"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "drillable": false,
+          "searchText": "الرسم القرآنى",
+          "segments": [
+            {
+              "text": "الرسم القرآنى",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "drillable": false,
+          "searchText": "الرسم الإملائى",
+          "segments": [
+            {
+              "text": "الرسم الإملائى",
+              "role": "rule"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "rule_table",
+      "config": {
+        "columns": 2,
+        "rowColors": [
+          "pink",
+          "pink",
+          "green",
+          "green"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "كم من فئة قليلة غلبت فئة كثيرة",
+          "segments": [
+            {
+              "text": "كَم مِّن ",
+              "role": "base"
+            },
+            {
+              "text": "فِئَ",
+              "role": "target"
+            },
+            {
+              "text": "ةٍ قَلِيلَةٍ غَلَبَتۡ ",
+              "role": "base"
+            },
+            {
+              "text": "فِئَ",
+              "role": "target"
+            },
+            {
+              "text": "ةً كَثِيرَةًۢ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "نأمل أن يسود الوئام",
+          "segments": [
+            {
+              "text": "نَأْمُلُ أَنْ يَسُودَ الْوِ",
+              "role": "base"
+            },
+            {
+              "text": "ئَ",
+              "role": "target"
+            },
+            {
+              "text": "امُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "ألا بذكر ٱلله تطمئن ٱلقلوب",
+          "segments": [
+            {
+              "text": "أَلَا بِذِكۡرِ ٱللَّهِ تَطۡمَ",
+              "role": "base"
+            },
+            {
+              "text": "ئِ",
+              "role": "target"
+            },
+            {
+              "text": "نُّ ٱلۡقُلُوبُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "زئير الأسد قوى",
+          "segments": [
+            {
+              "text": "زَ",
+              "role": "base"
+            },
+            {
+              "text": "ئِـ",
+              "role": "target"
+            },
+            {
+              "text": "ـيرُ الْأَسَدِ قَوِىٌّ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "ٱليوم يئس ٱلذين كفروا من دينكم",
+          "segments": [
+            {
+              "text": "ٱلۡيَوۡمَ يَ",
+              "role": "base"
+            },
+            {
+              "text": "ئِ",
+              "role": "target"
+            },
+            {
+              "text": "سَ ٱلَّذِينَ كَفَرُواْ مِن دِينِكُمۡ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "أنت تقرئين كثيرا",
+          "segments": [
+            {
+              "text": "أَنْتِ تَقْرَ",
+              "role": "base"
+            },
+            {
+              "text": "ئِـ",
+              "role": "target"
+            },
+            {
+              "text": "ـينَ كَثِيرًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "بئس ٱلٱسم ٱلفسوق بعد ٱلإيمن",
+          "segments": [
+            {
+              "text": "بِ",
+              "role": "base"
+            },
+            {
+              "text": "ئۡ",
+              "role": "target"
+            },
+            {
+              "text": "سَ ٱلِٱسۡمُ ٱلۡفُسُوقُ بَعۡدَ ٱلۡإِيمَـٰنِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "جئت من السفر",
+          "segments": [
+            {
+              "text": "جِ",
+              "role": "base"
+            },
+            {
+              "text": "ئْ",
+              "role": "target"
+            },
+            {
+              "text": "تُ مِنَ السَّفَرِ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "rule_definition",
+      "config": {
+        "columns": 1
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "drillable": false,
+          "searchText": "٢ تكتب الهمزة وسط الكلمة فى الرسم الإملائى على الواو ( ؤ ) إذا كانت مضمومة أو قبلها ضم",
+          "segments": [
+            {
+              "text": "٢ـ",
+              "role": "target"
+            },
+            {
+              "text": " تكتب الهمزة وسط الكلمة فى الرسم الإملائى على الواو ",
+              "role": "base"
+            },
+            {
+              "text": "( ؤ )",
+              "role": "rule"
+            },
+            {
+              "text": " إذا كانت مضمومة أو قبلها ضم",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "rule_table",
+      "config": {
+        "columns": 2,
+        "columnColors": [
+          "salmon",
+          "sky"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "قد أفلح ٱلمؤمنون",
+          "segments": [
+            {
+              "text": "قَدۡ أَفۡلَحَ ٱلۡمُ",
+              "role": "base"
+            },
+            {
+              "text": "ؤۡ",
+              "role": "target"
+            },
+            {
+              "text": "مِنُونَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "يؤجر المسلم على قراءة القرآن",
+          "segments": [
+            {
+              "text": "يُ",
+              "role": "base"
+            },
+            {
+              "text": "ؤْ",
+              "role": "target"
+            },
+            {
+              "text": "جَرُ الْمُسْلِمُ عَلَى قِرَاءَةِ الْقُرْآنِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "يؤم المصلين أقرؤهم للقرآن",
+          "segments": [
+            {
+              "text": "يَ",
+              "role": "base"
+            },
+            {
+              "text": "ؤُ",
+              "role": "target"
+            },
+            {
+              "text": "مُّ الْمُصَلِّينَ أَقْرَ",
+              "role": "base"
+            },
+            {
+              "text": "ؤُ",
+              "role": "target"
+            },
+            {
+              "text": "هُمْ لِلْقُرْآنِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "المسلم الصادق يؤدى واجبه",
+          "segments": [
+            {
+              "text": "الْمُسْلِمُ الصَّادِقُ يُ",
+              "role": "base"
+            },
+            {
+              "text": "ؤَ",
+              "role": "target"
+            },
+            {
+              "text": "دِّى وَاجِبَهُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "الصديق يؤثر فى صديقه",
+          "segments": [
+            {
+              "text": "الصَّدِيقُ يُ",
+              "role": "base"
+            },
+            {
+              "text": "ؤَ",
+              "role": "target"
+            },
+            {
+              "text": "ثِّرُ فِى صَدِيقِهِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "محمد مبدؤه الصدق",
+          "segments": [
+            {
+              "text": "مُحَمَّدٌ مَبْدَ",
+              "role": "base"
+            },
+            {
+              "text": "ؤُ",
+              "role": "target"
+            },
+            {
+              "text": "هُ الصِّدْقُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "يرؤف الكبير بالصغير",
+          "segments": [
+            {
+              "text": "يَرَ",
+              "role": "base"
+            },
+            {
+              "text": "ؤُ",
+              "role": "target"
+            },
+            {
+              "text": "فُ الْكَبِيرُ بِالصَّغِيرِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "لا تؤذ الحيوان أبدا",
+          "segments": [
+            {
+              "text": "لَا تُ",
+              "role": "base"
+            },
+            {
+              "text": "ؤْ",
+              "role": "target"
+            },
+            {
+              "text": "ذِ الْحَيَوَانَ أَبَدًا",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [],
+  "games": {},
+  "source": "book page 91"
+}

@@ -1,0 +1,706 @@
+{
+  "slug": "page-89",
+  "bookPage": 89,
+  "stage": "unit-7",
+  "topic": "rasm",
+  "status": "review",
+  "i18n": {
+    "ar": {
+      "title": "الرسم القرآنى والرسم الإملائى",
+      "subtitle": "علامات التشكيل",
+      "teacherNote": "[للمعلم والآباء:] يعرف المتعلم الفرق بين الرسم القرآنى والرسم الإملائى فى رسم [السكون والتنوين والشدة وألف الوصل وألف المد والألف اللينة التى على صورة الياء] وكذلك الفرق بين الياء المدية فى الرسم القرآنى والرسم الإملائى ، [تقرأ الأمثلة أكثر من مرة] ويناقش المتعلم فى شكل علامات التشكيل فى الرسم القرآنى والإملائى. [تنبيه:] يعرف المتعلم أن رسم الألف المدية فى الرسم الإملائى [(ا)] وهذه الألف إذا جاءت فى الرسم القرآنى مثل كلمة [(وَٱلسَّمَآءِ)] تسمى ألف مد فرعى أى تمد ( ٤، ٥، ٦) حسب نوع المد فى الكلمة.",
+      "unitTag": "الوحدة السابعة",
+      "lessonTag": "الدرس الأول",
+      "observeTag": "اقرأ ولاحظ"
+    }
+  },
+  "sections": [
+    {
+      "kind": "rule_table",
+      "config": {
+        "columns": 3,
+        "rowColors": [
+          "lavender"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "drillable": false,
+          "searchText": "علامات التشكيل",
+          "segments": [
+            {
+              "text": "علامات التشكيل",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "drillable": false,
+          "searchText": "الرسم القرآنى",
+          "segments": [
+            {
+              "text": "الرسم القرآنى",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "drillable": false,
+          "searchText": "الرسم الإملائى",
+          "segments": [
+            {
+              "text": "الرسم الإملائى",
+              "role": "rule"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "rule_table",
+      "config": {
+        "columns": 3,
+        "columnColors": [
+          "pink",
+          "pink",
+          "sky"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "١ السكون",
+          "segments": [
+            {
+              "text": "١ـ السكون",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "وأوحينآ إليهم فعل ٱلخيرت ( )",
+          "segments": [
+            {
+              "text": "وَأَ",
+              "role": "base"
+            },
+            {
+              "text": "وۡ",
+              "role": "target"
+            },
+            {
+              "text": "حَ",
+              "role": "base"
+            },
+            {
+              "text": "يۡ",
+              "role": "target"
+            },
+            {
+              "text": "نَآ إِلَ",
+              "role": "base"
+            },
+            {
+              "text": "يۡ",
+              "role": "target"
+            },
+            {
+              "text": "هِمۡ فِ",
+              "role": "base"
+            },
+            {
+              "text": "عۡ",
+              "role": "target"
+            },
+            {
+              "text": "لَ ٱلۡخَ",
+              "role": "base"
+            },
+            {
+              "text": "يۡ",
+              "role": "target"
+            },
+            {
+              "text": "رَٰتِ ",
+              "role": "base"
+            },
+            {
+              "text": "( ـۡ )",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "يستيقظ عمر من نومه عند الفجر ( )",
+          "segments": [
+            {
+              "text": "يَ",
+              "role": "base"
+            },
+            {
+              "text": "سْ",
+              "role": "target"
+            },
+            {
+              "text": "تَ",
+              "role": "base"
+            },
+            {
+              "text": "يْ",
+              "role": "target"
+            },
+            {
+              "text": "قِظُ عُمَرُ مِنْ نَ",
+              "role": "base"
+            },
+            {
+              "text": "وْ",
+              "role": "target"
+            },
+            {
+              "text": "مِهِ عِ",
+              "role": "base"
+            },
+            {
+              "text": "نْ",
+              "role": "target"
+            },
+            {
+              "text": "دَ الْفَ",
+              "role": "base"
+            },
+            {
+              "text": "جْ",
+              "role": "target"
+            },
+            {
+              "text": "رِ ",
+              "role": "base"
+            },
+            {
+              "text": "( ـْ )",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "٢ التنوين",
+          "segments": [
+            {
+              "text": "٢ـ التنوين",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "عليم حكيم - سميع بصير ( )",
+          "segments": [
+            {
+              "text": "عَلِي",
+              "role": "base"
+            },
+            {
+              "text": "مٌ",
+              "role": "target"
+            },
+            {
+              "text": " حَكِي",
+              "role": "base"
+            },
+            {
+              "text": "مٌ",
+              "role": "target"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "سَمِي",
+              "role": "base"
+            },
+            {
+              "text": "عُۢ",
+              "role": "target"
+            },
+            {
+              "text": " بَصِي",
+              "role": "base"
+            },
+            {
+              "text": "رُۢ",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "( ـٌ ـ ـٌۭ ـ ـٌۢ )",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "رجل صادق كريم ( )",
+          "segments": [
+            {
+              "text": "رَجُ",
+              "role": "base"
+            },
+            {
+              "text": "لٌ",
+              "role": "target"
+            },
+            {
+              "text": " صَادِ",
+              "role": "base"
+            },
+            {
+              "text": "قٌ",
+              "role": "target"
+            },
+            {
+              "text": " كَرِي",
+              "role": "base"
+            },
+            {
+              "text": "مٌ",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "( ـٌ )",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "٣ الشدة",
+          "segments": [
+            {
+              "text": "٣ـ الشدة",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "وسبح بحمد ربك بٱلعشى وٱلإبكر ( )",
+          "segments": [
+            {
+              "text": "وَسَ",
+              "role": "base"
+            },
+            {
+              "text": "بِّ",
+              "role": "target"
+            },
+            {
+              "text": "حۡ بِحَمۡدِ رَ",
+              "role": "base"
+            },
+            {
+              "text": "بِّ",
+              "role": "target"
+            },
+            {
+              "text": "كَ بِٱلۡعَشِ",
+              "role": "base"
+            },
+            {
+              "text": "ىِّ",
+              "role": "target"
+            },
+            {
+              "text": " وَٱلۡإِبۡكَـٰرِ ",
+              "role": "base"
+            },
+            {
+              "text": "( ـِّ )",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "سؤال الميت فى قبره حق ( )",
+          "segments": [
+            {
+              "text": "سُؤَالُ الْمَ",
+              "role": "base"
+            },
+            {
+              "text": "يِّ",
+              "role": "target"
+            },
+            {
+              "text": "تِ فِى قَبْرِهِ حَ",
+              "role": "base"
+            },
+            {
+              "text": "قٌّ",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "( ـِّ )",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "٤ ألف الوصل",
+          "segments": [
+            {
+              "text": "٤ـ ألف الوصل",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "ٱلملك ٱلقدوس ٱلسلم ( ٱل ٱل )",
+          "segments": [
+            {
+              "text": "ٱ",
+              "role": "target"
+            },
+            {
+              "text": "لۡمَلِكُ ",
+              "role": "base"
+            },
+            {
+              "text": "ٱ",
+              "role": "target"
+            },
+            {
+              "text": "لۡقُدُّوسُ ",
+              "role": "base"
+            },
+            {
+              "text": "ٱ",
+              "role": "target"
+            },
+            {
+              "text": "لسَّلَـٰمُ ",
+              "role": "base"
+            },
+            {
+              "text": "( ٱلۡ ـ ٱلۡ )",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "الساعى على الأرملة والمسكين كالمجاهد ( ال ال )",
+          "segments": [
+            {
+              "text": "ا",
+              "role": "target"
+            },
+            {
+              "text": "لسَّاعِى عَلَى ",
+              "role": "base"
+            },
+            {
+              "text": "ا",
+              "role": "target"
+            },
+            {
+              "text": "لْأَرْمَلَةِ وَ",
+              "role": "base"
+            },
+            {
+              "text": "ا",
+              "role": "target"
+            },
+            {
+              "text": "لْمِسْكِينِ كَ",
+              "role": "base"
+            },
+            {
+              "text": "ا",
+              "role": "target"
+            },
+            {
+              "text": "لْمُجَاهِدِ ",
+              "role": "base"
+            },
+            {
+              "text": "( الْ ـ الْ )",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "٥ ألف المد",
+          "segments": [
+            {
+              "text": "٥ـ ألف المد",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "ءامن ٱلرسول بمآ أنزل إليه وٱلسمآء ذات ٱلبروج ( ءا آ )",
+          "segments": [
+            {
+              "text": "ءَا",
+              "role": "target"
+            },
+            {
+              "text": "مَنَ ٱلرَّسُولُ بِ",
+              "role": "base"
+            },
+            {
+              "text": "مَآ",
+              "role": "target"
+            },
+            {
+              "text": " أُنزِلَ إِلَيۡهِ ",
+              "role": "base",
+              "cellBreakAfter": true
+            },
+            {
+              "text": " وَٱلسَّ",
+              "role": "base"
+            },
+            {
+              "text": "مَآ",
+              "role": "target"
+            },
+            {
+              "text": "ءِ ذَاتِ ٱلۡبُرُوجِ ",
+              "role": "base"
+            },
+            {
+              "text": "( ءَا ـ ـَآ )",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "آمن محمد وصدق فى إيمانه ( آ )",
+          "segments": [
+            {
+              "text": "آ",
+              "role": "target"
+            },
+            {
+              "text": "مَنَ مُحَمَّدٌ وَصَدَقَ فِى إِيمَانِهِ ",
+              "role": "base"
+            },
+            {
+              "text": "( آ )",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 5,
+          "searchText": "٦ الألف اللينة على صورة الياء",
+          "segments": [
+            {
+              "text": "٦ـ الألف اللينة على صورة الياء",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 5,
+          "searchText": "وٱلضحى وٱليل إذا سجى ( حى جى )",
+          "segments": [
+            {
+              "text": "وَٱلضُّ",
+              "role": "base"
+            },
+            {
+              "text": "حَىٰ",
+              "role": "target"
+            },
+            {
+              "text": " وَٱلَّيۡلِ إِذَا سَ",
+              "role": "base"
+            },
+            {
+              "text": "جَىٰ",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "( حَىٰ ـ جَىٰ )",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 5,
+          "searchText": "سعى المصلحون فى الخير ( عى )",
+          "segments": [
+            {
+              "text": "سَ",
+              "role": "base"
+            },
+            {
+              "text": "عَى",
+              "role": "target"
+            },
+            {
+              "text": " الْمُصْلِحُونَ فِى الْخَيْرِ ",
+              "role": "base"
+            },
+            {
+              "text": "( عى )",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 6,
+          "searchText": "٧ ياء المد",
+          "segments": [
+            {
+              "text": "٧ـ ياء المد",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 6,
+          "searchText": "ولا ترهقنى من أمرى عسرا ( نى رى )",
+          "segments": [
+            {
+              "text": "وَلَا تُرۡهِقۡ",
+              "role": "base"
+            },
+            {
+              "text": "نِى",
+              "role": "target"
+            },
+            {
+              "text": " مِنۡ أَمۡ",
+              "role": "base"
+            },
+            {
+              "text": "رِى",
+              "role": "target"
+            },
+            {
+              "text": " عُسۡرًا ",
+              "role": "base"
+            },
+            {
+              "text": "( نِى ـ رِى )",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 6,
+          "searchText": "سافر أخي مع أبي ( خي بي )",
+          "segments": [
+            {
+              "text": "سَافَرَ أَ",
+              "role": "base"
+            },
+            {
+              "text": "خِي",
+              "role": "target"
+            },
+            {
+              "text": " مَعَ أَ",
+              "role": "base"
+            },
+            {
+              "text": "بِي",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "( خِي ـ بِي )",
+              "role": "rule"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [],
+  "games": {},
+  "source": "book page 89"
+}

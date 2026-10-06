@@ -13,8 +13,9 @@
     "db:migrate": "drizzle-kit migrate",
     "db:seed": "tsx scripts/seed.ts",
     "check:hardcoded": "tsx scripts/check-hardcoded.ts",
-    "import:pages": "tsx scripts/import-pages-repo.ts",
-    "db:seed:content": "tsx scripts/seed.ts --content"
+    "db:seed:content": "tsx scripts/seed.ts --content",
+    "book:build": "tsx scripts/book/build.ts",
+    "book:dump": "tsx scripts/book/dump-import.ts"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.7",

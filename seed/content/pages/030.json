@@ -1,0 +1,577 @@
+{
+  "slug": "page-30",
+  "bookPage": 30,
+  "stage": "unit-2",
+  "topic": "madd-ya",
+  "status": "review",
+  "i18n": {
+    "ar": {
+      "title": "الْمَدُّ بِالْيَاءِ",
+      "subtitle": "تدريب ( ٣) على الرسم الإملائى",
+      "teacherNote": "[للمعلم والآباء:] تقرأ الجمل كلمة ... كلمة ثم تجمع الجمل فى صوت واحد. [يعرف المتعلم] أن الياء المدية فى الرسم الإملائى فى آخر الكلمة يوضع تحتها نقطتان مثل كلمة [(عصانِي)] [وفى الرسم القرآنى لا يوضع تحتها شئ.] [يعرف المتعلم:] الفرق بين الهمزة ألف المد فى القرآن [(ءَا)] وفى الرسم الإملائى [(آ)]",
+      "lessonTag": "الدرس الثالث",
+      "observeTag": "اقرأ ولاحظ"
+    }
+  },
+  "sections": [
+    {
+      "kind": "word_rows",
+      "config": {
+        "columns": 4,
+        "rowColors": [
+          "green",
+          "green",
+          "pink",
+          "pink"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "عصاني",
+          "segments": [
+            {
+              "text": "عَصَا",
+              "role": "base"
+            },
+            {
+              "text": "نِي",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "حسابي",
+          "segments": [
+            {
+              "text": "حِسَا",
+              "role": "base"
+            },
+            {
+              "text": "بِي",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "لقينا",
+          "segments": [
+            {
+              "text": "لَ",
+              "role": "base"
+            },
+            {
+              "text": "قِي",
+              "role": "target"
+            },
+            {
+              "text": "نَا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "أجيب",
+          "segments": [
+            {
+              "text": "أُ",
+              "role": "base"
+            },
+            {
+              "text": "جِي",
+              "role": "target"
+            },
+            {
+              "text": "بُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "تلين",
+          "segments": [
+            {
+              "text": "تَ",
+              "role": "base"
+            },
+            {
+              "text": "لِي",
+              "role": "target"
+            },
+            {
+              "text": "نُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "يضيق",
+          "segments": [
+            {
+              "text": "يَ",
+              "role": "base"
+            },
+            {
+              "text": "ضِي",
+              "role": "target"
+            },
+            {
+              "text": "قُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "ديوان",
+          "segments": [
+            {
+              "text": "دِي",
+              "role": "target"
+            },
+            {
+              "text": "وَانُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "ميزان",
+          "segments": [
+            {
+              "text": "مِي",
+              "role": "target"
+            },
+            {
+              "text": "زَانُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "آثمين",
+          "segments": [
+            {
+              "text": "آثِ",
+              "role": "base"
+            },
+            {
+              "text": "مِي",
+              "role": "target"
+            },
+            {
+              "text": "نَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "آكلين",
+          "segments": [
+            {
+              "text": "آكِ",
+              "role": "base"
+            },
+            {
+              "text": "لِي",
+              "role": "target"
+            },
+            {
+              "text": "نَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "آياتي",
+          "segments": [
+            {
+              "text": "آيَا",
+              "role": "base"
+            },
+            {
+              "text": "تِي",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "آخذين",
+          "segments": [
+            {
+              "text": "آخِ",
+              "role": "base"
+            },
+            {
+              "text": "ذِي",
+              "role": "target"
+            },
+            {
+              "text": "نَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 3,
+          "searchText": "قراطيس",
+          "segments": [
+            {
+              "text": "قَرَا",
+              "role": "base"
+            },
+            {
+              "text": "طِي",
+              "role": "target"
+            },
+            {
+              "text": "سُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 3,
+          "searchText": "فدائي",
+          "segments": [
+            {
+              "text": "فِدَا",
+              "role": "base"
+            },
+            {
+              "text": "ئِي",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 3,
+          "searchText": "مصيبها",
+          "segments": [
+            {
+              "text": "مُ",
+              "role": "base"
+            },
+            {
+              "text": "صِي",
+              "role": "target"
+            },
+            {
+              "text": "بُهَا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 3,
+          "searchText": "فرشي",
+          "segments": [
+            {
+              "text": "فُرُ",
+              "role": "base"
+            },
+            {
+              "text": "شِي",
+              "role": "target"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 2,
+        "rowColors": [
+          "sky",
+          "sky",
+          "pink",
+          "pink"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "صلاحي في صلاتي وصيامي",
+          "segments": [
+            {
+              "text": "صَلَا",
+              "role": "base"
+            },
+            {
+              "text": "حِي",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "فِي",
+              "role": "target"
+            },
+            {
+              "text": " صَلَا",
+              "role": "base"
+            },
+            {
+              "text": "تِي",
+              "role": "target"
+            },
+            {
+              "text": " وَصِيَا",
+              "role": "base"
+            },
+            {
+              "text": "مِي",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "راحتي في طاعة خالقي",
+          "segments": [
+            {
+              "text": "رَاحَ",
+              "role": "base"
+            },
+            {
+              "text": "تِي",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "فِي",
+              "role": "target"
+            },
+            {
+              "text": " طَاعَةِ خَالِ",
+              "role": "base"
+            },
+            {
+              "text": "قِي",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "زارني خالي ومعه خالتي",
+          "segments": [
+            {
+              "text": "زَارَ",
+              "role": "base"
+            },
+            {
+              "text": "نِي",
+              "role": "target"
+            },
+            {
+              "text": " خَا",
+              "role": "base"
+            },
+            {
+              "text": "لِي",
+              "role": "target"
+            },
+            {
+              "text": " وَمَعَهُ خَالَ",
+              "role": "base"
+            },
+            {
+              "text": "تِي",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "أحافظ على كتبي وأدواتي",
+          "segments": [
+            {
+              "text": "أُحَافِظُ عَلَى كُتُ",
+              "role": "base"
+            },
+            {
+              "text": "بِي",
+              "role": "target"
+            },
+            {
+              "text": " وَأَدَوَا",
+              "role": "base"
+            },
+            {
+              "text": "تِي",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "صام وقام فزاد إيمانه",
+          "segments": [
+            {
+              "text": "صَامَ وَقَامَ فَزَادَ ",
+              "role": "base"
+            },
+            {
+              "text": "إِي",
+              "role": "target"
+            },
+            {
+              "text": "مَانُهُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "يسير سامي مع أخيه شادي",
+          "segments": [
+            {
+              "text": "يَ",
+              "role": "base"
+            },
+            {
+              "text": "سِي",
+              "role": "target"
+            },
+            {
+              "text": "رُ سَا",
+              "role": "base"
+            },
+            {
+              "text": "مِي",
+              "role": "target"
+            },
+            {
+              "text": " مَعَ أَ",
+              "role": "base"
+            },
+            {
+              "text": "خِي",
+              "role": "target"
+            },
+            {
+              "text": "هِ شَا",
+              "role": "base"
+            },
+            {
+              "text": "دِي",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 3,
+          "searchText": "زار أبي صديقه",
+          "segments": [
+            {
+              "text": "زَارَ أَ",
+              "role": "base"
+            },
+            {
+              "text": "بِي",
+              "role": "target"
+            },
+            {
+              "text": " صَ",
+              "role": "base"
+            },
+            {
+              "text": "دِي",
+              "role": "target"
+            },
+            {
+              "text": "قَهُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 3,
+          "searchText": "لبس أخي ملابسه",
+          "segments": [
+            {
+              "text": "لَبِسَ أَ",
+              "role": "base"
+            },
+            {
+              "text": "خِي",
+              "role": "target"
+            },
+            {
+              "text": " مَلَابِسَهُ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [],
+  "games": {},
+  "source": "book page 30"
+}

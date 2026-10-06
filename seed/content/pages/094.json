@@ -1,0 +1,375 @@
+{
+  "slug": "page-94",
+  "bookPage": 94,
+  "stage": "unit-7",
+  "topic": "rasm",
+  "status": "review",
+  "i18n": {
+    "ar": {
+      "title": "الرسم القرآنى والإملائى",
+      "subtitle": "مراجعة ـ تدريب ( ٢)",
+      "teacherNote": "[للمعلم والآباء:] بعد قراءة كل متعلم على حده يتم مناقشة المتعلمين فى أحكام التجويد والفرق بين علامات التشكيل فى الرسم القرآنى والرسم الإملائى",
+      "lessonTag": "الدرس السادس",
+      "observeTag": "اقرأ ولاحظ"
+    }
+  },
+  "sections": [
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 1,
+        "rowColors": [
+          "pink",
+          "pink",
+          "salmon",
+          "salmon",
+          "sky",
+          "sky",
+          "rose",
+          "rose"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "إن ولى ٱلله ٱلذى نزل ٱلكتب وهو يتولى ٱلصلحين",
+          "segments": [
+            {
+              "text": "إِنَّ وَلِ",
+              "role": "base"
+            },
+            {
+              "text": "ـِّىَ",
+              "role": "target"
+            },
+            {
+              "text": " ٱللَّهُ ٱلَّذِى نَزَّلَ ٱلۡكِ",
+              "role": "base"
+            },
+            {
+              "text": "تَـٰ",
+              "role": "target"
+            },
+            {
+              "text": "بَۖ وَهُوَ يَتَوَلَّ",
+              "role": "base"
+            },
+            {
+              "text": "ى",
+              "role": "target"
+            },
+            {
+              "text": " ٱلصَّ",
+              "role": "base"
+            },
+            {
+              "text": "ٰ",
+              "role": "target"
+            },
+            {
+              "text": "لِحِينَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "للذين أحسنوا ٱلحسنى وزيادة ولا يرهق وجوههم قتر ولا ذلة",
+          "segments": [
+            {
+              "text": "لِّلَّذِينَ أَحۡسَنُواْ ٱلۡحُسۡ",
+              "role": "base"
+            },
+            {
+              "text": "نَىٰ",
+              "role": "target"
+            },
+            {
+              "text": " وَزِيَادَ",
+              "role": "base"
+            },
+            {
+              "text": "ةٌۖ",
+              "role": "target"
+            },
+            {
+              "text": " وَلَا يَرۡهَقُ وُجُوهَهُمۡ قَتَ",
+              "role": "base"
+            },
+            {
+              "text": "رٌ",
+              "role": "target"
+            },
+            {
+              "text": " وَلَا ذِلَّ",
+              "role": "base"
+            },
+            {
+              "text": "ةٌ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "ولقد صرفنا فى هذا ٱلقرءان ليذكروا وما يزيدهم إلا نفورا",
+          "segments": [
+            {
+              "text": "وَلَقَدۡ صَرَّفۡنَا فِى ",
+              "role": "base"
+            },
+            {
+              "text": "هَـٰ",
+              "role": "target"
+            },
+            {
+              "text": "ذَا ٱلۡقُرۡ",
+              "role": "base"
+            },
+            {
+              "text": "ءَا",
+              "role": "target"
+            },
+            {
+              "text": "نِ لِيَ",
+              "role": "base"
+            },
+            {
+              "text": "ذَّكَّ",
+              "role": "target"
+            },
+            {
+              "text": "رُواْ وَمَا يَزِيدُهُمۡ إِلَّا نُفُورًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "وقل رب ٱغفر وٱرحم وأنت خير ٱلرحمين",
+          "segments": [
+            {
+              "text": "وَقُل ",
+              "role": "base"
+            },
+            {
+              "text": "رَّ",
+              "role": "target"
+            },
+            {
+              "text": "بِّ ٱغۡفِرۡ وَٱرۡحَمۡ وَأَنتَ خَيۡرُ ٱل",
+              "role": "base"
+            },
+            {
+              "text": "رَّٰ",
+              "role": "target"
+            },
+            {
+              "text": "حِمِينَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "لا تحقرن من المعروف شيئا ولو أن تلقى أخاك بوجه طلق",
+          "segments": [
+            {
+              "text": "لَا تَحْقِ",
+              "role": "base"
+            },
+            {
+              "text": "رَنَّ",
+              "role": "target"
+            },
+            {
+              "text": " مِنَ الْمَعْرُوفِ شَ",
+              "role": "base"
+            },
+            {
+              "text": "يْئًا",
+              "role": "target"
+            },
+            {
+              "text": " وَلَوْ أَنْ تَلْ",
+              "role": "base"
+            },
+            {
+              "text": "قَى ",
+              "role": "target"
+            },
+            {
+              "text": "أَ",
+              "role": "target"
+            },
+            {
+              "text": "خَاكَ بِوَجْهٍ طَلْقٍ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 5,
+          "searchText": "ليس الغنى عن كثرة العرض ولكن الغنى غنى النفس",
+          "segments": [
+            {
+              "text": "لَيْسَ الْغِ",
+              "role": "base"
+            },
+            {
+              "text": "نَى",
+              "role": "target"
+            },
+            {
+              "text": " عَنْ كَثْرَ",
+              "role": "base"
+            },
+            {
+              "text": "ةِ",
+              "role": "target"
+            },
+            {
+              "text": " الْعَرَضِ وَ",
+              "role": "base"
+            },
+            {
+              "text": "لَكِنَّ",
+              "role": "target"
+            },
+            {
+              "text": " الْغِ",
+              "role": "base"
+            },
+            {
+              "text": "نَى",
+              "role": "target"
+            },
+            {
+              "text": " غِ",
+              "role": "base"
+            },
+            {
+              "text": "نَى",
+              "role": "target"
+            },
+            {
+              "text": " النَّفْسِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 6,
+          "searchText": "صلاة الجماعة تفضل صلاة الفذ بسبع وعشرين درجة",
+          "segments": [
+            {
+              "text": "صَلَا",
+              "role": "base"
+            },
+            {
+              "text": "ةُ",
+              "role": "target"
+            },
+            {
+              "text": " الْجَمَاعَ",
+              "role": "base"
+            },
+            {
+              "text": "ةِ",
+              "role": "target"
+            },
+            {
+              "text": " تَفْضُلُ صَلَا",
+              "role": "base"
+            },
+            {
+              "text": "ةَ",
+              "role": "target"
+            },
+            {
+              "text": " الْفَ",
+              "role": "base"
+            },
+            {
+              "text": "ذِّ",
+              "role": "target"
+            },
+            {
+              "text": " بِسَبْعٍ وَعِشْرِينَ دَرَجَ",
+              "role": "base"
+            },
+            {
+              "text": "ةً",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 7,
+          "searchText": "من أحدث فى أمرنا هذا ما ليس منه فهو رد",
+          "segments": [
+            {
+              "text": "مَنْ ",
+              "role": "base"
+            },
+            {
+              "text": "أَ",
+              "role": "target"
+            },
+            {
+              "text": "حْدَثَ فِى ",
+              "role": "base"
+            },
+            {
+              "text": "أَ",
+              "role": "target"
+            },
+            {
+              "text": "مْرِنَا ",
+              "role": "base"
+            },
+            {
+              "text": "هَـ",
+              "role": "target"
+            },
+            {
+              "text": "ذَا مَا لَيْسَ مِنْ",
+              "role": "base"
+            },
+            {
+              "text": "هُ",
+              "role": "target"
+            },
+            {
+              "text": " فَهُوَ رَ",
+              "role": "base"
+            },
+            {
+              "text": "دٌّ",
+              "role": "target"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [],
+  "games": {},
+  "source": "book page 94"
+}

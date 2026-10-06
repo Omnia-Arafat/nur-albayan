@@ -1,0 +1,574 @@
+{
+  "slug": "page-18",
+  "bookPage": 18,
+  "stage": "unit-1",
+  "topic": "damma",
+  "status": "review",
+  "i18n": {
+    "ar": {
+      "title": "٣ـ الحروف بحركة الضم",
+      "teacherNote": "[للمعلم والآباء:] طريقة الهجاء للقاعدة: نقول ألف همزة ضمة [(أُ)] باء ضمة [(بُ)] ثم نعيد قراءة الحروف بدون هجاء [(أُ . بُ . تُ)] ونحرص على عدم الزيادة فى ضم الحروف حتى لا يتولد منه حرف مد ، [هام جداً] قراءة كل متعلم للدرس على حده [ولا تنسى] المراجعة اليومية للصفحة رقم [( ٦، ٧، ١٨)]",
+      "lessonTag": "الدرس الأول",
+      "observeTag": "اقرأ ولاحظ"
+    }
+  },
+  "sections": [
+    {
+      "kind": "letter_tiles",
+      "config": {
+        "columns": 5,
+        "rowColors": [
+          "sky",
+          "sky"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "tint": "red",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "أ",
+          "segments": [
+            {
+              "text": "ـأُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "purple",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "ب",
+          "segments": [
+            {
+              "text": "ـبُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "teal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "ت",
+          "segments": [
+            {
+              "text": "ـتُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "ink",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "ث",
+          "segments": [
+            {
+              "text": "ـثُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "red",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "ج",
+          "segments": [
+            {
+              "text": "ـجُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "purple",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "ح",
+          "segments": [
+            {
+              "text": "حُـ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "teal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "خ",
+          "segments": [
+            {
+              "text": "خُـ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "ink",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "د",
+          "segments": [
+            {
+              "text": "ـدُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "red",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "ذ",
+          "segments": [
+            {
+              "text": "ـذُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "purple",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "ر",
+          "segments": [
+            {
+              "text": "ـرُ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "letter_tiles",
+      "config": {
+        "columns": 3,
+        "rowColors": [
+          "yellow",
+          "yellow",
+          "pink",
+          "pink",
+          "salmon",
+          "salmon"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "ززز",
+          "segments": [
+            {
+              "text": "زَ",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "ـزِ",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "زُ",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "سسس",
+          "segments": [
+            {
+              "text": "سَـ",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "ـسِـ",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "ـسُ",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "ششش",
+          "segments": [
+            {
+              "text": "شَـ",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "ـشِـ",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "ـشُ",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "صصص",
+          "segments": [
+            {
+              "text": "صَـ",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "ـصِـ",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "ـصُ",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "ضضض",
+          "segments": [
+            {
+              "text": "ضَـ",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "ـضِـ",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "ـضُ",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "ططط",
+          "segments": [
+            {
+              "text": "طَ",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "ـطِ",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "ـطُ",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "ظظظ",
+          "segments": [
+            {
+              "text": "ظَ",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "ـظِ",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "ـظُ",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "ععع",
+          "segments": [
+            {
+              "text": "عَـ",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "ـعِـ",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "ـعُ",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "غغغ",
+          "segments": [
+            {
+              "text": "غَـ",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "ـغِـ",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "ـغُ",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 3,
+          "searchText": "ففف",
+          "segments": [
+            {
+              "text": "فَـ",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "ـفِـ",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "ـفُ",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 3,
+          "searchText": "ققق",
+          "segments": [
+            {
+              "text": "قِـ",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "ـقُـ",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "ـقَ",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 3,
+          "searchText": "ككك",
+          "segments": [
+            {
+              "text": "كَـ",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "ـكُـ",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "ـكِ",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 4,
+          "searchText": "للل",
+          "segments": [
+            {
+              "text": "لُ",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "ـلَـ",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "ـلِ",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 4,
+          "searchText": "ممم",
+          "segments": [
+            {
+              "text": "مِـ",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "ـمُـ",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "مَ",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 4,
+          "searchText": "ننن",
+          "segments": [
+            {
+              "text": "نِـ",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "ـنُـ",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "ـنَ",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 5,
+          "searchText": "ههه",
+          "segments": [
+            {
+              "text": "هُـ",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "ـهَـ",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "ـهِ",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 5,
+          "searchText": "ووو",
+          "segments": [
+            {
+              "text": "وِ",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "ـوُ",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "وَ",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 5,
+          "searchText": "ييى",
+          "segments": [
+            {
+              "text": "يَـ",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "ـيُـ",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "ـىِ",
+              "role": "rule"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [],
+  "games": {},
+  "source": "book page 18"
+}

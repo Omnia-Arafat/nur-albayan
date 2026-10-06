@@ -1,0 +1,630 @@
+{
+  "slug": "page-39",
+  "bookPage": 39,
+  "stage": "unit-3",
+  "topic": "sukun",
+  "status": "review",
+  "i18n": {
+    "ar": {
+      "title": "السُّكُونُ ( ـۡ ـْ )",
+      "subtitle": "١ـ السكون فى الرسم القرآنى (ـۡ)",
+      "teacherNote": "[للمعلم والآباء:] يعرف المتعلم أن السكون عكس الحركة ، والسكون فى الكلمات القرآنية يكون مثل رأس الحاء [(ـۡ)] [وطريقة التهجى للقاعدة (أَ)] نون سكون [(أَنۡ)] تقرأ مرة بالهجاء ثم نعيد القراءة بدون هجاء [(أَنۡ . هَبۡ . قَطۡ)]",
+      "unitTag": "الوحدة الثالثة",
+      "lessonTag": "الدرس الأول",
+      "observeTag": "اقرأ ولاحظ"
+    }
+  },
+  "sections": [
+    {
+      "kind": "segmented_rows",
+      "config": {
+        "columns": 4,
+        "rowColors": [
+          "green",
+          "green",
+          "green",
+          "green"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ب - ب - ب",
+          "segments": [
+            {
+              "text": "بَـ",
+              "role": "secondary"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "بِـ",
+              "role": "target"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "بُـ",
+              "role": "secondary"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "أب",
+          "segments": [
+            {
+              "text": "أَبۡ",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "تا - تى - تو",
+          "segments": [
+            {
+              "text": "تَا",
+              "role": "secondary"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "تِى",
+              "role": "target"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "تُو",
+              "role": "secondary"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "أت",
+          "segments": [
+            {
+              "text": "أَتۡ",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "ث - ث - ث",
+          "segments": [
+            {
+              "text": "ثَـ",
+              "role": "secondary"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ثِـ",
+              "role": "target"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ثُـ",
+              "role": "secondary"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "أث",
+          "segments": [
+            {
+              "text": "أَثۡ",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "جا - جي - جو",
+          "segments": [
+            {
+              "text": "جَا",
+              "role": "secondary"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "جِيـ",
+              "role": "target"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "جُو",
+              "role": "secondary"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "أج",
+          "segments": [
+            {
+              "text": "أَجۡ",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "ح - ح - ح",
+          "segments": [
+            {
+              "text": "حَـ",
+              "role": "secondary"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "حِـ",
+              "role": "target"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "حُـ",
+              "role": "secondary"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "بح",
+          "segments": [
+            {
+              "text": "بَحۡ",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "خا - خي - خو",
+          "segments": [
+            {
+              "text": "خَا",
+              "role": "secondary"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "خِيـ",
+              "role": "target"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "خُو",
+              "role": "secondary"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "أخ",
+          "segments": [
+            {
+              "text": "أَخۡ",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "ع - ع - ع",
+          "segments": [
+            {
+              "text": "عَـ",
+              "role": "secondary"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "عِـ",
+              "role": "target"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "عُـ",
+              "role": "secondary"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "أع",
+          "segments": [
+            {
+              "text": "أَعۡ",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "لا - لي - لو",
+          "segments": [
+            {
+              "text": "لَا",
+              "role": "secondary"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "لِيـ",
+              "role": "target"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "لُو",
+              "role": "secondary"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "أل",
+          "segments": [
+            {
+              "text": "أَلۡ",
+              "role": "rule"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "letter_tiles",
+      "config": {
+        "columns": 5,
+        "rowColors": [
+          "pink",
+          "pink",
+          "sky",
+          "sky"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "tint": "red",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "أن",
+          "segments": [
+            {
+              "text": "أَنۡ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "purple",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "هب",
+          "segments": [
+            {
+              "text": "هَبۡ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "ink",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "قط",
+          "segments": [
+            {
+              "text": "قَطۡ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "teal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "بس",
+          "segments": [
+            {
+              "text": "بَسۡ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "purple",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "صه",
+          "segments": [
+            {
+              "text": "صَهۡ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "red",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "صل",
+          "segments": [
+            {
+              "text": "صِلۡ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "purple",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "سر",
+          "segments": [
+            {
+              "text": "سِرۡ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "ink",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "إذ",
+          "segments": [
+            {
+              "text": "إِذۡ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "teal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "عظ",
+          "segments": [
+            {
+              "text": "عِظۡ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "purple",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "هم",
+          "segments": [
+            {
+              "text": "هِمۡ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "red",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "ذق",
+          "segments": [
+            {
+              "text": "ذُقۡ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "purple",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "شد",
+          "segments": [
+            {
+              "text": "شُدۡ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "ink",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "رج",
+          "segments": [
+            {
+              "text": "رُجۡ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "teal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "فز",
+          "segments": [
+            {
+              "text": "فُزۡ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "purple",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "كل",
+          "segments": [
+            {
+              "text": "كُلۡ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "red",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "رك",
+          "segments": [
+            {
+              "text": "رِكۡ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "purple",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "عش",
+          "segments": [
+            {
+              "text": "عِشۡ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "ink",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "صغ",
+          "segments": [
+            {
+              "text": "صُغۡ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "teal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "كى",
+          "segments": [
+            {
+              "text": "كَىۡ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "purple",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "لو",
+          "segments": [
+            {
+              "text": "لَوۡ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [],
+  "games": {},
+  "source": "book page 39"
+}

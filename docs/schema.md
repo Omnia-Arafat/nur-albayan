@@ -50,11 +50,13 @@ The seed is idempotent and never overwrites values an admin has changed. Run it 
 
 ## Book content
 
-`pnpm import:pages <path to nur-albayan-pages>` converts the pages repo's lessons into
-`seed/content/` (one JSON file per page, plus `book.json` with the stages and an `IMPORT_REPORT.md`).
-Each word's coloured spans become role-tagged segments, the pill theme becomes a row band, and
-pages whose words are built from smaller arrays are read by running their inline script in a sandbox.
-All lessons are imported as `draft` for review against the printed book.
+The printed book is the only source of content. Each page is transcribed by hand into
+`seed/book/NNN.txt` (the page DSL documented at the top of `scripts/book/dsl.ts`), and the book's
+units and numbered topics live in `seed/book/curriculum.json`.
 
-`pnpm db:seed:content` loads it. A lesson whose slug already exists is skipped, so editors' changes are kept.
-`seed/content/` is git-ignored while the repository is public.
+`pnpm book:build` turns those into `seed/content/`: one JSON file per page plus `book.json` with the
+stages and topics. Coloured runs become role-tagged segments, the pill palette of each row becomes a
+row band, and every page is built as `review` so it is checked against the scan before publishing.
+
+`pnpm db:seed:content` loads it. Each topic is seeded as a unit, each picture as an asset row, and a
+lesson whose slug already exists is skipped, so editors' changes are kept.

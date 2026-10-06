@@ -1,0 +1,693 @@
+{
+  "slug": "page-32",
+  "bookPage": 32,
+  "stage": "unit-2",
+  "topic": "madd-waw",
+  "status": "review",
+  "i18n": {
+    "ar": {
+      "title": "الـمـدود",
+      "subtitle": "٣ـ المد بالواو (تُو)",
+      "teacherNote": "[للمعلم والآباء:] نقول [(أُ)] واو طبيعى [(أُو)] ثم نجمع فى النطق بين الحرف الممدود وغير الممدود لبيان الفرق بينهما فى الزمن الصوتى [(أُ ـ أُو)] ثم نجمع فى القراءة بين المدود الثلاثة لتمكين المد بأنواعه.",
+      "lessonTag": "الدرس الأول",
+      "observeTag": "اقرأ ولاحظ"
+    }
+  },
+  "sections": [
+    {
+      "kind": "letter_tiles",
+      "config": {
+        "columns": 4,
+        "rowColors": [
+          "pink",
+          "pink",
+          "sky"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "أأو",
+          "segments": [
+            {
+              "text": "أُ",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "أُو",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "ببو",
+          "segments": [
+            {
+              "text": "بُـ",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "بُو",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "تتو",
+          "segments": [
+            {
+              "text": "تُـ",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "تُو",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "ثثو",
+          "segments": [
+            {
+              "text": "ثُـ",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "ثُو",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "ججو",
+          "segments": [
+            {
+              "text": "جُـ",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "جُو",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "ححو",
+          "segments": [
+            {
+              "text": "حُـ",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "حُو",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "خخو",
+          "segments": [
+            {
+              "text": "خُـ",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "خُو",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "ددو",
+          "segments": [
+            {
+              "text": "دُ",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "دُو",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "ذذو",
+          "segments": [
+            {
+              "text": "ذُ",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "ذُو",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "ررو",
+          "segments": [
+            {
+              "text": "رُ",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "رُو",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "ززو",
+          "segments": [
+            {
+              "text": "زُ",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "زُو",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "سسو",
+          "segments": [
+            {
+              "text": "سُـ",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "سُو",
+              "role": "target"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "letter_tiles",
+      "config": {
+        "columns": 4,
+        "rowColors": [
+          "sky",
+          "yellow",
+          "yellow",
+          "green",
+          "green"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "شاشىشو",
+          "segments": [
+            {
+              "text": "شَا",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "شِى",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "شُو",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "صاصىصو",
+          "segments": [
+            {
+              "text": "صَا",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "صِى",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "صُو",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "ضاضىضو",
+          "segments": [
+            {
+              "text": "ضَا",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "ضِى",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "ضُو",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "طاطىطو",
+          "segments": [
+            {
+              "text": "طَا",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "طِى",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "طُو",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "ظاظىظو",
+          "segments": [
+            {
+              "text": "ظَا",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "ظِى",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "ظُو",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "عاعىعو",
+          "segments": [
+            {
+              "text": "عَا",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "عِى",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "عُو",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "غاغىغو",
+          "segments": [
+            {
+              "text": "غَا",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "غِى",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "غُو",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "فافىفو",
+          "segments": [
+            {
+              "text": "فَا",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "فِى",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "فُو",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "قيقوقا",
+          "segments": [
+            {
+              "text": "قِيـ",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "قُو",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "قَا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "كوكاكي",
+          "segments": [
+            {
+              "text": "كُو",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "كَا",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "كِيـ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "لالولي",
+          "segments": [
+            {
+              "text": "لَا",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "لُو",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "لِيـ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "مومامي",
+          "segments": [
+            {
+              "text": "مُو",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "مَا",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "مِيـ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 3,
+          "searchText": "نانىنو",
+          "segments": [
+            {
+              "text": "نَا",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "نِى",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "نُو",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 3,
+          "searchText": "هوهاهي",
+          "segments": [
+            {
+              "text": "هُو",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "هَا",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "هِيـ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 3,
+          "searchText": "وىوووا",
+          "segments": [
+            {
+              "text": "وِى",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "وُو",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "وَا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 3,
+          "searchText": "يايىيو",
+          "segments": [
+            {
+              "text": "يَا",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "يِى",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "يُو",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 4,
+          "searchText": "بيثاظو",
+          "segments": [
+            {
+              "text": "بِيـ",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "ثَا",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "ظُو",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 4,
+          "searchText": "تاإىضو",
+          "segments": [
+            {
+              "text": "تَا",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "إِى",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "ضُو",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 4,
+          "searchText": "كورادي",
+          "segments": [
+            {
+              "text": "كُو",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "رَا",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "دِيـ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 4,
+          "searchText": "ساخىعو",
+          "segments": [
+            {
+              "text": "سَا",
+              "role": "secondary",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "خِى",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "عُو",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [],
+  "games": {},
+  "source": "book page 32"
+}

@@ -1,0 +1,327 @@
+{
+  "slug": "page-44",
+  "bookPage": 44,
+  "stage": "unit-3",
+  "topic": "sukun",
+  "status": "review",
+  "i18n": {
+    "ar": {
+      "title": "السُّكُونُ",
+      "subtitle": "تدريب ( ٥) أمثلة قرآنية",
+      "teacherNote": "[للمعلم والآباء:] يتم قراءة التدريب لكل متعلم منفرداً مع مراجعة ما تم دراسته من قواعد وأمثلة قرآنية، [يعرف المتعلم] حروف القلقلة أثناء التلاوة وهى [(ق . ط . ب . جـ . د)] [يعرف المتعلم] أن ألف الوصل إذا جاء بعد الحرف الأول فى الكلمة لا ينطق مثل [( فَٱسۡتَجَبۡنَا )]",
+      "lessonTag": "الدرس السادس",
+      "observeTag": "اقرأ ولاحظ"
+    }
+  },
+  "sections": [
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 3,
+        "rowColors": [
+          "peach",
+          "peach",
+          "sky",
+          "sky",
+          "sky"
+        ],
+        "markColor": "red"
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "أدبر يسعى",
+          "segments": [
+            {
+              "text": "أَدۡبَرَ يَسۡعَىٰ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ولا يخاف عقبها",
+          "segments": [
+            {
+              "text": "وَلَا يَخَافُ عُقۡبَٰهَا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ٱلفزع ٱلأكبر",
+          "segments": [
+            {
+              "text": "ٱلۡفَزَعُ ٱلۡأَكۡبَرُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "قوسين أو أدنى",
+          "segments": [
+            {
+              "text": "قَوۡسَيۡنِ أَوۡ أَدۡنَىٰ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "وهم ينهون عنه",
+          "segments": [
+            {
+              "text": "وَهُمۡ يَنۡهَوۡنَ عَنۡهُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "وينون عنه",
+          "segments": [
+            {
+              "text": "وَيَنۡـَٔوۡنَ عَنۡهُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "ويعلم ما تفعلون",
+          "segments": [
+            {
+              "text": "وَيَعۡلَمُ مَا تَفۡعَلُونَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "صلوتهم يحافظون",
+          "segments": [
+            {
+              "text": "صَلَوَٰتِهِمۡ يُحَافِظُونَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "ٱلقرون ٱلأولى",
+          "segments": [
+            {
+              "text": "ٱلۡقُرُونَ ٱلۡأُولَىٰ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "أظلم وأطغى",
+          "segments": [
+            {
+              "text": "أَظۡلَمَ وَأَطۡغَىٰ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "يخطف أبصرهم",
+          "segments": [
+            {
+              "text": "يَخۡطَفُ أَبۡصَٰرَهُمۡ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "يثنون صدورهم",
+          "segments": [
+            {
+              "text": "يَثۡنُونَ صُدُورَهُمۡ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "ونحن له مسلمون",
+          "segments": [
+            {
+              "text": "وَنَحۡنُ لَهُۥ مُسۡلِمُونَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "أسفل سفلين",
+          "segments": [
+            {
+              "text": "أَسۡفَلَ سَٰفِلِينَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "وهو ٱلحكيم ٱلخبير",
+          "segments": [
+            {
+              "text": "وَهُوَ ٱلۡحَكِيمُ ٱلۡخَبِيرُ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 1,
+        "rowColors": [
+          "pink"
+        ],
+        "markColor": "red"
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "وداود وسليمن إذ يحكمان فى ٱلحرث إذ نفشت فيه غنم ٱلقوم",
+          "segments": [
+            {
+              "text": "وَدَاوُۥدَ وَسُلَيۡمَٰنَ إِذۡ يَحۡكُمَانِ فِى ٱلۡحَرۡثِ إِذۡ نَفَشَتۡ فِيهِ غَنَمُ ٱلۡقَوۡمِ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 2,
+        "rowColors": [
+          "yellow",
+          "yellow",
+          "yellow"
+        ],
+        "markColor": "red"
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "قال لا تؤاخذنى بما نسيت ولا ترهقنى",
+          "segments": [
+            {
+              "text": "قَالَ لَا تُؤَاخِذۡنِى بِمَا نَسِيتُ وَلَا تُرۡهِقۡنِى",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ولا تجهر بصلاتك ولا تخافت",
+          "segments": [
+            {
+              "text": "وَلَا تَجۡهَرۡ بِصَلَاتِكَ وَلَا تُخَافِتۡ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "يعلم ما بين أيديهم وما خلفهم",
+          "segments": [
+            {
+              "text": "يَعۡلَمُ مَا بَيۡنَ أَيۡدِيهِمۡ وَمَا خَلۡفَهُمۡ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "فإذا دفعتم إليهم أمولهم فأشهدوا",
+          "segments": [
+            {
+              "text": "فَإِذَا دَفَعۡتُمۡ إِلَيۡهِمۡ أَمۡوَٰلَهُمۡ فَأَشۡهِدُوا۟",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "هم لأمنتهم وعهدهم رعون",
+          "segments": [
+            {
+              "text": "هُمۡ لِأَمَٰنَٰتِهِمۡ وَعَهۡدِهِمۡ رَٰعُونَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "فٱستجبنا له فكشفنا ما به",
+          "segments": [
+            {
+              "text": "فَٱسۡتَجَبۡنَا لَهُۥ فَكَشَفۡنَا مَا بِهِۦ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [],
+  "games": {},
+  "source": "book page 44"
+}

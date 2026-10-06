@@ -1,5 +1,5 @@
 {
-  "id": "deda32cf-d8db-45e9-9e14-0be02848371e",
+  "id": "5cecaed3-bd9a-44a6-a0a8-1bfe554d00c7",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "version": "7",
   "dialect": "postgresql",
@@ -1285,6 +1285,12 @@
           "primaryKey": false,
           "notNull": true,
           "default": true
+        },
+        "tint_token_key": {
+          "name": "tint_token_key",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
         },
         "image_asset_id": {
           "name": "image_asset_id",

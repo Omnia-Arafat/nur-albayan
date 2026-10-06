@@ -1,0 +1,236 @@
+{
+  "slug": "page-60",
+  "bookPage": 60,
+  "stage": "unit-4",
+  "topic": "tanween-review",
+  "status": "review",
+  "i18n": {
+    "ar": {
+      "title": "مراجعة",
+      "subtitle": "تدريب ( ٣) على الرسم الإملائى",
+      "teacherNote": "[للمعلم والآباء:] يعرف المتعلم على علامة السكون فى الرسم الإملائى أى فى الكلمات غير القرآنية ويعرف على شكل التنوين فى الرسم الإملائى وأنه يأتى على هذه الصورة [(ـًـ)] واو صغيرة فى أخرها منحنى صغير، ويتم مراجعة تدريبات السكون على الرسم الإملائى صفحة [( ٤٨، ٤٩)]",
+      "lessonTag": "الدرس الثانى",
+      "observeTag": "اقرأ ولاحظ"
+    }
+  },
+  "sections": [
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 2,
+        "rowColors": [
+          "rose",
+          "rose",
+          "lime",
+          "lime",
+          "sky",
+          "sky",
+          "salmon",
+          "salmon"
+        ],
+        "markColor": "red"
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "قرأت سورة عظيمة",
+          "segments": [
+            {
+              "text": "قَرَأْتُ سُورَةً عَظِيمَةً",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "درست علما نافعا",
+          "segments": [
+            {
+              "text": "دَرَسْتُ عِلْمًا نَافِعًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "سلكت طريقا مستقيما",
+          "segments": [
+            {
+              "text": "سَلَكْتُ طَرِيقًا مُسْتَقِيمًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "سافرت سفرا طويلا",
+          "segments": [
+            {
+              "text": "سَافَرْتُ سَفَرًا طَوِيلًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "دخلت بستانا جميلا",
+          "segments": [
+            {
+              "text": "دَخَلْتُ بُسْتَانًا جَمِيلًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "حفظت حديثا شريفا",
+          "segments": [
+            {
+              "text": "حَفِظْتُ حَدِيثًا شَرِيفًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 3,
+          "searchText": "ركبت فى قطار سريع",
+          "segments": [
+            {
+              "text": "رَكِبْتُ فِى قِطَارٍ سَرِيعٍ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 3,
+          "searchText": "أكلت خبزا من قمح",
+          "segments": [
+            {
+              "text": "أَكَلْتُ خُبْزًا مِنْ قَمْحٍ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 4,
+          "searchText": "تمر من نخل",
+          "segments": [
+            {
+              "text": "تَمْرٌ مِنْ نَخْلٍ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "image": "pen",
+          "script": "naskh",
+          "rowBand": 4,
+          "searchText": "قلم من خشب",
+          "segments": [
+            {
+              "text": "قَلَمٌ مِنْ خَشَبٍ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 5,
+          "searchText": "شربت لبنا من كوب",
+          "segments": [
+            {
+              "text": "شَرِبْتُ لَبَنًا مِنْ كُوبٍ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "image": "quran-reading",
+          "script": "naskh",
+          "rowBand": 5,
+          "searchText": "قرآن كريم حكيم",
+          "segments": [
+            {
+              "text": "قُرْآنٌ كَرِيمٌ حَكِيمٌ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 6,
+          "searchText": "أخذت ورقة وقلما",
+          "segments": [
+            {
+              "text": "أَخَذْتُ وَرَقَةً وَقَلَمًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "image": "birdcage",
+          "script": "naskh",
+          "rowBand": 6,
+          "searchText": "رأيت عصفورا فى قفص",
+          "segments": [
+            {
+              "text": "رَأَيْتُ عُصْفُورًا فِى قَفَصٍ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 7,
+          "searchText": "شارع واسع",
+          "segments": [
+            {
+              "text": "شَارِعٌ وَاسِعٌ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "image": "playground",
+          "script": "naskh",
+          "rowBand": 7,
+          "searchText": "ميدان فسيح",
+          "segments": [
+            {
+              "text": "مَيْدَانٌ فَسِيحٌ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [],
+  "games": {},
+  "source": "book page 60"
+}

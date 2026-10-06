@@ -1,0 +1,577 @@
+{
+  "slug": "page-79",
+  "bookPage": 79,
+  "stage": "unit-6",
+  "topic": "tarteel-madd",
+  "status": "review",
+  "i18n": {
+    "ar": {
+      "title": "أحكام ترتيل القرآن ـ المدود",
+      "subtitle": "(تدريب)",
+      "teacherNote": "[للمعلم والآباء:] نحرص على بيان أنواع المدود فى الآيات من خلال قراءة الآيات أكثر من مرة مع مناقشة المتعلم فى اسم المد وحكمه ، وللمزيد عن أحكام المدود ارجع لكتابنا [(مسك البيان فى أحكام تجويد القرآن)]",
+      "lessonTag": "الدرس الثالث",
+      "observeTag": "اقرأ ولاحظ"
+    }
+  },
+  "sections": [
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 1,
+        "rowColors": [
+          "yellow",
+          "yellow"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "وإذ قلنا للملئكة ٱسجدوا لأدم فسجدوا إلا إبليس أبى وٱستكبر وكان من ٱلكفرين",
+          "segments": [
+            {
+              "text": "وَإِذۡ قُلۡنَا لِلۡمَلَ",
+              "role": "base"
+            },
+            {
+              "text": "ٰٓ",
+              "role": "target"
+            },
+            {
+              "text": "ئِكَةِ ٱسۡجُدُوا۟ لِأٓدَمَ فَسَجَدُ",
+              "role": "base"
+            },
+            {
+              "text": "وٓ",
+              "role": "target"
+            },
+            {
+              "text": "ا۟ إِ",
+              "role": "base"
+            },
+            {
+              "text": "لَّآ ",
+              "role": "target"
+            },
+            {
+              "text": "إِبۡلِيسَ أَبَىٰ وَٱسۡتَكۡبَرَ وَكَانَ مِنَ ٱلۡكَٰفِرِينَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "قل إنما أدعوا ربى ولا أشرك به أحدا",
+          "segments": [
+            {
+              "text": "قُلۡ إِ",
+              "role": "base"
+            },
+            {
+              "text": "نَّ",
+              "role": "target"
+            },
+            {
+              "text": "مَ",
+              "role": "base"
+            },
+            {
+              "text": "آ ",
+              "role": "target"
+            },
+            {
+              "text": "أَدۡعُوا۟ رَبِّى وَلَ",
+              "role": "base"
+            },
+            {
+              "text": "آ ",
+              "role": "target"
+            },
+            {
+              "text": "أُشۡرِكُ بِهِ",
+              "role": "base"
+            },
+            {
+              "text": "ۦٓ ",
+              "role": "target"
+            },
+            {
+              "text": "أَحَدًا",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 3,
+        "rowColors": [
+          "sky"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "وأمره إلى ٱلله",
+          "segments": [
+            {
+              "text": "وَأَمۡرُهُ",
+              "role": "base"
+            },
+            {
+              "text": "ۥٓ ",
+              "role": "target"
+            },
+            {
+              "text": "إِلَى ٱللَّهِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "قال له صاحبه",
+          "segments": [
+            {
+              "text": "قَالَ لَهُ",
+              "role": "base"
+            },
+            {
+              "text": "ۥ ",
+              "role": "target"
+            },
+            {
+              "text": "صَاحِبُهُ",
+              "role": "base"
+            },
+            {
+              "text": "ۥ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ويهدى به كثيرا",
+          "segments": [
+            {
+              "text": "وَيَهۡدِى بِهِ",
+              "role": "base"
+            },
+            {
+              "text": "ۦ ",
+              "role": "target"
+            },
+            {
+              "text": "كَثِيرًا",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 2,
+        "rowColors": [
+          "sky",
+          "sky"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "قل إى وربى إنه لحق",
+          "segments": [
+            {
+              "text": "قُلۡ إِى وَرَبِّ",
+              "role": "base"
+            },
+            {
+              "text": "ىٓ ",
+              "role": "target"
+            },
+            {
+              "text": "إِنَّهُ",
+              "role": "base"
+            },
+            {
+              "text": "ۥ ",
+              "role": "target"
+            },
+            {
+              "text": "لَحَقٌّ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "إلفهم رحلة ٱلشتاء وٱلصيف",
+          "segments": [
+            {
+              "text": "إِۦلَٰفِهِمۡ رِحۡلَةَ ٱلشِّتَ",
+              "role": "base"
+            },
+            {
+              "text": "آ",
+              "role": "target"
+            },
+            {
+              "text": "ءِ وَٱلصَّ",
+              "role": "base"
+            },
+            {
+              "text": "يۡ",
+              "role": "target"
+            },
+            {
+              "text": "فِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "وجعلنا نومكم سباتا",
+          "segments": [
+            {
+              "text": "وَجَعَلۡنَا نَ",
+              "role": "base"
+            },
+            {
+              "text": "وۡ",
+              "role": "target"
+            },
+            {
+              "text": "مَكُمۡ سُبَاتًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "إياك نعبد وإياك نستعين",
+          "segments": [
+            {
+              "text": "إِيَّاكَ نَعۡبُدُ وَإِيَّاكَ نَسۡتَعِ",
+              "role": "base"
+            },
+            {
+              "text": "ي",
+              "role": "target"
+            },
+            {
+              "text": "نُ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 2,
+        "rowColors": [
+          "salmon",
+          "salmon",
+          "salmon"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ألم تر إلى ٱلذى حاج إبرهم",
+          "segments": [
+            {
+              "text": "أَلَمۡ تَرَ إِلَى ٱلَّذِى حَ",
+              "role": "base"
+            },
+            {
+              "text": "آجَّ ",
+              "role": "target"
+            },
+            {
+              "text": "إِبۡرَٰهِـۧمَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "فإن حاجوك فقل أسلمت",
+          "segments": [
+            {
+              "text": "فَإِنۡ حَ",
+              "role": "base"
+            },
+            {
+              "text": "آجُّ",
+              "role": "target"
+            },
+            {
+              "text": "وكَ فَقُلۡ أَسۡلَمۡتُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "ءالن وقد عصيت قبل",
+          "segments": [
+            {
+              "text": "ءَ",
+              "role": "base"
+            },
+            {
+              "text": "آلۡ",
+              "role": "target"
+            },
+            {
+              "text": "ـَٰٔنَ وَقَدۡ عَصَيۡتَ قَبۡلُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "فلما رأوها قالوا إنا لضالون",
+          "segments": [
+            {
+              "text": "فَلَمَّا رَأَوۡهَا قَالُ",
+              "role": "base"
+            },
+            {
+              "text": "وٓ",
+              "role": "target"
+            },
+            {
+              "text": "ا۟ إِنَّا لَضَ",
+              "role": "base"
+            },
+            {
+              "text": "آلُّ",
+              "role": "target"
+            },
+            {
+              "text": "ونَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "وقتلوا ٱلمشركين كافة",
+          "segments": [
+            {
+              "text": "وَقَٰتِلُوا۟ ٱلۡمُشۡرِكِينَ كَ",
+              "role": "base"
+            },
+            {
+              "text": "آفَّ",
+              "role": "target"
+            },
+            {
+              "text": "ةً",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "طس - ن - طه - حم",
+          "segments": [
+            {
+              "text": "ط",
+              "role": "base"
+            },
+            {
+              "text": "سٓ",
+              "role": "target"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "نٓ",
+              "role": "target"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "طه",
+              "role": "base"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ح",
+              "role": "base"
+            },
+            {
+              "text": "مٓ",
+              "role": "target"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 1,
+        "rowColors": [
+          "rose",
+          "rose"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "لا إلى هؤلاء ولا إلى هؤلاء",
+          "segments": [
+            {
+              "text": "لَّ",
+              "role": "base"
+            },
+            {
+              "text": "آ ",
+              "role": "target"
+            },
+            {
+              "text": "إِلَىٰ هَ",
+              "role": "base"
+            },
+            {
+              "text": "ٰٓ",
+              "role": "target"
+            },
+            {
+              "text": "ؤُلَ",
+              "role": "base"
+            },
+            {
+              "text": "آ",
+              "role": "target"
+            },
+            {
+              "text": "ءِ وَلَ",
+              "role": "base"
+            },
+            {
+              "text": "آ ",
+              "role": "target"
+            },
+            {
+              "text": "إِلَىٰ هَ",
+              "role": "base"
+            },
+            {
+              "text": "ٰٓ",
+              "role": "target"
+            },
+            {
+              "text": "ؤُلَ",
+              "role": "base"
+            },
+            {
+              "text": "آ",
+              "role": "target"
+            },
+            {
+              "text": "ءِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "إنا أوحينا إليك كما أوحينا إلى نوح",
+          "segments": [
+            {
+              "text": "إِ",
+              "role": "base"
+            },
+            {
+              "text": "نَّآ ",
+              "role": "target"
+            },
+            {
+              "text": "أَوۡحَيۡنَ",
+              "role": "base"
+            },
+            {
+              "text": "آ ",
+              "role": "target"
+            },
+            {
+              "text": "إِلَيۡكَ كَمَ",
+              "role": "base"
+            },
+            {
+              "text": "آ ",
+              "role": "target"
+            },
+            {
+              "text": "أَوۡحَيۡنَ",
+              "role": "base"
+            },
+            {
+              "text": "آ ",
+              "role": "target"
+            },
+            {
+              "text": "إِلَىٰ نُوحٍ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [],
+  "games": {},
+  "source": "book page 79"
+}

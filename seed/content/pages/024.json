@@ -1,0 +1,960 @@
+{
+  "slug": "page-24",
+  "bookPage": 24,
+  "stage": "unit-2",
+  "topic": "madd-alif",
+  "status": "review",
+  "i18n": {
+    "ar": {
+      "title": "الـمـدود",
+      "subtitle": "١ـ المد بالألف (جَا)",
+      "teacherNote": "[للمعلم والآباء: طريقة الهجاء للقاعدة: (بَـ)] ألف مد طبيعى [(بَا) (تَـ)] ألف مد طبيعى [(تَا)] ثم يجمع فى القراءة بين الحرف الممدود وغير الممدود لبيان الفرق الزمنى بينهما ، وكذلك فى كلمات التدريب يجمع بين كل كلمتين فى صوت واحد. [هام جداً:] القراءة اليومية للصفحة رقم [( ٧، ١٨)]",
+      "unitTag": "الوحدة الثانية",
+      "lessonTag": "الدرس الأول",
+      "observeTag": "اقرأ ولاحظ"
+    }
+  },
+  "sections": [
+    {
+      "kind": "letter_tiles",
+      "config": {
+        "columns": 5,
+        "rowColors": [
+          "peach",
+          "peach"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "ء - ءا",
+          "segments": [
+            {
+              "text": "ءَ",
+              "role": "secondary"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ءَ",
+              "role": "secondary"
+            },
+            {
+              "text": "ا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "ب - با",
+          "segments": [
+            {
+              "text": "بَـ",
+              "role": "secondary"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "بَ",
+              "role": "secondary"
+            },
+            {
+              "text": "ا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "ت - تا",
+          "segments": [
+            {
+              "text": "تَـ",
+              "role": "secondary"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "تَ",
+              "role": "secondary"
+            },
+            {
+              "text": "ا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "ث - ثا",
+          "segments": [
+            {
+              "text": "ثَـ",
+              "role": "secondary"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ثَ",
+              "role": "secondary"
+            },
+            {
+              "text": "ا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "ج - جا",
+          "segments": [
+            {
+              "text": "جَـ",
+              "role": "secondary"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "جَ",
+              "role": "secondary"
+            },
+            {
+              "text": "ا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "ح - حا",
+          "segments": [
+            {
+              "text": "حَـ",
+              "role": "secondary"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "حَ",
+              "role": "secondary"
+            },
+            {
+              "text": "ا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "خ - خا",
+          "segments": [
+            {
+              "text": "خَـ",
+              "role": "secondary"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "خَ",
+              "role": "secondary"
+            },
+            {
+              "text": "ا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "د - دا",
+          "segments": [
+            {
+              "text": "دَ",
+              "role": "secondary"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "دَ",
+              "role": "secondary"
+            },
+            {
+              "text": "ا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "ذ - ذا",
+          "segments": [
+            {
+              "text": "ذَ",
+              "role": "secondary"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ذَ",
+              "role": "secondary"
+            },
+            {
+              "text": "ا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "ر - را",
+          "segments": [
+            {
+              "text": "رَ",
+              "role": "secondary"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "رَ",
+              "role": "secondary"
+            },
+            {
+              "text": "ا",
+              "role": "target"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "letter_tiles",
+      "config": {
+        "columns": 6,
+        "rowColors": [
+          "green",
+          "green",
+          "green"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "زا",
+          "segments": [
+            {
+              "text": "زَ",
+              "role": "secondary"
+            },
+            {
+              "text": "ا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "سا",
+          "segments": [
+            {
+              "text": "سَ",
+              "role": "secondary"
+            },
+            {
+              "text": "ا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "شا",
+          "segments": [
+            {
+              "text": "شَ",
+              "role": "secondary"
+            },
+            {
+              "text": "ا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "صا",
+          "segments": [
+            {
+              "text": "صَ",
+              "role": "secondary"
+            },
+            {
+              "text": "ا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "ضا",
+          "segments": [
+            {
+              "text": "ضَ",
+              "role": "secondary"
+            },
+            {
+              "text": "ا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "طا",
+          "segments": [
+            {
+              "text": "طَ",
+              "role": "secondary"
+            },
+            {
+              "text": "ا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "ظا",
+          "segments": [
+            {
+              "text": "ظَ",
+              "role": "secondary"
+            },
+            {
+              "text": "ا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "عا",
+          "segments": [
+            {
+              "text": "عَ",
+              "role": "secondary"
+            },
+            {
+              "text": "ا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "غا",
+          "segments": [
+            {
+              "text": "غَ",
+              "role": "secondary"
+            },
+            {
+              "text": "ا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "فا",
+          "segments": [
+            {
+              "text": "فَ",
+              "role": "secondary"
+            },
+            {
+              "text": "ا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "قا",
+          "segments": [
+            {
+              "text": "قَ",
+              "role": "secondary"
+            },
+            {
+              "text": "ا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "كا",
+          "segments": [
+            {
+              "text": "كَ",
+              "role": "secondary"
+            },
+            {
+              "text": "ا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "لا",
+          "segments": [
+            {
+              "text": "لَ",
+              "role": "secondary"
+            },
+            {
+              "text": "ا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "ما",
+          "segments": [
+            {
+              "text": "مَ",
+              "role": "secondary"
+            },
+            {
+              "text": "ا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "نا",
+          "segments": [
+            {
+              "text": "نَ",
+              "role": "secondary"
+            },
+            {
+              "text": "ا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "ها",
+          "segments": [
+            {
+              "text": "هَ",
+              "role": "secondary"
+            },
+            {
+              "text": "ا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "وا",
+          "segments": [
+            {
+              "text": "وَ",
+              "role": "secondary"
+            },
+            {
+              "text": "ا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "يا",
+          "segments": [
+            {
+              "text": "يَ",
+              "role": "secondary"
+            },
+            {
+              "text": "ا",
+              "role": "target"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "word_rows",
+      "config": {
+        "columns": 4,
+        "rowColors": [
+          "sky"
+        ],
+        "label": "تدريب (١)"
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "قم ← قام",
+          "segments": [
+            {
+              "text": "قَمَ",
+              "role": "base"
+            },
+            {
+              "text": " ← ",
+              "role": "separator"
+            },
+            {
+              "text": "قَا",
+              "role": "target"
+            },
+            {
+              "text": "مَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "عد ← عاد",
+          "segments": [
+            {
+              "text": "عَدَ",
+              "role": "base"
+            },
+            {
+              "text": " ← ",
+              "role": "separator"
+            },
+            {
+              "text": "عَا",
+              "role": "target"
+            },
+            {
+              "text": "دَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "سد ← ساد",
+          "segments": [
+            {
+              "text": "سَدَ",
+              "role": "base"
+            },
+            {
+              "text": " ← ",
+              "role": "separator"
+            },
+            {
+              "text": "سَا",
+              "role": "target"
+            },
+            {
+              "text": "دَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "مل ← مال",
+          "segments": [
+            {
+              "text": "مَلَ",
+              "role": "base"
+            },
+            {
+              "text": " ← ",
+              "role": "separator"
+            },
+            {
+              "text": "مَا",
+              "role": "target"
+            },
+            {
+              "text": "لَ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "word_rows",
+      "config": {
+        "columns": 3,
+        "rowColors": [
+          "sky",
+          "pink",
+          "pink"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "فق ← فاق",
+          "segments": [
+            {
+              "text": "فَقَ",
+              "role": "base"
+            },
+            {
+              "text": " ← ",
+              "role": "separator"
+            },
+            {
+              "text": "فَا",
+              "role": "target"
+            },
+            {
+              "text": "قَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "نم ← نام",
+          "segments": [
+            {
+              "text": "نَمَ",
+              "role": "base"
+            },
+            {
+              "text": " ← ",
+              "role": "separator"
+            },
+            {
+              "text": "نَا",
+              "role": "target"
+            },
+            {
+              "text": "مَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "جد ← جاد",
+          "segments": [
+            {
+              "text": "جَدَ",
+              "role": "base"
+            },
+            {
+              "text": " ← ",
+              "role": "separator"
+            },
+            {
+              "text": "جَا",
+              "role": "target"
+            },
+            {
+              "text": "دَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "كتب ← كاتب",
+          "segments": [
+            {
+              "text": "كَتَبَ",
+              "role": "base"
+            },
+            {
+              "text": " ← ",
+              "role": "separator"
+            },
+            {
+              "text": "كَا",
+              "role": "target"
+            },
+            {
+              "text": "تِبُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "ذهب ← ذاهب",
+          "segments": [
+            {
+              "text": "ذَهَبَ",
+              "role": "base"
+            },
+            {
+              "text": " ← ",
+              "role": "separator"
+            },
+            {
+              "text": "ذَا",
+              "role": "target"
+            },
+            {
+              "text": "هِبُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "بسط ← باسط",
+          "segments": [
+            {
+              "text": "بَسَطَ",
+              "role": "base"
+            },
+            {
+              "text": " ← ",
+              "role": "separator"
+            },
+            {
+              "text": "بَا",
+              "role": "target"
+            },
+            {
+              "text": "سِطُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "عبد ← عابد ← عباد",
+          "segments": [
+            {
+              "text": "عَبَدَ",
+              "role": "base"
+            },
+            {
+              "text": " ← ",
+              "role": "separator"
+            },
+            {
+              "text": "عَا",
+              "role": "target"
+            },
+            {
+              "text": "بِدُ",
+              "role": "base"
+            },
+            {
+              "text": " ← ",
+              "role": "separator"
+            },
+            {
+              "text": "عِ",
+              "role": "base"
+            },
+            {
+              "text": "بَا",
+              "role": "target"
+            },
+            {
+              "text": "دُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "ثبت ← ثابت ← ثبات",
+          "segments": [
+            {
+              "text": "ثَبَتَ",
+              "role": "base"
+            },
+            {
+              "text": " ← ",
+              "role": "separator"
+            },
+            {
+              "text": "ثَا",
+              "role": "target"
+            },
+            {
+              "text": "بِتُ",
+              "role": "base"
+            },
+            {
+              "text": " ← ",
+              "role": "separator"
+            },
+            {
+              "text": "ثَ",
+              "role": "base"
+            },
+            {
+              "text": "بَا",
+              "role": "target"
+            },
+            {
+              "text": "تُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "سمع ← سامع ← سماع",
+          "segments": [
+            {
+              "text": "سَمِعَ",
+              "role": "base"
+            },
+            {
+              "text": " ← ",
+              "role": "separator"
+            },
+            {
+              "text": "سَا",
+              "role": "target"
+            },
+            {
+              "text": "مِعُ",
+              "role": "base"
+            },
+            {
+              "text": " ← ",
+              "role": "separator"
+            },
+            {
+              "text": "سَ",
+              "role": "base"
+            },
+            {
+              "text": "مَا",
+              "role": "target"
+            },
+            {
+              "text": "عُ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [],
+  "games": {},
+  "source": "book page 24"
+}

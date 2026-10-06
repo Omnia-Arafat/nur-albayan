@@ -1,0 +1,517 @@
+{
+  "slug": "page-22",
+  "bookPage": 22,
+  "stage": "unit-1",
+  "topic": "harakat-review",
+  "status": "review",
+  "i18n": {
+    "ar": {
+      "title": "٤ـ مراجعة على الحركات",
+      "subtitle": "تدريب ( ١)",
+      "teacherNote": "[للمعلم والآباء:] تقرأ الجمل كلمة .. كلمة ثم يجمع بين الكلمتين أو ثلاث كلمات [ولا تنسى] القراءة اليومية للصفحة رقم [( ٦، ٧، ١٨)] قبل البداية فى الدرس الجديد",
+      "lessonTag": "الدرس الأول",
+      "observeTag": "اقرأ ولاحظ"
+    }
+  },
+  "sections": [
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 3,
+        "rowColors": [
+          "pink",
+          "pink",
+          "pink",
+          "yellow",
+          "yellow",
+          "yellow",
+          "sky"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "سجد فخشع",
+          "segments": [
+            {
+              "text": "سَجَدَ",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "فَخَشَعَ",
+              "role": "secondary"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "قرأ كتبه",
+          "segments": [
+            {
+              "text": "قَرَأَ",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "كُتُبَهُ",
+              "role": "secondary"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "تلى ففهم",
+          "segments": [
+            {
+              "text": "تُلِىَ",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "فَفُهِمَ",
+              "role": "secondary"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "قرئ وكتب",
+          "segments": [
+            {
+              "text": "قُرِئَ",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "وَكُتِبَ",
+              "role": "secondary"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "وقف ويقف",
+          "segments": [
+            {
+              "text": "وَقَفَ",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "وَيَقِفُ",
+              "role": "secondary"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "لبس وخلع",
+          "segments": [
+            {
+              "text": "لُبِسَ",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "وَخُلِعَ",
+              "role": "secondary"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "جرح وشفى",
+          "segments": [
+            {
+              "text": "جُرِحَ",
+              "role": "secondary"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "وَشُفِىَ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "جمع وقسم",
+          "segments": [
+            {
+              "text": "جُمِعَ",
+              "role": "secondary"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "وَقُسِمَ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "بعث وحشر",
+          "segments": [
+            {
+              "text": "بُعِثَ",
+              "role": "secondary"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "وَحُشِرَ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 3,
+          "searchText": "قطع فوصل",
+          "segments": [
+            {
+              "text": "قُطِعَ",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "فَوَصَلَ",
+              "role": "secondary"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 3,
+          "searchText": "رزق فحمد",
+          "segments": [
+            {
+              "text": "رُزِقَ",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "فَحَمِدَ",
+              "role": "secondary"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 3,
+          "searchText": "رضى وفرح",
+          "segments": [
+            {
+              "text": "رَضِىَ",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "وَفَرِحَ",
+              "role": "secondary"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 4,
+          "searchText": "كتب ورقك",
+          "segments": [
+            {
+              "text": "كُتِبَ",
+              "role": "secondary"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "وَرَقُكَ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 4,
+          "searchText": "حسن عملك",
+          "segments": [
+            {
+              "text": "حَسُنَ",
+              "role": "secondary"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "عَمَلُكَ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 4,
+          "searchText": "خلص عسلك",
+          "segments": [
+            {
+              "text": "خَلَصَ",
+              "role": "secondary"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "عَسَلُكَ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 5,
+          "searchText": "أكل بلحك",
+          "segments": [
+            {
+              "text": "أُكِلَ",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "بَلَحُكَ",
+              "role": "secondary"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 5,
+          "searchText": "فقد ووجد",
+          "segments": [
+            {
+              "text": "فُقِدَ",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "وَوُجِدَ",
+              "role": "secondary"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 5,
+          "searchText": "شكر وشكر",
+          "segments": [
+            {
+              "text": "شَكَرَ",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "وَشُكِرَ",
+              "role": "secondary"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 6,
+          "searchText": "نظف جسدك",
+          "segments": [
+            {
+              "text": "نَظُفَ",
+              "role": "secondary"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "جَسَدُكَ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 6,
+          "searchText": "وزن ويزن",
+          "segments": [
+            {
+              "text": "وَزَنَ",
+              "role": "secondary"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "وَيَزِنُ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 6,
+          "searchText": "جمل ثمرك",
+          "segments": [
+            {
+              "text": "جَمُلَ",
+              "role": "secondary"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "ثَمَرُكَ",
+              "role": "target"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 2,
+        "rowColors": [
+          "sky"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "قطف عنبك فأكل",
+          "segments": [
+            {
+              "text": "قُطِفَ",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "عِنَبُكَ",
+              "role": "secondary"
+            },
+            {
+              "text": " فَأُكِلَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "شرب عمر لبنه",
+          "segments": [
+            {
+              "text": "شَرِبَ",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "عُمَرُ",
+              "role": "secondary"
+            },
+            {
+              "text": " لَبَنَهُ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [],
+  "games": {},
+  "source": "book page 22"
+}

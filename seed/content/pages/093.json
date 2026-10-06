@@ -1,0 +1,379 @@
+{
+  "slug": "page-93",
+  "bookPage": 93,
+  "stage": "unit-7",
+  "topic": "rasm",
+  "status": "review",
+  "i18n": {
+    "ar": {
+      "title": "الرسم القرآنى والإملائى",
+      "subtitle": "مراجعة ـ تدريب ( ١)",
+      "teacherNote": "[للمعلم والآباء:] بعد قراءة كل متعلم على حده يتم مناقشة المتعلمين فى أحكام التجويد والفرق بين علامات التشكيل فى الرسم القرآنى والرسم الإملائى، [ويعرف المتعلم] أن الكلمات فى الرسم الإملائى تقرأ بدون أحكام التجويد .",
+      "lessonTag": "الدرس الخامس",
+      "observeTag": "اقرأ ولاحظ"
+    }
+  },
+  "sections": [
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 1,
+        "rowColors": [
+          "pink",
+          "pink",
+          "pink",
+          "pink",
+          "sky",
+          "sky",
+          "sky",
+          "sky"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "إن ٱلحكم إلا لله يقص ٱلحق وهو خير ٱلفصلين",
+          "segments": [
+            {
+              "text": "إِنِ ٱلۡحُكۡمُ إِلَّا لِلَّهِۖ يَ",
+              "role": "base"
+            },
+            {
+              "text": "قُصُّ ",
+              "role": "target"
+            },
+            {
+              "text": "ٱلۡ",
+              "role": "base"
+            },
+            {
+              "text": "حَقَّۖ ",
+              "role": "target"
+            },
+            {
+              "text": "وَهُوَ خَيۡرُ ٱلۡ",
+              "role": "base"
+            },
+            {
+              "text": "فَـٰ",
+              "role": "target"
+            },
+            {
+              "text": "صِلِينَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "وتمت كلمت ربك صدقا وعدلا لا مبدل لكلمته",
+          "segments": [
+            {
+              "text": "وَتَمَّتۡ كَلِمَ",
+              "role": "base"
+            },
+            {
+              "text": "تُ",
+              "role": "target"
+            },
+            {
+              "text": " رَبِّكَ صِ",
+              "role": "base"
+            },
+            {
+              "text": "دۡقًا وَ",
+              "role": "target"
+            },
+            {
+              "text": "عَدۡ",
+              "role": "base"
+            },
+            {
+              "text": "لًا لَّ",
+              "role": "target"
+            },
+            {
+              "text": "ا مُبَدِّلَ لِكَلِ",
+              "role": "base"
+            },
+            {
+              "text": "مَـٰ",
+              "role": "target"
+            },
+            {
+              "text": "تِهِ",
+              "role": "base"
+            },
+            {
+              "text": "ۦ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "وهذا كتب أنزلنه مبارك فٱتبعوه وٱتقوا لعلكم ترحمون",
+          "segments": [
+            {
+              "text": "وَ",
+              "role": "base"
+            },
+            {
+              "text": "هَـٰ",
+              "role": "target"
+            },
+            {
+              "text": "ذَا كِ",
+              "role": "base"
+            },
+            {
+              "text": "تَـٰ",
+              "role": "target"
+            },
+            {
+              "text": "بٌ أَنزَلۡ",
+              "role": "base"
+            },
+            {
+              "text": "نَـٰ",
+              "role": "target"
+            },
+            {
+              "text": "هُ مُبَارَ",
+              "role": "base"
+            },
+            {
+              "text": "كٌ",
+              "role": "target"
+            },
+            {
+              "text": " فَٱتَّبِعُوهُ وَٱتَّقُواْ لَعَلَّكُمۡ تُرۡحَمُونَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "ٱدعوا ربكم تضرعا وخفية إنه لا يحب ٱلمعتدين",
+          "segments": [
+            {
+              "text": "ٱدۡعُواْ رَبَّكُمۡ تَضَرُّ",
+              "role": "base"
+            },
+            {
+              "text": "عًا وَ",
+              "role": "target"
+            },
+            {
+              "text": "خُفۡيَةًۚ ",
+              "role": "base"
+            },
+            {
+              "text": "إِنَّ",
+              "role": "target"
+            },
+            {
+              "text": "هُ",
+              "role": "base"
+            },
+            {
+              "text": "ۥ",
+              "role": "target"
+            },
+            {
+              "text": " لَا يُ",
+              "role": "base"
+            },
+            {
+              "text": "حِبُّ",
+              "role": "target"
+            },
+            {
+              "text": " ٱلۡمُعۡتَدِينَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "لا يؤمن أحدكم حتى يحب لأخيه ما يحب لنفسه",
+          "segments": [
+            {
+              "text": "لَا يُ",
+              "role": "base"
+            },
+            {
+              "text": "ؤْ",
+              "role": "target"
+            },
+            {
+              "text": "مِنُ ",
+              "role": "base"
+            },
+            {
+              "text": "أَ",
+              "role": "target"
+            },
+            {
+              "text": "حَدُكُمْ حَتَّى يُحِ",
+              "role": "base"
+            },
+            {
+              "text": "بَّ",
+              "role": "target"
+            },
+            {
+              "text": " لِ",
+              "role": "base"
+            },
+            {
+              "text": "أَ",
+              "role": "target"
+            },
+            {
+              "text": "خِيهِ مَا يُحِبُّ لِنَ",
+              "role": "base"
+            },
+            {
+              "text": "فْسِهِ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 5,
+          "searchText": "المؤمن للمؤمن كالبنيان يشد بعضه بعضا",
+          "segments": [
+            {
+              "text": "الْمُ",
+              "role": "base"
+            },
+            {
+              "text": "ؤْ",
+              "role": "target"
+            },
+            {
+              "text": "مِنُ لِلْمُ",
+              "role": "base"
+            },
+            {
+              "text": "ؤْ",
+              "role": "target"
+            },
+            {
+              "text": "مِنِ كَالْبُنْيَانِ يَشُ",
+              "role": "base"
+            },
+            {
+              "text": "دُّ",
+              "role": "target"
+            },
+            {
+              "text": " بَعْ",
+              "role": "base"
+            },
+            {
+              "text": "ضُهُ",
+              "role": "target"
+            },
+            {
+              "text": " بَعْ",
+              "role": "base"
+            },
+            {
+              "text": "ضًا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 6,
+          "searchText": "لا تقوم الساعة حتى يمر الرجل بقبر الرجل فيقول يا ليتنى مكانه",
+          "segments": [
+            {
+              "text": "لَا تَقُومُ السَّاعَ",
+              "role": "base"
+            },
+            {
+              "text": "ةُ",
+              "role": "target"
+            },
+            {
+              "text": " حَتَّى يَمُ",
+              "role": "base"
+            },
+            {
+              "text": "رَّ",
+              "role": "target"
+            },
+            {
+              "text": " الرَّجُلُ بِقَبْرِ الرَّجُلِ فَيَقُولُ يَا لَيْتَنِى مَكَانَ",
+              "role": "base"
+            },
+            {
+              "text": "هُ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 7,
+          "searchText": "الجنة أقرب إلى أحدكم من شراك نعله، والنار مثل ذلك",
+          "segments": [
+            {
+              "text": "الْجَ",
+              "role": "base"
+            },
+            {
+              "text": "نَّةُ ",
+              "role": "target"
+            },
+            {
+              "text": "أَ",
+              "role": "target"
+            },
+            {
+              "text": "قْرَبُ إِلَى أَحَدِكُمْ مِنْ شِرَاكِ نَعْلِ",
+              "role": "base"
+            },
+            {
+              "text": "هِ",
+              "role": "target"
+            },
+            {
+              "text": "، وَالنَّارُ مِثْلُ ",
+              "role": "base"
+            },
+            {
+              "text": "ذَ",
+              "role": "target"
+            },
+            {
+              "text": "لِكَ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [],
+  "games": {},
+  "source": "book page 93"
+}

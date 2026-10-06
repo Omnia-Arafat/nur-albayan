@@ -1,0 +1,467 @@
+{
+  "slug": "page-31",
+  "bookPage": 31,
+  "stage": "unit-2",
+  "topic": "madd-ya",
+  "status": "review",
+  "i18n": {
+    "ar": {
+      "title": "الْمَدُّ بِالْيَاءِ",
+      "subtitle": "الياء المدية الصغيرة الخاصة بالرسم القرآنى (إِۦ)",
+      "teacherNote": "[للمعلم والآباء:] يعرف المتعلم أن الياء الصغيرة [( ۦ )] لا تأتى إلا فى كلمات القرآن وهى مثل الياء الكبيرة فى الزمن الصوتى، [ولاتنسى] القراءة لصفحة [( ٧، ١٨)] مع مراجعة تدريبات الألف المدية الصغيرة صفحة [( ٢٧).]",
+      "lessonTag": "الدرس الرابع",
+      "observeTag": "اقرأ ولاحظ"
+    }
+  },
+  "sections": [
+    {
+      "kind": "segmented_rows",
+      "config": {
+        "columns": 1,
+        "rowColors": [
+          "peach"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "هى = ه = ه",
+          "segments": [
+            {
+              "text": "هِى",
+              "role": "target"
+            },
+            {
+              "text": " = ",
+              "role": "separator"
+            },
+            {
+              "text": "ـهِ",
+              "role": "contrast"
+            },
+            {
+              "text": "ۦ",
+              "role": "target"
+            },
+            {
+              "text": " = ",
+              "role": "separator"
+            },
+            {
+              "text": "هِ",
+              "role": "contrast"
+            },
+            {
+              "text": "ۦ",
+              "role": "target"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "segmented_rows",
+      "config": {
+        "columns": 2,
+        "rowColors": [
+          "green"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ى =",
+          "segments": [
+            {
+              "text": "ىِ",
+              "role": "contrast"
+            },
+            {
+              "text": " = ",
+              "role": "separator"
+            },
+            {
+              "text": "ـِۦ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ى =",
+          "segments": [
+            {
+              "text": "ىَ",
+              "role": "contrast"
+            },
+            {
+              "text": " = ",
+              "role": "separator"
+            },
+            {
+              "text": "ـَۦ",
+              "role": "target"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 3,
+        "rowColors": [
+          "pink"
+        ],
+        "label": "أمثلة قرآنية"
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "وقيله",
+          "segments": [
+            {
+              "text": "وَقِيلِهِ",
+              "role": "base"
+            },
+            {
+              "text": "ۦ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "شيعته",
+          "segments": [
+            {
+              "text": "شِيعَتِهِ",
+              "role": "base"
+            },
+            {
+              "text": "ۦ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "لصحبه",
+          "segments": [
+            {
+              "text": "لِصَٰحِبِهِ",
+              "role": "base"
+            },
+            {
+              "text": "ۦ",
+              "role": "target"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 2,
+        "rowColors": [
+          "pink",
+          "yellow",
+          "yellow",
+          "pink",
+          "green",
+          "green"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "عمله فرءاه",
+          "segments": [
+            {
+              "text": "عَمَلِهِ",
+              "role": "base"
+            },
+            {
+              "text": "ۦ",
+              "role": "target"
+            },
+            {
+              "text": " فَرَءَاهُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "هذه ناقة",
+          "segments": [
+            {
+              "text": "هَٰذِهِ",
+              "role": "base"
+            },
+            {
+              "text": "ۦ",
+              "role": "target"
+            },
+            {
+              "text": " نَاقَةُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "وصحبته وبنيه",
+          "segments": [
+            {
+              "text": "وَصَٰحِبَتِهِ",
+              "role": "base"
+            },
+            {
+              "text": "ۦ",
+              "role": "target"
+            },
+            {
+              "text": " وَ",
+              "role": "base"
+            },
+            {
+              "text": "بَنِي",
+              "role": "target"
+            },
+            {
+              "text": "هِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "سنعيدها سيرتها",
+          "segments": [
+            {
+              "text": "سَنُ",
+              "role": "base"
+            },
+            {
+              "text": "عِي",
+              "role": "target"
+            },
+            {
+              "text": "دُهَا ",
+              "role": "base"
+            },
+            {
+              "text": "سِي",
+              "role": "target"
+            },
+            {
+              "text": "رَتَهَا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "بلى قدرين",
+          "segments": [
+            {
+              "text": "بَلَىٰ قَٰدِ",
+              "role": "base"
+            },
+            {
+              "text": "رِي",
+              "role": "target"
+            },
+            {
+              "text": "نَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "سربيل تقيكم",
+          "segments": [
+            {
+              "text": "سَرَٰ",
+              "role": "base"
+            },
+            {
+              "text": "بِي",
+              "role": "target"
+            },
+            {
+              "text": "لَ تَ",
+              "role": "base"
+            },
+            {
+              "text": "قِي",
+              "role": "target"
+            },
+            {
+              "text": "كُمُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "فيها منفع ومشارب",
+          "segments": [
+            {
+              "text": "فِي",
+              "role": "target"
+            },
+            {
+              "text": "هَا مَنَٰفِعُ وَمَشَارِبُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "ولى فيها مارب",
+          "segments": [
+            {
+              "text": "وَلِىَ ",
+              "role": "base"
+            },
+            {
+              "text": "فِي",
+              "role": "target"
+            },
+            {
+              "text": "هَا مَـَٔارِبُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "وكتبه ورسله",
+          "segments": [
+            {
+              "text": "وَكُتُبِهِ",
+              "role": "base"
+            },
+            {
+              "text": "ۦ",
+              "role": "target"
+            },
+            {
+              "text": " وَرُسُلِهِ",
+              "role": "base"
+            },
+            {
+              "text": "ۦ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "ءايتنا فنسيتها",
+          "segments": [
+            {
+              "text": "ءَايَٰتُنَا فَنَ",
+              "role": "base"
+            },
+            {
+              "text": "سِي",
+              "role": "target"
+            },
+            {
+              "text": "تَهَا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 5,
+          "searchText": "كذلك يريهم",
+          "segments": [
+            {
+              "text": "كَذَٰلِكَ يُ",
+              "role": "base"
+            },
+            {
+              "text": "رِي",
+              "role": "target"
+            },
+            {
+              "text": "هِمُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 5,
+          "searchText": "خلدين فيها",
+          "segments": [
+            {
+              "text": "خَٰلِ",
+              "role": "base"
+            },
+            {
+              "text": "دِي",
+              "role": "target"
+            },
+            {
+              "text": "نَ ",
+              "role": "base"
+            },
+            {
+              "text": "فِي",
+              "role": "target"
+            },
+            {
+              "text": "هَا",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [],
+  "games": {},
+  "source": "book page 31"
+}

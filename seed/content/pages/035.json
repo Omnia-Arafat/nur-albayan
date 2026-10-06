@@ -1,0 +1,499 @@
+{
+  "slug": "page-35",
+  "bookPage": 35,
+  "stage": "unit-2",
+  "topic": "madd-waw",
+  "status": "review",
+  "i18n": {
+    "ar": {
+      "title": "الْمَدُّ بِالْوَاوِ",
+      "subtitle": "الواو المدية الصغيرة الخاصة بالرسم القرآنى",
+      "teacherNote": "[للمعلم والآباء:] طريقة الهجاء نقول [(ـهُ)] واو صغيرة صلة صغرى [(ـهُۥ)] ويعرف المتعلم أن الألف إذا جاء عليها صفر مستدير [(ا۟)] لا تنطق مثل الألف فى كلمة [(بَرَزُوا۟)] ، [تحرص على] مراجعة تدريبات على الألف والياء الصغيرة صفحة [( ٢٧، ٣١)]",
+      "lessonTag": "الدرس الخامس",
+      "observeTag": "اقرأ ولاحظ"
+    }
+  },
+  "sections": [
+    {
+      "kind": "letter_tiles",
+      "config": {
+        "columns": 4,
+        "rowColors": [
+          "gray"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ه",
+          "segments": [
+            {
+              "text": "ـهُ",
+              "role": "contrast"
+            },
+            {
+              "text": "ۥ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "و",
+          "segments": [
+            {
+              "text": "وُ",
+              "role": "contrast"
+            },
+            {
+              "text": "ۥ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "س",
+          "segments": [
+            {
+              "text": "سُـ",
+              "role": "contrast"
+            },
+            {
+              "text": "ۥ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ء",
+          "segments": [
+            {
+              "text": "ءُ",
+              "role": "contrast"
+            },
+            {
+              "text": "ۥ",
+              "role": "target"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 4,
+        "rowColors": [
+          "pink"
+        ],
+        "label": "تدريب"
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ورى",
+          "segments": [
+            {
+              "text": "وُ",
+              "role": "base"
+            },
+            {
+              "text": "ۥ",
+              "role": "target"
+            },
+            {
+              "text": "رِىَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "داود",
+          "segments": [
+            {
+              "text": "دَاوُ",
+              "role": "base"
+            },
+            {
+              "text": "ۥ",
+              "role": "target"
+            },
+            {
+              "text": "دُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "له ما فى",
+          "segments": [
+            {
+              "text": "لَهُ",
+              "role": "base"
+            },
+            {
+              "text": "ۥ",
+              "role": "target"
+            },
+            {
+              "text": " مَا فِى",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "معه فى",
+          "segments": [
+            {
+              "text": "مَعَهُ",
+              "role": "base"
+            },
+            {
+              "text": "ۥ",
+              "role": "target"
+            },
+            {
+              "text": " فِى",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 3,
+        "rowColors": [
+          "pink"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "خلقه وبدأ",
+          "segments": [
+            {
+              "text": "خَلَقَهُ",
+              "role": "base"
+            },
+            {
+              "text": "ۥ",
+              "role": "target"
+            },
+            {
+              "text": " وَبَدَأَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "قرينه هذا",
+          "segments": [
+            {
+              "text": "قَرِينُهُ",
+              "role": "base"
+            },
+            {
+              "text": "ۥ",
+              "role": "target"
+            },
+            {
+              "text": " هَٰذَا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "فوكزه موسى",
+          "segments": [
+            {
+              "text": "فَوَكَزَهُ",
+              "role": "base"
+            },
+            {
+              "text": "ۥ",
+              "role": "target"
+            },
+            {
+              "text": " مُوسَٰى",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 2,
+        "rowColors": [
+          "sky",
+          "sky",
+          "peach",
+          "peach",
+          "green",
+          "green"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "برزوا لجالوت وجنوده",
+          "segments": [
+            {
+              "text": "بَرَزُوا۟ لِجَالُوتَ وَجُنُودِهِ",
+              "role": "base"
+            },
+            {
+              "text": "ۦ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "وقتل داود جالوت",
+          "segments": [
+            {
+              "text": "وَقَتَلَ دَاوُ",
+              "role": "base"
+            },
+            {
+              "text": "ۥ",
+              "role": "target"
+            },
+            {
+              "text": "دُ جَالُوتَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "وحبط ما صنعوا فيها",
+          "segments": [
+            {
+              "text": "وَحَبِطَ مَا صَنَعُوا۟ فِيهَا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "أوتى كتبه بيمينه",
+          "segments": [
+            {
+              "text": "أُوتِىَ كِتَٰبَهُ",
+              "role": "base"
+            },
+            {
+              "text": "ۥ",
+              "role": "target"
+            },
+            {
+              "text": " بِيَمِينِهِ",
+              "role": "base"
+            },
+            {
+              "text": "ۦ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "وكانوا لنا خشعين",
+          "segments": [
+            {
+              "text": "وَكَانُوا۟ لَنَا خَٰشِعِينَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "قالوا هذا ما وعدنا",
+          "segments": [
+            {
+              "text": "قَالُوا۟ هَٰذَا مَا وَعَدَنَا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "فقعوا له سجدين",
+          "segments": [
+            {
+              "text": "فَقَعُوا۟ لَهُ",
+              "role": "base"
+            },
+            {
+              "text": "ۥ",
+              "role": "target"
+            },
+            {
+              "text": " سَٰجِدِينَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "ماله وولده",
+          "segments": [
+            {
+              "text": "مَالُهُ",
+              "role": "base"
+            },
+            {
+              "text": "ۥ",
+              "role": "target"
+            },
+            {
+              "text": " وَوَلَدُهُ",
+              "role": "base"
+            },
+            {
+              "text": "ۥ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "تكون له عقبة",
+          "segments": [
+            {
+              "text": "تَكُونُ لَهُ",
+              "role": "base"
+            },
+            {
+              "text": "ۥ",
+              "role": "target"
+            },
+            {
+              "text": " عَٰقِبَةُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "له برزقين",
+          "segments": [
+            {
+              "text": "لَهُ",
+              "role": "base"
+            },
+            {
+              "text": "ۥ",
+              "role": "target"
+            },
+            {
+              "text": " بِرَٰزِقِينَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 5,
+          "searchText": "وخرقوا له بنين",
+          "segments": [
+            {
+              "text": "وَخَرَقُوا۟ لَهُ",
+              "role": "base"
+            },
+            {
+              "text": "ۥ",
+              "role": "target"
+            },
+            {
+              "text": " بَنِينَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 5,
+          "searchText": "قال له صاحبه",
+          "segments": [
+            {
+              "text": "قَالَ لَهُ",
+              "role": "base"
+            },
+            {
+              "text": "ۥ",
+              "role": "target"
+            },
+            {
+              "text": " صَاحِبُهُ",
+              "role": "base"
+            },
+            {
+              "text": "ۥ",
+              "role": "target"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [],
+  "games": {},
+  "source": "book page 35"
+}

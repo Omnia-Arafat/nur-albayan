@@ -1,0 +1,758 @@
+{
+  "slug": "page-26",
+  "bookPage": 26,
+  "stage": "unit-2",
+  "topic": "madd-alif",
+  "status": "review",
+  "i18n": {
+    "ar": {
+      "title": "تدريب ( ٣) على الرسم الإملائى",
+      "teacherNote": "[للمعلم والآباء:] يعرف المتعلم أن الهمزة مع ألف المد فى الرسم القرآنى [(ءَا)] والهمزة مع ألف المد فى الرسم الإملائى [(آ)] كما فى كلمة [(آمَنَ)] وإن اختلفا فى الرسم لكن الزمن الصوتى واحد، [هام جدًا:] القراءة اليومية [( ٧، ١٨).]",
+      "lessonTag": "الدرس الثالث",
+      "observeTag": "اقرأ ولاحظ"
+    }
+  },
+  "sections": [
+    {
+      "kind": "word_rows",
+      "config": {
+        "columns": 5,
+        "rowColors": [
+          "green",
+          "green",
+          "pink",
+          "pink",
+          "sky"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "صواب",
+          "segments": [
+            {
+              "text": "صَ",
+              "role": "base"
+            },
+            {
+              "text": "وَا",
+              "role": "target"
+            },
+            {
+              "text": "بَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "سحاب",
+          "segments": [
+            {
+              "text": "سَ",
+              "role": "base"
+            },
+            {
+              "text": "حَا",
+              "role": "target"
+            },
+            {
+              "text": "بَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "بناها",
+          "segments": [
+            {
+              "text": "بَ",
+              "role": "base"
+            },
+            {
+              "text": "نَا",
+              "role": "target"
+            },
+            {
+              "text": "هَا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "ذواتا",
+          "segments": [
+            {
+              "text": "ذَ",
+              "role": "base"
+            },
+            {
+              "text": "وَا",
+              "role": "target"
+            },
+            {
+              "text": "تَا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "قضاها",
+          "segments": [
+            {
+              "text": "قَ",
+              "role": "base"
+            },
+            {
+              "text": "ضَا",
+              "role": "target"
+            },
+            {
+              "text": "هَا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "تفاهما",
+          "segments": [
+            {
+              "text": "تَ",
+              "role": "base"
+            },
+            {
+              "text": "فَا",
+              "role": "target"
+            },
+            {
+              "text": "هَمَا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "تناصرا",
+          "segments": [
+            {
+              "text": "تَ",
+              "role": "base"
+            },
+            {
+              "text": "نَا",
+              "role": "target"
+            },
+            {
+              "text": "صَرَا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "تقاربا",
+          "segments": [
+            {
+              "text": "تَ",
+              "role": "base"
+            },
+            {
+              "text": "قَا",
+              "role": "target"
+            },
+            {
+              "text": "رَبَا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "تداركا",
+          "segments": [
+            {
+              "text": "تَ",
+              "role": "base"
+            },
+            {
+              "text": "دَا",
+              "role": "target"
+            },
+            {
+              "text": "رَكَا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "تسالفا",
+          "segments": [
+            {
+              "text": "تَ",
+              "role": "base"
+            },
+            {
+              "text": "سَا",
+              "role": "target"
+            },
+            {
+              "text": "لَفَا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "يدافع",
+          "segments": [
+            {
+              "text": "يُ",
+              "role": "base"
+            },
+            {
+              "text": "دَا",
+              "role": "target"
+            },
+            {
+              "text": "فِعُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "يناقش",
+          "segments": [
+            {
+              "text": "يُ",
+              "role": "base"
+            },
+            {
+              "text": "نَا",
+              "role": "target"
+            },
+            {
+              "text": "قِشُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "يخالف",
+          "segments": [
+            {
+              "text": "يُ",
+              "role": "base"
+            },
+            {
+              "text": "خَا",
+              "role": "target"
+            },
+            {
+              "text": "لِفُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "يتراجع",
+          "segments": [
+            {
+              "text": "يَتَ",
+              "role": "base"
+            },
+            {
+              "text": "رَا",
+              "role": "target"
+            },
+            {
+              "text": "جَعُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "يتواضع",
+          "segments": [
+            {
+              "text": "يَتَ",
+              "role": "base"
+            },
+            {
+              "text": "وَا",
+              "role": "target"
+            },
+            {
+              "text": "ضَعُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 3,
+          "searchText": "أساور",
+          "segments": [
+            {
+              "text": "أَ",
+              "role": "base"
+            },
+            {
+              "text": "سَا",
+              "role": "target"
+            },
+            {
+              "text": "وِرَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 3,
+          "searchText": "أكابر",
+          "segments": [
+            {
+              "text": "أَ",
+              "role": "base"
+            },
+            {
+              "text": "كَا",
+              "role": "target"
+            },
+            {
+              "text": "بِرَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 3,
+          "searchText": "أحاسن",
+          "segments": [
+            {
+              "text": "أَ",
+              "role": "base"
+            },
+            {
+              "text": "حَا",
+              "role": "target"
+            },
+            {
+              "text": "سِنُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 3,
+          "searchText": "هدايا",
+          "segments": [
+            {
+              "text": "هَ",
+              "role": "base"
+            },
+            {
+              "text": "دَا",
+              "role": "target"
+            },
+            {
+              "text": "يَا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 3,
+          "searchText": "قضايا",
+          "segments": [
+            {
+              "text": "قَ",
+              "role": "base"
+            },
+            {
+              "text": "ضَا",
+              "role": "target"
+            },
+            {
+              "text": "يَا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 4,
+          "searchText": "غابات",
+          "segments": [
+            {
+              "text": "غَا",
+              "role": "base"
+            },
+            {
+              "text": "بَا",
+              "role": "target"
+            },
+            {
+              "text": "تُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 4,
+          "searchText": "خالات",
+          "segments": [
+            {
+              "text": "خَا",
+              "role": "base"
+            },
+            {
+              "text": "لَا",
+              "role": "target"
+            },
+            {
+              "text": "تُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 4,
+          "searchText": "آتاها",
+          "segments": [
+            {
+              "text": "آ",
+              "role": "target"
+            },
+            {
+              "text": "تَاهَا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 4,
+          "searchText": "آخرنا",
+          "segments": [
+            {
+              "text": "آ",
+              "role": "target"
+            },
+            {
+              "text": "خِرِنَا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 4,
+          "searchText": "آثارها",
+          "segments": [
+            {
+              "text": "آ",
+              "role": "target"
+            },
+            {
+              "text": "ثَا",
+              "role": "target"
+            },
+            {
+              "text": "رَهَا",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 3,
+        "rowColors": [
+          "sky",
+          "pink"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "آمن آدم",
+          "segments": [
+            {
+              "text": "آ",
+              "role": "target"
+            },
+            {
+              "text": "مَنَ ",
+              "role": "base"
+            },
+            {
+              "text": "آ",
+              "role": "target"
+            },
+            {
+              "text": "دَمُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "تاب وأناب",
+          "segments": [
+            {
+              "text": "تَا",
+              "role": "target"
+            },
+            {
+              "text": "بَ وَأَ",
+              "role": "base"
+            },
+            {
+              "text": "نَا",
+              "role": "target"
+            },
+            {
+              "text": "بَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "هاجر وجاهد",
+          "segments": [
+            {
+              "text": "هَا",
+              "role": "target"
+            },
+            {
+              "text": "جَرَ وَ",
+              "role": "base"
+            },
+            {
+              "text": "جَا",
+              "role": "target"
+            },
+            {
+              "text": "هَدَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "أقام صلاته",
+          "segments": [
+            {
+              "text": "أَ",
+              "role": "base"
+            },
+            {
+              "text": "قَا",
+              "role": "target"
+            },
+            {
+              "text": "مَ صَ",
+              "role": "base"
+            },
+            {
+              "text": "لَا",
+              "role": "target"
+            },
+            {
+              "text": "تَهُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "رجاه فهداه",
+          "segments": [
+            {
+              "text": "رَ",
+              "role": "base"
+            },
+            {
+              "text": "جَا",
+              "role": "target"
+            },
+            {
+              "text": "هُ فَهَ",
+              "role": "base"
+            },
+            {
+              "text": "دَا",
+              "role": "target"
+            },
+            {
+              "text": "هُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "أجابه فدعاه",
+          "segments": [
+            {
+              "text": "أَ",
+              "role": "base"
+            },
+            {
+              "text": "جَا",
+              "role": "target"
+            },
+            {
+              "text": "بَهُ فَدَ",
+              "role": "base"
+            },
+            {
+              "text": "عَا",
+              "role": "target"
+            },
+            {
+              "text": "هُ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 1,
+        "rowColors": [
+          "pink"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "أطاع عمر أباه ففاز برضا خالقه",
+          "segments": [
+            {
+              "text": "أَ",
+              "role": "base"
+            },
+            {
+              "text": "طَا",
+              "role": "target"
+            },
+            {
+              "text": "عَ عُمَرُ أَ",
+              "role": "base"
+            },
+            {
+              "text": "بَا",
+              "role": "target"
+            },
+            {
+              "text": "هُ فَ",
+              "role": "base"
+            },
+            {
+              "text": "فَا",
+              "role": "target"
+            },
+            {
+              "text": "زَ بِرِ",
+              "role": "base"
+            },
+            {
+              "text": "ضَا",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "خَا",
+              "role": "target"
+            },
+            {
+              "text": "لِقِهِ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [],
+  "games": {},
+  "source": "book page 26"
+}

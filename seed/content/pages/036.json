@@ -1,0 +1,365 @@
+{
+  "slug": "page-36",
+  "bookPage": 36,
+  "stage": "unit-2",
+  "topic": "madd-review",
+  "status": "review",
+  "i18n": {
+    "ar": {
+      "title": "مراجعة على المدود",
+      "subtitle": "تدريب ( ١) أمثلة قرآنية",
+      "teacherNote": "[للمعلم والآباء:] نحرص على بيان تحقيق أنواع المدود فى الكلمات ويعرف المتعلم أن الألف إذا جاء عليها صفر مستدير [(ا۟)] لا ينطق مثل كلمة [(ءامنوا۟)] [ولا تنسى] القراءة اليومية لصفحة [( ١٨، ٣٢)] مع مراجعة التدريبات على الحركات صفحات [( ١٢، ١٧، ٢٢، ٢٣).]",
+      "lessonTag": "التدريب الأول",
+      "observeTag": "اقرأ ولاحظ"
+    }
+  },
+  "sections": [
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 3,
+        "rowColors": [
+          "green",
+          "green",
+          "yellow",
+          "yellow",
+          "pink",
+          "pink",
+          "sky",
+          "sky",
+          "peach"
+        ],
+        "markColor": "red"
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "حديث موسى",
+          "segments": [
+            {
+              "text": "حَدِيثُ مُوسَىٰ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ءامنوا وعملوا",
+          "segments": [
+            {
+              "text": "ءَامَنُوا۟ وَعَمِلُوا۟",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ولا يكاد يبين",
+          "segments": [
+            {
+              "text": "وَلَا يَكَادُ يُبِينُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "فغلبوا هنالك",
+          "segments": [
+            {
+              "text": "فَغُلِبُوا۟ هُنَالِكَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "فيها فوكه",
+          "segments": [
+            {
+              "text": "فِيهَا فَوَٰكِهُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "ستجدون ءاخرين",
+          "segments": [
+            {
+              "text": "سَتَجِدُونَ ءَاخَرِينَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "فيكيدوا لك",
+          "segments": [
+            {
+              "text": "فَيَكِيدُوا۟ لَكَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "صدقوا ما عهدوا",
+          "segments": [
+            {
+              "text": "صَدَقُوا۟ مَا عَٰهَدُوا۟",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "نسيا حوتهما",
+          "segments": [
+            {
+              "text": "نَسِيَا حُوتَهُمَا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "قالوا بلى",
+          "segments": [
+            {
+              "text": "قَالُوا۟ بَلَىٰ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "هذه بضعتنا",
+          "segments": [
+            {
+              "text": "هَٰذِهِۦ بِضَٰعَتُنَا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "فيها معيش",
+          "segments": [
+            {
+              "text": "فِيهَا مَعَٰيِشَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "وما كانوا سبقين",
+          "segments": [
+            {
+              "text": "وَمَا كَانُوا۟ سَٰبِقِينَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "قالوا تقاسموا",
+          "segments": [
+            {
+              "text": "قَالُوا۟ تَقَاسَمُوا۟",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "وطور سينين",
+          "segments": [
+            {
+              "text": "وَطُورِ سِينِينَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 5,
+          "searchText": "يريدوا خيانتك",
+          "segments": [
+            {
+              "text": "يُرِيدُوا۟ خِيَانَتَكَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 5,
+          "searchText": "فيها روسى",
+          "segments": [
+            {
+              "text": "فِيهَا رَوَٰسِىَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 5,
+          "searchText": "كانوا يسرعون",
+          "segments": [
+            {
+              "text": "كَانُوا۟ يُسَٰرِعُونَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 6,
+          "searchText": "إلهه هوىه",
+          "segments": [
+            {
+              "text": "إِلَٰهَهُۥ هَوَىٰهُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 6,
+          "searchText": "وبرك فيها",
+          "segments": [
+            {
+              "text": "وَبَٰرَكَ فِيهَا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 6,
+          "searchText": "ههنا قعدون",
+          "segments": [
+            {
+              "text": "هَٰهُنَا قَٰعِدُونَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 7,
+          "searchText": "فلا رفث ولا فسوق",
+          "segments": [
+            {
+              "text": "فَلَا رَفَثَ وَلَا فُسُوقَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 7,
+          "searchText": "لسحرن يريدان",
+          "segments": [
+            {
+              "text": "لَسَٰحِرَٰنِ يُرِيدَانِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 7,
+          "searchText": "فلا تلومونى ولوموا",
+          "segments": [
+            {
+              "text": "فَلَا تَلُومُونِى وَلُومُوا۟",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 8,
+          "searchText": "لا تقولوا رعنا",
+          "segments": [
+            {
+              "text": "لَا تَقُولُوا۟ رَٰعِنَا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 8,
+          "searchText": "فسلكه ينبيع",
+          "segments": [
+            {
+              "text": "فَسَلَكَهُۥ يَنَٰبِيعَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 8,
+          "searchText": "ترك ءال موسى",
+          "segments": [
+            {
+              "text": "تَرَكَ ءَالُ مُوسَىٰ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [],
+  "games": {},
+  "source": "book page 36"
+}

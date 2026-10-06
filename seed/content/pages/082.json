@@ -1,0 +1,529 @@
+{
+  "slug": "page-82",
+  "bookPage": 82,
+  "stage": "unit-6",
+  "topic": "tarteel-noon",
+  "status": "review",
+  "i18n": {
+    "ar": {
+      "title": "أحكام الترتيل",
+      "subtitle": "النون الساكنة والتنوين (تدريب)",
+      "teacherNote": "[للمعلم والآباء:] نحرص على بيان أحكام النون الساكنة والتنوين [ولا تنسى مراجعة] لتدريب المدود صفحة رقم [( ٧٩)] للمزيد من أحكام التجويد ارجع لكتابنا [(مسك البيان)]",
+      "lessonTag": "الدرس الثالث",
+      "observeTag": "اقرأ ولاحظ"
+    }
+  },
+  "sections": [
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 1,
+        "rowColors": [
+          "yellow"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "رضى ٱلله عنهم ورضوا عنه ذلك لمن خشى ربه",
+          "segments": [
+            {
+              "text": "رَضِىَ ٱللَّهُ عَ",
+              "role": "base"
+            },
+            {
+              "text": "نۡه",
+              "role": "target"
+            },
+            {
+              "text": "ُمۡ وَرَضُوا۟ عَ",
+              "role": "base"
+            },
+            {
+              "text": "نۡه",
+              "role": "target"
+            },
+            {
+              "text": "ُۚ ذَٰلِكَ لِمَ",
+              "role": "base"
+            },
+            {
+              "text": "نۡ خَ",
+              "role": "target"
+            },
+            {
+              "text": "شِىَ رَبَّهُۥ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 2,
+        "rowColors": [
+          "yellow",
+          "yellow",
+          "yellow"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ذرنى ومن خلقت وحيدا",
+          "segments": [
+            {
+              "text": "ذَرۡنِى وَمَ",
+              "role": "base"
+            },
+            {
+              "text": "نۡ خَ",
+              "role": "target"
+            },
+            {
+              "text": "لَقۡتُ وَحِيدًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "وجوه يومئذ مسفرة",
+          "segments": [
+            {
+              "text": "وُجُوهٌ ",
+              "role": "base"
+            },
+            {
+              "text": "يَ",
+              "role": "target"
+            },
+            {
+              "text": "وۡمَئِذٍ ",
+              "role": "base"
+            },
+            {
+              "text": "مُّ",
+              "role": "target"
+            },
+            {
+              "text": "سۡفِرَةٌ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "فعال لما يريد",
+          "segments": [
+            {
+              "text": "فَعَّالٌ ",
+              "role": "base"
+            },
+            {
+              "text": "لِّ",
+              "role": "target"
+            },
+            {
+              "text": "مَا يُرِيدُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "وما هو بقول شيطن رجيم",
+          "segments": [
+            {
+              "text": "وَمَا هُوَ بِقَوۡلِ شَيۡطَٰنٍ ",
+              "role": "base"
+            },
+            {
+              "text": "رَّ",
+              "role": "target"
+            },
+            {
+              "text": "جِيمٍ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "فأنبتنا فيها حبا",
+          "segments": [
+            {
+              "text": "فَأَ",
+              "role": "base"
+            },
+            {
+              "text": "نۢبَ",
+              "role": "target"
+            },
+            {
+              "text": "تۡنَا فِيهَا حَبًّا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "وجوه يومئذ باسرة",
+          "segments": [
+            {
+              "text": "وُجُوهٌ يَوۡمَئِذِ",
+              "role": "base"
+            },
+            {
+              "text": "ۭ بَ",
+              "role": "target"
+            },
+            {
+              "text": "اسِرَةٌ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 2,
+        "rowColors": [
+          "sky",
+          "sky",
+          "sky"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "يخرج من بين ٱلصلب وٱلترائب",
+          "segments": [
+            {
+              "text": "يَخۡرُجُ مِ",
+              "role": "base"
+            },
+            {
+              "text": "نۢ بَ",
+              "role": "target"
+            },
+            {
+              "text": "يۡنِ ٱلصُّلۡبِ وَٱلتَّرَآئِبِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ٱلسماء منفطر به",
+          "segments": [
+            {
+              "text": "ٱلسَّمَآءُ مُ",
+              "role": "base"
+            },
+            {
+              "text": "نفَ",
+              "role": "target"
+            },
+            {
+              "text": "طِ",
+              "role": "base"
+            },
+            {
+              "text": "رُۢ بِ",
+              "role": "target"
+            },
+            {
+              "text": "هِۦ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "وأنزلنا من ٱلمعصرت ماء ثجاجا",
+          "segments": [
+            {
+              "text": "وَأَ",
+              "role": "base"
+            },
+            {
+              "text": "نزَ",
+              "role": "target"
+            },
+            {
+              "text": "لۡنَا مِنَ ٱلۡمُعۡصِرَٰتِ مَآءً ",
+              "role": "base"
+            },
+            {
+              "text": "ثَ",
+              "role": "target"
+            },
+            {
+              "text": "جَّاجًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "فتصبح صعيدا زلقا",
+          "segments": [
+            {
+              "text": "فَتُصۡبِحَ صَعِيدًا ",
+              "role": "base"
+            },
+            {
+              "text": "زَ",
+              "role": "target"
+            },
+            {
+              "text": "لَقًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "فيها كتب قيمة",
+          "segments": [
+            {
+              "text": "فِيهَا كُتُبٌ ",
+              "role": "base"
+            },
+            {
+              "text": "قَ",
+              "role": "target"
+            },
+            {
+              "text": "يِّمَةٌ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "فيها عين جارية",
+          "segments": [
+            {
+              "text": "فِيهَا عَيۡنٌ ",
+              "role": "base"
+            },
+            {
+              "text": "جَ",
+              "role": "target"
+            },
+            {
+              "text": "ارِيَةٌ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 2,
+        "rowColors": [
+          "pink",
+          "pink"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ونخيل صنوان وغير صنوان",
+          "segments": [
+            {
+              "text": "وَنَخِيلٌ صِ",
+              "role": "base"
+            },
+            {
+              "text": "نۡوَ",
+              "role": "target"
+            },
+            {
+              "text": "انٌ وَغَيۡرُ صِ",
+              "role": "base"
+            },
+            {
+              "text": "نۡوَ",
+              "role": "target"
+            },
+            {
+              "text": "انٍ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "إنما ٱلحيوة ٱلدنيا لعب ولهو",
+          "segments": [
+            {
+              "text": "إِنَّمَا ٱلۡحَيَوٰةُ ٱلدُّ",
+              "role": "base"
+            },
+            {
+              "text": "نۡيَ",
+              "role": "target"
+            },
+            {
+              "text": "ا لَعِبٌ ",
+              "role": "base"
+            },
+            {
+              "text": "وَ",
+              "role": "target"
+            },
+            {
+              "text": "لَهۡوٌ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "وإن أصابته فتنة ٱنقلب على وجهه",
+          "segments": [
+            {
+              "text": "وَإِ",
+              "role": "base"
+            },
+            {
+              "text": "نۡ أَ",
+              "role": "target"
+            },
+            {
+              "text": "صَابَتۡهُ فِتۡنَةٌ ٱنقَلَبَ عَلَىٰ وَجۡهِهِۦ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "كذبت قوم نوح ٱلمرسلين",
+          "segments": [
+            {
+              "text": "كَذَّبَتۡ قَوۡمُ نُو",
+              "role": "base"
+            },
+            {
+              "text": "حٍ ٱ",
+              "role": "target"
+            },
+            {
+              "text": "لۡمُرۡسَلِينَ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 1,
+        "rowColors": [
+          "pink"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "فكأين من قرية أهلكنها وهى ظالمة فهى خاوية على عروشها وبئر معطلة وقصر مشيد",
+          "segments": [
+            {
+              "text": "فَكَأَيِّن ",
+              "role": "base"
+            },
+            {
+              "text": "مِّ",
+              "role": "target"
+            },
+            {
+              "text": "ن ",
+              "role": "base"
+            },
+            {
+              "text": "قَ",
+              "role": "target"
+            },
+            {
+              "text": "رۡيَ",
+              "role": "base"
+            },
+            {
+              "text": "ةٍ أَ",
+              "role": "target"
+            },
+            {
+              "text": "هۡلَكۡنَٰهَا وَهِىَ ظَالِمَةٌ فَهِىَ خَاوِيَةٌ عَلَىٰ عُرُوشِهَا وَبِئۡرٍ ",
+              "role": "base"
+            },
+            {
+              "text": "مُّ",
+              "role": "target"
+            },
+            {
+              "text": "عَطَّلَةٍ وَقَصۡرٍ ",
+              "role": "base"
+            },
+            {
+              "text": "مَّ",
+              "role": "target"
+            },
+            {
+              "text": "شِيدٍ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [],
+  "games": {},
+  "source": "book page 82"
+}

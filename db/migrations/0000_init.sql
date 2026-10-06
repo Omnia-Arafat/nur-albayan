@@ -217,6 +217,7 @@ CREATE TABLE "items" (
 	"script" "script_kind" DEFAULT 'naskh' NOT NULL,
 	"row_band" integer DEFAULT 0 NOT NULL,
 	"is_drillable" boolean DEFAULT true NOT NULL,
+	"tint_token_key" text,
 	"image_asset_id" uuid,
 	"audio_asset_id" uuid,
 	"search_text" text NOT NULL,

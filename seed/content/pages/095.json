@@ -1,0 +1,812 @@
+{
+  "slug": "page-95",
+  "bookPage": 95,
+  "stage": "unit-7",
+  "topic": "rasm",
+  "status": "review",
+  "i18n": {
+    "ar": {
+      "title": "الرسم القرآنى والإملائى",
+      "subtitle": "مراجعة ـ تدريب ( ٣)",
+      "teacherNote": "[للمعلم والآباء:] بعد قراءة كل متعلم على حده يتم مناقشة المتعلمين فى أحكام التجويد والفرق بين علامات التشكيل فى الرسم القرآنى والرسم الإملائى",
+      "lessonTag": "الدرس السابع",
+      "observeTag": "اقرأ ولاحظ"
+    }
+  },
+  "sections": [
+    {
+      "kind": "story",
+      "config": {
+        "columns": 1,
+        "rowColors": [
+          "rose"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "خلق ٱلإنسن",
+          "segments": [
+            {
+              "text": "خَلۡقُ ٱلۡإِنسَـٰنِ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "قال الله تعالى:",
+          "segments": [
+            {
+              "text": "قَالَ اللَّهُ تَعَالَى:",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "يأيها ٱلناس إن كنتم فى ريب من ٱلبعث فإنا خلقنكم من تراب ثم من نطفة ثم من علقة ثم من مضغة مخلقة وغير مخلقة لنبين لكم ونقر فى ٱلأرحام ما نشاء إلى أجل مسمى ثم نخرجكم طفلا ثم لتبلغوا أشدكم ومنكم من يتوفى ومنكم من يرد إلى أرذل ٱلعمر لكيلا يعلم من بعد علم شيا وترى ٱلأرض هامدة فإذا أنزلنا عليها ٱلماء ٱهتزت وربت وأنبتت من كل زوج بهيج ٥ ذلك بأن ٱلله هو ٱلحق وأنه يحى ٱلموتى وأنه على كل شىء قدير ٦",
+          "segments": [
+            {
+              "text": "يَ",
+              "role": "base"
+            },
+            {
+              "text": "ٰٓ",
+              "role": "target"
+            },
+            {
+              "text": "أَيُّهَا ٱل",
+              "role": "base"
+            },
+            {
+              "text": "نَّ",
+              "role": "target"
+            },
+            {
+              "text": "اسُ إِن كُ",
+              "role": "base"
+            },
+            {
+              "text": "نتُ",
+              "role": "target"
+            },
+            {
+              "text": "مۡ فِ",
+              "role": "base"
+            },
+            {
+              "text": "ى ",
+              "role": "target"
+            },
+            {
+              "text": "رَ",
+              "role": "base"
+            },
+            {
+              "text": "يۡ",
+              "role": "target"
+            },
+            {
+              "text": "بٍ ",
+              "role": "base"
+            },
+            {
+              "text": "مِّ",
+              "role": "target"
+            },
+            {
+              "text": "نَ ٱلۡبَ",
+              "role": "base"
+            },
+            {
+              "text": "عۡ",
+              "role": "target"
+            },
+            {
+              "text": "ثِ فَإِ",
+              "role": "base"
+            },
+            {
+              "text": "نَّ",
+              "role": "target"
+            },
+            {
+              "text": "ا خَلَ",
+              "role": "base"
+            },
+            {
+              "text": "قۡ",
+              "role": "target"
+            },
+            {
+              "text": "نَ",
+              "role": "base"
+            },
+            {
+              "text": "ٰ",
+              "role": "target"
+            },
+            {
+              "text": "كُم ",
+              "role": "base"
+            },
+            {
+              "text": "مِّ",
+              "role": "target"
+            },
+            {
+              "text": "ن تُرَ",
+              "role": "base"
+            },
+            {
+              "text": "ا",
+              "role": "target"
+            },
+            {
+              "text": "بٍ ثُ",
+              "role": "base"
+            },
+            {
+              "text": "مَّ ",
+              "role": "target"
+            },
+            {
+              "text": "مِ",
+              "role": "base"
+            },
+            {
+              "text": "ن ",
+              "role": "target"
+            },
+            {
+              "text": "نُّ",
+              "role": "base"
+            },
+            {
+              "text": "طۡ",
+              "role": "target"
+            },
+            {
+              "text": "فَةٍ ثُ",
+              "role": "base"
+            },
+            {
+              "text": "مَّ ",
+              "role": "target"
+            },
+            {
+              "text": "مِ",
+              "role": "base"
+            },
+            {
+              "text": "نۡ ",
+              "role": "target"
+            },
+            {
+              "text": "عَلَقَةٍ ثُ",
+              "role": "base"
+            },
+            {
+              "text": "مَّ ",
+              "role": "target"
+            },
+            {
+              "text": "مِ",
+              "role": "base"
+            },
+            {
+              "text": "ن ",
+              "role": "target"
+            },
+            {
+              "text": "مُّ",
+              "role": "target"
+            },
+            {
+              "text": "ضۡ",
+              "role": "target"
+            },
+            {
+              "text": "غَةٍ ",
+              "role": "base"
+            },
+            {
+              "text": "مُّ",
+              "role": "target"
+            },
+            {
+              "text": "خَ",
+              "role": "base"
+            },
+            {
+              "text": "لَّ",
+              "role": "target"
+            },
+            {
+              "text": "قَةٍ ",
+              "role": "base"
+            },
+            {
+              "text": "وَ",
+              "role": "target"
+            },
+            {
+              "text": "غَ",
+              "role": "base"
+            },
+            {
+              "text": "يۡ",
+              "role": "target"
+            },
+            {
+              "text": "رِ مُخَ",
+              "role": "base"
+            },
+            {
+              "text": "لَّ",
+              "role": "target"
+            },
+            {
+              "text": "قَةٍ ",
+              "role": "base"
+            },
+            {
+              "text": "لِّ",
+              "role": "target"
+            },
+            {
+              "text": "نُبَ",
+              "role": "base"
+            },
+            {
+              "text": "يِّ",
+              "role": "target"
+            },
+            {
+              "text": "نَ لَكُ",
+              "role": "base"
+            },
+            {
+              "text": "مۡۚ",
+              "role": "target"
+            },
+            {
+              "text": " وَنُقِ",
+              "role": "base"
+            },
+            {
+              "text": "رُّ ",
+              "role": "target"
+            },
+            {
+              "text": "فِ",
+              "role": "base"
+            },
+            {
+              "text": "ى ",
+              "role": "target"
+            },
+            {
+              "text": "ٱلۡأَ",
+              "role": "base"
+            },
+            {
+              "text": "رۡ",
+              "role": "target"
+            },
+            {
+              "text": "حَامِ مَا نَشَ",
+              "role": "base"
+            },
+            {
+              "text": "آ",
+              "role": "target"
+            },
+            {
+              "text": "ءُ إِلَ",
+              "role": "base"
+            },
+            {
+              "text": "ىٰٓ ",
+              "role": "target"
+            },
+            {
+              "text": "أَجَلٍ ",
+              "role": "base"
+            },
+            {
+              "text": "مُّ",
+              "role": "target"
+            },
+            {
+              "text": "سَ",
+              "role": "base"
+            },
+            {
+              "text": "مًّ",
+              "role": "target"
+            },
+            {
+              "text": "ى ثُ",
+              "role": "base"
+            },
+            {
+              "text": "مَّ ",
+              "role": "target"
+            },
+            {
+              "text": "نُ",
+              "role": "base"
+            },
+            {
+              "text": "خۡ",
+              "role": "target"
+            },
+            {
+              "text": "رِجُكُ",
+              "role": "base"
+            },
+            {
+              "text": "مۡ ",
+              "role": "target"
+            },
+            {
+              "text": "طِ",
+              "role": "base"
+            },
+            {
+              "text": "فۡ",
+              "role": "target"
+            },
+            {
+              "text": "لًا ثُ",
+              "role": "base"
+            },
+            {
+              "text": "مَّ ",
+              "role": "target"
+            },
+            {
+              "text": "لِتَ",
+              "role": "base"
+            },
+            {
+              "text": "بۡ",
+              "role": "target"
+            },
+            {
+              "text": "لُغُ",
+              "role": "base"
+            },
+            {
+              "text": "وٓ",
+              "role": "target"
+            },
+            {
+              "text": "اْ أَشُ",
+              "role": "base"
+            },
+            {
+              "text": "دَّ",
+              "role": "target"
+            },
+            {
+              "text": "كُ",
+              "role": "base"
+            },
+            {
+              "text": "مۡۖ",
+              "role": "target"
+            },
+            {
+              "text": " وَمِ",
+              "role": "base"
+            },
+            {
+              "text": "نكُ",
+              "role": "target"
+            },
+            {
+              "text": "م ",
+              "role": "base"
+            },
+            {
+              "text": "مَّ",
+              "role": "target"
+            },
+            {
+              "text": "ن يُتَوَ",
+              "role": "base"
+            },
+            {
+              "text": "فَّ",
+              "role": "target"
+            },
+            {
+              "text": "ىٰ ",
+              "role": "target"
+            },
+            {
+              "text": "وَمِ",
+              "role": "base"
+            },
+            {
+              "text": "نكُ",
+              "role": "target"
+            },
+            {
+              "text": "م ",
+              "role": "base"
+            },
+            {
+              "text": "مَّ",
+              "role": "target"
+            },
+            {
+              "text": "ن يُرَ",
+              "role": "base"
+            },
+            {
+              "text": "دُّ ",
+              "role": "target"
+            },
+            {
+              "text": "إِلَ",
+              "role": "base"
+            },
+            {
+              "text": "ىٰٓ ",
+              "role": "target"
+            },
+            {
+              "text": "أَ",
+              "role": "base"
+            },
+            {
+              "text": "رۡ",
+              "role": "target"
+            },
+            {
+              "text": "ذَلِ ٱلۡعُمُرِ لِكَيۡلَا يَ",
+              "role": "base"
+            },
+            {
+              "text": "عۡ",
+              "role": "target"
+            },
+            {
+              "text": "لَمَ مِ",
+              "role": "base"
+            },
+            {
+              "text": "نۢ ",
+              "role": "target"
+            },
+            {
+              "text": "بَ",
+              "role": "base"
+            },
+            {
+              "text": "عۡ",
+              "role": "target"
+            },
+            {
+              "text": "دِ عِ",
+              "role": "base"
+            },
+            {
+              "text": "لۡ",
+              "role": "target"
+            },
+            {
+              "text": "مٍ شَ",
+              "role": "base"
+            },
+            {
+              "text": "يۡ",
+              "role": "target"
+            },
+            {
+              "text": "ـًٔاۚ وَتَرَى ٱلۡأَ",
+              "role": "base"
+            },
+            {
+              "text": "رۡ",
+              "role": "target"
+            },
+            {
+              "text": "ضَ هَامِدَةً فَإِذَ",
+              "role": "base"
+            },
+            {
+              "text": "آ ",
+              "role": "target"
+            },
+            {
+              "text": "أَ",
+              "role": "base"
+            },
+            {
+              "text": "نزَ",
+              "role": "target"
+            },
+            {
+              "text": "لۡ",
+              "role": "target"
+            },
+            {
+              "text": "نَا عَلَ",
+              "role": "base"
+            },
+            {
+              "text": "يۡ",
+              "role": "target"
+            },
+            {
+              "text": "هَا ٱلۡمَ",
+              "role": "base"
+            },
+            {
+              "text": "آ",
+              "role": "target"
+            },
+            {
+              "text": "ءَ ٱ",
+              "role": "base"
+            },
+            {
+              "text": "هۡ",
+              "role": "target"
+            },
+            {
+              "text": "تَ",
+              "role": "base"
+            },
+            {
+              "text": "زَّ",
+              "role": "target"
+            },
+            {
+              "text": "تۡ وَرَ",
+              "role": "base"
+            },
+            {
+              "text": "بَ",
+              "role": "target"
+            },
+            {
+              "text": "تۡ وَأَ",
+              "role": "base"
+            },
+            {
+              "text": "نۢ",
+              "role": "target"
+            },
+            {
+              "text": "بَتَ",
+              "role": "base"
+            },
+            {
+              "text": "تۡ مِ",
+              "role": "target"
+            },
+            {
+              "text": "ن ",
+              "role": "target"
+            },
+            {
+              "text": "كُ",
+              "role": "base"
+            },
+            {
+              "text": "لِّ ",
+              "role": "target"
+            },
+            {
+              "text": "زَ",
+              "role": "base"
+            },
+            {
+              "text": "وۡ",
+              "role": "target"
+            },
+            {
+              "text": "جِۭ بَهِ",
+              "role": "base"
+            },
+            {
+              "text": "ي",
+              "role": "target"
+            },
+            {
+              "text": "جٍ ۝٥ ذَ",
+              "role": "base"
+            },
+            {
+              "text": "ٰ",
+              "role": "target"
+            },
+            {
+              "text": "لِكَ بِأَ",
+              "role": "base"
+            },
+            {
+              "text": "نَّ ",
+              "role": "target"
+            },
+            {
+              "text": "ٱللَّهَ هُوَ ٱلۡحَ",
+              "role": "base"
+            },
+            {
+              "text": "قُّ ",
+              "role": "target"
+            },
+            {
+              "text": "وَأَ",
+              "role": "base"
+            },
+            {
+              "text": "نَّ",
+              "role": "target"
+            },
+            {
+              "text": "هُ",
+              "role": "base"
+            },
+            {
+              "text": "ۥ ",
+              "role": "target"
+            },
+            {
+              "text": "يُ",
+              "role": "base"
+            },
+            {
+              "text": "حۡ",
+              "role": "target"
+            },
+            {
+              "text": "ىِ ٱلۡمَ",
+              "role": "base"
+            },
+            {
+              "text": "وۡ",
+              "role": "target"
+            },
+            {
+              "text": "تَ",
+              "role": "base"
+            },
+            {
+              "text": "ىٰ ",
+              "role": "target"
+            },
+            {
+              "text": "وَأَ",
+              "role": "base"
+            },
+            {
+              "text": "نَّ",
+              "role": "target"
+            },
+            {
+              "text": "هُ",
+              "role": "base"
+            },
+            {
+              "text": "ۥ ",
+              "role": "target"
+            },
+            {
+              "text": "عَلَ",
+              "role": "base"
+            },
+            {
+              "text": "ىٰ ",
+              "role": "target"
+            },
+            {
+              "text": "كُ",
+              "role": "base"
+            },
+            {
+              "text": "لِّ ",
+              "role": "target"
+            },
+            {
+              "text": "شَ",
+              "role": "base"
+            },
+            {
+              "text": "ىۡ",
+              "role": "target"
+            },
+            {
+              "text": "ءٍ قَدِ",
+              "role": "base"
+            },
+            {
+              "text": "ي",
+              "role": "target"
+            },
+            {
+              "text": "رٌ ۝٦",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "story",
+      "config": {
+        "columns": 1,
+        "rowColors": [
+          "sky"
+        ],
+        "label": "تدريب ( ٤)"
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "النجوم",
+          "segments": [
+            {
+              "text": "النُّجُومُ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "النجوم فى السماء إحدى ظواهر قدرة الله - جل وعلا - فهى زينة تبعث الشعور بالجمال فى نفس من يراها وهى كاللؤلؤ المنثور، كما جعلها الله هداية لمن يمشى فى الصحراء، وهداية للسفن ليلا، وللنجوم مواقع ثابتة وثبوت هذه المواقع هو الذى يعين على الاهتداء بها، وقد أشار القرآن الكريم إلى هذا فى قوله تعالى: )وبٱلنجم هم يهتدون( ومواقع النجوم تدل على دقة صنع الخالق وعلى الإحكام فى بناء هذا الكون الذى تدور نجومه وشموسه وكواكبه فى أفلاك لا تحيد عنها، فسبحان الخلاق العظيم.",
+          "segments": [
+            {
+              "text": "النُّجُومُ فِى السَّمَاءِ إِحْدَى ظَوَاهِرِ قُدْرَةِ اللَّهِ",
+              "role": "base"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "جَلَّ وَعَلَا",
+              "role": "base"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "فَهِىَ زِينَةٌ تَبْعَثُ الشُّعُورَ بِالْجَمَالِ فِى نَفْسِ مَنْ يَرَاهَا وَهِىَ كَاللُّؤْلُؤِ الْمَنْثُورِ، كَمَا جَعَلَهَا اللَّهُ هِدَايَةً لِمَنْ يَمْشِى فِى الصَّحْرَاءِ، وَهِدَايَةً لِلسُّفُنِ لَيْلًا، وَلِلنُّجُومِ مَوَاقِعُ ثَابِتَةٌ وَثُبُوتُ هَذِهِ الْمَوَاقِعِ هُوَ الَّذِى يُعِينُ عَلَى الِاهْتِدَاءِ بِهَا، وَقَدْ أَشَارَ الْقُرْآنُ الْكَرِيمُ إِلَى هَذَا فِى قَوْلِهِ تَعَالَى: ",
+              "role": "base"
+            },
+            {
+              "text": ")وَبِٱلنَّجۡمِ هُمۡ يَهۡتَدُونَ(",
+              "role": "target"
+            },
+            {
+              "text": " وَمَوَاقِعُ النُّجُومِ تَدُلُّ عَلَى دِقَّةِ صُنْعِ الْخَالِقِ وَعَلَى الْإِحْكَامِ فِى بِنَاءِ هَذَا الْكَوْنِ الَّذِى تَدُورُ نُجُومُهُ وَشُمُوسُهُ وَكَوَاكِبُهُ فِى أَفْلَاكٍ لَا تَحِيدُ عَنْهَا، فَسُبْحَانَ الْخَلَّاقِ الْعَظِيمِ.",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [],
+  "games": {},
+  "source": "book page 95"
+}

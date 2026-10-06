@@ -1,0 +1,525 @@
+{
+  "slug": "page-73",
+  "bookPage": 73,
+  "stage": "unit-5",
+  "topic": "shadda-review",
+  "status": "review",
+  "i18n": {
+    "ar": {
+      "title": "مراجعة",
+      "subtitle": "تدريب ( ٤) أمثلة قرآنية",
+      "teacherNote": "[للمعلم والآباء:] يسمع قراءة التدريب من كل متعلم على حده، [مع مراجعة] التدريبات على التشديد من صفحة [( ٦٢ حتى ٧٢)]",
+      "lessonTag": "الدرس الثالث",
+      "observeTag": "اقرأ ولاحظ"
+    }
+  },
+  "sections": [
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 2,
+        "columnColors": [
+          "salmon",
+          "sky"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ولا يحيق ٱلمكر ٱلسيئ إلا بأهله",
+          "segments": [
+            {
+              "text": "وَلَا يَحِيقُ ٱلۡمَكۡرُ ٱل",
+              "role": "base"
+            },
+            {
+              "text": "سَّيِّ",
+              "role": "target"
+            },
+            {
+              "text": "ئُ إِ",
+              "role": "base"
+            },
+            {
+              "text": "لَّ",
+              "role": "target"
+            },
+            {
+              "text": "ا بِأَهۡلِهِۦ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "رب نجنى وأهلى مما يعملون",
+          "segments": [
+            {
+              "text": "رَ",
+              "role": "base"
+            },
+            {
+              "text": "بِّ ",
+              "role": "target"
+            },
+            {
+              "text": "نَ",
+              "role": "base"
+            },
+            {
+              "text": "جِّ",
+              "role": "target"
+            },
+            {
+              "text": "نِى وَأَهۡلِى مِ",
+              "role": "base"
+            },
+            {
+              "text": "مَّ",
+              "role": "target"
+            },
+            {
+              "text": "ا يَعۡمَلُونَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "هل أنبئكم على من تنزل ٱلشيطين",
+          "segments": [
+            {
+              "text": "هَلۡ أُنَ",
+              "role": "base"
+            },
+            {
+              "text": "بِّ",
+              "role": "target"
+            },
+            {
+              "text": "ئُكُمۡ عَلَىٰ مَن تَنَ",
+              "role": "base"
+            },
+            {
+              "text": "زَّ",
+              "role": "target"
+            },
+            {
+              "text": "لُ ٱل",
+              "role": "base"
+            },
+            {
+              "text": "شَّ",
+              "role": "target"
+            },
+            {
+              "text": "يَٰطِينُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "تنزل على كل أفاك أثيم",
+          "segments": [
+            {
+              "text": "تَنَ",
+              "role": "base"
+            },
+            {
+              "text": "زَّ",
+              "role": "target"
+            },
+            {
+              "text": "لُ عَلَىٰ كُ",
+              "role": "base"
+            },
+            {
+              "text": "لِّ ",
+              "role": "target"
+            },
+            {
+              "text": "أَ",
+              "role": "base"
+            },
+            {
+              "text": "فَّ",
+              "role": "target"
+            },
+            {
+              "text": "اكٍ أَثِيمٍ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "إن ربك ليعلم ما تكن صدورهم",
+          "segments": [
+            {
+              "text": "إِ",
+              "role": "base"
+            },
+            {
+              "text": "نَّ ",
+              "role": "target"
+            },
+            {
+              "text": "رَ",
+              "role": "base"
+            },
+            {
+              "text": "بَّ",
+              "role": "target"
+            },
+            {
+              "text": "كَ لَيَعۡلَمُ مَا تُكِ",
+              "role": "base"
+            },
+            {
+              "text": "نُّ ",
+              "role": "target"
+            },
+            {
+              "text": "صُدُورُهُمۡ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "وجعلنا فى ذريته ٱلنبوة وٱلكتب",
+          "segments": [
+            {
+              "text": "وَجَعَلۡنَا فِى ذُ",
+              "role": "base"
+            },
+            {
+              "text": "رِّيَّ",
+              "role": "target"
+            },
+            {
+              "text": "تِهِ ٱل",
+              "role": "base"
+            },
+            {
+              "text": "نُّ",
+              "role": "target"
+            },
+            {
+              "text": "بُ",
+              "role": "base"
+            },
+            {
+              "text": "وَّ",
+              "role": "target"
+            },
+            {
+              "text": "ةَ وَٱلۡكِتَٰبَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "يجبال أوبى معه وٱلطير",
+          "segments": [
+            {
+              "text": "يَٰجِبَالُ أَ",
+              "role": "base"
+            },
+            {
+              "text": "وِّ",
+              "role": "target"
+            },
+            {
+              "text": "بِى مَعَهُۥ وَٱل",
+              "role": "base"
+            },
+            {
+              "text": "طَّ",
+              "role": "target"
+            },
+            {
+              "text": "يۡرَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "فلما خر تبينت ٱلجن",
+          "segments": [
+            {
+              "text": "فَلَ",
+              "role": "base"
+            },
+            {
+              "text": "مَّ",
+              "role": "target"
+            },
+            {
+              "text": "ا خَ",
+              "role": "base"
+            },
+            {
+              "text": "رَّ ",
+              "role": "target"
+            },
+            {
+              "text": "تَبَ",
+              "role": "base"
+            },
+            {
+              "text": "يَّ",
+              "role": "target"
+            },
+            {
+              "text": "نَتِ ٱلۡجِ",
+              "role": "base"
+            },
+            {
+              "text": "نُّ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "إنا منجوك وأهلك إلا ٱمرأتك",
+          "segments": [
+            {
+              "text": "إِ",
+              "role": "base"
+            },
+            {
+              "text": "نَّ",
+              "role": "target"
+            },
+            {
+              "text": "ا مُنَ",
+              "role": "base"
+            },
+            {
+              "text": "جُّ",
+              "role": "target"
+            },
+            {
+              "text": "وكَ وَأَهۡلَكَ إِ",
+              "role": "base"
+            },
+            {
+              "text": "لَّ",
+              "role": "target"
+            },
+            {
+              "text": "ا ٱمۡرَأَتَكَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "فكذبوه فأخذهم عذاب يوم ٱلظلة",
+          "segments": [
+            {
+              "text": "فَكَ",
+              "role": "base"
+            },
+            {
+              "text": "ذَّ",
+              "role": "target"
+            },
+            {
+              "text": "بُوهُ فَأَخَذَهُمۡ عَذَابُ يَوۡمِ ٱل",
+              "role": "base"
+            },
+            {
+              "text": "ظُّلَّ",
+              "role": "target"
+            },
+            {
+              "text": "ةِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 5,
+          "searchText": "يقول أءنك لمن ٱلمصدقين",
+          "segments": [
+            {
+              "text": "يَقُولُ أَءِ",
+              "role": "base"
+            },
+            {
+              "text": "نَّ",
+              "role": "target"
+            },
+            {
+              "text": "كَ لَمِنَ ٱلۡمُصَ",
+              "role": "base"
+            },
+            {
+              "text": "دِّ",
+              "role": "target"
+            },
+            {
+              "text": "قِينَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 5,
+          "searchText": "وجعلنا ذريته هم ٱلباقين",
+          "segments": [
+            {
+              "text": "وَجَعَلۡنَا ذُ",
+              "role": "base"
+            },
+            {
+              "text": "رِّيَّ",
+              "role": "target"
+            },
+            {
+              "text": "تَهُۥ هُمُ ٱلۡبَاقِينَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 6,
+          "searchText": "وكذلك مكنا ليوسف فى ٱلأرض",
+          "segments": [
+            {
+              "text": "وَكَذَٰلِكَ مَ",
+              "role": "base"
+            },
+            {
+              "text": "كَّنَّ",
+              "role": "target"
+            },
+            {
+              "text": "ا لِيُوسُفَ فِى ٱلۡأَرۡضِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 6,
+          "searchText": "عليه توكلت وعليه فليتوكل ٱلمتوكلون",
+          "segments": [
+            {
+              "text": "عَلَيۡهِ تَوَ",
+              "role": "base"
+            },
+            {
+              "text": "كَّ",
+              "role": "target"
+            },
+            {
+              "text": "لۡتُ وَعَلَيۡهِ فَلۡيَتَوَ",
+              "role": "base"
+            },
+            {
+              "text": "كَّ",
+              "role": "target"
+            },
+            {
+              "text": "لِ ٱلۡمُتَوَ",
+              "role": "base"
+            },
+            {
+              "text": "كِّ",
+              "role": "target"
+            },
+            {
+              "text": "لُونَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 7,
+          "searchText": "ورفع أبويه على ٱلعرش وخروا",
+          "segments": [
+            {
+              "text": "وَرَفَعَ أَبَوَيۡهِ عَلَى ٱلۡعَرۡشِ وَخَ",
+              "role": "base"
+            },
+            {
+              "text": "رُّ",
+              "role": "target"
+            },
+            {
+              "text": "وا۟",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 7,
+          "searchText": "قل سموهم أم تنبونه بما لا يعلم",
+          "segments": [
+            {
+              "text": "قُلۡ سَ",
+              "role": "base"
+            },
+            {
+              "text": "مُّ",
+              "role": "target"
+            },
+            {
+              "text": "وهُمۡ أَمۡ تُنَ",
+              "role": "base"
+            },
+            {
+              "text": "بِّ",
+              "role": "target"
+            },
+            {
+              "text": "ـُٔونَهُۥ بِمَا لَا يَعۡلَمُ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [],
+  "games": {},
+  "source": "book page 73"
+}

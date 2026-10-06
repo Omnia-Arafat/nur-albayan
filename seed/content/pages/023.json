@@ -1,0 +1,391 @@
+{
+  "slug": "page-23",
+  "bookPage": 23,
+  "stage": "unit-1",
+  "topic": "harakat-review",
+  "status": "review",
+  "i18n": {
+    "ar": {
+      "title": "مراجعة على الحركات",
+      "subtitle": "تدريب ( ٢)",
+      "teacherNote": "[للمعلم والآباء:] يقرأ المعلم أولاً ويقرأ المتعلمون خلفه ثم يقرأ كل متعلم على إنفراد.",
+      "lessonTag": "الدرس الثانى",
+      "observeTag": "اقرأ ولاحظ"
+    }
+  },
+  "sections": [
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 2,
+        "rowColors": [
+          "sky"
+        ],
+        "label": "عُمَرُ",
+        "frame": "pink"
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "خرج عمر ودخل",
+          "segments": [
+            {
+              "text": "خَرَجَ",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "عُمَرُ",
+              "role": "secondary"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "وَدَخَلَ",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "وبسط فرشه فقعد",
+          "segments": [
+            {
+              "text": "وَبَسَطَ",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "فُرُشَهُ",
+              "role": "secondary"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "فَقَعَدَ",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "شرب فذهب ظمؤه",
+          "segments": [
+            {
+              "text": "شَرِبَ",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "فَذَهَبَ",
+              "role": "secondary"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "ظَمَؤُهُ",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "نصب سرره بغرفه",
+          "segments": [
+            {
+              "text": "نَصَبَ",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "سُرُرَهُ",
+              "role": "secondary"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "بِغُرَفِهِ",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "مرض فضعف بدنه",
+          "segments": [
+            {
+              "text": "مَرِضَ",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "فَضَعُفَ",
+              "role": "secondary"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "بَدَنُهُ",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "ركب جمله ليصل رحمه",
+          "segments": [
+            {
+              "text": "رَكِبَ",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "جَمَلَهُ",
+              "role": "secondary"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "لِيَصِلَ",
+              "role": "rule"
+            },
+            {
+              "text": " رَحِمَهُ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 2,
+        "rowColors": [
+          "pink"
+        ],
+        "label": "كَرَمُ",
+        "frame": "mint"
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "كتب ورقه بقلمه",
+          "segments": [
+            {
+              "text": "كَتَبَ",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "وَرَقَهُ",
+              "role": "rule"
+            },
+            {
+              "text": " بِقَلَمِهِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "وقرأ كتبه فعلم",
+          "segments": [
+            {
+              "text": "وَقَرَأَ",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "كُتُبَهُ",
+              "role": "secondary"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "فَعَلِمَ",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "وسلك طرق سلفه فهدى",
+          "segments": [
+            {
+              "text": "وَسَلَكَ",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "طُرُقَ",
+              "role": "secondary"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "سَلَفِهِ",
+              "role": "rule"
+            },
+            {
+              "text": " فَهُدِىَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "ونجح ولده ففرح",
+          "segments": [
+            {
+              "text": "وَنَجَحَ",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "وَلَدُهُ",
+              "role": "secondary"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "فَفَرِحَ",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "ظلم فصبر فنصر",
+          "segments": [
+            {
+              "text": "ظُلِمَ",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "فَصَبَرَ",
+              "role": "secondary"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "فَنُصِرَ",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "كمل أدبه فحسن خلقه",
+          "segments": [
+            {
+              "text": "كَمُلَ",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "أَدَبُهُ",
+              "role": "secondary"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "فَحَسُنَ",
+              "role": "rule"
+            },
+            {
+              "text": " خُلُقُهُ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [],
+  "games": {},
+  "source": "book page 23"
+}

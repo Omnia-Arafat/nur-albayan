@@ -1,0 +1,14 @@
+page: 5
+observe: اقرأ ولاحظ
+lesson: الدرس الثالث
+title: حركة الفتح
+note: [للمعلم والآباء:] من خلال الدرس يتم مراجعة جميع الحروف بدون ترتيب فلنحرص على قراءة كل متعلم لها منفرداً [تنبيه:] لمعرفة كيفية تدريس هذا المنهج يرجع لكتاب [(الفوائد الحسان)]
+## picture_grid cols=3 strip=purple,red,green
+غَـ/ـغَـ/ـغَ/[غ]سالة&washing-machine ; فَـ/ـفَـ/ـفَ/[ف]راشه&butterfly ; قَـ/ـقَـ/ـقَ/[ق]لم&pen
+كَـ/ـكَـ/ـكَ/[ك]عبة&kaaba ; لَـ/ـلَـ/ـلَ/[ل]يمون&lemon ; مَـ/ـمَـ/ـمَ/[م]وز&bananas
+## picture_grid cols=4 strip=purple,red,green,purple
+نَـ/ـنَـ/ـنَ/[ن]خلة&palm-tree ; هَـ/ـهَـ/ـهَ/هَ/[هـ]رم&pyramid ; وَ/ـوَ/وَ/[و]ردة&rose ; يَـ/ـيَـ/ىَ/[يـ]د&hand
+## letter_tiles cols=9 colors=pink,pink,pink
+غَ@blue ; فَ@red ; قَ@green ; كَ@ink ; لَ@blue ; مَ@red ; نَ@green ; هَـ@ink ; وَ@blue
+ىَ@red ; عَ@green ; ظَ@blue ; طَ@red ; سَ@green ; ضَ@ink ; شَ@purple ; صَ@red ; حَ@green
+ذَ@green ; رَ@red ; دَ@green ; زَ@ink ; أَ@blue ; خَ@red ; ثَ@green ; تَ@ink ; بَ@blue

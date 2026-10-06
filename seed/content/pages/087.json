@@ -1,0 +1,461 @@
+{
+  "slug": "page-87",
+  "bookPage": 87,
+  "stage": "unit-6",
+  "topic": "tarteel-review",
+  "status": "review",
+  "i18n": {
+    "ar": {
+      "title": "مراجعة",
+      "subtitle": "تدريب ( ١)",
+      "teacherNote": "[للمعلم والآباء:] يتم مناقشة المتعلم فيما يتم دراسته من أحكام للتلاوة فى الدروس السابقة [مع مراجعة] التدريبات بالصفحة رقم ( ٧٩، ٨٢، ٨٤)",
+      "observeTag": "اقرأ ولاحظ"
+    }
+  },
+  "sections": [
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 1,
+        "rowColors": [
+          "yellow",
+          "yellow",
+          "yellow",
+          "sky",
+          "sky",
+          "sky",
+          "pink",
+          "pink",
+          "pink",
+          "pink",
+          "pink"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "وما فعلته عن أمرى ذلك تأويل ما لم تسطع عليه صبرا",
+          "segments": [
+            {
+              "text": "وَمَا فَعَلۡتُهُۥ ",
+              "role": "base"
+            },
+            {
+              "text": "عَنۡ أَ",
+              "role": "target"
+            },
+            {
+              "text": "مۡرِىۚ ذَٰلِكَ تَأۡوِيلُ مَا لَ",
+              "role": "base"
+            },
+            {
+              "text": "مۡ تَ",
+              "role": "target"
+            },
+            {
+              "text": "سۡطِع ",
+              "role": "base"
+            },
+            {
+              "text": "عَّ",
+              "role": "target"
+            },
+            {
+              "text": "لَيۡهِ صَبۡرًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "وٱذكر ربك إذا نسيت وقل عسى أن يهدين ربى",
+          "segments": [
+            {
+              "text": "وَٱذۡكُر ",
+              "role": "base"
+            },
+            {
+              "text": "رَّ",
+              "role": "target"
+            },
+            {
+              "text": "بَّكَ إِذَا نَسِيتَ وَقُلۡ عَسَىٰٓ أَن ",
+              "role": "base"
+            },
+            {
+              "text": "يَ",
+              "role": "target"
+            },
+            {
+              "text": "هۡدِيَنِ رَبِّى",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "فامنت طائفة من بنى إسرءيل وكفرت طائفة",
+          "segments": [
+            {
+              "text": "فَـَٔامَنَت ",
+              "role": "base"
+            },
+            {
+              "text": "طَّ",
+              "role": "target"
+            },
+            {
+              "text": "آئِفَةٌۭ ",
+              "role": "base"
+            },
+            {
+              "text": "مِّ",
+              "role": "target"
+            },
+            {
+              "text": "نۢ بَنِىٓ إِسۡرَٰٓءِيلَ وَكَفَرَت ",
+              "role": "base"
+            },
+            {
+              "text": "طَّ",
+              "role": "target"
+            },
+            {
+              "text": "آئِفَةٌۭ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "وترى ٱلشمس إذا طلعت تزور عن كهفهم ذات ٱليمين",
+          "segments": [
+            {
+              "text": "وَتَرَى ٱلشَّمۡسَ إِذَا طَلَعَت ",
+              "role": "base"
+            },
+            {
+              "text": "تَّ",
+              "role": "target"
+            },
+            {
+              "text": "زَٰوَرُ عَن ",
+              "role": "base"
+            },
+            {
+              "text": "كَ",
+              "role": "target"
+            },
+            {
+              "text": "هۡفِهِ",
+              "role": "base"
+            },
+            {
+              "text": "مۡ ذَ",
+              "role": "target"
+            },
+            {
+              "text": "اتَ ٱلۡيَمِينِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "أينما تكونوا يدرككم ٱلموت ولو كنتم فى بروج مشيدة",
+          "segments": [
+            {
+              "text": "أَيۡنَمَا تَكُونُواْ يُدۡرِك",
+              "role": "base"
+            },
+            {
+              "text": "كُّ",
+              "role": "target"
+            },
+            {
+              "text": "مُ ٱلۡمَوۡتُ وَلَوۡ كُ",
+              "role": "base"
+            },
+            {
+              "text": "نتُ",
+              "role": "target"
+            },
+            {
+              "text": "مۡ فِى بُرُوجٍۢ ",
+              "role": "base"
+            },
+            {
+              "text": "مُّ",
+              "role": "target"
+            },
+            {
+              "text": "شَيَّدَةٍۢ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 5,
+          "searchText": "وقل رب أعوذ بك من همزت ٱلشيطين وأعوذ بك رب أن يحضرون",
+          "segments": [
+            {
+              "text": "وَقُل ",
+              "role": "base"
+            },
+            {
+              "text": "رَّ",
+              "role": "target"
+            },
+            {
+              "text": "بِّ أَعُوذُ بِكَ مِ",
+              "role": "base"
+            },
+            {
+              "text": "نۡ هَ",
+              "role": "target"
+            },
+            {
+              "text": "مَزَٰتِ ٱلشَّيَـٰطِينِ وَأَعُوذُ بِكَ رَبِّ أَن ",
+              "role": "base"
+            },
+            {
+              "text": "يَ",
+              "role": "target"
+            },
+            {
+              "text": "حۡضُرُونِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 6,
+          "searchText": "ولو أنهم إذ ظلموا أنفسهم جاءوك فٱستغفروا ٱلله",
+          "segments": [
+            {
+              "text": "وَلَوۡ أَ",
+              "role": "base"
+            },
+            {
+              "text": "نَّ",
+              "role": "target"
+            },
+            {
+              "text": "هُ",
+              "role": "base"
+            },
+            {
+              "text": "مۡ إِ",
+              "role": "target"
+            },
+            {
+              "text": "ذ ",
+              "role": "base"
+            },
+            {
+              "text": "ظَّ",
+              "role": "target"
+            },
+            {
+              "text": "لَمُوٓاْ أَ",
+              "role": "base"
+            },
+            {
+              "text": "نفُ",
+              "role": "target"
+            },
+            {
+              "text": "سَهُ",
+              "role": "base"
+            },
+            {
+              "text": "مۡ جَ",
+              "role": "target"
+            },
+            {
+              "text": "آءُوكَ فَٱسۡتَغۡفَرُواْ ٱللَّهَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 7,
+          "searchText": "يبنى ٱركب معنا ولا تكن مع ٱلكفرين",
+          "segments": [
+            {
+              "text": "يَـٰبُنَىَّ ٱرۡكَب ",
+              "role": "base"
+            },
+            {
+              "text": "مَّ",
+              "role": "target"
+            },
+            {
+              "text": "عَنَا وَلَا تَكُن ",
+              "role": "base"
+            },
+            {
+              "text": "مَّ",
+              "role": "target"
+            },
+            {
+              "text": "عَ ٱلۡكَـٰفِرِينَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 8,
+          "searchText": "فأوحينا إلى موسى أن ٱضرب بعصاك ٱلبحر فٱنفلق",
+          "segments": [
+            {
+              "text": "فَأَوۡحَيۡنَآ إِلَىٰ مُوسَىٰٓ أَنِ ٱضۡرِب ",
+              "role": "base"
+            },
+            {
+              "text": "بِّ",
+              "role": "target"
+            },
+            {
+              "text": "عَصَاكَ ٱلۡبَحۡرَۖ فَٱ",
+              "role": "base"
+            },
+            {
+              "text": "نفَ",
+              "role": "target"
+            },
+            {
+              "text": "لَقَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 9,
+          "searchText": "قالوا يموسى إما أن تلقى وإما أن نكون أول من ألقى",
+          "segments": [
+            {
+              "text": "قَالُواْ يَـٰمُوسَىٰٓ إِ",
+              "role": "base"
+            },
+            {
+              "text": "مَّ",
+              "role": "target"
+            },
+            {
+              "text": "آ أَن ",
+              "role": "base"
+            },
+            {
+              "text": "تُ",
+              "role": "target"
+            },
+            {
+              "text": "لۡقِىَ وَإِ",
+              "role": "base"
+            },
+            {
+              "text": "مَّ",
+              "role": "target"
+            },
+            {
+              "text": "آ أَن ",
+              "role": "base"
+            },
+            {
+              "text": "نَّ",
+              "role": "target"
+            },
+            {
+              "text": "كُونَ أَوَّلَ مَ",
+              "role": "base"
+            },
+            {
+              "text": "نۡ أَ",
+              "role": "target"
+            },
+            {
+              "text": "لۡقَىٰ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 10,
+          "searchText": "وإن يمسسك ٱلله بضر فلا كاشف له إلا هو وإن يردك بخير فلا راد لفضله يصيب به من يشاء من عباده",
+          "segments": [
+            {
+              "text": "وَإِن ",
+              "role": "base"
+            },
+            {
+              "text": "يَ",
+              "role": "target"
+            },
+            {
+              "text": "مۡسَسۡكَ ٱللَّهُ بِضُرٍّ فَلَا كَاشِفَ لَهُۥٓ إِلَّا هُوَۖ وَإِن ",
+              "role": "base"
+            },
+            {
+              "text": "يُ",
+              "role": "target"
+            },
+            {
+              "text": "رِدۡكَ بِخَيۡرٍ ",
+              "role": "base"
+            },
+            {
+              "text": "فَ",
+              "role": "target"
+            },
+            {
+              "text": "لَا رَآدَّ لِفَضۡلِهِۦۚ يُصِيبُ بِهِۦ مَن ",
+              "role": "base"
+            },
+            {
+              "text": "يَ",
+              "role": "target"
+            },
+            {
+              "text": "شَآءُ مِ",
+              "role": "base"
+            },
+            {
+              "text": "نۡ عِ",
+              "role": "target"
+            },
+            {
+              "text": "بَادِهِۦ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [],
+  "games": {},
+  "source": "book page 87"
+}

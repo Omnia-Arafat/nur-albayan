@@ -1,0 +1,19 @@
+page: 13
+topic: kasra
+unit: الحركات
+observe: اقرأ ولاحظ
+lesson: الدرس الأول
+title: ٢ـ الحروف بحركة الكسر
+note: [للمعلم والآباء:] يحرص المتعلم على خفض شفتيه عند النطق بالحرف المكسور مع عدم إطالة الصوت، عند قراءة الحرف يتم قراءته بالهجاء همزه كسر [(ئِـ)] باء كسرة [(بِـ)] ثم نقرأ بدون هجاء [(ئِـ ، بِـ ، تِـ)]
+// Letters with kasra in ovals; the letter colours are the book's decoration.
+## letter_tiles cols=5 frame=oval
+ـئِـ@red ; ـبِـ@teal ; ـتِـ@purple ; ـثِـ@magenta ; جِـ@orange
+حِـ@olive ; خِـ@red ; ـدِ@blue ; ـذِ@green
+ـرِ@purple ; ـزِ@ink ; ـسِـ@red ; ـشِـ@orange
+// Letter pairs: the letter with kasra red, the letter with fatha blue.
+## letter_tiles cols=4 colors=pink,green,peach,pink,pink
+{صَ}[صِـ] ; {ضَ}[ضِـ] ; {طَ}[طِ] ; {ظَ}[ظِ]
+{عَ}[عِـ] ; {غَ}[غِـ] ; {فَ}[فِـ] ; {قَ}[قِـ]
+{كَ}[كِ] ; [لِ]{لَـ} ; [مِ]{مَـ} ; {نَ}[نِ]
+[هِ]{هَـ} ; {وَ}[وِ] ; [يِ]{يَـ} ; {يَ}[ىِ]
+[تِ]{بَ} ; {نَ}[بِ] ; [غِ]{عَـ} ; {ضَ}[طِ]

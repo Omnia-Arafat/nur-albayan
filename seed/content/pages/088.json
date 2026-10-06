@@ -1,0 +1,481 @@
+{
+  "slug": "page-88",
+  "bookPage": 88,
+  "stage": "unit-6",
+  "topic": "tarteel-review",
+  "status": "review",
+  "i18n": {
+    "ar": {
+      "title": "مراجعة",
+      "subtitle": "تدريب ( ٢)",
+      "teacherNote": "[للمعلم والآباء:] بعد الإنتهاء من هذا الدرس يتم مراجعة الدروس من صفحة ( [٧٧ حتى] ٨٨) مرة ثانية ثم يتم الإنتقال إلى [ختمة التلاوة] ولمعرفة المزيد عن [ختمة التلاوة] أرجع لكتابنا [(الفوائد الحسان)]",
+      "observeTag": "اقرأ ولاحظ"
+    }
+  },
+  "sections": [
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 1,
+        "rowColors": [
+          "pink",
+          "pink",
+          "pink",
+          "gray",
+          "gray",
+          "gray",
+          "peach",
+          "peach",
+          "peach",
+          "green",
+          "green"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "وإلهكم إله وحد لا إله إلا هو ٱلرحمن ٱلرحيم",
+          "segments": [
+            {
+              "text": "وَإِلَـٰهُكُ",
+              "role": "base"
+            },
+            {
+              "text": "مۡ إِ",
+              "role": "target"
+            },
+            {
+              "text": "لَـٰهٌۭ ",
+              "role": "base"
+            },
+            {
+              "text": "وَ",
+              "role": "target"
+            },
+            {
+              "text": "ٰحِدٌۭ ",
+              "role": "base"
+            },
+            {
+              "text": "لَّ",
+              "role": "target"
+            },
+            {
+              "text": "آ إِلَـٰهَ إِلَّا هُوَ ٱلرَّحۡمَـٰنُ ٱلرَّحِيمُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "وٱستعينوا بٱلصبر وٱلصلوة وإنها لكبيرة إلا على ٱلخشعين",
+          "segments": [
+            {
+              "text": "وَٱسۡتَعِينُواْ بِٱلصَّبۡرِ وَٱلصَّلَوٰةِۚ وَإِ",
+              "role": "base"
+            },
+            {
+              "text": "نَّ",
+              "role": "target"
+            },
+            {
+              "text": "هَا لَكَبِيرَ",
+              "role": "base"
+            },
+            {
+              "text": "ةٌ إِ",
+              "role": "target"
+            },
+            {
+              "text": "لَّا عَلَى ٱلۡخَـٰشِعِينَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "وما كان لنفس أن تموت إلا بإذن ٱلله كتبا مؤجلا",
+          "segments": [
+            {
+              "text": "وَمَا كَانَ لِنَفۡ",
+              "role": "base"
+            },
+            {
+              "text": "سٍ أَ",
+              "role": "target"
+            },
+            {
+              "text": "ن ",
+              "role": "base"
+            },
+            {
+              "text": "تَ",
+              "role": "target"
+            },
+            {
+              "text": "مُوتَ إِلَّا بِإِذۡنِ ٱللَّهِ كِتَـٰبًۭا ",
+              "role": "base"
+            },
+            {
+              "text": "مُّ",
+              "role": "target"
+            },
+            {
+              "text": "ؤَجَّلًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "وأوحى إلى نوح أنه لن يؤمن من قومك إلا من قد ءامن",
+          "segments": [
+            {
+              "text": "وَأُوحِىَ إِلَىٰ نُو",
+              "role": "base"
+            },
+            {
+              "text": "حٍ أَ",
+              "role": "target"
+            },
+            {
+              "text": "نَّ",
+              "role": "target"
+            },
+            {
+              "text": "هُۥ لَن ",
+              "role": "base"
+            },
+            {
+              "text": "يُ",
+              "role": "target"
+            },
+            {
+              "text": "ؤۡمِنَ مِن ",
+              "role": "base"
+            },
+            {
+              "text": "قَ",
+              "role": "target"
+            },
+            {
+              "text": "وۡمِكَ إِلَّا مَن ",
+              "role": "base"
+            },
+            {
+              "text": "قَ",
+              "role": "target"
+            },
+            {
+              "text": "دۡ ءَامَنَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "إن تبدوا خيرا أو تخفوه أو تعفوا عن سوء فإن ٱلله كان عفوا قديرا",
+          "segments": [
+            {
+              "text": "إِن ",
+              "role": "base"
+            },
+            {
+              "text": "تُ",
+              "role": "target"
+            },
+            {
+              "text": "بۡدُواْ خَيۡ",
+              "role": "base"
+            },
+            {
+              "text": "رًا أَ",
+              "role": "target"
+            },
+            {
+              "text": "وۡ تُخۡفُوهُ أَوۡ تَعۡفُواْ عَن ",
+              "role": "base"
+            },
+            {
+              "text": "سُ",
+              "role": "target"
+            },
+            {
+              "text": "وٓءٍۢ ",
+              "role": "base"
+            },
+            {
+              "text": "فَ",
+              "role": "target"
+            },
+            {
+              "text": "إِ",
+              "role": "base"
+            },
+            {
+              "text": "نَّ",
+              "role": "target"
+            },
+            {
+              "text": " ٱللَّهَ كَانَ عَفُوًّۭا ",
+              "role": "base"
+            },
+            {
+              "text": "قَ",
+              "role": "target"
+            },
+            {
+              "text": "دِيرًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 5,
+          "searchText": "ٱلذين ءامنوا ولم يلبسوا إيمنهم بظلم أولئك لهم ٱلأمن وهم مهتدون",
+          "segments": [
+            {
+              "text": "ٱلَّذِينَ ءَامَنُواْ وَلَ",
+              "role": "base"
+            },
+            {
+              "text": "مۡ يَ",
+              "role": "target"
+            },
+            {
+              "text": "لۡبِسُوٓاْ إِيمَـٰنَهُم ",
+              "role": "base"
+            },
+            {
+              "text": "بِ",
+              "role": "target"
+            },
+            {
+              "text": "ظُلۡ",
+              "role": "base"
+            },
+            {
+              "text": "مٍ أُ",
+              "role": "target"
+            },
+            {
+              "text": "وْلَـٰٓئِكَ لَهُمُ ٱلۡأَمۡنُ وَهُم ",
+              "role": "base"
+            },
+            {
+              "text": "مُّ",
+              "role": "target"
+            },
+            {
+              "text": "هۡتَدُونَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 6,
+          "searchText": "أثم إذا ما وقع ءامنتم به ءالن وقد كنتم به تستعجلون",
+          "segments": [
+            {
+              "text": "أَثُ",
+              "role": "base"
+            },
+            {
+              "text": "مَّ",
+              "role": "target"
+            },
+            {
+              "text": " إِذَا مَا وَقَعَ ءَامَ",
+              "role": "base"
+            },
+            {
+              "text": "نتُ",
+              "role": "target"
+            },
+            {
+              "text": "م ",
+              "role": "base"
+            },
+            {
+              "text": "بِ",
+              "role": "target"
+            },
+            {
+              "text": "هِۦٓۚ ءَآلۡـَٔـٰنَ وَقَدۡ كُ",
+              "role": "base"
+            },
+            {
+              "text": "نتُ",
+              "role": "target"
+            },
+            {
+              "text": "م ",
+              "role": "base"
+            },
+            {
+              "text": "بِ",
+              "role": "target"
+            },
+            {
+              "text": "هِۦ تَسۡتَعۡجِلُونَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 7,
+          "searchText": "الر كتب أحكمت ءايته ثم فصلت من لدن حكيم خبير",
+          "segments": [
+            {
+              "text": "الٓرۚ كِتَـٰ",
+              "role": "base"
+            },
+            {
+              "text": "بٌ أُ",
+              "role": "target"
+            },
+            {
+              "text": "حۡكِمَتۡ ءَايَـٰتُهُۥ ثُ",
+              "role": "base"
+            },
+            {
+              "text": "مَّ",
+              "role": "target"
+            },
+            {
+              "text": " فُصِّلَتۡ مِن ",
+              "role": "base"
+            },
+            {
+              "text": "لَّ",
+              "role": "target"
+            },
+            {
+              "text": "دُ",
+              "role": "base"
+            },
+            {
+              "text": "نۡ حَ",
+              "role": "target"
+            },
+            {
+              "text": "كِي",
+              "role": "base"
+            },
+            {
+              "text": "مٍ خَ",
+              "role": "target"
+            },
+            {
+              "text": "بِيرٍ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 8,
+          "searchText": "وما من دابة فى ٱلأرض إلا على ٱلله رزقها ويعلم مستقرها ومستودعها",
+          "segments": [
+            {
+              "text": "وَمَا مِن ",
+              "role": "base"
+            },
+            {
+              "text": "دَ",
+              "role": "target"
+            },
+            {
+              "text": "آبَّةٍ فِى ٱلۡأَرۡضِ إِلَّا عَلَى ٱللَّهِ رِزۡقُهَا وَيَعۡلَمُ مُسۡتَقَرَّهَا وَمُسۡتَوۡدَعَهَا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 9,
+          "searchText": "ٱعلموا أن ٱلله شديد ٱلعقاب وأن ٱلله غفور رحيم",
+          "segments": [
+            {
+              "text": "ٱعۡلَمُوٓاْ أَ",
+              "role": "base"
+            },
+            {
+              "text": "نَّ",
+              "role": "target"
+            },
+            {
+              "text": " ٱللَّهَ شَدِيدُ ٱلۡعِقَابِ وَأَ",
+              "role": "base"
+            },
+            {
+              "text": "نَّ",
+              "role": "target"
+            },
+            {
+              "text": " ٱللَّهَ غَفُورٌۭ ",
+              "role": "base"
+            },
+            {
+              "text": "رَّ",
+              "role": "target"
+            },
+            {
+              "text": "حِيمٌ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 10,
+          "searchText": "وإذا حييتم بتحية فحيوا بأحسن منها أو ردوها",
+          "segments": [
+            {
+              "text": "وَإِذَا حُيِّيتُم ",
+              "role": "base"
+            },
+            {
+              "text": "بِ",
+              "role": "target"
+            },
+            {
+              "text": "تَحِيَّةٍ فَحَيُّواْ بِأَحۡسَنَ مِ",
+              "role": "base"
+            },
+            {
+              "text": "نۡهَ",
+              "role": "target"
+            },
+            {
+              "text": "آ أَوۡ رُدُّوهَآ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [],
+  "games": {},
+  "source": "book page 88"
+}

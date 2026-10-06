@@ -1,0 +1,352 @@
+{
+  "slug": "page-90",
+  "bookPage": 90,
+  "stage": "unit-7",
+  "topic": "rasm",
+  "status": "review",
+  "i18n": {
+    "ar": {
+      "title": "الرسم القرآنى والرسم الإملائى",
+      "subtitle": "حروف تنطق ولا تكتب فى الرسم الإملائى",
+      "teacherNote": "[للمعلم والآباء:] يعرف المتعلم أن حرف [(الهاء)] يأتى بعده ألف صغيرة فى الأمثلة القرآنية ينطق ويكتب كما فى المثال الأول [أما الرسم الإملائى] ينطق ولا يكتب وكذلك حرف [(الذال)] كما فى المثال الخامس والسادس وكذلك حرف [اللام] كما فى المثالين الأخيرين يأتى بعدها [ألف مدية] يرسم وينطق فى الرسم القرآنى ولا يكتب وينطق فى الرسم الإملائى",
+      "lessonTag": "الدرس الثانى",
+      "observeTag": "اقرأ ولاحظ"
+    }
+  },
+  "sections": [
+    {
+      "kind": "rule_table",
+      "config": {
+        "columns": 2,
+        "rowColors": [
+          "lavender"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "drillable": false,
+          "searchText": "الرسم القرآنى",
+          "segments": [
+            {
+              "text": "الرسم القرآنى",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "drillable": false,
+          "searchText": "الرسم الإملائى",
+          "segments": [
+            {
+              "text": "الرسم الإملائى",
+              "role": "rule"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "rule_table",
+      "config": {
+        "columns": 2,
+        "rowColors": [
+          "pink",
+          "pink",
+          "sky",
+          "sky",
+          "rose",
+          "rose",
+          "sky",
+          "sky"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "هذا فراق بينى وبينك",
+          "segments": [
+            {
+              "text": "هَـٰ",
+              "role": "target"
+            },
+            {
+              "text": "ذَا فِرَاقُ بَيۡنِى وَبَيۡنِكَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "هذا طالب مجتهد",
+          "segments": [
+            {
+              "text": "هَـ",
+              "role": "target"
+            },
+            {
+              "text": "ذَا طَالِبٌ مُجْتَهِدٌ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "هذه ٱلحيوة ٱلدنيا متع",
+          "segments": [
+            {
+              "text": "هَـٰ",
+              "role": "target"
+            },
+            {
+              "text": "ذِهِ ٱلۡحَيَوٰةُ ٱلدُّنۡيَا مَتَـٰعٌ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "هذه وردة جميلة",
+          "segments": [
+            {
+              "text": "هَـ",
+              "role": "target"
+            },
+            {
+              "text": "ذِهِ وَرْدَةٌ جَمِيلَةٌ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "هذان خصمان ٱختصموا",
+          "segments": [
+            {
+              "text": "هَـٰ",
+              "role": "target"
+            },
+            {
+              "text": "ذَانِ خَصۡمَانِ ٱخۡتَصَمُواْ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "هذان ولدان نشيطان",
+          "segments": [
+            {
+              "text": "هَـ",
+              "role": "target"
+            },
+            {
+              "text": "ذَانِ وَلَدَانِ نَشِيطَانِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "إن هؤلآء لشرذمة قليلون",
+          "segments": [
+            {
+              "text": "إِنَّ ",
+              "role": "base"
+            },
+            {
+              "text": "هَـٰٓ",
+              "role": "target"
+            },
+            {
+              "text": "ؤُلَآءِ لَشِرۡذِمَةٌ قَلِيلُونَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "هؤلاء رجال مخلصون",
+          "segments": [
+            {
+              "text": "هَـ",
+              "role": "target"
+            },
+            {
+              "text": "ؤُلَاءِ رِجَالٌ مُخْلِصُونَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "ذلك بما عصوا وكانوا يعتدون",
+          "segments": [
+            {
+              "text": "ذَٰ",
+              "role": "target"
+            },
+            {
+              "text": "لِكَ بِمَا عَصَواْ وَّكَانُواْ يَعۡتَدُونَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "ذلك الكتاب أفضل الكتب",
+          "segments": [
+            {
+              "text": "ذَ",
+              "role": "target"
+            },
+            {
+              "text": "لِكَ الْكِتَابُ أَفْضَلُ الْكُتُبِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 5,
+          "searchText": "ذلكم أزكى لكم وأطهر",
+          "segments": [
+            {
+              "text": "ذَٰ",
+              "role": "target"
+            },
+            {
+              "text": "لِكُمۡ أَزۡكَىٰ لَكُمۡ وَأَطۡهَرُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 5,
+          "searchText": "ذلكم العمل فيه شرف لكم",
+          "segments": [
+            {
+              "text": "ذَ",
+              "role": "target"
+            },
+            {
+              "text": "لِكُمُ الْعَمَلُ فِيهِ شَرَفٌ لَكُمْ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 6,
+          "searchText": "أولئك يؤمنون به",
+          "segments": [
+            {
+              "text": "أُوْ",
+              "role": "base"
+            },
+            {
+              "text": "لَـٰٓ",
+              "role": "target"
+            },
+            {
+              "text": "ئِكَ يُؤۡمِنُونَ بِهِۦ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 6,
+          "searchText": "أولئك هم الصادقون حقا",
+          "segments": [
+            {
+              "text": "أُو",
+              "role": "base"
+            },
+            {
+              "text": "لَـ",
+              "role": "target"
+            },
+            {
+              "text": "ئِكَ هُمُ الصَّادِقُونَ حَقًّا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 7,
+          "searchText": "ولكن ٱلمنفقين لا يعلمون",
+          "segments": [
+            {
+              "text": "وَ",
+              "role": "base"
+            },
+            {
+              "text": "لَـٰ",
+              "role": "target"
+            },
+            {
+              "text": "كِنَّ ٱلۡمُنَـٰفِقِينَ لَا يَعۡلَمُونَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 7,
+          "searchText": "أخى فقير لكنه كريم",
+          "segments": [
+            {
+              "text": "أَخِى فَقِيرٌ ",
+              "role": "base"
+            },
+            {
+              "text": "لَـ",
+              "role": "target"
+            },
+            {
+              "text": "كِنَّهُ كَرِيمٌ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [],
+  "games": {},
+  "source": "book page 90"
+}

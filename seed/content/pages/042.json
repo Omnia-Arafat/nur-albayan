@@ -1,0 +1,464 @@
+{
+  "slug": "page-42",
+  "bookPage": 42,
+  "stage": "unit-3",
+  "topic": "sukun",
+  "status": "review",
+  "i18n": {
+    "ar": {
+      "title": "السُّكُونُ ( ـۡ )",
+      "subtitle": "ألف الوصل واللام القمرية (ٱلۡ) - تدريب ( ٣) أمثلة قرآنية",
+      "teacherNote": "[للمعلم والآباء: همز الوصل] يؤتى بها للتوصيل إلى النطق بالحرف الساكن [واللام القمرية:] هى لام تكتب وتنطق ويكون عليها سكون ظاهر تسبق دائماً بهمزة وصل وتأتى بعدها الحروف المجموعة فى قول [(اَبۡغِ حجك وخف عقيمه) طريقة الهجاء:] ألف وصل نبدأ بها [(أَ)] لام قمرية [(ٱلۡ)] ... وهكذا ،[نحرص على عدم المد فى حروف المد] فى الوصل إذا جاء بعدها حرف ساكن مثل كلمة [( نَجۡزِى ٱلۡمُحۡسِنِينَ ) ( عَلَى ٱلۡخُرۡطُومِ )]",
+      "lessonTag": "الدرس الرابع",
+      "observeTag": "اقرأ ولاحظ"
+    }
+  },
+  "sections": [
+    {
+      "kind": "word_rows",
+      "config": {
+        "columns": 4,
+        "rowColors": [
+          "sky",
+          "sky",
+          "sky"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ٱلأتقى",
+          "segments": [
+            {
+              "text": "ٱلۡأَتۡ",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "قَىٰ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ٱلبروج",
+          "segments": [
+            {
+              "text": "ٱلۡبُ",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "رُوجِ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ٱلغاون",
+          "segments": [
+            {
+              "text": "ٱلۡغَا",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "وُۥنَ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ٱلحرور",
+          "segments": [
+            {
+              "text": "ٱلۡحَ",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "رُورُ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "ٱلجمعان",
+          "segments": [
+            {
+              "text": "ٱلۡجَمۡ",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "عَانِ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "ٱلكبير",
+          "segments": [
+            {
+              "text": "ٱلۡكَ",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "بِيرُ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "ٱلودود",
+          "segments": [
+            {
+              "text": "ٱلۡوَ",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "دُودُ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "ٱلخلق",
+          "segments": [
+            {
+              "text": "ٱلۡخَٰ",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "لِقُ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "ٱلفؤاد",
+          "segments": [
+            {
+              "text": "ٱلۡفُ",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "ؤَادَ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "ٱلعاكف",
+          "segments": [
+            {
+              "text": "ٱلۡعَا",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "كِفُ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "ٱلقارعة",
+          "segments": [
+            {
+              "text": "ٱلۡقَا",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "رِعَةُ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "ٱلمال",
+          "segments": [
+            {
+              "text": "ٱلۡمَا",
+              "role": "target",
+              "cellBreakAfter": true
+            },
+            {
+              "text": "لُ",
+              "role": "contrast"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "word_rows",
+      "config": {
+        "columns": 4,
+        "rowColors": [
+          "green",
+          "green"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ٱلهوى",
+          "segments": [
+            {
+              "text": "ٱلۡ",
+              "role": "target"
+            },
+            {
+              "text": "هَوَىٰ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ٱليهود",
+          "segments": [
+            {
+              "text": "ٱلۡ",
+              "role": "target"
+            },
+            {
+              "text": "يَهُودُ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ٱليوم",
+          "segments": [
+            {
+              "text": "ٱلۡ",
+              "role": "target"
+            },
+            {
+              "text": "يَوۡمُ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ٱلخوف",
+          "segments": [
+            {
+              "text": "ٱلۡ",
+              "role": "target"
+            },
+            {
+              "text": "خَوۡفُ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "ٱلواقعة",
+          "segments": [
+            {
+              "text": "ٱلۡ",
+              "role": "target"
+            },
+            {
+              "text": "وَاقِعَةُ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "ٱلملك",
+          "segments": [
+            {
+              "text": "ٱلۡ",
+              "role": "target"
+            },
+            {
+              "text": "مُلۡكُ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "ٱلجحيم",
+          "segments": [
+            {
+              "text": "ٱلۡ",
+              "role": "target"
+            },
+            {
+              "text": "جَحِيمُ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "ٱلكريم",
+          "segments": [
+            {
+              "text": "ٱلۡ",
+              "role": "target"
+            },
+            {
+              "text": "كَرِيمُ",
+              "role": "contrast"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 2,
+        "rowColors": [
+          "pink",
+          "pink",
+          "pink"
+        ],
+        "markColor": "red"
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "وهذا ٱلبلد ٱلأمين",
+          "segments": [
+            {
+              "text": "وَهَٰذَا ٱلۡبَلَدِ ٱلۡأَمِينِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "سنسمه على ٱلخرطوم",
+          "segments": [
+            {
+              "text": "سَنَسِمُهُۥ عَلَى ٱلۡخُرۡطُومِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "كذلك نجزى ٱلمحسنين",
+          "segments": [
+            {
+              "text": "كَذَٰلِكَ نَجۡزِى ٱلۡمُحۡسِنِينَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "ذلك هو ٱلفوز ٱلعظيم",
+          "segments": [
+            {
+              "text": "ذَٰلِكَ هُوَ ٱلۡفَوۡزُ ٱلۡعَظِيمُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "فأكثروا فيها ٱلفساد",
+          "segments": [
+            {
+              "text": "فَأَكۡثَرُوا۟ فِيهَا ٱلۡفَسَادَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "يضعف لهم ٱلعذاب",
+          "segments": [
+            {
+              "text": "يُضَٰعَفُ لَهُمُ ٱلۡعَذَابُ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [],
+  "games": {},
+  "source": "book page 42"
+}

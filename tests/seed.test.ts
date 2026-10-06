@@ -11,7 +11,7 @@ import { loadSeed } from "@/db/seed/files";
 import { runSeed } from "@/db/seed/run";
 
 const seed = loadSeed();
-// Book content is generated locally (pnpm import:pages) and not committed while the repo is public.
+// Book content is built from seed/book/ by `pnpm book:build`.
 const hasContent = existsSync("seed/content/book.json");
 const tokenKeys = new Set(seed.theme.tokens.map((t) => t.key));
 const localeCodes = seed.locales.map((l) => l.code);
@@ -80,11 +80,17 @@ describe.skipIf(!hasContent)("book content", () => {
     expect(content.lessons.flatMap((l) => Object.keys(l.games).filter((g) => !games.has(g)))).toEqual([]);
   });
 
-  it("puts every lesson in a known stage, once per page", () => {
+  it("puts every lesson in a known stage and topic, once per page", () => {
     const stages = new Set(content.book.stages.map((s) => s.slug));
     expect(content.lessons.filter((l) => !stages.has(l.stage)).map((l) => l.slug)).toEqual([]);
+    const stageOfTopic = new Map(content.book.topics.map((t) => [t.slug, t.stage]));
+    expect(content.lessons.filter((l) => stageOfTopic.get(l.topic ?? l.stage) !== l.stage).map((l) => l.slug)).toEqual([]);
     const pages = content.lessons.map((l) => l.bookPage);
     expect(new Set(pages).size).toBe(pages.length);
+  });
+
+  it("names a picture only with a storage-safe slug", () => {
+    expect(items.filter((i) => i.image && !/^[a-z0-9-]+$/.test(i.image)).map((i) => `${i.lesson}:${i.image}`)).toEqual([]);
   });
 
   it("keeps markup out of the text", () => {
@@ -128,6 +134,11 @@ describe("migrations and seed", () => {
     const itemTotal = content.lessons.reduce((n, l) => n + l.sections.reduce((m, s) => m + s.items.length, 0), 0);
     expect(await count("lessons")).toBe(content.lessons.length);
     expect(await count("items")).toBe(itemTotal);
+    expect(await count("units")).toBe(content.book.topics.length);
+    const pictures = new Set(
+      content.lessons.flatMap((l) => l.sections.flatMap((s) => s.items.map((i) => i.image).filter(Boolean))),
+    );
+    expect(await count("assets")).toBe(pictures.size);
     await client.close();
   }, 120_000);
 });

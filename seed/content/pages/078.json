@@ -1,0 +1,572 @@
+{
+  "slug": "page-78",
+  "bookPage": 78,
+  "stage": "unit-6",
+  "topic": "tarteel-madd",
+  "status": "review",
+  "i18n": {
+    "ar": {
+      "title": "أحكام ترتيل القرآن",
+      "subtitle": "أنواع المدود (آ)",
+      "teacherNote": "[للمعلم والآباء:] طريقة قراءة الحروف المقطعة مثال [(الٓمٓ)] نقرأ أَلِفْ لَامْ مِيمْ كيفية التطبيق [(أَلِفْ لَامّيمْ)] نلاحظ إدغام حرف الميم الذى ينتهى به حرف [(اللام)] فى الميم الأولى من حرف [(الميم)] لذلك يسمى مدًا لازمًا حرفيًا مثقلاً",
+      "lessonTag": "الدرس الثانى"
+    }
+  },
+  "sections": [
+    {
+      "kind": "rule_definition",
+      "config": {
+        "columns": 1
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "drillable": false,
+          "searchText": "٥ المد العارض للسكون: هو أن يقع بعد حرف المد سكون عارض عند الوقف كما هو فى المثال الأول والثانى والثالث ، أو أن يقع بعد حرف اللين سكون عارض كما فى المثالين الأخيرين وكلاهما يمد ( ٢ أو ٤ أو ٦) حركات عند الوقف.",
+          "segments": [
+            {
+              "text": "٥ـ المد العارض للسكون:",
+              "role": "target"
+            },
+            {
+              "text": " هو أن يقع بعد حرف المد سكون عارض عند الوقف كما هو فى المثال الأول والثانى والثالث ، أو أن يقع بعد حرف اللين سكون عارض كما فى المثالين الأخيرين وكلاهما ",
+              "role": "base"
+            },
+            {
+              "text": "يُمَدُ ( ٢ أو ٤ أو ٦)",
+              "role": "rule"
+            },
+            {
+              "text": " حركات عند الوقف.",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "word_rows",
+      "config": {
+        "columns": 5,
+        "rowColors": [
+          "sky"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "نستعين",
+          "segments": [
+            {
+              "text": "نَسۡتَعِ",
+              "role": "base"
+            },
+            {
+              "text": "ي",
+              "role": "target"
+            },
+            {
+              "text": "نُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ٱلناس",
+          "segments": [
+            {
+              "text": "ٱلنَّ",
+              "role": "base"
+            },
+            {
+              "text": "ا",
+              "role": "target"
+            },
+            {
+              "text": "سِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ٱلمفلحون",
+          "segments": [
+            {
+              "text": "ٱلۡمُفۡلِحُ",
+              "role": "base"
+            },
+            {
+              "text": "و",
+              "role": "target"
+            },
+            {
+              "text": "نَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "هذا ٱلبيت",
+          "segments": [
+            {
+              "text": "هَٰذَا ٱلۡبَ",
+              "role": "base"
+            },
+            {
+              "text": "يۡ",
+              "role": "target"
+            },
+            {
+              "text": "تِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "من خوف",
+          "segments": [
+            {
+              "text": "مِنۡ خَ",
+              "role": "base"
+            },
+            {
+              "text": "وۡ",
+              "role": "target"
+            },
+            {
+              "text": "فِۭ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "rule_definition",
+      "config": {
+        "columns": 1
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "drillable": false,
+          "searchText": "٦ المد اللازم الكلمى المثقل والمخفف: علامة المد اللازم الكلمى المثقل هو أن يأتى بعد حرف المد حرف مثقل أى (مشدد) كما فى المثال الأول والثانى والثالث ، والمد الكلمى المخفف هو أن يأتى بعد حرف المد حرف ساكن كما فى المثال الأخير وكلاهما يمد ( ٦ حركات) .",
+          "segments": [
+            {
+              "text": "٦ـ المد اللازم الكلمى المثقل والمخفف:",
+              "role": "target"
+            },
+            {
+              "text": " علامة المد اللازم الكلمى المثقل هو أن يأتى بعد حرف المد حرف مثقل أى (مشدد) كما فى المثال الأول والثانى والثالث ، ",
+              "role": "base"
+            },
+            {
+              "text": "والمد الكلمى المخفف",
+              "role": "target"
+            },
+            {
+              "text": " هو أن يأتى بعد حرف المد حرف ساكن كما فى المثال الأخير وكلاهما يمد ",
+              "role": "base"
+            },
+            {
+              "text": "( ٦ حركات)",
+              "role": "rule"
+            },
+            {
+              "text": " .",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "word_rows",
+      "config": {
+        "columns": 5,
+        "rowColors": [
+          "pink"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ٱلضآلين",
+          "segments": [
+            {
+              "text": "ٱلضَّ",
+              "role": "base"
+            },
+            {
+              "text": "آلِّ",
+              "role": "target"
+            },
+            {
+              "text": "ينَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ٱلحآقة",
+          "segments": [
+            {
+              "text": "ٱلۡحَ",
+              "role": "base"
+            },
+            {
+              "text": "آقَّ",
+              "role": "target"
+            },
+            {
+              "text": "ةُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "حآج",
+          "segments": [
+            {
+              "text": "حَ",
+              "role": "base"
+            },
+            {
+              "text": "آجَّ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "دآبة",
+          "segments": [
+            {
+              "text": "دَ",
+              "role": "base"
+            },
+            {
+              "text": "آبَّ",
+              "role": "target"
+            },
+            {
+              "text": "ةٍ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ءآلن",
+          "segments": [
+            {
+              "text": "ءَ",
+              "role": "base"
+            },
+            {
+              "text": "آلۡ",
+              "role": "target"
+            },
+            {
+              "text": "ـَٰٔنَ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "rule_definition",
+      "config": {
+        "columns": 1
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "drillable": false,
+          "searchText": "٧ أحكام ترتيل الحروف المقطعة فى أوائل السور مثل (الر) الحروف التى عليها علامة المد ( ) تمد ٦ حركات مثل (اللام) فى المثال، والحروف التى ليس عليها علامة مد مثل الراء تمد حركتين غير أن حرف الألف ليس فيه مد ومن الامثله",
+          "segments": [
+            {
+              "text": "٧ـ أحكام ترتيل الحروف المقطعة فى أوائل السور مثل (الٓرٓ)",
+              "role": "target"
+            },
+            {
+              "text": " الحروف التى عليها علامة المد ( ٓ ) تمد ٦ حركات مثل ",
+              "role": "base"
+            },
+            {
+              "text": "(اللام)",
+              "role": "target"
+            },
+            {
+              "text": " فى المثال، والحروف التى ليس عليها علامة مد مثل الراء تمد حركتين غير أن حرف الألف ليس فيه مد ",
+              "role": "base"
+            },
+            {
+              "text": "ومن الامثله",
+              "role": "rule"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "letter_tiles",
+      "config": {
+        "columns": 7,
+        "rowColors": [
+          "salmon"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "الم",
+          "segments": [
+            {
+              "text": "ا",
+              "role": "base"
+            },
+            {
+              "text": "لٓمٓ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "المص",
+          "segments": [
+            {
+              "text": "ا",
+              "role": "base"
+            },
+            {
+              "text": "لٓمٓصٓ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "المر",
+          "segments": [
+            {
+              "text": "ا",
+              "role": "base"
+            },
+            {
+              "text": "لٓمٓ",
+              "role": "target"
+            },
+            {
+              "text": "رۚ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "طسم",
+          "segments": [
+            {
+              "text": "ط",
+              "role": "base"
+            },
+            {
+              "text": "سٓمٓ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "يس",
+          "segments": [
+            {
+              "text": "ي",
+              "role": "base"
+            },
+            {
+              "text": "سٓ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "حم",
+          "segments": [
+            {
+              "text": "ح",
+              "role": "base"
+            },
+            {
+              "text": "مٓ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ق",
+          "segments": [
+            {
+              "text": "قٓ",
+              "role": "target"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 2,
+        "rowColors": [
+          "lime",
+          "lime"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "كهيعص ١ ذكر رحمت ربك عبده زكريآ",
+          "segments": [
+            {
+              "text": "كٓ",
+              "role": "target"
+            },
+            {
+              "text": "هي",
+              "role": "base"
+            },
+            {
+              "text": "عٓصٓ",
+              "role": "target"
+            },
+            {
+              "text": " ۝١ ذِكۡرُ رَحۡمَتِ رَبِّكَ عَبۡدَهُۥ زَكَرِيَّآ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "حم ١ عسق ٢ كذلك يوحى إليك",
+          "segments": [
+            {
+              "text": "ح",
+              "role": "base"
+            },
+            {
+              "text": "مٓ",
+              "role": "target"
+            },
+            {
+              "text": " ۝١ ",
+              "role": "base"
+            },
+            {
+              "text": "عٓسٓقٓ",
+              "role": "target"
+            },
+            {
+              "text": " ۝٢ كَذَٰلِكَ يُوحِىٓ إِلَيۡكَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "الر تلك ءايت ٱلكتب ٱلحكيم",
+          "segments": [
+            {
+              "text": "ا",
+              "role": "base"
+            },
+            {
+              "text": "لٓ",
+              "role": "target"
+            },
+            {
+              "text": "رۚ تِلۡكَ ءَايَٰتُ ٱلۡكِتَٰبِ ٱلۡحَكِيمِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "ص وٱلقرءان ذى ٱلذكر",
+          "segments": [
+            {
+              "text": "صٓ",
+              "role": "target"
+            },
+            {
+              "text": "ۚ وَٱلۡقُرۡءَانِ ذِى ٱلذِّكۡرِ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [],
+  "games": {},
+  "source": "book page 78"
+}

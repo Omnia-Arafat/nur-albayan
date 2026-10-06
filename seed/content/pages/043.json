@@ -1,0 +1,365 @@
+{
+  "slug": "page-43",
+  "bookPage": 43,
+  "stage": "unit-3",
+  "topic": "sukun",
+  "status": "review",
+  "i18n": {
+    "ar": {
+      "title": "السُّكُون",
+      "subtitle": "تدريب ( ٤) أمثلة قرآنية",
+      "teacherNote": "[للمعلم والآباء:] تقرأ الأمثلة أكثر من مرة [ونحرص على السماع لها] من كل متعلم على حده [ولا تنسى] قراءة الأمثلة القرآنية على المدود يومياً صفحة [( ٣٥، ٣٦، ٣٧، ٣٨)] مع المراجعة لقاعدة السكون والمدود صفحة رقم [( ٣٢، ٣٩)]",
+      "lessonTag": "الدرس الخامس",
+      "observeTag": "اقرأ ولاحظ"
+    }
+  },
+  "sections": [
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 3,
+        "rowColors": [
+          "green",
+          "green",
+          "peach",
+          "peach",
+          "pink",
+          "pink",
+          "sky",
+          "sky",
+          "sky"
+        ],
+        "markColor": "red"
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ولا تحزن عليهم",
+          "segments": [
+            {
+              "text": "وَلَا تَحۡزَنۡ عَلَيۡهِمۡ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ويقبضون أيديهم",
+          "segments": [
+            {
+              "text": "وَيَقۡبِضُونَ أَيۡدِيَهُمۡ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "هو أغنى وأقنى",
+          "segments": [
+            {
+              "text": "هُوَ أَغۡنَىٰ وَأَقۡنَىٰ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "وأوفوا بعهدى",
+          "segments": [
+            {
+              "text": "وَأَوۡفُوا۟ بِعَهۡدِى",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "حديث ٱلجنود",
+          "segments": [
+            {
+              "text": "حَدِيثُ ٱلۡجُنُودِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "خلقنا زوجين",
+          "segments": [
+            {
+              "text": "خَلَقۡنَا زَوۡجَيۡنِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "يقرءون كتبهم",
+          "segments": [
+            {
+              "text": "يَقۡرَءُونَ كِتَٰبَهُمۡ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "أفعصيت أمرى",
+          "segments": [
+            {
+              "text": "أَفَعَصَيۡتَ أَمۡرِى",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "هو أضحك وأبكى",
+          "segments": [
+            {
+              "text": "هُوَ أَضۡحَكَ وَأَبۡكَىٰ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "وأتونى مسلمين",
+          "segments": [
+            {
+              "text": "وَأۡتُونِى مُسۡلِمِينَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "كهشيم ٱلمحتظر",
+          "segments": [
+            {
+              "text": "كَهَشِيمِ ٱلۡمُحۡتَظِرِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "هو يبدئ ويعيد",
+          "segments": [
+            {
+              "text": "هُوَ يُبۡدِئُ وَيُعِيدُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "وكرهوا رضونه",
+          "segments": [
+            {
+              "text": "وَكَرِهُوا۟ رِضۡوَٰنَهُۥ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "فأحبط أعملهم",
+          "segments": [
+            {
+              "text": "فَأَحۡبَطَ أَعۡمَٰلَهُمۡ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "ويخرج أضغنكم",
+          "segments": [
+            {
+              "text": "وَيُخۡرِجۡ أَضۡغَٰنَكُمۡ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 5,
+          "searchText": "وأجلب عليهم",
+          "segments": [
+            {
+              "text": "وَأَجۡلِبۡ عَلَيۡهِمۡ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 5,
+          "searchText": "بخيلك ورجلك",
+          "segments": [
+            {
+              "text": "بِخَيۡلِكَ وَرَجِلِكَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 5,
+          "searchText": "قالت ٱلأعراب",
+          "segments": [
+            {
+              "text": "قَالَتِ ٱلۡأَعۡرَابُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 6,
+          "searchText": "وإسحق ويعقوب",
+          "segments": [
+            {
+              "text": "وَإِسۡحَٰقَ وَيَعۡقُوبَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 6,
+          "searchText": "خذها ولا تخف",
+          "segments": [
+            {
+              "text": "خُذۡهَا وَلَا تَخَفۡ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 6,
+          "searchText": "أكثرهم لا يعلمون",
+          "segments": [
+            {
+              "text": "أَكۡثَرُهُمۡ لَا يَعۡلَمُونَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 7,
+          "searchText": "وأن أقم وجهك",
+          "segments": [
+            {
+              "text": "وَأَنۡ أَقِمۡ وَجۡهَكَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 7,
+          "searchText": "فليدع ناديه",
+          "segments": [
+            {
+              "text": "فَلۡيَدۡعُ نَادِيَهُۥ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 7,
+          "searchText": "وقعت ٱلواقعة",
+          "segments": [
+            {
+              "text": "وَقَعَتِ ٱلۡوَاقِعَةُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 8,
+          "searchText": "فأوجس فى نفسه",
+          "segments": [
+            {
+              "text": "فَأَوۡجَسَ فِى نَفۡسِهِۦ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 8,
+          "searchText": "فراق بينى وبينك",
+          "segments": [
+            {
+              "text": "فِرَاقُ بَيۡنِى وَبَيۡنِكَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 8,
+          "searchText": "يمشى على رجلين",
+          "segments": [
+            {
+              "text": "يَمۡشِى عَلَىٰ رِجۡلَيۡنِ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [],
+  "games": {},
+  "source": "book page 43"
+}

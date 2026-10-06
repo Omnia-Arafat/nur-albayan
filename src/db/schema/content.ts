@@ -180,6 +180,8 @@ export const items = pgTable(
     rowBand: integer("row_band").notNull().default(0),
     /** Whether the item is drilled as a card (stories and rule rows may be display only). */
     isDrillable: boolean("is_drillable").notNull().default(true),
+    /** Decorative colour the book gives this item, e.g. each alphabet letter. Not a teaching colour. */
+    tintTokenKey: text("tint_token_key"),
     imageAssetId: uuid("image_asset_id").references(() => assets.id, { onDelete: "set null" }),
     audioAssetId: uuid("audio_asset_id").references(() => assets.id, { onDelete: "set null" }),
     /** Plain text without tashkeel, for search and the mistake-bank list. */

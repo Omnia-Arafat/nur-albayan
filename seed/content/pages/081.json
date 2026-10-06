@@ -1,0 +1,838 @@
+{
+  "slug": "page-81",
+  "bookPage": 81,
+  "stage": "unit-6",
+  "topic": "tarteel-noon",
+  "status": "review",
+  "i18n": {
+    "ar": {
+      "title": "٢ـ أحكام النون الساكنة والتنوين",
+      "teacherNote": "[للمعلم والآباء:] طريقة التطبيق للإقلاب [(مِمۡبَعۡدِ) (مُمۡبَثًّا)] طريقة التطبيق للتنوين مع همزة الوصل [(سَوَاءَنِ لۡعَاكِفُ) (خَيۡرُنِ هۡبِطُوا۟) (لُوطِنِ لۡمُرۡسَلِينَ)]",
+      "lessonTag": "الدرس الثانى"
+    }
+  },
+  "sections": [
+    {
+      "kind": "rule_definition",
+      "config": {
+        "columns": 1
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "drillable": false,
+          "searchText": "٤ الإقلاب : هو قلب النون الساكنة والتنوين عند ملاقاة (الباء) ميما مع الإخفاء لها كما فى الأمثلة :",
+          "segments": [
+            {
+              "text": "٤ـ الإقلاب :",
+              "role": "target"
+            },
+            {
+              "text": " هو قلب النون الساكنة والتنوين عند ملاقاة ",
+              "role": "base"
+            },
+            {
+              "text": "(الباء)",
+              "role": "rule"
+            },
+            {
+              "text": " ميمًا مع ",
+              "role": "base"
+            },
+            {
+              "text": "الإخفاء",
+              "role": "target"
+            },
+            {
+              "text": " لها كما فى الأمثلة :",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "word_rows",
+      "config": {
+        "columns": 5,
+        "rowColors": [
+          "lime"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "من بعد",
+          "segments": [
+            {
+              "text": "مِ",
+              "role": "base"
+            },
+            {
+              "text": "نۢ بَ",
+              "role": "target"
+            },
+            {
+              "text": "عۡدِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "منبثا",
+          "segments": [
+            {
+              "text": "مُ",
+              "role": "base"
+            },
+            {
+              "text": "نۢبَ",
+              "role": "target"
+            },
+            {
+              "text": "ثًّا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "مسخرت بأمره",
+          "segments": [
+            {
+              "text": "مُسَخَّرَٰ",
+              "role": "base"
+            },
+            {
+              "text": "تٍۭ بِ",
+              "role": "target"
+            },
+            {
+              "text": "أَمۡرِهِۦ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "مستخف بٱليل",
+          "segments": [
+            {
+              "text": "مُّسۡتَخۡ",
+              "role": "base"
+            },
+            {
+              "text": "فِۭ بِ",
+              "role": "target"
+            },
+            {
+              "text": "ٱلَّيۡلِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "مسحا بٱلسوق",
+          "segments": [
+            {
+              "text": "مَسۡ",
+              "role": "base"
+            },
+            {
+              "text": "حَۢا بِ",
+              "role": "target"
+            },
+            {
+              "text": "ٱلسُّوقِ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "rule_definition",
+      "config": {
+        "columns": 1
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "drillable": false,
+          "searchText": "٥ الإخفاء : هو نطق النون الساكنة والتنوين بصيغة بين الإظهار والإدغام وحروفه ما بقى من حروف الهجاء بعد حروف الإظهار والإدغام والإقلاب ومن الأمثلة :",
+          "segments": [
+            {
+              "text": "٥ـ الإخفاء :",
+              "role": "target"
+            },
+            {
+              "text": " هو نطق النون الساكنة والتنوين بصيغة بين الإظهار والإدغام وحروفه ما بقى من حروف الهجاء بعد حروف الإظهار والإدغام والإقلاب ",
+              "role": "base"
+            },
+            {
+              "text": "ومن الأمثلة :",
+              "role": "rule"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "rule_table",
+      "config": {
+        "columns": 5,
+        "rowColors": [
+          "sky",
+          "sky",
+          "sky",
+          "sky"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ت",
+          "segments": [
+            {
+              "text": "ت",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ومن تطوع",
+          "segments": [
+            {
+              "text": "وَمَن ",
+              "role": "base"
+            },
+            {
+              "text": "تَ",
+              "role": "target"
+            },
+            {
+              "text": "طَوَّعَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "كنت",
+          "segments": [
+            {
+              "text": "كُ",
+              "role": "base"
+            },
+            {
+              "text": "نتَ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "شجرة تخرج",
+          "segments": [
+            {
+              "text": "شَجَرَةٌۭ ",
+              "role": "base"
+            },
+            {
+              "text": "تَ",
+              "role": "target"
+            },
+            {
+              "text": "خۡرُجُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ليوم تشخص",
+          "segments": [
+            {
+              "text": "لِيَوۡمٍۢ ",
+              "role": "base"
+            },
+            {
+              "text": "تَ",
+              "role": "target"
+            },
+            {
+              "text": "شۡخَصُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "ج",
+          "segments": [
+            {
+              "text": "ج",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "من جآء",
+          "segments": [
+            {
+              "text": "مَن ",
+              "role": "base"
+            },
+            {
+              "text": "جَ",
+              "role": "target"
+            },
+            {
+              "text": "آءَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "وأنجينا",
+          "segments": [
+            {
+              "text": "وَأَ",
+              "role": "base"
+            },
+            {
+              "text": "نجَ",
+              "role": "target"
+            },
+            {
+              "text": "يۡنَا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "عين جارية",
+          "segments": [
+            {
+              "text": "عَيۡنٌۭ ",
+              "role": "base"
+            },
+            {
+              "text": "جَ",
+              "role": "target"
+            },
+            {
+              "text": "ارِيَةٌۭ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "قوما جبارين",
+          "segments": [
+            {
+              "text": "قَوۡمًۭا ",
+              "role": "base"
+            },
+            {
+              "text": "جَ",
+              "role": "target"
+            },
+            {
+              "text": "بَّارِينَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "ص",
+          "segments": [
+            {
+              "text": "ص",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "ومن صلح",
+          "segments": [
+            {
+              "text": "وَمَن ",
+              "role": "base"
+            },
+            {
+              "text": "صَ",
+              "role": "target"
+            },
+            {
+              "text": "لَحَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "منصورا",
+          "segments": [
+            {
+              "text": "مَ",
+              "role": "base"
+            },
+            {
+              "text": "نصُ",
+              "role": "target"
+            },
+            {
+              "text": "ورًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "مائة صابرة",
+          "segments": [
+            {
+              "text": "مِا۟ئَةٌۭ ",
+              "role": "base"
+            },
+            {
+              "text": "صَ",
+              "role": "target"
+            },
+            {
+              "text": "ابِرَةٌ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "مآء صديد",
+          "segments": [
+            {
+              "text": "مَّآءٍۢ ",
+              "role": "base"
+            },
+            {
+              "text": "صَ",
+              "role": "target"
+            },
+            {
+              "text": "دِيدٍ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "ك",
+          "segments": [
+            {
+              "text": "ك",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "من كسب",
+          "segments": [
+            {
+              "text": "مَن ",
+              "role": "base"
+            },
+            {
+              "text": "كَ",
+              "role": "target"
+            },
+            {
+              "text": "سَبَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "أنكثا",
+          "segments": [
+            {
+              "text": "أَ",
+              "role": "base"
+            },
+            {
+              "text": "نكَٰ",
+              "role": "target"
+            },
+            {
+              "text": "ثًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "يوما كان",
+          "segments": [
+            {
+              "text": "يَوۡمًۭا ",
+              "role": "base"
+            },
+            {
+              "text": "كَ",
+              "role": "target"
+            },
+            {
+              "text": "انَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "ملك كريم",
+          "segments": [
+            {
+              "text": "مَلَكٌۭ ",
+              "role": "base"
+            },
+            {
+              "text": "كَ",
+              "role": "target"
+            },
+            {
+              "text": "رِيمٌ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "rule_definition",
+      "config": {
+        "columns": 1
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "drillable": false,
+          "searchText": "٦ الإظهار المطلق : هو اجتماع النون الساكنة مع الياء فى كلمة فيكون حكمها الإظهار ومن الأمثلة",
+          "segments": [
+            {
+              "text": "٦ـ الإظهار المطلق :",
+              "role": "target"
+            },
+            {
+              "text": " هو اجتماع النون الساكنة مع الياء فى كلمة فيكون حكمها الإظهار ",
+              "role": "base"
+            },
+            {
+              "text": "ومن الأمثلة",
+              "role": "rule"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "word_rows",
+      "config": {
+        "columns": 5,
+        "rowColors": [
+          "lime"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "بنين",
+          "segments": [
+            {
+              "text": "بُ",
+              "role": "base"
+            },
+            {
+              "text": "نۡيَٰ",
+              "role": "target"
+            },
+            {
+              "text": "نٌ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "صنوان",
+          "segments": [
+            {
+              "text": "صِ",
+              "role": "base"
+            },
+            {
+              "text": "نۡوَ",
+              "role": "target"
+            },
+            {
+              "text": "انٌ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "قنوان",
+          "segments": [
+            {
+              "text": "قِ",
+              "role": "base"
+            },
+            {
+              "text": "نۡوَ",
+              "role": "target"
+            },
+            {
+              "text": "انٌ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ٱلدنيا",
+          "segments": [
+            {
+              "text": "ٱلدُّ",
+              "role": "base"
+            },
+            {
+              "text": "نۡيَ",
+              "role": "target"
+            },
+            {
+              "text": "ا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "بنينه",
+          "segments": [
+            {
+              "text": "بُ",
+              "role": "base"
+            },
+            {
+              "text": "نۡيَٰ",
+              "role": "target"
+            },
+            {
+              "text": "نَهُۥ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "rule_definition",
+      "config": {
+        "columns": 1
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "drillable": false,
+          "searchText": "٧ التنوين مع همزة الوصل : يحرك التنوين بحركة الكسر إذا جاء بعده همزة الوصل ومن الأمثلة",
+          "segments": [
+            {
+              "text": "٧ـ التنوين مع همزة الوصل :",
+              "role": "target"
+            },
+            {
+              "text": " يحرك التنوين بحركة الكسر إذا جاء بعده همزة الوصل ",
+              "role": "base"
+            },
+            {
+              "text": "ومن الأمثلة",
+              "role": "rule"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "word_rows",
+      "config": {
+        "columns": 4,
+        "rowColors": [
+          "salmon"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "سوآء ٱلعكف",
+          "segments": [
+            {
+              "text": "سَوَآ",
+              "role": "base"
+            },
+            {
+              "text": "ءً ٱ",
+              "role": "target"
+            },
+            {
+              "text": "لۡعَٰكِفُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "خيرا ٱهبطوا",
+          "segments": [
+            {
+              "text": "خَيۡ",
+              "role": "base"
+            },
+            {
+              "text": "رًا ٱ",
+              "role": "target"
+            },
+            {
+              "text": "هۡبِطُوا۟",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "لوط ٱلمرسلين",
+          "segments": [
+            {
+              "text": "لُو",
+              "role": "base"
+            },
+            {
+              "text": "طٍ ٱ",
+              "role": "target"
+            },
+            {
+              "text": "لۡمُرۡسَلِينَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ورهبانية ٱبتدعوها",
+          "segments": [
+            {
+              "text": "وَرَهۡبَانِيَّ",
+              "role": "base"
+            },
+            {
+              "text": "ةً ٱ",
+              "role": "target"
+            },
+            {
+              "text": "بۡتَدَعُوهَا",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [],
+  "games": {},
+  "source": "book page 81"
+}

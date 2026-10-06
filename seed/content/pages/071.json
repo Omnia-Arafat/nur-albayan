@@ -1,0 +1,659 @@
+{
+  "slug": "page-71",
+  "bookPage": 71,
+  "stage": "unit-5",
+  "topic": "shadda-damm",
+  "status": "review",
+  "i18n": {
+    "ar": {
+      "title": "الشدة مع الضمة",
+      "subtitle": "تدريب ( ٢) أمثلة قرآنية",
+      "teacherNote": "[للمعلم والآباء:] نحرص على سماع الكلمات من كل متعلم على حده [ولا تنسى] مراجعة درس السكون والتنوين والتدريبات عليها.",
+      "lessonTag": "الدرس الثانى",
+      "observeTag": "اقرأ ولاحظ"
+    }
+  },
+  "sections": [
+    {
+      "kind": "word_rows",
+      "config": {
+        "columns": 4,
+        "rowColors": [
+          "sky",
+          "sky",
+          "pink",
+          "pink",
+          "mint",
+          "mint",
+          "salmon",
+          "salmon"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "يختص",
+          "segments": [
+            {
+              "text": "يَخۡتَ",
+              "role": "base"
+            },
+            {
+              "text": "صُّ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "كطى",
+          "segments": [
+            {
+              "text": "كَطَ",
+              "role": "base"
+            },
+            {
+              "text": "ىِّ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "فأمه",
+          "segments": [
+            {
+              "text": "فَأُ",
+              "role": "base"
+            },
+            {
+              "text": "مُّ",
+              "role": "target"
+            },
+            {
+              "text": "هُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "تمر",
+          "segments": [
+            {
+              "text": "تَمُ",
+              "role": "base"
+            },
+            {
+              "text": "رُّ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "ٱلشقة",
+          "segments": [
+            {
+              "text": "ٱل",
+              "role": "base"
+            },
+            {
+              "text": "شُّقَّ",
+              "role": "target"
+            },
+            {
+              "text": "ةُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "ٱلسر",
+          "segments": [
+            {
+              "text": "ٱل",
+              "role": "base"
+            },
+            {
+              "text": "سِّرَّ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "يتطهرون",
+          "segments": [
+            {
+              "text": "يَتَطَ",
+              "role": "base"
+            },
+            {
+              "text": "هَّ",
+              "role": "target"
+            },
+            {
+              "text": "رُونَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "ٱلربع",
+          "segments": [
+            {
+              "text": "ٱل",
+              "role": "base"
+            },
+            {
+              "text": "رُّ",
+              "role": "target"
+            },
+            {
+              "text": "بُعُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "ٱلتنور",
+          "segments": [
+            {
+              "text": "ٱل",
+              "role": "base"
+            },
+            {
+              "text": "تَّنُّ",
+              "role": "target"
+            },
+            {
+              "text": "ورُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "يخرون",
+          "segments": [
+            {
+              "text": "يَخِ",
+              "role": "base"
+            },
+            {
+              "text": "رُّ",
+              "role": "target"
+            },
+            {
+              "text": "ونَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "كرسيه",
+          "segments": [
+            {
+              "text": "كُرۡسِ",
+              "role": "base"
+            },
+            {
+              "text": "يُّ",
+              "role": "target"
+            },
+            {
+              "text": "هُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "يبدل",
+          "segments": [
+            {
+              "text": "يُبَ",
+              "role": "base"
+            },
+            {
+              "text": "دَّ",
+              "role": "target"
+            },
+            {
+              "text": "لُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "يمنون",
+          "segments": [
+            {
+              "text": "يَمُ",
+              "role": "base"
+            },
+            {
+              "text": "نُّ",
+              "role": "target"
+            },
+            {
+              "text": "ونَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "تبوئ",
+          "segments": [
+            {
+              "text": "تُبَ",
+              "role": "base"
+            },
+            {
+              "text": "وِّ",
+              "role": "target"
+            },
+            {
+              "text": "ئُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "ٱلنعمة",
+          "segments": [
+            {
+              "text": "ٱل",
+              "role": "base"
+            },
+            {
+              "text": "نَّ",
+              "role": "target"
+            },
+            {
+              "text": "عۡمَةِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "ٱلصرط",
+          "segments": [
+            {
+              "text": "ٱل",
+              "role": "base"
+            },
+            {
+              "text": "صِّ",
+              "role": "target"
+            },
+            {
+              "text": "رَٰطَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "يكور",
+          "segments": [
+            {
+              "text": "يُكَ",
+              "role": "base"
+            },
+            {
+              "text": "وِّ",
+              "role": "target"
+            },
+            {
+              "text": "رُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "ليولن",
+          "segments": [
+            {
+              "text": "لَيُوَ",
+              "role": "base"
+            },
+            {
+              "text": "لُّنَّ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "صبار",
+          "segments": [
+            {
+              "text": "صَ",
+              "role": "base"
+            },
+            {
+              "text": "بَّ",
+              "role": "target"
+            },
+            {
+              "text": "ارٍ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "غدوها",
+          "segments": [
+            {
+              "text": "غُدُ",
+              "role": "base"
+            },
+            {
+              "text": "وُّ",
+              "role": "target"
+            },
+            {
+              "text": "هَا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 5,
+          "searchText": "يؤلف",
+          "segments": [
+            {
+              "text": "يُؤَ",
+              "role": "base"
+            },
+            {
+              "text": "لِّ",
+              "role": "target"
+            },
+            {
+              "text": "فُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 5,
+          "searchText": "عليون",
+          "segments": [
+            {
+              "text": "عِ",
+              "role": "base"
+            },
+            {
+              "text": "لِّيُّ",
+              "role": "target"
+            },
+            {
+              "text": "ونَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 5,
+          "searchText": "أميون",
+          "segments": [
+            {
+              "text": "أُ",
+              "role": "base"
+            },
+            {
+              "text": "مِّيُّ",
+              "role": "target"
+            },
+            {
+              "text": "ونَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 5,
+          "searchText": "كلهن",
+          "segments": [
+            {
+              "text": "كُ",
+              "role": "base"
+            },
+            {
+              "text": "لُّ",
+              "role": "target"
+            },
+            {
+              "text": "هُ",
+              "role": "base"
+            },
+            {
+              "text": "نَّ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 6,
+          "searchText": "يسيركم",
+          "segments": [
+            {
+              "text": "يُسَ",
+              "role": "base"
+            },
+            {
+              "text": "يِّ",
+              "role": "target"
+            },
+            {
+              "text": "رُكُمۡ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 6,
+          "searchText": "عصيهم",
+          "segments": [
+            {
+              "text": "عِصِ",
+              "role": "base"
+            },
+            {
+              "text": "يُّ",
+              "role": "target"
+            },
+            {
+              "text": "هُمۡ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 6,
+          "searchText": "يسمعون",
+          "segments": [
+            {
+              "text": "يَ",
+              "role": "base"
+            },
+            {
+              "text": "سَّمَّ",
+              "role": "target"
+            },
+            {
+              "text": "عُونَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 6,
+          "searchText": "يدعون",
+          "segments": [
+            {
+              "text": "يُدَ",
+              "role": "base"
+            },
+            {
+              "text": "عُّ",
+              "role": "target"
+            },
+            {
+              "text": "ونَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 7,
+          "searchText": "نوله",
+          "segments": [
+            {
+              "text": "نُوَ",
+              "role": "base"
+            },
+            {
+              "text": "لِّ",
+              "role": "target"
+            },
+            {
+              "text": "هِۦ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 7,
+          "searchText": "ٱلحى",
+          "segments": [
+            {
+              "text": "ٱلۡحَ",
+              "role": "base"
+            },
+            {
+              "text": "ىُّ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 7,
+          "searchText": "متعنا",
+          "segments": [
+            {
+              "text": "مَ",
+              "role": "base"
+            },
+            {
+              "text": "تَّ",
+              "role": "target"
+            },
+            {
+              "text": "عۡنَا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 7,
+          "searchText": "أدلكم",
+          "segments": [
+            {
+              "text": "أَدُ",
+              "role": "base"
+            },
+            {
+              "text": "لُّ",
+              "role": "target"
+            },
+            {
+              "text": "كُمۡ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [],
+  "games": {},
+  "source": "book page 71"
+}

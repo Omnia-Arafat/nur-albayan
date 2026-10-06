@@ -1,0 +1,217 @@
+{
+  "slug": "page-45",
+  "bookPage": 45,
+  "stage": "unit-3",
+  "topic": "sukun",
+  "status": "review",
+  "i18n": {
+    "ar": {
+      "title": "تدريب ( ٦) أمثلة قرآنية",
+      "teacherNote": "[للمعلم والآباء:] نحرص على قراءة التدريب أكثر من مرة، [ولا تنسى] القراءة اليومية لصفحة [( ٣٢، ٣٩)]",
+      "lessonTag": "الدرس السابع",
+      "observeTag": "اقرأ ولاحظ"
+    }
+  },
+  "sections": [
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 2,
+        "rowColors": [
+          "sky",
+          "sky",
+          "sky",
+          "pink",
+          "pink",
+          "pink"
+        ],
+        "markColor": "red"
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "وٱلأرض فرشنها فنعم ٱلمهدون",
+          "segments": [
+            {
+              "text": "وَٱلۡأَرۡضَ فَرَشۡنَٰهَا فَنِعۡمَ ٱلۡمَٰهِدُونَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ومن ءايته ٱلجوار فى ٱلبحر",
+          "segments": [
+            {
+              "text": "وَمِنۡ ءَايَٰتِهِ ٱلۡجَوَارِ فِى ٱلۡبَحۡرِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "شهد عليهم سمعهم وأبصرهم",
+          "segments": [
+            {
+              "text": "شَهِدَ عَلَيۡهِمۡ سَمۡعُهُمۡ وَأَبۡصَٰرُهُمۡ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "وذلك إفكهم وما كانوا يفترون",
+          "segments": [
+            {
+              "text": "وَذَٰلِكَ إِفۡكُهُمۡ وَمَا كَانُوا۟ يَفۡتَرُونَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "يحي ويميت وإليه ترجعون",
+          "segments": [
+            {
+              "text": "يُحۡيِۦ وَيُمِيتُ وَإِلَيۡهِ تُرۡجَعُونَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "فأخذتهم صعقة ٱلعذاب ٱلهون",
+          "segments": [
+            {
+              "text": "فَأَخَذَتۡهُمۡ صَٰعِقَةُ ٱلۡعَذَابِ ٱلۡهُونِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "قال وما علمى بما كانوا يعملون",
+          "segments": [
+            {
+              "text": "قَالَ وَمَا عِلۡمِى بِمَا كَانُوا۟ يَعۡمَلُونَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "وطبع على قلوبهم فهم لا يفقهون",
+          "segments": [
+            {
+              "text": "وَطُبِعَ عَلَىٰ قُلُوبِهِمۡ فَهُمۡ لَا يَفۡقَهُونَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "تتجافى جنوبهم عن ٱلمضاجع",
+          "segments": [
+            {
+              "text": "تَتَجَافَىٰ جُنُوبُهُمۡ عَنِ ٱلۡمَضَاجِعِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "فوجد فيها رجلين يقتتلان",
+          "segments": [
+            {
+              "text": "فَوَجَدَ فِيهَا رَجُلَيۡنِ يَقۡتَتِلَانِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 5,
+          "searchText": "أفمن هذا ٱلحديث تعجبون",
+          "segments": [
+            {
+              "text": "أَفَمِنۡ هَٰذَا ٱلۡحَدِيثِ تَعۡجَبُونَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 5,
+          "searchText": "ولا تعجبك أمولهم وأولدهم",
+          "segments": [
+            {
+              "text": "وَلَا تُعۡجِبۡكَ أَمۡوَٰلُهُمۡ وَأَوۡلَٰدُهُمۡ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 1,
+        "rowColors": [
+          "green"
+        ],
+        "markColor": "red"
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "هل أتىك حديث ضيف إبرهيم ٱلمكرمين",
+          "segments": [
+            {
+              "text": "هَلۡ أَتَىٰكَ حَدِيثُ ضَيۡفِ إِبۡرَٰهِيمَ ٱلۡمُكۡرَمِينَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "فشربون عليه من ٱلحميم فشربون شرب ٱلهيم",
+          "segments": [
+            {
+              "text": "فَشَٰرِبُونَ عَلَيۡهِ مِنَ ٱلۡحَمِيمِ فَشَٰرِبُونَ شُرۡبَ ٱلۡهِيمِ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [],
+  "games": {},
+  "source": "book page 45"
+}

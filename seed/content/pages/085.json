@@ -1,0 +1,607 @@
+{
+  "slug": "page-85",
+  "bookPage": 85,
+  "stage": "unit-6",
+  "topic": "tarteel-idgham",
+  "status": "review",
+  "i18n": {
+    "ar": {
+      "title": "أحكام ترتيل القرآن",
+      "subtitle": "٤ـ المتماثلان والمتقاربان والمتجانسان",
+      "teacherNote": "[للمعلم والآباء:] طريقة التطبيق لبعض الأمثلة [(لَكُمَّوۡعِدًا) (بَرَّفَعَهُ) (قَتَّبَيَّنَ) (إِرۡكَمَّعَنَا)] للمزيد من أحكام التجويد ارجع لكتابنا [(مسك البيان)]، [ولا تنسى] القراءة اليومية للتدريبات صفحة [( ٧٩، ٨٢، ٨٤)]",
+      "lessonTag": "الدرس الأول"
+    }
+  },
+  "sections": [
+    {
+      "kind": "rule_definition",
+      "config": {
+        "columns": 1
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "drillable": false,
+          "searchText": "١ المتماثلان: هو أن يأتى الحرف ساكنا ثم يكرر نفس الحرف متحركا فيكون حكمهما الإدغام ويأتى الإدغام فى كلمة أو بين كلمتين ومن الأمثلة",
+          "segments": [
+            {
+              "text": "١ـ المتماثلان:",
+              "role": "target"
+            },
+            {
+              "text": " هو أن يأتى الحرف ساكناً ثم يكرر نفس الحرف متحركًا فيكون حكمهما الإدغام ويأتى الإدغام فى كلمة أو بين كلمتين ",
+              "role": "base"
+            },
+            {
+              "text": "ومن الأمثلة",
+              "role": "rule"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "word_rows",
+      "config": {
+        "columns": 4,
+        "rowColors": [
+          "pink",
+          "pink",
+          "pink"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "لكم موعدا",
+          "segments": [
+            {
+              "text": "لَّكُم ",
+              "role": "base"
+            },
+            {
+              "text": "مَّ",
+              "role": "target"
+            },
+            {
+              "text": "وۡعِدًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "كانت تأتيهم",
+          "segments": [
+            {
+              "text": "كَانَت ",
+              "role": "base"
+            },
+            {
+              "text": "تَّ",
+              "role": "target"
+            },
+            {
+              "text": "أۡتِيهِمۡ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ٱضرب بعصاك",
+          "segments": [
+            {
+              "text": "ٱضۡرِب ",
+              "role": "base"
+            },
+            {
+              "text": "بِّ",
+              "role": "target"
+            },
+            {
+              "text": "عَصَاكَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "بل لجوا",
+          "segments": [
+            {
+              "text": "بَل ",
+              "role": "base"
+            },
+            {
+              "text": "لَّ",
+              "role": "target"
+            },
+            {
+              "text": "جُّوا۟",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "وٱذكر ربك",
+          "segments": [
+            {
+              "text": "وَٱذۡكُر ",
+              "role": "base"
+            },
+            {
+              "text": "رَّ",
+              "role": "target"
+            },
+            {
+              "text": "بَّكَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "ٱتقوا وءامنوا",
+          "segments": [
+            {
+              "text": "ٱتَّقَوا۟ ",
+              "role": "base"
+            },
+            {
+              "text": "وَّ",
+              "role": "target"
+            },
+            {
+              "text": "ءَامَنُوا۟",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "يسرف فى",
+          "segments": [
+            {
+              "text": "يُسۡرِف ",
+              "role": "base"
+            },
+            {
+              "text": "فِّ",
+              "role": "target"
+            },
+            {
+              "text": "ى",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "تسطع عليه",
+          "segments": [
+            {
+              "text": "تَسۡطِع ",
+              "role": "base"
+            },
+            {
+              "text": "عَّ",
+              "role": "target"
+            },
+            {
+              "text": "لَيۡهِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "وقد دخلوا",
+          "segments": [
+            {
+              "text": "وَقَد ",
+              "role": "base"
+            },
+            {
+              "text": "دَّ",
+              "role": "target"
+            },
+            {
+              "text": "خَلُوا۟",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "يوجهه",
+          "segments": [
+            {
+              "text": "يُوَجِّه",
+              "role": "base"
+            },
+            {
+              "text": "هُّ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "يدرككم",
+          "segments": [
+            {
+              "text": "يُدۡرِك",
+              "role": "base"
+            },
+            {
+              "text": "كُّ",
+              "role": "target"
+            },
+            {
+              "text": "مُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "بأييكم",
+          "segments": [
+            {
+              "text": "بِأَي",
+              "role": "base"
+            },
+            {
+              "text": "يِّ",
+              "role": "target"
+            },
+            {
+              "text": "كُمُ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "rule_definition",
+      "config": {
+        "columns": 1
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "drillable": false,
+          "searchText": "٢ المتقاربان: هما الحرفان اللذان تقاربا مخرجا وصفة مثل إدغام القاف فى الكاف كما فى المثال الأول و إدغام اللام فى الراء كما فى بقية الأمثلة :",
+          "segments": [
+            {
+              "text": "٢ـ المتقاربان:",
+              "role": "target"
+            },
+            {
+              "text": " هما الحرفان اللذان تقاربا مخرجًا وصفة مثل إدغام القاف فى الكاف كما فى المثال الأول و إدغام اللام فى الراء كما فى بقية الأمثلة :",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "word_rows",
+      "config": {
+        "columns": 4,
+        "rowColors": [
+          "salmon"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ألم نخلقكم",
+          "segments": [
+            {
+              "text": "أَلَمۡ نَخۡلُ",
+              "role": "base"
+            },
+            {
+              "text": "قكُّ",
+              "role": "target"
+            },
+            {
+              "text": "م",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "بل رفعه",
+          "segments": [
+            {
+              "text": "بَل ",
+              "role": "base"
+            },
+            {
+              "text": "رَّ",
+              "role": "target"
+            },
+            {
+              "text": "فَعَهُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "بل ربكم",
+          "segments": [
+            {
+              "text": "بَل ",
+              "role": "base"
+            },
+            {
+              "text": "رَّ",
+              "role": "target"
+            },
+            {
+              "text": "بُّكُمۡ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "وقل رب",
+          "segments": [
+            {
+              "text": "وَقُل ",
+              "role": "base"
+            },
+            {
+              "text": "رَّ",
+              "role": "target"
+            },
+            {
+              "text": "بِّ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "rule_definition",
+      "config": {
+        "columns": 1
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "drillable": false,
+          "searchText": "٣ المتجانسان: هو إدغام حرف ساكن فى حرف متحرك اتحدا فى المخرج واختلفا فى الصفة مثل الدال مع التاء ومن الأمثلة :",
+          "segments": [
+            {
+              "text": "٣ـ المتجانسان:",
+              "role": "target"
+            },
+            {
+              "text": " هو إدغام حرف ساكن فى حرف متحرك اتحدا فى المخرج واختلفا فى الصفة مثل الدال مع التاء ",
+              "role": "base"
+            },
+            {
+              "text": "ومن الأمثلة :",
+              "role": "rule"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "word_rows",
+      "config": {
+        "columns": 4,
+        "rowColors": [
+          "lime",
+          "lime"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "قد تبين",
+          "segments": [
+            {
+              "text": "قَد ",
+              "role": "base"
+            },
+            {
+              "text": "تَّ",
+              "role": "target"
+            },
+            {
+              "text": "بَيَّنَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "أردتم",
+          "segments": [
+            {
+              "text": "أَرَ",
+              "role": "base"
+            },
+            {
+              "text": "دتُّ",
+              "role": "target"
+            },
+            {
+              "text": "مۡ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "وقالت طائفة",
+          "segments": [
+            {
+              "text": "وَقَالَت ",
+              "role": "base"
+            },
+            {
+              "text": "طَّ",
+              "role": "target"
+            },
+            {
+              "text": "آئِفَةٌ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "أحطت",
+          "segments": [
+            {
+              "text": "أَحَ",
+              "role": "base"
+            },
+            {
+              "text": "طتُ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "يلهث ذلك",
+          "segments": [
+            {
+              "text": "يَلۡهَث ",
+              "role": "base"
+            },
+            {
+              "text": "ذَّ",
+              "role": "target"
+            },
+            {
+              "text": "ٰلِكَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "إذ ظلموا",
+          "segments": [
+            {
+              "text": "إِذ ",
+              "role": "base"
+            },
+            {
+              "text": "ظَّ",
+              "role": "target"
+            },
+            {
+              "text": "لَمُوٓا۟",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "ٱركب معنا",
+          "segments": [
+            {
+              "text": "ٱرۡكَب ",
+              "role": "base"
+            },
+            {
+              "text": "مَّ",
+              "role": "target"
+            },
+            {
+              "text": "عَنَا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "يوم ولدت",
+          "segments": [
+            {
+              "text": "يَوۡمَ وُلِ",
+              "role": "base"
+            },
+            {
+              "text": "دتُّ",
+              "role": "target"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [],
+  "games": {},
+  "source": "book page 85"
+}

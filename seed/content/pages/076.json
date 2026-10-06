@@ -1,0 +1,455 @@
+{
+  "slug": "page-76",
+  "bookPage": 76,
+  "stage": "unit-5",
+  "topic": "shadda-tanween",
+  "status": "review",
+  "i18n": {
+    "ar": {
+      "title": "الشدة مع التنوين",
+      "subtitle": "تدريب ـ أمثلة قرآنية",
+      "teacherNote": "[للمعلم والآباء:] يسمع قراءة التدريب من كل متعلم على حده، [ولا تنسى] المراجعة بداية من الوحدة الثالثة صفحة رقم [( ٣٩)] وحتى [( ٧٦)] وذلك قبل البداية فى [(أحكام الترتيل)].",
+      "lessonTag": "الدرس الثانى",
+      "observeTag": "اقرأ ولاحظ"
+    }
+  },
+  "sections": [
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 2,
+        "rowColors": [
+          "pink",
+          "pink",
+          "pink",
+          "sky",
+          "sky",
+          "sky",
+          "lime",
+          "lime"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "وكذلك جعلنا لكل نبى عدوا",
+          "segments": [
+            {
+              "text": "وَكَذَٰلِكَ جَعَلۡنَا لِكُ",
+              "role": "base"
+            },
+            {
+              "text": "لِّ ",
+              "role": "target"
+            },
+            {
+              "text": "نَبِ",
+              "role": "base"
+            },
+            {
+              "text": "ىٍّ ",
+              "role": "target"
+            },
+            {
+              "text": "عَدُ",
+              "role": "base"
+            },
+            {
+              "text": "وًّا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ٱلنار يعرضون عليها غدوا",
+          "segments": [
+            {
+              "text": "ٱل",
+              "role": "base"
+            },
+            {
+              "text": "نَّ",
+              "role": "target"
+            },
+            {
+              "text": "ارُ يُعۡرَضُونَ عَلَيۡهَا غُدُ",
+              "role": "base"
+            },
+            {
+              "text": "وًّا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "وإن ٱلذين ٱختلفوا فيه لفى شك",
+          "segments": [
+            {
+              "text": "وَإِ",
+              "role": "base"
+            },
+            {
+              "text": "نَّ ",
+              "role": "target"
+            },
+            {
+              "text": "ٱ",
+              "role": "base"
+            },
+            {
+              "text": "لَّ",
+              "role": "target"
+            },
+            {
+              "text": "ذِينَ ٱخۡتَلَفُوا۟ فِيهِ لَفِى شَ",
+              "role": "base"
+            },
+            {
+              "text": "كٍّ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "يمشى مكبا على وجهه",
+          "segments": [
+            {
+              "text": "يَمۡشِى مُكِ",
+              "role": "base"
+            },
+            {
+              "text": "بًّا ",
+              "role": "target"
+            },
+            {
+              "text": "عَلَىٰ وَجۡهِهِۦ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "فٱصبر إن وعد ٱلله حق",
+          "segments": [
+            {
+              "text": "فَٱصۡبِرۡ إِ",
+              "role": "base"
+            },
+            {
+              "text": "نَّ ",
+              "role": "target"
+            },
+            {
+              "text": "وَعۡدَ ٱ",
+              "role": "base"
+            },
+            {
+              "text": "للَّ",
+              "role": "target"
+            },
+            {
+              "text": "هِ حَ",
+              "role": "base"
+            },
+            {
+              "text": "قٌّ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "فلما ٱستيسوا منه خلصوا نجيا",
+          "segments": [
+            {
+              "text": "فَلَ",
+              "role": "base"
+            },
+            {
+              "text": "مَّ",
+              "role": "target"
+            },
+            {
+              "text": "ا ٱسۡتَيۡـَٔسُوا۟ مِنۡهُ خَلَصُوا۟ نَجِ",
+              "role": "base"
+            },
+            {
+              "text": "يًّا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "وٱلأقربين بٱلمعروف حقا على ٱلمتقين",
+          "segments": [
+            {
+              "text": "وَٱلۡأَقۡرَبِينَ بِٱلۡمَعۡرُوفِ حَ",
+              "role": "base"
+            },
+            {
+              "text": "قًّا ",
+              "role": "target"
+            },
+            {
+              "text": "عَلَى ٱلۡمُ",
+              "role": "base"
+            },
+            {
+              "text": "تَّ",
+              "role": "target"
+            },
+            {
+              "text": "قِينَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "وتحبون ٱلمال حبا جما",
+          "segments": [
+            {
+              "text": "وَتُحِ",
+              "role": "base"
+            },
+            {
+              "text": "بُّ",
+              "role": "target"
+            },
+            {
+              "text": "ونَ ٱلۡمَالَ حُ",
+              "role": "base"
+            },
+            {
+              "text": "بًّا ",
+              "role": "target"
+            },
+            {
+              "text": "جَ",
+              "role": "base"
+            },
+            {
+              "text": "مًّا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "وقلنا ٱهبطوا بعضكم لبعض عدو",
+          "segments": [
+            {
+              "text": "وَقُلۡنَا ٱهۡبِطُوا۟ بَعۡضُكُمۡ لِبَعۡضٍ عَدُ",
+              "role": "base"
+            },
+            {
+              "text": "وٌّ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "يدعون إلى نار جهنم دعا",
+          "segments": [
+            {
+              "text": "يُدَ",
+              "role": "base"
+            },
+            {
+              "text": "عُّ",
+              "role": "target"
+            },
+            {
+              "text": "ونَ إِلَىٰ نَارِ جَهَ",
+              "role": "base"
+            },
+            {
+              "text": "نَّ",
+              "role": "target"
+            },
+            {
+              "text": "مَ دَ",
+              "role": "base"
+            },
+            {
+              "text": "عًّا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 5,
+          "searchText": "وإنى عليه لقوى أمين",
+          "segments": [
+            {
+              "text": "وَإِ",
+              "role": "base"
+            },
+            {
+              "text": "نِّ",
+              "role": "target"
+            },
+            {
+              "text": "ى عَلَيۡهِ لَقَوِ",
+              "role": "base"
+            },
+            {
+              "text": "ىٌّ ",
+              "role": "target"
+            },
+            {
+              "text": "أَمِينٌ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 5,
+          "searchText": "لقد علمت ما لنا فى بناتك من حق",
+          "segments": [
+            {
+              "text": "لَقَدۡ عَلِمۡتَ مَا لَنَا فِى بَنَاتِكَ مِنۡ حَ",
+              "role": "base"
+            },
+            {
+              "text": "قٍّ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 6,
+          "searchText": "وطعام ٱلذين أوتوا ٱلكتب حل",
+          "segments": [
+            {
+              "text": "وَطَعَامُ ٱ",
+              "role": "base"
+            },
+            {
+              "text": "لَّ",
+              "role": "target"
+            },
+            {
+              "text": "ذِينَ أُوتُوا۟ ٱلۡكِتَٰبَ حِ",
+              "role": "base"
+            },
+            {
+              "text": "لٌّ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 6,
+          "searchText": "بلى وعدا عليه حقا",
+          "segments": [
+            {
+              "text": "بَلَىٰ وَعۡدًا عَلَيۡهِ حَ",
+              "role": "base"
+            },
+            {
+              "text": "قًّا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 7,
+          "searchText": "يسلونك كأنك حفى عنها",
+          "segments": [
+            {
+              "text": "يَسۡـَٔلُونَكَ كَأَ",
+              "role": "base"
+            },
+            {
+              "text": "نَّ",
+              "role": "target"
+            },
+            {
+              "text": "كَ حَفِ",
+              "role": "base"
+            },
+            {
+              "text": "ىٌّ ",
+              "role": "target"
+            },
+            {
+              "text": "عَنۡهَا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 7,
+          "searchText": "تجلى ربه للجبل جعله دكا",
+          "segments": [
+            {
+              "text": "تَجَ",
+              "role": "base"
+            },
+            {
+              "text": "لَّ",
+              "role": "target"
+            },
+            {
+              "text": "ىٰ رَ",
+              "role": "base"
+            },
+            {
+              "text": "بُّ",
+              "role": "target"
+            },
+            {
+              "text": "هُۥ لِلۡجَبَلِ جَعَلَهُۥ دَ",
+              "role": "base"
+            },
+            {
+              "text": "كًّا",
+              "role": "target"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [],
+  "games": {},
+  "source": "book page 76"
+}

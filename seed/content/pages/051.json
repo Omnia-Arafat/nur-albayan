@@ -1,0 +1,587 @@
+{
+  "slug": "page-51",
+  "bookPage": 51,
+  "stage": "unit-4",
+  "topic": "tanween-fath",
+  "status": "review",
+  "i18n": {
+    "ar": {
+      "title": "تنوين الفتح",
+      "subtitle": "تدريب ( ٢) أمثلة قرآنية",
+      "teacherNote": "[للمعلم والآباء:] نحرص على مناقشة المتعلم فى أشكال التنوين حتى يفرق بين التنوين المظهر والمقلب والمدغم. [ولا تنسى:] المراجعة اليومية لقاعدة الحركات والمدود والسكون صفحة [( ١٨، ٣٢، ٣٩)]",
+      "lessonTag": "الدرس الثانى",
+      "observeTag": "اقرأ ولاحظ"
+    }
+  },
+  "sections": [
+    {
+      "kind": "word_rows",
+      "config": {
+        "columns": 5,
+        "rowColors": [
+          "green",
+          "green",
+          "pink",
+          "pink",
+          "sky"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "لبنا",
+          "segments": [
+            {
+              "text": "لَبَ",
+              "role": "base"
+            },
+            {
+              "text": "نًا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "وجيها",
+          "segments": [
+            {
+              "text": "وَجِي",
+              "role": "base"
+            },
+            {
+              "text": "هًا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "لهوا",
+          "segments": [
+            {
+              "text": "لَهۡ",
+              "role": "base"
+            },
+            {
+              "text": "وًا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "سعيا",
+          "segments": [
+            {
+              "text": "سَعۡ",
+              "role": "base"
+            },
+            {
+              "text": "يًا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "قرى",
+          "segments": [
+            {
+              "text": "قُ",
+              "role": "base"
+            },
+            {
+              "text": "رًى",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "بطانة",
+          "segments": [
+            {
+              "text": "بِطَانَ",
+              "role": "base"
+            },
+            {
+              "text": "ةً",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "وبيلا",
+          "segments": [
+            {
+              "text": "وَبِي",
+              "role": "base"
+            },
+            {
+              "text": "لًا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "حيوة",
+          "segments": [
+            {
+              "text": "حَيَوٰ",
+              "role": "base"
+            },
+            {
+              "text": "ةً",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "كفوا",
+          "segments": [
+            {
+              "text": "كُفُ",
+              "role": "base"
+            },
+            {
+              "text": "وًا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "طوى",
+          "segments": [
+            {
+              "text": "طُ",
+              "role": "base"
+            },
+            {
+              "text": "وًى",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "إلها",
+          "segments": [
+            {
+              "text": "إِلَٰ",
+              "role": "base"
+            },
+            {
+              "text": "هًا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "وحدا",
+          "segments": [
+            {
+              "text": "وَٰحِ",
+              "role": "base"
+            },
+            {
+              "text": "دًا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "سميعا",
+          "segments": [
+            {
+              "text": "سَمِي",
+              "role": "base"
+            },
+            {
+              "text": "عًا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "شاكرا",
+          "segments": [
+            {
+              "text": "شَاكِ",
+              "role": "base"
+            },
+            {
+              "text": "رًا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "غفورا",
+          "segments": [
+            {
+              "text": "غَفُو",
+              "role": "base"
+            },
+            {
+              "text": "رًا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "لواذا",
+          "segments": [
+            {
+              "text": "لِوَا",
+              "role": "base"
+            },
+            {
+              "text": "ذًا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "وحدة",
+          "segments": [
+            {
+              "text": "وَٰحِدَ",
+              "role": "base"
+            },
+            {
+              "text": "ةً",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "طبقا",
+          "segments": [
+            {
+              "text": "طَبَ",
+              "role": "base"
+            },
+            {
+              "text": "قًا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "قاصدا",
+          "segments": [
+            {
+              "text": "قَاصِ",
+              "role": "base"
+            },
+            {
+              "text": "دًا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "دولة",
+          "segments": [
+            {
+              "text": "دُولَ",
+              "role": "base"
+            },
+            {
+              "text": "ةًۢ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "إرصادا",
+          "segments": [
+            {
+              "text": "إِرۡصَا",
+              "role": "base"
+            },
+            {
+              "text": "دًا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "رءيا",
+          "segments": [
+            {
+              "text": "رِءۡ",
+              "role": "base"
+            },
+            {
+              "text": "يًا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "ريبة",
+          "segments": [
+            {
+              "text": "رِيبَ",
+              "role": "base"
+            },
+            {
+              "text": "ةً",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "وردا",
+          "segments": [
+            {
+              "text": "وِرۡ",
+              "role": "base"
+            },
+            {
+              "text": "دًا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "كسفا",
+          "segments": [
+            {
+              "text": "كِسَ",
+              "role": "base"
+            },
+            {
+              "text": "فًا",
+              "role": "target"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 3,
+        "rowColors": [
+          "sky"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "وجعل فيها سراجا",
+          "segments": [
+            {
+              "text": "وَجَعَلَ فِيهَا سِرَا",
+              "role": "base"
+            },
+            {
+              "text": "جًا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "كان لطيفا خبيرا",
+          "segments": [
+            {
+              "text": "كَانَ لَطِي",
+              "role": "base"
+            },
+            {
+              "text": "فًا",
+              "role": "target"
+            },
+            {
+              "text": " خَبِي",
+              "role": "base"
+            },
+            {
+              "text": "رًا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "لأهب لك غلاما",
+          "segments": [
+            {
+              "text": "لِأَهَبَ لَكِ غُلَا",
+              "role": "base"
+            },
+            {
+              "text": "مًا",
+              "role": "target"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 2,
+        "rowColors": [
+          "pink",
+          "pink"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "قرءان ٱلفجر كان مشهودا",
+          "segments": [
+            {
+              "text": "قُرۡءَانَ ٱلۡفَجۡرِ كَانَ مَشۡهُو",
+              "role": "base"
+            },
+            {
+              "text": "دًا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ووجدوا ما عملوا حاضرا",
+          "segments": [
+            {
+              "text": "وَوَجَدُوا۟ مَا عَمِلُوا۟ حَاضِ",
+              "role": "base"
+            },
+            {
+              "text": "رًا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "فأخرج لهم عجلا",
+          "segments": [
+            {
+              "text": "فَأَخۡرَجَ لَهُمۡ عِجۡ",
+              "role": "base"
+            },
+            {
+              "text": "لًا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "لقد جئت شيا إمرا",
+          "segments": [
+            {
+              "text": "لَقَدۡ جِئۡتَ شَي",
+              "role": "base"
+            },
+            {
+              "text": "ًۡٔا",
+              "role": "target"
+            },
+            {
+              "text": " إِمۡ",
+              "role": "base"
+            },
+            {
+              "text": "رًا",
+              "role": "target"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [],
+  "games": {},
+  "source": "book page 51"
+}

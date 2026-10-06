@@ -1,0 +1,550 @@
+{
+  "slug": "page-84",
+  "bookPage": 84,
+  "stage": "unit-6",
+  "topic": "tarteel-meem",
+  "status": "review",
+  "i18n": {
+    "ar": {
+      "title": "أحكام الترتيل",
+      "subtitle": "مراجعة",
+      "teacherNote": "[للمعلم والآباء:] من خلال التدريب يتم مراجعة ما تم دراسته من أحكام التلاوة للمدود والنون الساكنه والتنوين وأحكام الميم الساكنة [فالنحرص] على قراءتها أكثر من مرة [ولا تنسى مراجعة التدريبات صفحة رقم ( ٧٩، ٨٢)]",
+      "lessonTag": "الدرس الثانى",
+      "observeTag": "اقرأ ولاحظ"
+    }
+  },
+  "sections": [
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 1,
+        "rowColors": [
+          "yellow",
+          "yellow",
+          "yellow",
+          "sky",
+          "sky",
+          "sky",
+          "pink",
+          "pink",
+          "pink",
+          "rose",
+          "rose"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "قل أرءيتم إن أصبح ماؤكم غورا فمن يأتيكم بماء معين",
+          "segments": [
+            {
+              "text": "قُلۡ أَرَءَيۡتُ",
+              "role": "base"
+            },
+            {
+              "text": "مۡ إِنۡ أَ",
+              "role": "target"
+            },
+            {
+              "text": "صۡبَحَ مَآؤُكُ",
+              "role": "base"
+            },
+            {
+              "text": "مۡ غَ",
+              "role": "target"
+            },
+            {
+              "text": "وۡرًا فَمَن ",
+              "role": "base"
+            },
+            {
+              "text": "يَ",
+              "role": "target"
+            },
+            {
+              "text": "أۡتِيكُم ",
+              "role": "base"
+            },
+            {
+              "text": "بِ",
+              "role": "target"
+            },
+            {
+              "text": "مَآءٍ ",
+              "role": "base"
+            },
+            {
+              "text": "مَّ",
+              "role": "target"
+            },
+            {
+              "text": "عِينٍ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "لقد أنزلنا ءايت مبينت وٱلله يهدى من يشاء إلى صرط مستقيم",
+          "segments": [
+            {
+              "text": "لَّقَدۡ أَ",
+              "role": "base"
+            },
+            {
+              "text": "نزَ",
+              "role": "target"
+            },
+            {
+              "text": "لۡنَآ ءَايَٰتٍ ",
+              "role": "base"
+            },
+            {
+              "text": "مُّ",
+              "role": "target"
+            },
+            {
+              "text": "بَيِّنَٰتٍۚ وَٱللَّهُ يَهۡدِى مَن ",
+              "role": "base"
+            },
+            {
+              "text": "يَ",
+              "role": "target"
+            },
+            {
+              "text": "شَآءُ إِلَىٰ صِرَٰطٍ ",
+              "role": "base"
+            },
+            {
+              "text": "مُّ",
+              "role": "target"
+            },
+            {
+              "text": "سۡتَقِيمٍ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "إنما قولنا لشىء إذا أردنه أن نقول له كن فيكون",
+          "segments": [
+            {
+              "text": "إِ",
+              "role": "base"
+            },
+            {
+              "text": "نَّ",
+              "role": "target"
+            },
+            {
+              "text": "مَا قَوۡلُنَا لِشَ",
+              "role": "base"
+            },
+            {
+              "text": "ىۡءٍ إِ",
+              "role": "target"
+            },
+            {
+              "text": "ذَآ أَرَدۡنَٰهُ أَن ",
+              "role": "base"
+            },
+            {
+              "text": "نَّ",
+              "role": "target"
+            },
+            {
+              "text": "قُولَ لَهُۥ كُن ",
+              "role": "base"
+            },
+            {
+              "text": "فَ",
+              "role": "target"
+            },
+            {
+              "text": "يَكُونُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "وما بكم من نعمة فمن ٱلله ثم إذا مسكم ٱلضر فإليه تجرون",
+          "segments": [
+            {
+              "text": "وَمَا بِكُم ",
+              "role": "base"
+            },
+            {
+              "text": "مِّ",
+              "role": "target"
+            },
+            {
+              "text": "ن ",
+              "role": "base"
+            },
+            {
+              "text": "نِّ",
+              "role": "target"
+            },
+            {
+              "text": "عۡمَ",
+              "role": "base"
+            },
+            {
+              "text": "ةٍ فَ",
+              "role": "target"
+            },
+            {
+              "text": "مِنَ ٱللَّهِۖ ثُ",
+              "role": "base"
+            },
+            {
+              "text": "مَّ",
+              "role": "target"
+            },
+            {
+              "text": " إِذَا مَسَّكُمُ ٱلضُّرُّ فَإِلَيۡهِ تَجۡـَٔرُونَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "وإن من شىء إلا عندنا خزائنه وما ننزله إلا بقدر معلوم",
+          "segments": [
+            {
+              "text": "وَإِن ",
+              "role": "base"
+            },
+            {
+              "text": "مِّ",
+              "role": "target"
+            },
+            {
+              "text": "ن ",
+              "role": "base"
+            },
+            {
+              "text": "شَ",
+              "role": "target"
+            },
+            {
+              "text": "ىۡ",
+              "role": "base"
+            },
+            {
+              "text": "ءٍ إِ",
+              "role": "target"
+            },
+            {
+              "text": "لَّا عِ",
+              "role": "base"
+            },
+            {
+              "text": "ندَ",
+              "role": "target"
+            },
+            {
+              "text": "نَا خَزَآئِنُهُۥ وَمَا نُنَزِّلُهُۥٓ إِلَّا بِقَدَرٍ ",
+              "role": "base"
+            },
+            {
+              "text": "مَّ",
+              "role": "target"
+            },
+            {
+              "text": "عۡلُومٍ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 5,
+          "searchText": "من عمل صلحا من ذكر أو أنثى وهو مؤمن فلنحيينه حيوة طيبة",
+          "segments": [
+            {
+              "text": "مَ",
+              "role": "base"
+            },
+            {
+              "text": "نۡ عَ",
+              "role": "target"
+            },
+            {
+              "text": "مِلَ صَٰلِحًا ",
+              "role": "base"
+            },
+            {
+              "text": "مِّ",
+              "role": "target"
+            },
+            {
+              "text": "ن ",
+              "role": "base"
+            },
+            {
+              "text": "ذَ",
+              "role": "target"
+            },
+            {
+              "text": "كَرٍ أَوۡ أُ",
+              "role": "base"
+            },
+            {
+              "text": "نثَ",
+              "role": "target"
+            },
+            {
+              "text": "ىٰ وَهُوَ مُؤۡمِنٌ فَلَنُحۡيِيَ",
+              "role": "base"
+            },
+            {
+              "text": "نَّ",
+              "role": "target"
+            },
+            {
+              "text": "هُۥ حَيَوٰةً ",
+              "role": "base"
+            },
+            {
+              "text": "طَ",
+              "role": "target"
+            },
+            {
+              "text": "يِّبَةً",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 6,
+          "searchText": "وٱلله أخرجكم من بطون أمهتكم لا تعلمون شيا",
+          "segments": [
+            {
+              "text": "وَٱللَّهُ أَخۡرَجَكُم ",
+              "role": "base"
+            },
+            {
+              "text": "مِّ",
+              "role": "target"
+            },
+            {
+              "text": "ن",
+              "role": "base"
+            },
+            {
+              "text": "ۢ بُ",
+              "role": "target"
+            },
+            {
+              "text": "طُونِ أُ",
+              "role": "base"
+            },
+            {
+              "text": "مَّ",
+              "role": "target"
+            },
+            {
+              "text": "هَٰتِكُ",
+              "role": "base"
+            },
+            {
+              "text": "مۡ لَا",
+              "role": "target"
+            },
+            {
+              "text": " تَعۡلَمُونَ شَيۡـًٔا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 7,
+          "searchText": "نسقيكم مما فى بطونه من بين فرث ودم لبنا خالصا سائغا",
+          "segments": [
+            {
+              "text": "نُّسۡقِيكُم ",
+              "role": "base"
+            },
+            {
+              "text": "مِّمَّ",
+              "role": "target"
+            },
+            {
+              "text": "ا فِى بُطُونِهِۦ مِ",
+              "role": "base"
+            },
+            {
+              "text": "نۢ بَ",
+              "role": "target"
+            },
+            {
+              "text": "يۡنِ فَرۡثٍ ",
+              "role": "base"
+            },
+            {
+              "text": "وَ",
+              "role": "target"
+            },
+            {
+              "text": "دَمٍ ",
+              "role": "base"
+            },
+            {
+              "text": "لَّ",
+              "role": "target"
+            },
+            {
+              "text": "بَنًا خَالِصًا ",
+              "role": "base"
+            },
+            {
+              "text": "سَ",
+              "role": "target"
+            },
+            {
+              "text": "آئِغًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 8,
+          "searchText": "من بطونها شراب مختلف ألونه فيه شفاء للناس",
+          "segments": [
+            {
+              "text": "مِ",
+              "role": "base"
+            },
+            {
+              "text": "نۢ بُ",
+              "role": "target"
+            },
+            {
+              "text": "طُونِهَا شَرَابٌ ",
+              "role": "base"
+            },
+            {
+              "text": "مُّ",
+              "role": "target"
+            },
+            {
+              "text": "خۡتَلِ",
+              "role": "base"
+            },
+            {
+              "text": "فٌ أَلۡ",
+              "role": "target"
+            },
+            {
+              "text": "وَٰنُهُۥ فِيهِ شِفَآءٌ ",
+              "role": "base"
+            },
+            {
+              "text": "لِّ",
+              "role": "target"
+            },
+            {
+              "text": "ل",
+              "role": "base"
+            },
+            {
+              "text": "نَّ",
+              "role": "target"
+            },
+            {
+              "text": "اسِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 9,
+          "searchText": "وٱلذين يصلون ما أمر ٱلله به أن يوصل ويخشون ربهم",
+          "segments": [
+            {
+              "text": "وَٱلَّذِينَ يَصِلُونَ مَآ أَمَرَ ٱللَّهُ بِهِۦٓ أَن ",
+              "role": "base"
+            },
+            {
+              "text": "يُ",
+              "role": "target"
+            },
+            {
+              "text": "وصَلَ وَيَخۡشَوۡنَ رَبَّهُمۡ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 10,
+          "searchText": "وإذا أراد ٱلله بقوم سوءا فلا مرد له وما لهم من دونه من وال",
+          "segments": [
+            {
+              "text": "وَإِذَآ أَرَادَ ٱللَّهُ بِقَوۡمٍ ",
+              "role": "base"
+            },
+            {
+              "text": "سُ",
+              "role": "target"
+            },
+            {
+              "text": "وٓءًا فَلَا مَرَدَّ لَهُۥۚ وَمَا لَهُم ",
+              "role": "base"
+            },
+            {
+              "text": "مِّ",
+              "role": "target"
+            },
+            {
+              "text": "ن ",
+              "role": "base"
+            },
+            {
+              "text": "دُ",
+              "role": "target"
+            },
+            {
+              "text": "ونِهِۦ مِن ",
+              "role": "base"
+            },
+            {
+              "text": "وَ",
+              "role": "target"
+            },
+            {
+              "text": "الٍ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [],
+  "games": {},
+  "source": "book page 84"
+}

@@ -1,0 +1,909 @@
+{
+  "slug": "page-6",
+  "bookPage": 6,
+  "stage": "unit-1",
+  "topic": "fatha",
+  "status": "review",
+  "i18n": {
+    "ar": {
+      "title": "حركة الفتح",
+      "subtitle": "مواضع الحروف",
+      "teacherNote": "[للمعلم:] يُعرف المتعلم أن كل مستطيل به ثلاث أحرف أو أربعة لها صوت واحد لكنها تختلف فى الشكل [ويعرف] أن الهمزة التى ترسم على نبرة (ـئَـ) وعلى الواو وعلى الياء تنطق مثل الهمزة المفردة (ءَ)، [ويعرف المتعلم] على حروف التفخيم وهى [(خص ضغط قظ)] وكذلك حرف [(الراء)] يفخم إذا كان مفتوحًا أو مضمومًا.",
+      "lessonTag": "الدرس الرابع",
+      "observeTag": "اقرأ ولاحظ"
+    }
+  },
+  "sections": [
+    {
+      "kind": "segmented_rows",
+      "config": {
+        "columns": 3,
+        "rowColors": [
+          "peach",
+          "peach",
+          "peach",
+          "sky",
+          "sky",
+          "sky",
+          "pink",
+          "pink",
+          "pink",
+          "sky"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "أ - أ - أ - ء",
+          "segments": [
+            {
+              "text": "أَ",
+              "role": "base"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـأَ",
+              "role": "target"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "أَ",
+              "role": "contrast"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ءَ",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "ب - ب - ب",
+          "segments": [
+            {
+              "text": "بَـ",
+              "role": "base"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـبَـ",
+              "role": "target"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـبَ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "ت - ت - ة - ة",
+          "segments": [
+            {
+              "text": "تَـ",
+              "role": "base"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـتَـ",
+              "role": "target"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ةَ",
+              "role": "contrast"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـةَ",
+              "role": "rule"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "ث - ث - ث",
+          "segments": [
+            {
+              "text": "ثَـ",
+              "role": "base"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـثَـ",
+              "role": "target"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـثَ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "ج - ج - ج",
+          "segments": [
+            {
+              "text": "جَـ",
+              "role": "base"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـجَـ",
+              "role": "target"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـجَ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "ح - ح - ح",
+          "segments": [
+            {
+              "text": "حَـ",
+              "role": "base"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـحَـ",
+              "role": "target"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـحَ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "خ - خ - خ",
+          "segments": [
+            {
+              "text": "خَـ",
+              "role": "base"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـخَـ",
+              "role": "target"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـخَ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "د - د - د",
+          "segments": [
+            {
+              "text": "دَ",
+              "role": "base"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـدَ",
+              "role": "target"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـدَ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "ذ - ذ - ذ",
+          "segments": [
+            {
+              "text": "ذَ",
+              "role": "base"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـذَ",
+              "role": "target"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـذَ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 3,
+          "searchText": "ر - ر - ر",
+          "segments": [
+            {
+              "text": "رَ",
+              "role": "base"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـرَ",
+              "role": "target"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـرَ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 3,
+          "searchText": "ز - ز - ز",
+          "segments": [
+            {
+              "text": "زَ",
+              "role": "base"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـزَ",
+              "role": "target"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـزَ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 3,
+          "searchText": "س - س - س",
+          "segments": [
+            {
+              "text": "سَـ",
+              "role": "base"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـسَـ",
+              "role": "target"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـسَ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 4,
+          "searchText": "ش - ش - ش",
+          "segments": [
+            {
+              "text": "شَـ",
+              "role": "base"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـشَـ",
+              "role": "target"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـشَ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 4,
+          "searchText": "ص - ص - ص",
+          "segments": [
+            {
+              "text": "صَـ",
+              "role": "base"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـصَـ",
+              "role": "target"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـصَ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 4,
+          "searchText": "ض - ض - ض",
+          "segments": [
+            {
+              "text": "ضَـ",
+              "role": "base"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـضَـ",
+              "role": "target"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـضَ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 5,
+          "searchText": "ط - ط - ط",
+          "segments": [
+            {
+              "text": "طَـ",
+              "role": "base"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـطَـ",
+              "role": "target"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـطَ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 5,
+          "searchText": "ظ - ظ - ظ",
+          "segments": [
+            {
+              "text": "ظَـ",
+              "role": "base"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـظَـ",
+              "role": "target"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـظَ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 5,
+          "searchText": "ع - ع - ع",
+          "segments": [
+            {
+              "text": "عَـ",
+              "role": "base"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـعَـ",
+              "role": "target"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـعَ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 6,
+          "searchText": "غ - غ - غ",
+          "segments": [
+            {
+              "text": "غَـ",
+              "role": "base"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـغَـ",
+              "role": "target"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـغَ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 6,
+          "searchText": "ف - ف - ف",
+          "segments": [
+            {
+              "text": "فَـ",
+              "role": "base"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـفَـ",
+              "role": "target"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـفَ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 6,
+          "searchText": "ق - ق - ق",
+          "segments": [
+            {
+              "text": "قَـ",
+              "role": "base"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـقَـ",
+              "role": "target"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـقَ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 7,
+          "searchText": "ك - ك - ك",
+          "segments": [
+            {
+              "text": "كَـ",
+              "role": "base"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـكَـ",
+              "role": "target"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـكَ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 7,
+          "searchText": "ل - ل - ل",
+          "segments": [
+            {
+              "text": "لَـ",
+              "role": "base"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـلَـ",
+              "role": "target"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـلَ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 7,
+          "searchText": "م - م - م",
+          "segments": [
+            {
+              "text": "مَـ",
+              "role": "base"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـمَـ",
+              "role": "target"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـمَ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 8,
+          "searchText": "ن - ن - ن",
+          "segments": [
+            {
+              "text": "نَـ",
+              "role": "base"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـنَـ",
+              "role": "target"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـنَ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 8,
+          "searchText": "ه - ه - ه - ه - ه",
+          "segments": [
+            {
+              "text": "هَـ",
+              "role": "base"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـهَـ",
+              "role": "target"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـهـَ",
+              "role": "contrast"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـهَ",
+              "role": "rule"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "هَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 8,
+          "searchText": "و - و - و",
+          "segments": [
+            {
+              "text": "وَ",
+              "role": "base"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـوَ",
+              "role": "target"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـوَ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 9,
+          "searchText": "ء - ئ - ؤ - ئ",
+          "segments": [
+            {
+              "text": "ءَ",
+              "role": "secondary"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـئَـ",
+              "role": "base"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ؤَ",
+              "role": "target"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ئَ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 9,
+          "searchText": "ي - ي - ى - ى - ے",
+          "segments": [
+            {
+              "text": "يَـ",
+              "role": "base"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـيَـ",
+              "role": "target"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ـىَ",
+              "role": "contrast"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ىَ",
+              "role": "rule"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "ے",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [],
+  "games": {},
+  "source": "book page 6"
+}

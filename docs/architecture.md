@@ -243,7 +243,8 @@ nur-albayan/
   db/schema/*.ts       Drizzle schema
   db/migrations/
   seed/                tokens, scoring profile, games, messages, avatars, badges (JSON)
-  scripts/import-pages-repo.ts
+  seed/book/          the printed book, page by page (source of all content)
+  scripts/book/       book:build (seed/book -> seed/content)
   tests/
 ```
 

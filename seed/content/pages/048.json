@@ -1,0 +1,320 @@
+{
+  "slug": "page-48",
+  "bookPage": 48,
+  "stage": "unit-3",
+  "topic": "sukun-imlai",
+  "status": "review",
+  "i18n": {
+    "ar": {
+      "title": "السكون فى الرسم الإملائى",
+      "teacherNote": "[للمعلم والآباء:] يتم قراءة الجمل كلمة ... كلمة ثم تعاد قراءة الجملة مرة واحدة [ولاتنسى] مراجعة ما تمت دراسته من جمل فى الدروس السابقة. [يعرف المتعلم] أن علامة السكون [(ـْ)] فى الرسم الإملائى إذا جاءت فى كلمات القرآن معناها أن هذا الحرف لا ينطق [(ا۟)]",
+      "lessonTag": "الدرس الثانى",
+      "observeTag": "اقرأ ولاحظ"
+    }
+  },
+  "sections": [
+    {
+      "kind": "word_rows",
+      "config": {
+        "columns": 4,
+        "rowColors": [
+          "pink",
+          "pink",
+          "pink"
+        ],
+        "label": "تدريب (٢)"
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "أسوار",
+          "segments": [
+            {
+              "text": "أَسْ",
+              "role": "target"
+            },
+            {
+              "text": "وَارُ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "فرحان",
+          "segments": [
+            {
+              "text": "فَرْ",
+              "role": "target"
+            },
+            {
+              "text": "حَانُ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "سندس",
+          "segments": [
+            {
+              "text": "سُنْ",
+              "role": "target"
+            },
+            {
+              "text": "دُسُ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "مقدار",
+          "segments": [
+            {
+              "text": "مِقْ",
+              "role": "target"
+            },
+            {
+              "text": "دَارُ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "مكواة",
+          "segments": [
+            {
+              "text": "مِكْ",
+              "role": "target"
+            },
+            {
+              "text": "وَاةُ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "يحيي",
+          "segments": [
+            {
+              "text": "يَحْ",
+              "role": "target"
+            },
+            {
+              "text": "يِي",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "آتوه",
+          "segments": [
+            {
+              "text": "آ",
+              "role": "base"
+            },
+            {
+              "text": "تَوْ",
+              "role": "target"
+            },
+            {
+              "text": "هُ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "آيتين",
+          "segments": [
+            {
+              "text": "آيَ",
+              "role": "base"
+            },
+            {
+              "text": "تَيْ",
+              "role": "target"
+            },
+            {
+              "text": "نِ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "آمنت",
+          "segments": [
+            {
+              "text": "آ",
+              "role": "base"
+            },
+            {
+              "text": "مَنْ",
+              "role": "target"
+            },
+            {
+              "text": "تُ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "يبصرون",
+          "segments": [
+            {
+              "text": "يُبْ",
+              "role": "target"
+            },
+            {
+              "text": "صِرُونَ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "الولاء",
+          "segments": [
+            {
+              "text": "الْ",
+              "role": "target"
+            },
+            {
+              "text": "وَلَاءُ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "العقاب",
+          "segments": [
+            {
+              "text": "الْ",
+              "role": "target"
+            },
+            {
+              "text": "عِقَابُ",
+              "role": "contrast"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 1,
+        "rowColors": [
+          "green",
+          "green",
+          "pink",
+          "pink",
+          "pink"
+        ],
+        "label": "تدريب (٣)",
+        "markColor": "red"
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "image": "prayer",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "أقمنا صلاتنا عند أوقاتها",
+          "segments": [
+            {
+              "text": "أَقَمْنَا صَلَاتَنَا عِنْدَ أَوْقَاتِهَا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "image": "zakat",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "أخرجنا زكاة أموالنا برضا أنفسنا",
+          "segments": [
+            {
+              "text": "أَخْرَجْنَا زَكَاةَ أَمْوَالِنَا بِرِضَا أَنْفُسِنَا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "image": "fasting",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "صمنا رمضان فصامت جوارحنا",
+          "segments": [
+            {
+              "text": "صُمْنَا رَمَضَانَ فَصَامَتْ جَوَارِحُنَا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "image": "hajj",
+          "script": "naskh",
+          "rowBand": 3,
+          "searchText": "حججنا كعبتنا بحلال أموالنا",
+          "segments": [
+            {
+              "text": "حَجَجْنَا كَعْبَتَنَا بِحَلَالِ أَمْوَالِنَا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "image": "shahada",
+          "script": "naskh",
+          "rowBand": 4,
+          "searchText": "كملت أركان إسلامنا بعد شهادتنا",
+          "segments": [
+            {
+              "text": "كَمُلَتْ أَرْكَانُ إِسْلَامِنَا بَعْدَ شَهَادَتِنَا",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [],
+  "games": {},
+  "source": "book page 48"
+}

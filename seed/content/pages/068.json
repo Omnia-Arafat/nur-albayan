@@ -1,0 +1,453 @@
+{
+  "slug": "page-68",
+  "bookPage": 68,
+  "stage": "unit-5",
+  "topic": "shadda-kasr",
+  "status": "review",
+  "i18n": {
+    "ar": {
+      "title": "الشدة مع الكسرة",
+      "subtitle": "تدريب ( ٤) أمثلة قرآنية",
+      "teacherNote": "[للمعلم والآباء:] يعرف المتعلم أن الكسرة مع الحرف المشدد فى الرسم القرآنى تأتى تحت الحرف مثل [(كُوِّرَتۡ)] وفى الرسم الإملائى تأتى فوق الحرف وتحت الشدة مثل [(تُحَدِّثُ)]، [هام جدًا:] مراجعة التدريبات على السكون والتدريبات على التنوين والتشديد مع الفتح",
+      "lessonTag": "الدرس الرابع",
+      "observeTag": "اقرأ ولاحظ"
+    }
+  },
+  "sections": [
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 2,
+        "columnColors": [
+          "sky",
+          "pink"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "إذا ٱلشمس كورت",
+          "segments": [
+            {
+              "text": "إِذَا ٱل",
+              "role": "base"
+            },
+            {
+              "text": "شَّ",
+              "role": "target"
+            },
+            {
+              "text": "مۡسُ كُ",
+              "role": "base"
+            },
+            {
+              "text": "وِّ",
+              "role": "target"
+            },
+            {
+              "text": "رَتۡ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "وكذلك نفصل ٱلأيت",
+          "segments": [
+            {
+              "text": "وَكَذَٰلِكَ نُفَ",
+              "role": "base"
+            },
+            {
+              "text": "صِّ",
+              "role": "target"
+            },
+            {
+              "text": "لُ ٱلۡأٓيَٰتِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "أبلغكم رسلت ربى",
+          "segments": [
+            {
+              "text": "أُبَ",
+              "role": "base"
+            },
+            {
+              "text": "لِّ",
+              "role": "target"
+            },
+            {
+              "text": "غُكُمۡ رِسَٰلَٰتِ رَ",
+              "role": "base"
+            },
+            {
+              "text": "بِّ",
+              "role": "target"
+            },
+            {
+              "text": "ى",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "ءامنا برب ٱلعلمين",
+          "segments": [
+            {
+              "text": "ءَامَ",
+              "role": "base"
+            },
+            {
+              "text": "نَّ",
+              "role": "target"
+            },
+            {
+              "text": "ا بِرَ",
+              "role": "base"
+            },
+            {
+              "text": "بِّ ",
+              "role": "target"
+            },
+            {
+              "text": "ٱلۡعَٰلَمِينَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "ولا يحرمون ما حرم ٱلله ورسوله",
+          "segments": [
+            {
+              "text": "وَلَا يُحَ",
+              "role": "base"
+            },
+            {
+              "text": "رِّ",
+              "role": "target"
+            },
+            {
+              "text": "مُونَ مَا حَ",
+              "role": "base"
+            },
+            {
+              "text": "رَّ",
+              "role": "target"
+            },
+            {
+              "text": "مَ ٱ",
+              "role": "base"
+            },
+            {
+              "text": "للَّ",
+              "role": "target"
+            },
+            {
+              "text": "هُ وَرَسُولُهُۥ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "رب ٱغفر لى ولولدى",
+          "segments": [
+            {
+              "text": "رَ",
+              "role": "base"
+            },
+            {
+              "text": "بِّ ",
+              "role": "target"
+            },
+            {
+              "text": "ٱغۡفِرۡ لِى وَلِوَٰلِدَ",
+              "role": "base"
+            },
+            {
+              "text": "ىَّ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "يسبحن بٱلعشى وٱلإشراق",
+          "segments": [
+            {
+              "text": "يُسَ",
+              "role": "base"
+            },
+            {
+              "text": "بِّ",
+              "role": "target"
+            },
+            {
+              "text": "حۡنَ بِٱلۡعَشِ",
+              "role": "base"
+            },
+            {
+              "text": "ىِّ ",
+              "role": "target"
+            },
+            {
+              "text": "وَٱلۡإِشۡرَاقِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "ويثبت به ٱلأقدام",
+          "segments": [
+            {
+              "text": "وَيُثَ",
+              "role": "base"
+            },
+            {
+              "text": "بِّ",
+              "role": "target"
+            },
+            {
+              "text": "تَ بِهِ ٱلۡأَقۡدَامَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "فثبتوا ٱلذين ءامنوا",
+          "segments": [
+            {
+              "text": "فَثَ",
+              "role": "base"
+            },
+            {
+              "text": "بِّ",
+              "role": "target"
+            },
+            {
+              "text": "تُوا۟ ٱ",
+              "role": "base"
+            },
+            {
+              "text": "لَّ",
+              "role": "target"
+            },
+            {
+              "text": "ذِينَ ءَامَنُوا۟",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "وعتوا عن أمر ربهم",
+          "segments": [
+            {
+              "text": "وَعَتَوۡا۟ عَنۡ أَمۡرِ رَ",
+              "role": "base"
+            },
+            {
+              "text": "بِّ",
+              "role": "target"
+            },
+            {
+              "text": "هِمۡ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 5,
+          "searchText": "ثم لأصلبنكم أجمعين",
+          "segments": [
+            {
+              "text": "ثُ",
+              "role": "base"
+            },
+            {
+              "text": "مَّ ",
+              "role": "target"
+            },
+            {
+              "text": "لَأُصَ",
+              "role": "base"
+            },
+            {
+              "text": "لِّ",
+              "role": "target"
+            },
+            {
+              "text": "بَ",
+              "role": "base"
+            },
+            {
+              "text": "نَّ",
+              "role": "target"
+            },
+            {
+              "text": "كُمۡ أَجۡمَعِينَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 5,
+          "searchText": "ٱلذين يلمزون ٱلمطوعين",
+          "segments": [
+            {
+              "text": "ٱ",
+              "role": "base"
+            },
+            {
+              "text": "لَّ",
+              "role": "target"
+            },
+            {
+              "text": "ذِينَ يَلۡمِزُونَ ٱلۡمُ",
+              "role": "base"
+            },
+            {
+              "text": "طَّوِّ",
+              "role": "target"
+            },
+            {
+              "text": "عِينَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 6,
+          "searchText": "وفى ٱلرقاب وٱلغرمين",
+          "segments": [
+            {
+              "text": "وَفِى ٱل",
+              "role": "base"
+            },
+            {
+              "text": "رِّ",
+              "role": "target"
+            },
+            {
+              "text": "قَابِ وَٱلۡغَٰرِمِينَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 6,
+          "searchText": "مكلبين تعلمونهن",
+          "segments": [
+            {
+              "text": "مُكَ",
+              "role": "base"
+            },
+            {
+              "text": "لِّ",
+              "role": "target"
+            },
+            {
+              "text": "بِينَ تُعَ",
+              "role": "base"
+            },
+            {
+              "text": "لِّ",
+              "role": "target"
+            },
+            {
+              "text": "مُونَهُ",
+              "role": "base"
+            },
+            {
+              "text": "نَّ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 7,
+          "searchText": "يجدلونك فى ٱلحق بعد ما تبين",
+          "segments": [
+            {
+              "text": "يُجَٰدِلُونَكَ فِى ٱلۡحَ",
+              "role": "base"
+            },
+            {
+              "text": "قِّ ",
+              "role": "target"
+            },
+            {
+              "text": "بَعۡدَ مَا تَبَ",
+              "role": "base"
+            },
+            {
+              "text": "يَّ",
+              "role": "target"
+            },
+            {
+              "text": "نَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 7,
+          "searchText": "ولا يدينون دين ٱلحق",
+          "segments": [
+            {
+              "text": "وَلَا يَدِينُونَ دِينَ ٱلۡحَ",
+              "role": "base"
+            },
+            {
+              "text": "قِّ",
+              "role": "target"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [],
+  "games": {},
+  "source": "book page 68"
+}

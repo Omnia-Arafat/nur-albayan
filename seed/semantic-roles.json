@@ -76,7 +76,7 @@
   },
   {
     "key": "separator",
-    "tokenKey": "color.ink.muted",
+    "tokenKey": "color.green",
     "position": 5,
     "i18n": {
       "ar": {

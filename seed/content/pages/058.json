@@ -1,0 +1,365 @@
+{
+  "slug": "page-58",
+  "bookPage": 58,
+  "stage": "unit-4",
+  "topic": "tanween-review",
+  "status": "review",
+  "i18n": {
+    "ar": {
+      "title": "مراجعة",
+      "subtitle": "تدريب ( ١) أمثلة قرآنية",
+      "teacherNote": "[للمعلم والآباء:] الهدف من الدرس مراجعة على المدود والسكون والتنوين من خلال الرسم القرآنى [ولا تنسى مراجعة] ما تم دراسته صفحة رقم [( ٣٦، ٣٧، ٤٢، ٤٣، ٥١، ٥٢)]",
+      "lessonTag": "الدرس الأول",
+      "observeTag": "اقرأ ولاحظ"
+    }
+  },
+  "sections": [
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 3,
+        "rowColors": [
+          "salmon",
+          "salmon",
+          "salmon",
+          "sky",
+          "sky",
+          "sky",
+          "pink",
+          "pink",
+          "pink"
+        ],
+        "markColor": "red"
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "فلهم أجر غير ممنون",
+          "segments": [
+            {
+              "text": "فَلَهُمۡ أَجۡرٌ غَيۡرُ مَمۡنُونٍ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "عجوز عقيم",
+          "segments": [
+            {
+              "text": "عَجُوزٌ عَقِيمٌ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "هو نبؤا عظيم",
+          "segments": [
+            {
+              "text": "هُوَ نَبَؤٌا۟ عَظِيمٌ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "سلم على نوح",
+          "segments": [
+            {
+              "text": "سَلَٰمٌ عَلَىٰ نُوحٍ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "فهو له قرين",
+          "segments": [
+            {
+              "text": "فَهُوَ لَهُۥ قَرِينٌ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "هنالك ثبورا",
+          "segments": [
+            {
+              "text": "هُنَالِكَ ثُبُورًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "قالوا هذا عارض",
+          "segments": [
+            {
+              "text": "قَالُوا۟ هَٰذَا عَارِضٌ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "خلق ٱلموت وٱلحيوة",
+          "segments": [
+            {
+              "text": "خَلَقَ ٱلۡمَوۡتَ وَٱلۡحَيَوٰةَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "وحففنهما بنخل",
+          "segments": [
+            {
+              "text": "وَحَفَفۡنَٰهُمَا بِنَخۡلٍ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "عليما حكيما",
+          "segments": [
+            {
+              "text": "عَلِيمًا حَكِيمًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "قنتت حفظت",
+          "segments": [
+            {
+              "text": "قَٰنِتَٰتٌ حَٰفِظَٰتٌ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "بهتن عظيم",
+          "segments": [
+            {
+              "text": "بُهۡتَٰنٌ عَظِيمٌ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "ولا تزر وازرة",
+          "segments": [
+            {
+              "text": "وَلَا تَزِرُ وَازِرَةٌ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "يرسل عليكما شواظ",
+          "segments": [
+            {
+              "text": "يُرۡسَلُ عَلَيۡكُمَا شُوَاظٌ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "لا يجدون نكاحا",
+          "segments": [
+            {
+              "text": "لَا يَجِدُونَ نِكَاحًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 5,
+          "searchText": "قال هذه ناقة",
+          "segments": [
+            {
+              "text": "قَالَ هَٰذِهِۦ نَاقَةٌ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 5,
+          "searchText": "بٱلأفق ٱلأعلى",
+          "segments": [
+            {
+              "text": "بِٱلۡأُفُقِ ٱلۡأَعۡلَىٰ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 5,
+          "searchText": "هذا شىء عجيب",
+          "segments": [
+            {
+              "text": "هَٰذَا شَىۡءٌ عَجِيبٌ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 6,
+          "searchText": "أو أمضى حقبا",
+          "segments": [
+            {
+              "text": "أَوۡ أَمۡضِىَ حُقُبًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 6,
+          "searchText": "ولا يظلمون فتيلا",
+          "segments": [
+            {
+              "text": "وَلَا يُظۡلَمُونَ فَتِيلًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 6,
+          "searchText": "خاوية على عروشها",
+          "segments": [
+            {
+              "text": "خَاوِيَةٌ عَلَىٰ عُرُوشِهَا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 7,
+          "searchText": "ترهقها قترة",
+          "segments": [
+            {
+              "text": "تَرۡهَقُهَا قَتَرَةٌ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 7,
+          "searchText": "وسلم على ٱلمرسلين",
+          "segments": [
+            {
+              "text": "وَسَلَٰمٌ عَلَى ٱلۡمُرۡسَلِينَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 7,
+          "searchText": "فما له من هاد",
+          "segments": [
+            {
+              "text": "فَمَا لَهُۥ مِنۡ هَادٍ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 8,
+          "searchText": "يكون لى غلم",
+          "segments": [
+            {
+              "text": "يَكُونُ لِى غُلَٰمٌ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 8,
+          "searchText": "قالوا سلما قال سلم",
+          "segments": [
+            {
+              "text": "قَالُوا۟ سَلَٰمًا قَالَ سَلَٰمٌ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 8,
+          "searchText": "ومتع إلى حين",
+          "segments": [
+            {
+              "text": "وَمَتَٰعٌ إِلَىٰ حِينٍ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [],
+  "games": {},
+  "source": "book page 58"
+}

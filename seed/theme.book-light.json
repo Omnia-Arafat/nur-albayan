@@ -134,6 +134,12 @@
     },
     {
       "group": "color",
+      "key": "color.olive",
+      "value": "#A59C34",
+      "description": "Olive of some alphabet letters (approximate, from the scan)"
+    },
+    {
+      "group": "color",
       "key": "color.tag.lesson",
       "value": "#C9473B",
       "description": "Lesson tag ribbon (book #E35C4E darkened for white text)"
@@ -189,6 +195,26 @@
       "group": "color",
       "key": "color.pill.mint.line",
       "value": "#4DB8A8"
+    },
+    {
+      "group": "color",
+      "key": "color.pill.green.fill",
+      "value": "#F1F9EE"
+    },
+    {
+      "group": "color",
+      "key": "color.pill.green.line",
+      "value": "#5DB55A"
+    },
+    {
+      "group": "color",
+      "key": "color.pill.gray.fill",
+      "value": "#F4F4F2"
+    },
+    {
+      "group": "color",
+      "key": "color.pill.gray.line",
+      "value": "#8C8C8C"
     },
     {
       "group": "color",

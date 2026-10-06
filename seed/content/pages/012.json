@@ -1,0 +1,424 @@
+{
+  "slug": "page-12",
+  "bookPage": 12,
+  "stage": "unit-1",
+  "topic": "fatha",
+  "status": "review",
+  "i18n": {
+    "ar": {
+      "title": "حركة الفتح",
+      "teacherNote": "[للمعلم والآباء:] يتم قراءة الكلمة الأولى فى الجملة بدون تقطيع ثم تقرأ الثانية ثم يجمع بينهما فى صوت واحد [(رَكَعَ وَسَجَدَ)] ، [هام جداً المراجعة اليومية] للصفحة رقم [( ٦، ٧)]",
+      "lessonTag": "الدرس العاشر",
+      "observeTag": "اقرأ ولاحظ"
+    }
+  },
+  "sections": [
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 3,
+        "rowColors": [
+          "sky",
+          "sky"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "ركع وسجد",
+          "segments": [
+            {
+              "text": "رَكَعَ",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "وَسَجَدَ",
+              "role": "secondary"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "دخل وجلس",
+          "segments": [
+            {
+              "text": "دَخَلَ",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "وَجَلَسَ",
+              "role": "secondary"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "مسك فنظر",
+          "segments": [
+            {
+              "text": "مَسَكَ",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "فَنَظَرَ",
+              "role": "secondary"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "قنت فذكر",
+          "segments": [
+            {
+              "text": "قَنَتَ",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "فَذَكَرَ",
+              "role": "secondary"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "زرع وحصد",
+          "segments": [
+            {
+              "text": "زَرَعَ",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "وَحَصَدَ",
+              "role": "secondary"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "عرف وكتم",
+          "segments": [
+            {
+              "text": "عَرَفَ",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "وَكَتَمَ",
+              "role": "secondary"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 2,
+        "rowColors": [
+          "pink",
+          "pink",
+          "sky",
+          "sky",
+          "green",
+          "green"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "حلف فصدق",
+          "segments": [
+            {
+              "text": "حَلَفَ",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "فَصَدَقَ",
+              "role": "secondary"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "سأل فعرف",
+          "segments": [
+            {
+              "text": "سَأَلَ",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "فَعَرَفَ",
+              "role": "secondary"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "غرس فنبت",
+          "segments": [
+            {
+              "text": "غَرَسَ",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "فَنَبَتَ",
+              "role": "secondary"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "خلق فرزق",
+          "segments": [
+            {
+              "text": "خَلَقَ",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "فَرَزَقَ",
+              "role": "secondary"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "بسط فوهب",
+          "segments": [
+            {
+              "text": "بَسَطَ",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "فَوَهَبَ",
+              "role": "secondary"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "عبد فشكر",
+          "segments": [
+            {
+              "text": "عَبَدَ",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "فَشَكَرَ",
+              "role": "secondary"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 3,
+          "searchText": "قفز فوقع",
+          "segments": [
+            {
+              "text": "قَفَزَ",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "فَوَقَعَ",
+              "role": "secondary"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 3,
+          "searchText": "عبس وبسر",
+          "segments": [
+            {
+              "text": "عَبَسَ",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "وَبَسَرَ",
+              "role": "secondary"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 4,
+          "searchText": "قرأ وكتب فنجح",
+          "segments": [
+            {
+              "text": "قَرَأَ",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "وَكَتَبَ",
+              "role": "secondary"
+            },
+            {
+              "text": " فَنَجَحَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 4,
+          "searchText": "حكم وعدل فصدق",
+          "segments": [
+            {
+              "text": "حَكَمَ",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "وَعَدَلَ",
+              "role": "secondary"
+            },
+            {
+              "text": " فَصَدَقَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 5,
+          "searchText": "قطع ونشر فصنع",
+          "segments": [
+            {
+              "text": "قَطَعَ",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "وَنَشَرَ",
+              "role": "secondary"
+            },
+            {
+              "text": " فَصَنَعَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 5,
+          "searchText": "طحن ونخل فعجن",
+          "segments": [
+            {
+              "text": "طَحَنَ",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "وَنَخَلَ",
+              "role": "secondary"
+            },
+            {
+              "text": " فَعَجَنَ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [],
+  "games": {},
+  "source": "book page 12"
+}

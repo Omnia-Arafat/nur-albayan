@@ -1,0 +1,12 @@
+page: 2
+stage: alphabet
+title: حُرُوفُ الهِجَاء
+note: [للمعلم والآباء:] يكتب حرف الألف بدون همزة وإذا كتبت الهمزة فوقه تسمى همزة أو ألف همزة، [الحروف تقرأ فى هذا الدرس فقط ولا تحفظ] ونبدأ حفظ الحروف بأصواتها بحركة الفتح فى الدرس القادم.
+// Each tile: the letter, a divider, then its name. Letter colours are the book's decoration, not teaching colours.
+## letter_tiles cols=5
+ا/أَلِفْ@purple ; ب/بَاءْ@teal ; ت/تَاءْ@teal ; ث/ثَاءْ@teal ; ج/جِيمْ@purple
+ح/حَاءْ@purple ; خ/خَاءْ@purple ; د/دَالْ@red ; ذ/ذَالْ@red ; ر/رَاءْ@olive
+ز/زَايْ@olive ; س/سِينْ@purple ; ش/شِينْ@purple ; ص/صَادْ@ink ; ض/ضَادْ@ink
+ط/طَاءْ@red ; ظ/ظَاءْ@red ; ع/عَيْن@teal ; غ/غَيْن@teal ; ف/فَاءْ@magenta
+ق/قَافْ@magenta ; ك/كَافْ@olive ; ل/لَامْ@olive ; م/مِيمْ@purple ; ن/نُونْ@teal
+هـ/هَاءْ@red ; و/وَاوْ@ink ; ء/هَمْزَة@red ; ى/يَاءْ@magenta

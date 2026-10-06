@@ -1,0 +1,627 @@
+{
+  "slug": "page-62",
+  "bookPage": 62,
+  "stage": "unit-5",
+  "topic": "shadda-fath",
+  "status": "review",
+  "i18n": {
+    "ar": {
+      "title": "الشَّدَّةُ",
+      "subtitle": "١ـ الشدة مع حركة الفتح والمد بالألف (ـَّ)",
+      "teacherNote": "[للمعلم والآباء:] يعرف المتعلم أن الحرف المشدد عبارة عن حرفين الأول ساكن والثانى متحرك [وطريقة الهجاء] (زَ) دال مشددة بالفتح [(زَدَّ)] ، [نقرأ] كل كلمة على حده ثم نجمع بين كل كلمتين فى صوت واحد لنتعلم الفرق بين الحرف المتحرك بالفتح والمشدد بحركة الفتح.",
+      "unitTag": "الوحدة الخامسة",
+      "lessonTag": "الدرس الأول",
+      "observeTag": "اقرأ ولاحظ"
+    }
+  },
+  "sections": [
+    {
+      "kind": "letter_tiles",
+      "config": {
+        "columns": 4,
+        "rowColors": [
+          "yellow",
+          "yellow"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "بدد = بد",
+          "segments": [
+            {
+              "text": "بَدْدَ",
+              "role": "base"
+            },
+            {
+              "text": " = ",
+              "role": "separator"
+            },
+            {
+              "text": "بَدَّ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "وفف = وف",
+          "segments": [
+            {
+              "text": "وَفْفَ",
+              "role": "base"
+            },
+            {
+              "text": " = ",
+              "role": "separator"
+            },
+            {
+              "text": "وَفَّ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "حقق = حق",
+          "segments": [
+            {
+              "text": "حَقْقَ",
+              "role": "base"
+            },
+            {
+              "text": " = ",
+              "role": "separator"
+            },
+            {
+              "text": "حَقَّ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "فصصا = فصا",
+          "segments": [
+            {
+              "text": "فَصْصَا",
+              "role": "base"
+            },
+            {
+              "text": " = ",
+              "role": "separator"
+            },
+            {
+              "text": "فَصَّا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "دعع = دع",
+          "segments": [
+            {
+              "text": "دَعْعَ",
+              "role": "base"
+            },
+            {
+              "text": " = ",
+              "role": "separator"
+            },
+            {
+              "text": "دَعَّ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "دععا = دعا",
+          "segments": [
+            {
+              "text": "دَعْعَا",
+              "role": "base"
+            },
+            {
+              "text": " = ",
+              "role": "separator"
+            },
+            {
+              "text": "دَعَّا",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "خصص = خص",
+          "segments": [
+            {
+              "text": "خَصْصَ",
+              "role": "base"
+            },
+            {
+              "text": " = ",
+              "role": "separator"
+            },
+            {
+              "text": "خَصَّ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "خصصا = خصا",
+          "segments": [
+            {
+              "text": "خَصْصَا",
+              "role": "base"
+            },
+            {
+              "text": " = ",
+              "role": "separator"
+            },
+            {
+              "text": "خَصَّا",
+              "role": "target"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "letter_tiles",
+      "config": {
+        "columns": 6,
+        "rowColors": [
+          "pink",
+          "pink"
+        ],
+        "label": "تدريب ( ١)"
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "tint": "red",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "رد",
+          "segments": [
+            {
+              "text": "رَدَّ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "purple",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "حج",
+          "segments": [
+            {
+              "text": "حَجَّ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "red",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "حى",
+          "segments": [
+            {
+              "text": "حَىَّ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "blue",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "بث",
+          "segments": [
+            {
+              "text": "بَثَّ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "purple",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "هش",
+          "segments": [
+            {
+              "text": "هَشَّ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "blue",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "سن",
+          "segments": [
+            {
+              "text": "سَنَّ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "teal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "هبا",
+          "segments": [
+            {
+              "text": "هَبَّا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "teal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "غطا",
+          "segments": [
+            {
+              "text": "غَطَّا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "teal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "حلا",
+          "segments": [
+            {
+              "text": "حَلَّا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "teal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "زوا",
+          "segments": [
+            {
+              "text": "زَوَّا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "teal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "حفا",
+          "segments": [
+            {
+              "text": "حَفَّا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "teal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "غشا",
+          "segments": [
+            {
+              "text": "غَشَّا",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "word_rows",
+      "config": {
+        "columns": 3,
+        "rowColors": [
+          "lime",
+          "lime"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "قطع ← قطع",
+          "segments": [
+            {
+              "text": "قَطَعَ",
+              "role": "base"
+            },
+            {
+              "text": " ← ",
+              "role": "separator"
+            },
+            {
+              "text": "قَطَّعَ",
+              "role": "secondary"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "جمع ← جمع",
+          "segments": [
+            {
+              "text": "جَمَعَ",
+              "role": "base"
+            },
+            {
+              "text": " ← ",
+              "role": "separator"
+            },
+            {
+              "text": "جَمَّعَ",
+              "role": "secondary"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "فتح ← فتح",
+          "segments": [
+            {
+              "text": "فَتَحَ",
+              "role": "base"
+            },
+            {
+              "text": " ← ",
+              "role": "separator"
+            },
+            {
+              "text": "فَتَّحَ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "درس ← درس",
+          "segments": [
+            {
+              "text": "دَرَسَ",
+              "role": "base"
+            },
+            {
+              "text": " ← ",
+              "role": "separator"
+            },
+            {
+              "text": "دَرَّسَ",
+              "role": "secondary"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "رسخ ← رسخ",
+          "segments": [
+            {
+              "text": "رَسَخَ",
+              "role": "base"
+            },
+            {
+              "text": " ← ",
+              "role": "separator"
+            },
+            {
+              "text": "رَسَّخَ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "وقع ← وقع",
+          "segments": [
+            {
+              "text": "وَقَعَ",
+              "role": "base"
+            },
+            {
+              "text": " ← ",
+              "role": "separator"
+            },
+            {
+              "text": "وَقَّعَ",
+              "role": "target"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "word_rows",
+      "config": {
+        "columns": 3,
+        "rowColors": [
+          "sky",
+          "sky"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "نجر ← نجار",
+          "segments": [
+            {
+              "text": "نَجَرَ",
+              "role": "base"
+            },
+            {
+              "text": " ← ",
+              "role": "separator"
+            },
+            {
+              "text": "نَجَّارُ",
+              "role": "secondary"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "بحر ← بحار",
+          "segments": [
+            {
+              "text": "بَحَرَ",
+              "role": "base"
+            },
+            {
+              "text": " ← ",
+              "role": "separator"
+            },
+            {
+              "text": "بَحَّارُ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "طوف ← طواف",
+          "segments": [
+            {
+              "text": "طَوَفَ",
+              "role": "base"
+            },
+            {
+              "text": " ← ",
+              "role": "separator"
+            },
+            {
+              "text": "طَوَّافُ",
+              "role": "secondary"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "عدد ← عداد",
+          "segments": [
+            {
+              "text": "عَدَدَ",
+              "role": "base"
+            },
+            {
+              "text": " ← ",
+              "role": "separator"
+            },
+            {
+              "text": "عَدَّادُ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "حمل ← حمال",
+          "segments": [
+            {
+              "text": "حَمَلَ",
+              "role": "base"
+            },
+            {
+              "text": " ← ",
+              "role": "separator"
+            },
+            {
+              "text": "حَمَّالُ",
+              "role": "secondary"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "وقف ← وقاف",
+          "segments": [
+            {
+              "text": "وَقَفَ",
+              "role": "base"
+            },
+            {
+              "text": " ← ",
+              "role": "separator"
+            },
+            {
+              "text": "وَقَّافُ",
+              "role": "secondary"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [],
+  "games": {},
+  "source": "book page 62"
+}

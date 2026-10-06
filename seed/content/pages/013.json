@@ -1,0 +1,534 @@
+{
+  "slug": "page-13",
+  "bookPage": 13,
+  "stage": "unit-1",
+  "topic": "kasra",
+  "status": "review",
+  "i18n": {
+    "ar": {
+      "title": "٢ـ الحروف بحركة الكسر",
+      "teacherNote": "[للمعلم والآباء:] يحرص المتعلم على خفض شفتيه عند النطق بالحرف المكسور مع عدم إطالة الصوت، عند قراءة الحرف يتم قراءته بالهجاء همزه كسر [(ئِـ)] باء كسرة [(بِـ)] ثم نقرأ بدون هجاء [(ئِـ ، بِـ ، تِـ)]",
+      "unitTag": "الحركات",
+      "lessonTag": "الدرس الأول",
+      "observeTag": "اقرأ ولاحظ"
+    }
+  },
+  "sections": [
+    {
+      "kind": "letter_tiles",
+      "config": {
+        "columns": 5,
+        "frame": "oval"
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "tint": "red",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "ئ",
+          "segments": [
+            {
+              "text": "ـئِـ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "teal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "ب",
+          "segments": [
+            {
+              "text": "ـبِـ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "purple",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "ت",
+          "segments": [
+            {
+              "text": "ـتِـ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "magenta",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "ث",
+          "segments": [
+            {
+              "text": "ـثِـ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "orange",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "ج",
+          "segments": [
+            {
+              "text": "جِـ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "olive",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "ح",
+          "segments": [
+            {
+              "text": "حِـ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "red",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "خ",
+          "segments": [
+            {
+              "text": "خِـ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "blue",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "د",
+          "segments": [
+            {
+              "text": "ـدِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "green",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "ذ",
+          "segments": [
+            {
+              "text": "ـذِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "purple",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "ر",
+          "segments": [
+            {
+              "text": "ـرِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "ink",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "ز",
+          "segments": [
+            {
+              "text": "ـزِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "red",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "س",
+          "segments": [
+            {
+              "text": "ـسِـ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "tint": "orange",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "ش",
+          "segments": [
+            {
+              "text": "ـشِـ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "letter_tiles",
+      "config": {
+        "columns": 4,
+        "rowColors": [
+          "pink",
+          "green",
+          "peach",
+          "pink",
+          "pink"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "صص",
+          "segments": [
+            {
+              "text": "صَ",
+              "role": "contrast"
+            },
+            {
+              "text": "صِـ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "ضض",
+          "segments": [
+            {
+              "text": "ضَ",
+              "role": "contrast"
+            },
+            {
+              "text": "ضِـ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "طط",
+          "segments": [
+            {
+              "text": "طَ",
+              "role": "contrast"
+            },
+            {
+              "text": "طِ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "ظظ",
+          "segments": [
+            {
+              "text": "ظَ",
+              "role": "contrast"
+            },
+            {
+              "text": "ظِ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "عع",
+          "segments": [
+            {
+              "text": "عَ",
+              "role": "contrast"
+            },
+            {
+              "text": "عِـ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "غغ",
+          "segments": [
+            {
+              "text": "غَ",
+              "role": "contrast"
+            },
+            {
+              "text": "غِـ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "فف",
+          "segments": [
+            {
+              "text": "فَ",
+              "role": "contrast"
+            },
+            {
+              "text": "فِـ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "قق",
+          "segments": [
+            {
+              "text": "قَ",
+              "role": "contrast"
+            },
+            {
+              "text": "قِـ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "كك",
+          "segments": [
+            {
+              "text": "كَ",
+              "role": "contrast"
+            },
+            {
+              "text": "كِ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "لل",
+          "segments": [
+            {
+              "text": "لِ",
+              "role": "target"
+            },
+            {
+              "text": "لَـ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "مم",
+          "segments": [
+            {
+              "text": "مِ",
+              "role": "target"
+            },
+            {
+              "text": "مَـ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "نن",
+          "segments": [
+            {
+              "text": "نَ",
+              "role": "contrast"
+            },
+            {
+              "text": "نِ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 3,
+          "searchText": "هه",
+          "segments": [
+            {
+              "text": "هِ",
+              "role": "target"
+            },
+            {
+              "text": "هَـ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 3,
+          "searchText": "وو",
+          "segments": [
+            {
+              "text": "وَ",
+              "role": "contrast"
+            },
+            {
+              "text": "وِ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 3,
+          "searchText": "يي",
+          "segments": [
+            {
+              "text": "يِ",
+              "role": "target"
+            },
+            {
+              "text": "يَـ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 3,
+          "searchText": "يى",
+          "segments": [
+            {
+              "text": "يَ",
+              "role": "contrast"
+            },
+            {
+              "text": "ىِ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 4,
+          "searchText": "تب",
+          "segments": [
+            {
+              "text": "تِ",
+              "role": "target"
+            },
+            {
+              "text": "بَ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 4,
+          "searchText": "نب",
+          "segments": [
+            {
+              "text": "نَ",
+              "role": "contrast"
+            },
+            {
+              "text": "بِ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 4,
+          "searchText": "غع",
+          "segments": [
+            {
+              "text": "غِ",
+              "role": "target"
+            },
+            {
+              "text": "عَـ",
+              "role": "contrast"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 4,
+          "searchText": "ضط",
+          "segments": [
+            {
+              "text": "ضَ",
+              "role": "contrast"
+            },
+            {
+              "text": "طِ",
+              "role": "target"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [],
+  "games": {},
+  "source": "book page 13"
+}

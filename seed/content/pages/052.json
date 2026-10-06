@@ -1,0 +1,257 @@
+{
+  "slug": "page-52",
+  "bookPage": 52,
+  "stage": "unit-4",
+  "topic": "tanween-fath",
+  "status": "review",
+  "i18n": {
+    "ar": {
+      "title": "تنوين الفتح",
+      "subtitle": "تدريب ( ٣) أمثلة قرآنية",
+      "teacherNote": "[للمعلم والآباء:] مع هذا الدرس يتم مراجعة الأمثلة القرآنية على درس المدود والسكون صفحة رقم [( ٣٦، ٣٧، ٤٣، ٤٤، ٤٥، ٤٦ )] على أن تكون القراءة تجميعاً وليس هجاءً",
+      "lessonTag": "الدرس الثالث",
+      "observeTag": "اقرأ ولاحظ"
+    }
+  },
+  "sections": [
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 2,
+        "rowColors": [
+          "green",
+          "green",
+          "peach",
+          "peach",
+          "pink",
+          "pink",
+          "sky",
+          "sky",
+          "sky"
+        ],
+        "markColor": "red"
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "فخلقنا ٱلعلقة مضغة",
+          "segments": [
+            {
+              "text": "فَخَلَقۡنَا ٱلۡعَلَقَةَ مُضۡغَةً",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "فخلقنا ٱلمضغة عظما",
+          "segments": [
+            {
+              "text": "فَخَلَقۡنَا ٱلۡمُضۡغَةَ عِظَٰمًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "أخاه هرون وزيرا",
+          "segments": [
+            {
+              "text": "أَخَاهُ هَٰرُونَ وَزِيرًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "فى هذا لبلغا",
+          "segments": [
+            {
+              "text": "فِى هَٰذَا لَبَلَٰغًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "كانوا من ءايتنا عجبا",
+          "segments": [
+            {
+              "text": "كَانُوا۟ مِنۡ ءَايَٰتِنَا عَجَبًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "فأثرن به نقعا",
+          "segments": [
+            {
+              "text": "فَأَثَرۡنَ بِهِۦ نَقۡعًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "وكان أمره فرطا",
+          "segments": [
+            {
+              "text": "وَكَانَ أَمۡرُهُۥ فُرُطًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "وخذ بيدك ضغثا",
+          "segments": [
+            {
+              "text": "وَخُذۡ بِيَدِكَ ضِغۡثًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "وكان أبوهما صلحا",
+          "segments": [
+            {
+              "text": "وَكَانَ أَبُوهُمَا صَٰلِحًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "تصلى نارا حامية",
+          "segments": [
+            {
+              "text": "تَصۡلَىٰ نَارًا حَامِيَةً",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 5,
+          "searchText": "لا ترى فيها عوجا",
+          "segments": [
+            {
+              "text": "لَا تَرَىٰ فِيهَا عِوَجًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 5,
+          "searchText": "لا ريب فيه هدى",
+          "segments": [
+            {
+              "text": "لَا رَيۡبَ فِيهِ هُدًى",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 6,
+          "searchText": "لنرىك فينا ضعيفا",
+          "segments": [
+            {
+              "text": "لَنَرَىٰكَ فِينَا ضَعِيفًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 6,
+          "searchText": "بذنوب عباده خبيرا",
+          "segments": [
+            {
+              "text": "بِذُنُوبِ عِبَادِهِۦ خَبِيرًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 7,
+          "searchText": "وجعلنا نومكم سباتا",
+          "segments": [
+            {
+              "text": "وَجَعَلۡنَا نَوۡمَكُمۡ سُبَاتًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 7,
+          "searchText": "يوم ٱلقيمة وزنا",
+          "segments": [
+            {
+              "text": "يَوۡمَ ٱلۡقِيَٰمَةِ وَزۡنًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 8,
+          "searchText": "فيكون معه نذيرا",
+          "segments": [
+            {
+              "text": "فَيَكُونَ مَعَهُۥ نَذِيرًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 8,
+          "searchText": "يتنزعون فيها كأسا",
+          "segments": [
+            {
+              "text": "يَتَنَٰزَعُونَ فِيهَا كَأۡسًا",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [],
+  "games": {},
+  "source": "book page 52"
+}

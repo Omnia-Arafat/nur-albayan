@@ -1,0 +1,434 @@
+{
+  "slug": "page-65",
+  "bookPage": 65,
+  "stage": "unit-5",
+  "topic": "shadda-lam-shamsiyya",
+  "status": "review",
+  "i18n": {
+    "ar": {
+      "title": "الشدة",
+      "subtitle": "تدريب ( ٤) أمثلة قرآنية",
+      "teacherNote": "[للمعلم والآباء:] تحرص على مراجعة الأمثلة القرآنية على السكون والتنوين من صفحة [( ٤٣، ٤٤، ٤٥، ٥١، ٥٢، ٥٨، ٥٩)] يعرف المتعلم أن همزة الوصل إذا جاءت فى وسط الكلمة لا تنطق مثل كلمة [(وَٱتَّبِعُوهُ)]",
+      "lessonTag": "الدرس الرابع",
+      "observeTag": "اقرأ ولاحظ"
+    }
+  },
+  "sections": [
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 2,
+        "markColor": "red",
+        "columnColors": [
+          "pink",
+          "sky"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "ٱلذين يتبعون ٱلرسول",
+          "segments": [
+            {
+              "text": "ٱلَّذِينَ يَ",
+              "role": "base"
+            },
+            {
+              "text": "تَّ",
+              "role": "target"
+            },
+            {
+              "text": "بِعُونَ ٱل",
+              "role": "base"
+            },
+            {
+              "text": "رَّ",
+              "role": "target"
+            },
+            {
+              "text": "سُولَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "وٱتبعوه لعلكم تهتدون",
+          "segments": [
+            {
+              "text": "وَٱ",
+              "role": "base"
+            },
+            {
+              "text": "تَّ",
+              "role": "target"
+            },
+            {
+              "text": "بِعُوهُ لَعَ",
+              "role": "base"
+            },
+            {
+              "text": "لَّ",
+              "role": "target"
+            },
+            {
+              "text": "كُمۡ تَهۡتَدُونَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "كأنما يساقون إلى ٱلموت",
+          "segments": [
+            {
+              "text": "كَأَ",
+              "role": "base"
+            },
+            {
+              "text": "نَّ",
+              "role": "target"
+            },
+            {
+              "text": "مَا يُسَاقُونَ إِلَى ٱلۡمَوۡتِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "فلا صدق ولا صلى",
+          "segments": [
+            {
+              "text": "فَلَا صَ",
+              "role": "base"
+            },
+            {
+              "text": "دَّ",
+              "role": "target"
+            },
+            {
+              "text": "قَ وَلَا صَ",
+              "role": "base"
+            },
+            {
+              "text": "لَّىٰ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "أو لتعودن فى ملتنا",
+          "segments": [
+            {
+              "text": "أَوۡ لَتَعُودُ",
+              "role": "base"
+            },
+            {
+              "text": "نَّ ",
+              "role": "target"
+            },
+            {
+              "text": "فِى مِ",
+              "role": "base"
+            },
+            {
+              "text": "لَّ",
+              "role": "target"
+            },
+            {
+              "text": "تِنَا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "قتلهم ٱلله أنى يؤفكون",
+          "segments": [
+            {
+              "text": "قَٰتَلَهُمُ ٱللَّهُ أَ",
+              "role": "base"
+            },
+            {
+              "text": "نَّىٰ ",
+              "role": "target"
+            },
+            {
+              "text": "يُؤۡفَكُونَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "فلما تغشىها حملت",
+          "segments": [
+            {
+              "text": "فَلَ",
+              "role": "base"
+            },
+            {
+              "text": "مَّا ",
+              "role": "target"
+            },
+            {
+              "text": "تَغَ",
+              "role": "base"
+            },
+            {
+              "text": "شَّىٰ",
+              "role": "target"
+            },
+            {
+              "text": "هَا حَمَلَتۡ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "وٱلذين هم عن ٱللغو معرضون",
+          "segments": [
+            {
+              "text": "وَٱلَّذِينَ هُمۡ عَنِ ٱل",
+              "role": "base"
+            },
+            {
+              "text": "لَّ",
+              "role": "target"
+            },
+            {
+              "text": "غۡوِ مُعۡرِضُونَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "وإنكم لمن ٱلمقربين",
+          "segments": [
+            {
+              "text": "وَإِ",
+              "role": "base"
+            },
+            {
+              "text": "نَّ",
+              "role": "target"
+            },
+            {
+              "text": "كُمۡ لَمِنَ ٱلۡمُقَ",
+              "role": "base"
+            },
+            {
+              "text": "رَّ",
+              "role": "target"
+            },
+            {
+              "text": "بِينَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "فضل ٱلله ٱلمجهدين",
+          "segments": [
+            {
+              "text": "فَ",
+              "role": "base"
+            },
+            {
+              "text": "ضَّ",
+              "role": "target"
+            },
+            {
+              "text": "لَ ٱللَّهُ ٱلۡمُجَٰهِدِينَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 5,
+          "searchText": "وأن ٱلله علم ٱلغيوب",
+          "segments": [
+            {
+              "text": "وَأَ",
+              "role": "base"
+            },
+            {
+              "text": "نَّ ",
+              "role": "target"
+            },
+            {
+              "text": "ٱللَّهَ عَ",
+              "role": "base"
+            },
+            {
+              "text": "لَّٰ",
+              "role": "target"
+            },
+            {
+              "text": "مُ ٱلۡغُيُوبِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 5,
+          "searchText": "إن ربك هو ٱلخلق ٱلعليم",
+          "segments": [
+            {
+              "text": "إِ",
+              "role": "base"
+            },
+            {
+              "text": "نَّ ",
+              "role": "target"
+            },
+            {
+              "text": "رَ",
+              "role": "base"
+            },
+            {
+              "text": "بَّ",
+              "role": "target"
+            },
+            {
+              "text": "كَ هُوَ ٱلۡخَ",
+              "role": "base"
+            },
+            {
+              "text": "لَّٰ",
+              "role": "target"
+            },
+            {
+              "text": "قُ ٱلۡعَلِيمُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 6,
+          "searchText": "وهو يتولى ٱلصلحين",
+          "segments": [
+            {
+              "text": "وَهُوَ يَتَوَ",
+              "role": "base"
+            },
+            {
+              "text": "لَّى ",
+              "role": "target"
+            },
+            {
+              "text": "ٱل",
+              "role": "base"
+            },
+            {
+              "text": "صَّٰ",
+              "role": "target"
+            },
+            {
+              "text": "لِحِينَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 6,
+          "searchText": "وجهدوا فى ٱلله حق جهاده",
+          "segments": [
+            {
+              "text": "وَجَٰهِدُوا۟ فِى ٱللَّهِ حَ",
+              "role": "base"
+            },
+            {
+              "text": "قَّ ",
+              "role": "target"
+            },
+            {
+              "text": "جِهَادِهِۦ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 7,
+          "searchText": "وإبرهيم ٱلذى وفى",
+          "segments": [
+            {
+              "text": "وَإِبۡرَٰهِيمَ ٱلَّذِى وَ",
+              "role": "base"
+            },
+            {
+              "text": "فَّىٰٓ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 7,
+          "searchText": "لنكونن من ٱلشكرين",
+          "segments": [
+            {
+              "text": "لَنَكُونَ",
+              "role": "base"
+            },
+            {
+              "text": "نَّ ",
+              "role": "target"
+            },
+            {
+              "text": "مِنَ ٱل",
+              "role": "base"
+            },
+            {
+              "text": "شَّٰ",
+              "role": "target"
+            },
+            {
+              "text": "كِرِينَ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [],
+  "games": {},
+  "source": "book page 65"
+}

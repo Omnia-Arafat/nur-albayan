@@ -1,0 +1,461 @@
+{
+  "slug": "page-72",
+  "bookPage": 72,
+  "stage": "unit-5",
+  "topic": "shadda-damm",
+  "status": "review",
+  "i18n": {
+    "ar": {
+      "title": "الشدة مع الضمة",
+      "subtitle": "تدريب ( ٣) أمثلة قرآنية",
+      "teacherNote": "[للمعلم والآباء:] مع هذه الأمثلة يتم مراجعة أمثلة قرآنية على التشديد بالفتح والكسر صفحة رقم [( ٦٥، ٦٨)] [تحرص على سماع] التدريب من كل متعلم على حده",
+      "lessonTag": "الدرس الثالث",
+      "observeTag": "اقرأ ولاحظ"
+    }
+  },
+  "sections": [
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 2,
+        "columnColors": [
+          "pink",
+          "lime"
+        ]
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "نحن نقص عليك أحسن ٱلقصص",
+          "segments": [
+            {
+              "text": "نَحۡنُ نَقُ",
+              "role": "base"
+            },
+            {
+              "text": "صُّ ",
+              "role": "target"
+            },
+            {
+              "text": "عَلَيۡكَ أَحۡسَنَ ٱلۡقَصَصِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "وسع ربنا كل شىء علما",
+          "segments": [
+            {
+              "text": "وَسِعَ رَ",
+              "role": "base"
+            },
+            {
+              "text": "بُّ",
+              "role": "target"
+            },
+            {
+              "text": "نَا كُ",
+              "role": "base"
+            },
+            {
+              "text": "لَّ ",
+              "role": "target"
+            },
+            {
+              "text": "شَىۡءٍ عِلۡمًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "كلمة ٱلذين كفروا ٱلسفلى",
+          "segments": [
+            {
+              "text": "كَلِمَةَ ٱ",
+              "role": "base"
+            },
+            {
+              "text": "لَّ",
+              "role": "target"
+            },
+            {
+              "text": "ذِينَ كَفَرُوا۟ ٱل",
+              "role": "base"
+            },
+            {
+              "text": "سُّ",
+              "role": "target"
+            },
+            {
+              "text": "فۡلَىٰ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "ذلكم ٱلله ربكم فٱعبدوه",
+          "segments": [
+            {
+              "text": "ذَٰلِكُمُ ٱ",
+              "role": "base"
+            },
+            {
+              "text": "للَّ",
+              "role": "target"
+            },
+            {
+              "text": "هُ رَ",
+              "role": "base"
+            },
+            {
+              "text": "بُّ",
+              "role": "target"
+            },
+            {
+              "text": "كُمۡ فَٱعۡبُدُوهُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "ولو أرادوا ٱلخروج لأعدوا",
+          "segments": [
+            {
+              "text": "وَلَوۡ أَرَادُوا۟ ٱلۡخُرُوجَ لَأَعَ",
+              "role": "base"
+            },
+            {
+              "text": "دُّ",
+              "role": "target"
+            },
+            {
+              "text": "وا۟",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "ثم تردون إلى علم ٱلغيب",
+          "segments": [
+            {
+              "text": "ثُ",
+              "role": "base"
+            },
+            {
+              "text": "مَّ ",
+              "role": "target"
+            },
+            {
+              "text": "تُرَ",
+              "role": "base"
+            },
+            {
+              "text": "دُّ",
+              "role": "target"
+            },
+            {
+              "text": "ونَ إِلَىٰ عَٰلِمِ ٱلۡغَيۡبِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "يعلم ما يسرون وما يعلنون",
+          "segments": [
+            {
+              "text": "يَعۡلَمُ مَا يُسِ",
+              "role": "base"
+            },
+            {
+              "text": "رُّ",
+              "role": "target"
+            },
+            {
+              "text": "ونَ وَمَا يُعۡلِنُونَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "قل نار جهنم أشد حرا",
+          "segments": [
+            {
+              "text": "قُلۡ نَارُ جَهَ",
+              "role": "base"
+            },
+            {
+              "text": "نَّ",
+              "role": "target"
+            },
+            {
+              "text": "مَ أَشَ",
+              "role": "base"
+            },
+            {
+              "text": "دُّ ",
+              "role": "target"
+            },
+            {
+              "text": "حَ",
+              "role": "base"
+            },
+            {
+              "text": "رًّ",
+              "role": "target"
+            },
+            {
+              "text": "ا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "بذكر ٱلله تطمئن ٱلقلوب",
+          "segments": [
+            {
+              "text": "بِذِكۡرِ ٱ",
+              "role": "base"
+            },
+            {
+              "text": "للَّ",
+              "role": "target"
+            },
+            {
+              "text": "هِ تَطۡمَئِ",
+              "role": "base"
+            },
+            {
+              "text": "نُّ ",
+              "role": "target"
+            },
+            {
+              "text": "ٱلۡقُلُوبُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "يمنون عليك أن أسلموا",
+          "segments": [
+            {
+              "text": "يَمُ",
+              "role": "base"
+            },
+            {
+              "text": "نُّ",
+              "role": "target"
+            },
+            {
+              "text": "ونَ عَلَيۡكَ أَنۡ أَسۡلَمُوا۟",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 5,
+          "searchText": "وإذا مروا بٱللغو مروا كراما",
+          "segments": [
+            {
+              "text": "وَإِذَا مَ",
+              "role": "base"
+            },
+            {
+              "text": "رُّ",
+              "role": "target"
+            },
+            {
+              "text": "وا۟ بِٱل",
+              "role": "base"
+            },
+            {
+              "text": "لَّ",
+              "role": "target"
+            },
+            {
+              "text": "غۡوِ مَ",
+              "role": "base"
+            },
+            {
+              "text": "رُّ",
+              "role": "target"
+            },
+            {
+              "text": "وا۟ كِرَامًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 5,
+          "searchText": "قال رب ٱلسجن أحب إلى",
+          "segments": [
+            {
+              "text": "قَالَ رَ",
+              "role": "base"
+            },
+            {
+              "text": "بِّ ",
+              "role": "target"
+            },
+            {
+              "text": "ٱل",
+              "role": "base"
+            },
+            {
+              "text": "سِّ",
+              "role": "target"
+            },
+            {
+              "text": "جۡنُ أَحَ",
+              "role": "base"
+            },
+            {
+              "text": "بُّ ",
+              "role": "target"
+            },
+            {
+              "text": "إِلَ",
+              "role": "base"
+            },
+            {
+              "text": "ىَّ",
+              "role": "target"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 6,
+          "searchText": "يوسف أيها ٱلصديق أفتنا",
+          "segments": [
+            {
+              "text": "يُوسُفُ أَ",
+              "role": "base"
+            },
+            {
+              "text": "يُّ",
+              "role": "target"
+            },
+            {
+              "text": "هَا ٱل",
+              "role": "base"
+            },
+            {
+              "text": "صِّدِّ",
+              "role": "target"
+            },
+            {
+              "text": "يقُ أَفۡتِنَا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 6,
+          "searchText": "لهما جناح ٱلذل من ٱلرحمة",
+          "segments": [
+            {
+              "text": "لَهُمَا جَنَاحَ ٱل",
+              "role": "base"
+            },
+            {
+              "text": "ذُّلِّ ",
+              "role": "target"
+            },
+            {
+              "text": "مِنَ ٱل",
+              "role": "base"
+            },
+            {
+              "text": "رَّ",
+              "role": "target"
+            },
+            {
+              "text": "حۡمَةِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 7,
+          "searchText": "وأحلوا قومهم دار ٱلبوار",
+          "segments": [
+            {
+              "text": "وَأَحَ",
+              "role": "base"
+            },
+            {
+              "text": "لُّ",
+              "role": "target"
+            },
+            {
+              "text": "وا۟ قَوۡمَهُمۡ دَارَ ٱلۡبَوَارِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 7,
+          "searchText": "ولا يرد بأسنا عن ٱلقوم ٱلمجرمين",
+          "segments": [
+            {
+              "text": "وَلَا يُرَ",
+              "role": "base"
+            },
+            {
+              "text": "دُّ ",
+              "role": "target"
+            },
+            {
+              "text": "بَأۡسُنَا عَنِ ٱلۡقَوۡمِ ٱلۡمُجۡرِمِينَ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [],
+  "games": {},
+  "source": "book page 72"
+}

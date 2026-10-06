@@ -1,0 +1,205 @@
+{
+  "slug": "page-38",
+  "bookPage": 38,
+  "stage": "unit-2",
+  "topic": "madd-review",
+  "status": "review",
+  "i18n": {
+    "ar": {
+      "title": "مراجعة على المدود",
+      "subtitle": "تدريب ( ٣) على الرسم الإملائى",
+      "teacherNote": "[للمعلم والآباء:] فى البداية تقرأ الجملة كلمة .. كلمة ثم تجمع الجملة [ولا تنسى] مراجعة ما تمت دراسته من جمل على الحركات والمدود.",
+      "lessonTag": "الدرس الثالث",
+      "observeTag": "اقرأ ولاحظ"
+    }
+  },
+  "sections": [
+    {
+      "kind": "story",
+      "config": {
+        "columns": 1,
+        "rowColors": [
+          "pink"
+        ],
+        "markColor": "red"
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "سامي ويوسف صديقان",
+          "segments": [
+            {
+              "text": "سَامِي",
+              "role": "secondary"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "وَيُوسُفُ",
+              "role": "contrast"
+            },
+            {
+              "text": " صَدِيقَانِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "- سامي يزور أقاربه ويساعد جيرانه",
+          "segments": [
+            {
+              "text": "- ",
+              "role": "base"
+            },
+            {
+              "text": "سَامِي",
+              "role": "secondary"
+            },
+            {
+              "text": " يَزُورُ أَقَارِبَهُ وَيُسَاعِدُ جِيرَانَهُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "- يوسف قرأ كتابه وذاكر دروسه",
+          "segments": [
+            {
+              "text": "- ",
+              "role": "base"
+            },
+            {
+              "text": "يُوسُفُ",
+              "role": "target"
+            },
+            {
+              "text": " قَرَأَ كِتَابَهُ وَذَاكَرَ دُرُوسَهُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 3,
+          "searchText": "- سامي يزور يوسف في مرضه",
+          "segments": [
+            {
+              "text": "- ",
+              "role": "base"
+            },
+            {
+              "text": "سَامِي",
+              "role": "secondary"
+            },
+            {
+              "text": " يَزُورُ يُوسُفَ فِي مَرَضِهِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 4,
+          "searchText": "- يوسف برئ فحمد خالقه",
+          "segments": [
+            {
+              "text": "- ",
+              "role": "base"
+            },
+            {
+              "text": "يُوسُفُ",
+              "role": "target"
+            },
+            {
+              "text": " بَرِئَ فَحَمِدَ خَالِقَهُ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "story",
+      "config": {
+        "columns": 1,
+        "rowColors": [
+          "sky"
+        ],
+        "markColor": "red"
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 0,
+          "searchText": "عائشة وخديجة جارتان",
+          "segments": [
+            {
+              "text": "عَائِشَةُ",
+              "role": "contrast"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "وَخَدِيجَةُ",
+              "role": "target"
+            },
+            {
+              "text": " جَارَتَانِ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 1,
+          "searchText": "عائشة: تطيع والدتها وأباها وتحافظ على كتبها",
+          "segments": [
+            {
+              "text": "عَائِشَةُ:",
+              "role": "target"
+            },
+            {
+              "text": " تُطِيعُ وَالِدَتَهَا وَأَبَاهَا وَتُحَافِظُ عَلَى كُتُبِهَا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "naskh",
+          "rowBand": 2,
+          "searchText": "خديجة: تحافظ على صلاتها وتقول سعادتي في ديني وطاعة خالقي",
+          "segments": [
+            {
+              "text": "خَدِيجَةُ:",
+              "role": "contrast"
+            },
+            {
+              "text": " تُحَافِظُ عَلَى صَلَاتِهَا وَتَقُولُ سَعَادَتِي فِي دِينِي وَطَاعَةِ خَالِقِي",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [],
+  "games": {},
+  "source": "book page 38"
+}

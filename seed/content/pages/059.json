@@ -1,0 +1,291 @@
+{
+  "slug": "page-59",
+  "bookPage": 59,
+  "stage": "unit-4",
+  "topic": "tanween-review",
+  "status": "review",
+  "i18n": {
+    "ar": {
+      "title": "مراجعة",
+      "subtitle": "تدريب ( ٢) أمثلة قرآنية",
+      "teacherNote": "[للمعلم والآباء:] لا تنسى المراجعة اليومية لقاعدة الحركات صفحة رقم [( ١٨)] وقاعدة المدود والسكون صفحة رقم [( ٣٢، ٣٩)] ، [ويعرف المتعلم:] أن الصفر المستدير إذا وجد فوق حرف الألف لا ينطق مثل كلمة [( مِاْئَةِ )]",
+      "lessonTag": "التدريب الثانى",
+      "observeTag": "اقرأ ولاحظ"
+    }
+  },
+  "sections": [
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 3,
+        "rowColors": [
+          "lime",
+          "lime",
+          "pink",
+          "pink",
+          "yellow",
+          "yellow"
+        ],
+        "markColor": "red"
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "لا يأتيكما طعام",
+          "segments": [
+            {
+              "text": "لَا يَأۡتِيكُمَا طَعَامٌ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "أو يحدث لهم ذكرا",
+          "segments": [
+            {
+              "text": "أَوۡ يُحۡدِثُ لَهُمۡ ذِكۡرًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "قال قد أوتيت سؤلك",
+          "segments": [
+            {
+              "text": "قَالَ قَدۡ أُوتِيتَ سُؤۡلَكَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "وليجدوا فيكم غلظة",
+          "segments": [
+            {
+              "text": "وَلۡيَجِدُوا۟ فِيكُمۡ غِلۡظَةً",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "إذ نادى وهو مكظوم",
+          "segments": [
+            {
+              "text": "إِذۡ نَادَىٰ وَهُوَ مَكۡظُومٌ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "أفرغ علينا صبرا",
+          "segments": [
+            {
+              "text": "أَفۡرِغۡ عَلَيۡنَا صَبۡرًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "إذ هم عليها قعود",
+          "segments": [
+            {
+              "text": "إِذۡ هُمۡ عَلَيۡهَا قُعُودٌ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "قلنا ينار كونى بردا",
+          "segments": [
+            {
+              "text": "قُلۡنَا يَٰنَارُ كُونِى بَرۡدًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 2,
+          "searchText": "فيها جمال حين تريحون",
+          "segments": [
+            {
+              "text": "فِيهَا جَمَالٌ حِينَ تُرِيحُونَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "يأكلون فى بطونهم نارا",
+          "segments": [
+            {
+              "text": "يَأۡكُلُونَ فِى بُطُونِهِمۡ نَارًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "ولكم فيها منفع كثيرة",
+          "segments": [
+            {
+              "text": "وَلَكُمۡ فِيهَا مَنَٰفِعُ كَثِيرَةٌ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 3,
+          "searchText": "فإذا هى شخصة أبصر",
+          "segments": [
+            {
+              "text": "فَإِذَا هِىَ شَٰخِصَةٌ أَبۡصَٰرُ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "لا يكادون يفقهون حديثا",
+          "segments": [
+            {
+              "text": "لَا يَكَادُونَ يَفۡقَهُونَ حَدِيثًا",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "فليس عليكم جناح",
+          "segments": [
+            {
+              "text": "فَلَيۡسَ عَلَيۡكُمۡ جُنَاحٌ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 4,
+          "searchText": "على رجعه لقادر",
+          "segments": [
+            {
+              "text": "عَلَىٰ رَجۡعِهِۦ لَقَادِرٌ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 5,
+          "searchText": "ولهم فى ٱلأخرة عذاب",
+          "segments": [
+            {
+              "text": "وَلَهُمۡ فِى ٱلۡأٓخِرَةِ عَذَابٌ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 5,
+          "searchText": "ليريه كيف يورى",
+          "segments": [
+            {
+              "text": "لِيُرِيَهُۥ كَيۡفَ يُوَٰرِى",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 5,
+          "searchText": "تميلوا ميلا عظيما",
+          "segments": [
+            {
+              "text": "تَمِيلُوا۟ مَيۡلًا عَظِيمًا",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sentences",
+      "config": {
+        "columns": 1,
+        "rowColors": [
+          "sky",
+          "sky"
+        ],
+        "markColor": "red"
+      },
+      "items": [
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 0,
+          "searchText": "وأرسلنه إلى مائة ألف أو يزيدون",
+          "segments": [
+            {
+              "text": "وَأَرۡسَلۡنَٰهُ إِلَىٰ مِاْئَةِ أَلۡفٍ أَوۡ يَزِيدُونَ",
+              "role": "base"
+            }
+          ]
+        },
+        {
+          "cardType": "normal",
+          "script": "uthmani",
+          "rowBand": 1,
+          "searchText": "لقد كان لكم فيهم أسوة حسنة",
+          "segments": [
+            {
+              "text": "لَقَدۡ كَانَ لَكُمۡ فِيهِمۡ أُسۡوَةٌ حَسَنَةٌ",
+              "role": "base"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [],
+  "games": {},
+  "source": "book page 59"
+}
