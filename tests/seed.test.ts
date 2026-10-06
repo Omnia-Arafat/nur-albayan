@@ -1,13 +1,18 @@
+import { existsSync } from "node:fs";
+
 import { PGlite } from "@electric-sql/pglite";
 import { sql } from "drizzle-orm";
 import { drizzle } from "drizzle-orm/pglite";
 import { migrate } from "drizzle-orm/pglite/migrator";
 import { describe, expect, it } from "vitest";
 
+import { loadContent, runContentSeed } from "@/db/seed/content";
 import { loadSeed } from "@/db/seed/files";
 import { runSeed } from "@/db/seed/run";
 
 const seed = loadSeed();
+// Book content is generated locally (pnpm import:pages) and not committed while the repo is public.
+const hasContent = existsSync("seed/content/book.json");
 const tokenKeys = new Set(seed.theme.tokens.map((t) => t.key));
 const localeCodes = seed.locales.map((l) => l.code);
 
@@ -62,6 +67,31 @@ describe("seed files", () => {
   });
 });
 
+describe.skipIf(!hasContent)("book content", () => {
+  const content = hasContent ? loadContent() : { book: { stages: [] }, lessons: [] } as unknown as ReturnType<typeof loadContent>;
+  const roles = new Set(seed.semanticRoles.map((r) => r.key));
+  const cardTypes = new Set(seed.cardTypes.map((c) => c.key));
+  const games = new Set(seed.games.map((g) => g.key));
+  const items = content.lessons.flatMap((l) => l.sections.flatMap((s) => s.items.map((i) => ({ lesson: l.slug, ...i }))));
+
+  it("uses only known roles, card types and games", () => {
+    expect(items.flatMap((i) => i.segments.filter((s) => !roles.has(s.role)).map((s) => `${i.lesson}:${s.role}`))).toEqual([]);
+    expect(items.filter((i) => !cardTypes.has(i.cardType)).map((i) => i.lesson)).toEqual([]);
+    expect(content.lessons.flatMap((l) => Object.keys(l.games).filter((g) => !games.has(g)))).toEqual([]);
+  });
+
+  it("puts every lesson in a known stage, once per page", () => {
+    const stages = new Set(content.book.stages.map((s) => s.slug));
+    expect(content.lessons.filter((l) => !stages.has(l.stage)).map((l) => l.slug)).toEqual([]);
+    const pages = content.lessons.map((l) => l.bookPage);
+    expect(new Set(pages).size).toBe(pages.length);
+  });
+
+  it("keeps markup out of the text", () => {
+    expect(items.filter((i) => i.segments.some((s) => /[<>]/.test(s.text))).map((i) => i.lesson)).toEqual([]);
+  });
+});
+
 describe("migrations and seed", () => {
   it("apply to an empty database and seed twice without duplicates", async () => {
     const client = new PGlite();
@@ -90,6 +120,14 @@ describe("migrations and seed", () => {
       sql`select count(*)::int as n from pg_tables where schemaname = 'public' and not rowsecurity`,
     );
     expect(rls.rows[0].n).toBe(0);
+
+    if (!hasContent) return client.close();
+    const content = loadContent();
+    await runContentSeed(db, content);
+    await runContentSeed(db, content);
+    const itemTotal = content.lessons.reduce((n, l) => n + l.sections.reduce((m, s) => m + s.items.length, 0), 0);
+    expect(await count("lessons")).toBe(content.lessons.length);
+    expect(await count("items")).toBe(itemTotal);
     await client.close();
-  }, 60_000);
+  }, 120_000);
 });

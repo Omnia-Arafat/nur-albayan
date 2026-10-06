@@ -47,3 +47,14 @@ avatars, levels, badges, setting definitions, and the 525 UI strings from nur-al
 and English (namespace `legacy`, to be moved into feature namespaces as screens are rebuilt).
 
 The seed is idempotent and never overwrites values an admin has changed. Run it with `pnpm db:seed`.
+
+## Book content
+
+`pnpm import:pages <path to nur-albayan-pages>` converts the pages repo's lessons into
+`seed/content/` (one JSON file per page, plus `book.json` with the stages and an `IMPORT_REPORT.md`).
+Each word's coloured spans become role-tagged segments, the pill theme becomes a row band, and
+pages whose words are built from smaller arrays are read by running their inline script in a sandbox.
+All lessons are imported as `draft` for review against the printed book.
+
+`pnpm db:seed:content` loads it. A lesson whose slug already exists is skipped, so editors' changes are kept.
+`seed/content/` is git-ignored while the repository is public.

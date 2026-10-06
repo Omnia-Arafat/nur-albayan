@@ -73,5 +73,20 @@
         "description": "Rule names in the tajweed sections"
       }
     }
+  },
+  {
+    "key": "separator",
+    "tokenKey": "color.ink.muted",
+    "position": 5,
+    "i18n": {
+      "ar": {
+        "label": "فاصل",
+        "description": "الشرطة بين صور الكلمة المقارنة"
+      },
+      "en": {
+        "label": "Separator",
+        "description": "The dash between compared variants"
+      }
+    }
   }
 ]
