@@ -539,9 +539,9 @@
         },
         {
           "cardType": "normal",
-          "script": "naskh",
+          "script": "uthmani",
           "rowBand": 1,
-          "searchText": "زقوم",
+          "searchText": "زقومࣲ",
           "segments": [
             {
               "text": "زَ",
@@ -552,7 +552,7 @@
               "role": "target"
             },
             {
-              "text": "ومٍ",
+              "text": "ومࣲ",
               "role": "base"
             }
           ]
@@ -579,9 +579,9 @@
         },
         {
           "cardType": "normal",
-          "script": "naskh",
+          "script": "uthmani",
           "rowBand": 1,
-          "searchText": "تبع",
+          "searchText": "تبعࣲ",
           "segments": [
             {
               "text": "تُ",
@@ -592,7 +592,7 @@
               "role": "target"
             },
             {
-              "text": "عٍ",
+              "text": "عࣲ",
               "role": "base"
             }
           ]

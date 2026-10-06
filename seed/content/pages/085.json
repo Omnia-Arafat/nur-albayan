@@ -490,7 +490,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "وقالت طائفة",
+          "searchText": "وقالت طائفةࣱ",
           "segments": [
             {
               "text": "وَقَالَت ",
@@ -501,7 +501,7 @@
               "role": "target"
             },
             {
-              "text": "آئِفَةٌ",
+              "text": "آئِفَةࣱ",
               "role": "base"
             }
           ]

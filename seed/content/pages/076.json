@@ -274,7 +274,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 4,
-          "searchText": "يدعون إلى نار جهنم دعا",
+          "searchText": "يدعون إلى نار جهنم دعࣰا",
           "segments": [
             {
               "text": "يُدَ",
@@ -297,7 +297,7 @@
               "role": "base"
             },
             {
-              "text": "عًّا",
+              "text": "عࣰّا",
               "role": "target"
             }
           ]

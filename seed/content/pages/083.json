@@ -103,7 +103,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "لكم برآءة",
+          "searchText": "لكم برآءةࣱ",
           "segments": [
             {
               "text": "لَكُم ",
@@ -114,7 +114,7 @@
               "role": "target"
             },
             {
-              "text": "رَآءَةٌ",
+              "text": "رَآءَةࣱ",
               "role": "base"
             }
           ]
@@ -143,7 +143,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "أم بظهر",
+          "searchText": "أم بظهرࣲ",
           "segments": [
             {
               "text": "أَم ",
@@ -154,7 +154,7 @@
               "role": "target"
             },
             {
-              "text": "ظَٰهِرٍ",
+              "text": "ظَٰهِرࣲ",
               "role": "base"
             }
           ]

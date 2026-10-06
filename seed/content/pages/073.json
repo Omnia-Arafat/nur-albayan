@@ -128,7 +128,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 1,
-          "searchText": "تنزل على كل أفاك أثيم",
+          "searchText": "تنزل على كل أفاكࣲ أثيمࣲ",
           "segments": [
             {
               "text": "تَنَ",
@@ -155,7 +155,7 @@
               "role": "target"
             },
             {
-              "text": "اكٍ أَثِيمٍ",
+              "text": "اكࣲ أَثِيمࣲ",
               "role": "base"
             }
           ]

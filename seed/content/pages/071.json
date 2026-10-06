@@ -374,7 +374,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 4,
-          "searchText": "صبار",
+          "searchText": "صبارࣲ",
           "segments": [
             {
               "text": "صَ",
@@ -385,7 +385,7 @@
               "role": "target"
             },
             {
-              "text": "ارٍ",
+              "text": "ارࣲ",
               "role": "base"
             }
           ]

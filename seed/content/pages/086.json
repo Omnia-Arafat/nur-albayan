@@ -310,14 +310,14 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "خبير",
+          "searchText": "خبيرࣱ",
           "segments": [
             {
               "text": "خَبِي",
               "role": "base"
             },
             {
-              "text": "رٌ",
+              "text": "رࣱ",
               "role": "target"
             }
           ]

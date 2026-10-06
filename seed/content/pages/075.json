@@ -24,9 +24,9 @@
       "items": [
         {
           "cardType": "normal",
-          "script": "naskh",
+          "script": "uthmani",
           "rowBand": 0,
-          "searchText": "أب - أبا",
+          "searchText": "أب - أبࣰا",
           "segments": [
             {
               "text": "أَبَّ",
@@ -37,16 +37,16 @@
               "role": "separator"
             },
             {
-              "text": "أَبًّا",
+              "text": "أَبࣰّا",
               "role": "target"
             }
           ]
         },
         {
           "cardType": "normal",
-          "script": "naskh",
+          "script": "uthmani",
           "rowBand": 0,
-          "searchText": "فك - فك",
+          "searchText": "فك - فكࣲ",
           "segments": [
             {
               "text": "فَكِّ",
@@ -57,16 +57,16 @@
               "role": "separator"
             },
             {
-              "text": "فَكٍّ",
+              "text": "فَكࣲّ",
               "role": "target"
             }
           ]
         },
         {
           "cardType": "normal",
-          "script": "naskh",
+          "script": "uthmani",
           "rowBand": 0,
-          "searchText": "صب - صب",
+          "searchText": "صب - صبࣱ",
           "segments": [
             {
               "text": "صَبُّ",
@@ -77,7 +77,7 @@
               "role": "separator"
             },
             {
-              "text": "صَبٌّ",
+              "text": "صَبࣱّ",
               "role": "target"
             }
           ]
@@ -111,32 +111,32 @@
         },
         {
           "cardType": "normal",
-          "script": "naskh",
+          "script": "uthmani",
           "rowBand": 0,
-          "searchText": "طبا",
+          "searchText": "طبࣰا",
           "segments": [
             {
               "text": "طَ",
               "role": "base"
             },
             {
-              "text": "بًّا",
+              "text": "بࣰّا",
               "role": "target"
             }
           ]
         },
         {
           "cardType": "normal",
-          "script": "naskh",
+          "script": "uthmani",
           "rowBand": 0,
-          "searchText": "طب",
+          "searchText": "طبࣲ",
           "segments": [
             {
               "text": "طَ",
               "role": "base"
             },
             {
-              "text": "بٍّ",
+              "text": "بࣲّ",
               "role": "target"
             }
           ]
@@ -191,32 +191,32 @@
         },
         {
           "cardType": "normal",
-          "script": "naskh",
+          "script": "uthmani",
           "rowBand": 0,
-          "searchText": "قويا",
+          "searchText": "قويࣰا",
           "segments": [
             {
               "text": "قَوِ",
               "role": "base"
             },
             {
-              "text": "يًّا",
+              "text": "يࣰّا",
               "role": "target"
             }
           ]
         },
         {
           "cardType": "normal",
-          "script": "naskh",
+          "script": "uthmani",
           "rowBand": 0,
-          "searchText": "قوى",
+          "searchText": "قوىࣲ",
           "segments": [
             {
               "text": "قَوِ",
               "role": "base"
             },
             {
-              "text": "ىٍّ",
+              "text": "ىࣲّ",
               "role": "target"
             }
           ]
@@ -239,64 +239,64 @@
         },
         {
           "cardType": "normal",
-          "script": "naskh",
+          "script": "uthmani",
           "rowBand": 1,
-          "searchText": "حيا",
+          "searchText": "حيࣰا",
           "segments": [
             {
               "text": "حَ",
               "role": "base"
             },
             {
-              "text": "يًّا",
+              "text": "يࣰّا",
               "role": "target"
             }
           ]
         },
         {
           "cardType": "normal",
-          "script": "naskh",
+          "script": "uthmani",
           "rowBand": 1,
-          "searchText": "حقا",
+          "searchText": "حقࣰا",
           "segments": [
             {
               "text": "حَ",
               "role": "base"
             },
             {
-              "text": "قًّا",
+              "text": "قࣰّا",
               "role": "target"
             }
           ]
         },
         {
           "cardType": "normal",
-          "script": "naskh",
+          "script": "uthmani",
           "rowBand": 1,
-          "searchText": "صما",
+          "searchText": "صمࣰا",
           "segments": [
             {
               "text": "صُ",
               "role": "base"
             },
             {
-              "text": "مًّا",
+              "text": "مࣰّا",
               "role": "target"
             }
           ]
         },
         {
           "cardType": "normal",
-          "script": "naskh",
+          "script": "uthmani",
           "rowBand": 1,
-          "searchText": "فظا",
+          "searchText": "فظࣰا",
           "segments": [
             {
               "text": "فَ",
               "role": "base"
             },
             {
-              "text": "ظًّا",
+              "text": "ظࣰّا",
               "role": "target"
             }
           ]
@@ -315,64 +315,64 @@
       "items": [
         {
           "cardType": "normal",
-          "script": "naskh",
+          "script": "uthmani",
           "rowBand": 0,
-          "searchText": "عتو",
+          "searchText": "عتوࣲ",
           "segments": [
             {
               "text": "عُتُ",
               "role": "base"
             },
             {
-              "text": "وٍّ",
+              "text": "وࣲّ",
               "role": "target"
             }
           ]
         },
         {
           "cardType": "normal",
-          "script": "naskh",
+          "script": "uthmani",
           "rowBand": 0,
-          "searchText": "مر",
+          "searchText": "مرࣲ",
           "segments": [
             {
               "text": "مَ",
               "role": "base"
             },
             {
-              "text": "رٍّ",
+              "text": "رࣲّ",
               "role": "target"
             }
           ]
         },
         {
           "cardType": "normal",
-          "script": "naskh",
+          "script": "uthmani",
           "rowBand": 0,
-          "searchText": "عدو",
+          "searchText": "عدوࣲ",
           "segments": [
             {
               "text": "عَدُ",
               "role": "base"
             },
             {
-              "text": "وٍّ",
+              "text": "وࣲّ",
               "role": "target"
             }
           ]
         },
         {
           "cardType": "normal",
-          "script": "naskh",
+          "script": "uthmani",
           "rowBand": 0,
-          "searchText": "شك",
+          "searchText": "شكࣲ",
           "segments": [
             {
               "text": "شَ",
               "role": "base"
             },
             {
-              "text": "كٍّ",
+              "text": "كࣲّ",
               "role": "target"
             }
           ]
@@ -455,32 +455,32 @@
       "items": [
         {
           "cardType": "normal",
-          "script": "naskh",
+          "script": "uthmani",
           "rowBand": 0,
-          "searchText": "عفوا",
+          "searchText": "عفوࣰا",
           "segments": [
             {
               "text": "عَفُ",
               "role": "base"
             },
             {
-              "text": "وًّا",
+              "text": "وࣰّا",
               "role": "target"
             }
           ]
         },
         {
           "cardType": "normal",
-          "script": "naskh",
+          "script": "uthmani",
           "rowBand": 0,
-          "searchText": "غل",
+          "searchText": "غلࣲ",
           "segments": [
             {
               "text": "غِ",
               "role": "base"
             },
             {
-              "text": "لٍّ",
+              "text": "لࣲّ",
               "role": "target"
             }
           ]
@@ -503,80 +503,80 @@
         },
         {
           "cardType": "normal",
-          "script": "naskh",
+          "script": "uthmani",
           "rowBand": 0,
-          "searchText": "حبا",
+          "searchText": "حبࣰا",
           "segments": [
             {
               "text": "حُ",
               "role": "base"
             },
             {
-              "text": "بًّا",
+              "text": "بࣰّا",
               "role": "target"
             }
           ]
         },
         {
           "cardType": "normal",
-          "script": "naskh",
+          "script": "uthmani",
           "rowBand": 1,
-          "searchText": "عزا",
+          "searchText": "عزࣰا",
           "segments": [
             {
               "text": "عِ",
               "role": "base"
             },
             {
-              "text": "زًّا",
+              "text": "زࣰّا",
               "role": "target"
             }
           ]
         },
         {
           "cardType": "normal",
-          "script": "naskh",
+          "script": "uthmani",
           "rowBand": 1,
-          "searchText": "درى",
+          "searchText": "درىࣱ",
           "segments": [
             {
               "text": "دُ",
               "role": "base"
             },
             {
-              "text": "رِّىٌّ",
+              "text": "رِّىࣱّ",
               "role": "target"
             }
           ]
         },
         {
           "cardType": "normal",
-          "script": "naskh",
+          "script": "uthmani",
           "rowBand": 1,
-          "searchText": "ولى",
+          "searchText": "ولىࣲ",
           "segments": [
             {
               "text": "وَلِ",
               "role": "base"
             },
             {
-              "text": "ىٍّ",
+              "text": "ىࣲّ",
               "role": "target"
             }
           ]
         },
         {
           "cardType": "normal",
-          "script": "naskh",
+          "script": "uthmani",
           "rowBand": 1,
-          "searchText": "عربى",
+          "searchText": "عربىࣱ",
           "segments": [
             {
               "text": "عَرَبِ",
               "role": "base"
             },
             {
-              "text": "ىٌّ",
+              "text": "ىࣱّ",
               "role": "target"
             }
           ]

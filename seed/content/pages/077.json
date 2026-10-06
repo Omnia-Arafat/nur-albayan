@@ -364,7 +364,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "يضل به كثيرا",
+          "searchText": "يضل به كثيرࣰا",
           "segments": [
             {
               "text": "يُضِلُّ بِهِ",
@@ -375,7 +375,7 @@
               "role": "target"
             },
             {
-              "text": "كَثِيرًا",
+              "text": "كَثِيرࣰا",
               "role": "base"
             }
           ]
@@ -528,14 +528,14 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "إيمنا",
+          "searchText": "إيمنࣰا",
           "segments": [
             {
               "text": "إِي",
               "role": "target"
             },
             {
-              "text": "مَٰنًا",
+              "text": "مَٰنࣰا",
               "role": "base"
             }
           ]
@@ -544,14 +544,14 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "حكيما",
+          "searchText": "حكيمࣰا",
           "segments": [
             {
               "text": "حَكِي",
               "role": "base"
             },
             {
-              "text": "مًا",
+              "text": "مࣰا",
               "role": "target"
             }
           ]

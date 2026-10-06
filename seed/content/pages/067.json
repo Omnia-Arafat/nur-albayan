@@ -71,7 +71,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "مشيدة",
+          "searchText": "مشيدةࣲ",
           "segments": [
             {
               "text": "مُشَ",
@@ -82,7 +82,7 @@
               "role": "target"
             },
             {
-              "text": "دَةٍ",
+              "text": "دَةࣲ",
               "role": "base"
             }
           ]
@@ -131,7 +131,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 1,
-          "searchText": "مغيرا",
+          "searchText": "مغيرࣰا",
           "segments": [
             {
               "text": "مُغَ",
@@ -142,7 +142,7 @@
               "role": "target"
             },
             {
-              "text": "رًا",
+              "text": "رࣰا",
               "role": "base"
             }
           ]
@@ -151,7 +151,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 1,
-          "searchText": "سجيل",
+          "searchText": "سجيلࣲ",
           "segments": [
             {
               "text": "سِ",
@@ -162,7 +162,7 @@
               "role": "target"
             },
             {
-              "text": "يلٍ",
+              "text": "يلࣲ",
               "role": "base"
             }
           ]
@@ -251,7 +251,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 2,
-          "searchText": "ثلة",
+          "searchText": "ثلةࣱ",
           "segments": [
             {
               "text": "ثُ",
@@ -262,7 +262,7 @@
               "role": "target"
             },
             {
-              "text": "ةٌ",
+              "text": "ةࣱ",
               "role": "base"
             }
           ]
@@ -271,7 +271,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 2,
-          "searchText": "قيمة",
+          "searchText": "قيمةࣱ",
           "segments": [
             {
               "text": "قَ",
@@ -282,7 +282,7 @@
               "role": "target"
             },
             {
-              "text": "مَةٌ",
+              "text": "مَةࣱ",
               "role": "base"
             }
           ]
@@ -657,7 +657,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 2,
-          "searchText": "لكل أواب حفيظ",
+          "searchText": "لكل أوابࣲ حفيظࣲ",
           "segments": [
             {
               "text": "لِكُ",
@@ -676,7 +676,7 @@
               "role": "target"
             },
             {
-              "text": "ابٍ حَفِيظٍ",
+              "text": "ابࣲ حَفِيظࣲ",
               "role": "base"
             }
           ]

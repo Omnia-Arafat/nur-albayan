@@ -267,7 +267,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "دآبة",
+          "searchText": "دآبةࣲ",
           "segments": [
             {
               "text": "دَ",
@@ -278,7 +278,7 @@
               "role": "target"
             },
             {
-              "text": "ةٍ",
+              "text": "ةࣲ",
               "role": "base"
             }
           ]

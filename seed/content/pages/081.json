@@ -421,7 +421,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 2,
-          "searchText": "منصورا",
+          "searchText": "منصورࣰا",
           "segments": [
             {
               "text": "مَ",
@@ -432,7 +432,7 @@
               "role": "target"
             },
             {
-              "text": "ورًا",
+              "text": "ورࣰا",
               "role": "base"
             }
           ]
@@ -441,7 +441,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 2,
-          "searchText": "مائةࣱ صابرة",
+          "searchText": "مائةࣱ صابرةࣱ",
           "segments": [
             {
               "text": "مِا۟ئَةࣱ ",
@@ -452,7 +452,7 @@
               "role": "target"
             },
             {
-              "text": "ابِرَةٌ",
+              "text": "ابِرَةࣱ",
               "role": "base"
             }
           ]
@@ -461,7 +461,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 2,
-          "searchText": "مآءࣲ صديد",
+          "searchText": "مآءࣲ صديدࣲ",
           "segments": [
             {
               "text": "مَّآءࣲ ",
@@ -472,7 +472,7 @@
               "role": "target"
             },
             {
-              "text": "دِيدٍ",
+              "text": "دِيدࣲ",
               "role": "base"
             }
           ]
@@ -513,7 +513,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 3,
-          "searchText": "أنكثا",
+          "searchText": "أنكثࣰا",
           "segments": [
             {
               "text": "أَ",
@@ -524,7 +524,7 @@
               "role": "target"
             },
             {
-              "text": "ثًا",
+              "text": "ثࣰا",
               "role": "base"
             }
           ]
@@ -553,7 +553,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 3,
-          "searchText": "ملكࣱ كريم",
+          "searchText": "ملكࣱ كريمࣱ",
           "segments": [
             {
               "text": "مَلَكࣱ ",
@@ -564,7 +564,7 @@
               "role": "target"
             },
             {
-              "text": "رِيمٌ",
+              "text": "رِيمࣱ",
               "role": "base"
             }
           ]

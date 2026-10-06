@@ -746,10 +746,10 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "من رحيم",
+          "searchText": "من رحم",
           "segments": [
             {
-              "text": "مِن ",
+              "text": "مَن ",
               "role": "base"
             },
             {
@@ -757,7 +757,7 @@
               "role": "target"
             },
             {
-              "text": "حِيمٍ",
+              "text": "حِمَ",
               "role": "base"
             }
           ]
