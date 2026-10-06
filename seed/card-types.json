@@ -1,0 +1,58 @@
+[
+  {
+    "key": "normal",
+    "iconKey": "circle",
+    "frameTokenKey": "color.border",
+    "position": 0,
+    "i18n": {
+      "ar": {
+        "label": "عادية"
+      },
+      "en": {
+        "label": "Normal"
+      }
+    }
+  },
+  {
+    "key": "golden",
+    "iconKey": "star",
+    "frameTokenKey": "color.gold",
+    "position": 1,
+    "i18n": {
+      "ar": {
+        "label": "ذهبية"
+      },
+      "en": {
+        "label": "Golden"
+      }
+    }
+  },
+  {
+    "key": "speed",
+    "iconKey": "timer",
+    "frameTokenKey": "color.cyan",
+    "position": 2,
+    "i18n": {
+      "ar": {
+        "label": "سرعة"
+      },
+      "en": {
+        "label": "Speed"
+      }
+    }
+  },
+  {
+    "key": "danger",
+    "iconKey": "warning",
+    "frameTokenKey": "color.pill.rose.line",
+    "position": 3,
+    "i18n": {
+      "ar": {
+        "label": "انتباه"
+      },
+      "en": {
+        "label": "Focus"
+      }
+    }
+  }
+]

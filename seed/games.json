@@ -1,0 +1,217 @@
+[
+  {
+    "key": "xo",
+    "kind": "break",
+    "position": 0,
+    "iconKey": "grid-3",
+    "fillTokenKey": "color.pill.yellow.fill",
+    "enabled": true,
+    "defaultConfig": {
+      "modes": [
+        "computer",
+        "teacher"
+      ],
+      "difficulties": [
+        "easy",
+        "smart"
+      ]
+    },
+    "i18n": {
+      "ar": {
+        "name": "إكس أو"
+      },
+      "en": {
+        "name": "Tic-Tac-Toe"
+      }
+    }
+  },
+  {
+    "key": "connect4",
+    "kind": "break",
+    "position": 1,
+    "iconKey": "columns",
+    "fillTokenKey": "color.pill.sky.fill",
+    "enabled": true,
+    "defaultConfig": {
+      "rows": 6,
+      "cols": 7,
+      "modes": [
+        "computer",
+        "teacher"
+      ],
+      "difficulties": [
+        "easy",
+        "smart"
+      ]
+    },
+    "i18n": {
+      "ar": {
+        "name": "أربعة في صف"
+      },
+      "en": {
+        "name": "Connect 4"
+      }
+    }
+  },
+  {
+    "key": "memory",
+    "kind": "break",
+    "position": 2,
+    "iconKey": "cards",
+    "fillTokenKey": "color.pill.pink.fill",
+    "enabled": true,
+    "defaultConfig": {},
+    "i18n": {
+      "ar": {
+        "name": "لعبة الذاكرة"
+      },
+      "en": {
+        "name": "Memory Match"
+      }
+    }
+  },
+  {
+    "key": "riddles",
+    "kind": "break",
+    "position": 3,
+    "iconKey": "question",
+    "fillTokenKey": "color.pill.lavender.fill",
+    "enabled": true,
+    "defaultConfig": {
+      "completionBadgeKey": "albayan-genius"
+    },
+    "i18n": {
+      "ar": {
+        "name": "الألغاز"
+      },
+      "en": {
+        "name": "Riddles"
+      }
+    }
+  },
+  {
+    "key": "boxes",
+    "kind": "wordwall",
+    "position": 10,
+    "iconKey": "box",
+    "fillTokenKey": "color.pill.yellow.fill",
+    "enabled": true,
+    "defaultConfig": {},
+    "i18n": {
+      "ar": {
+        "name": "الصناديق"
+      },
+      "en": {
+        "name": "Boxes"
+      }
+    }
+  },
+  {
+    "key": "curtain",
+    "kind": "wordwall",
+    "position": 11,
+    "iconKey": "curtain",
+    "fillTokenKey": "color.pill.sky.fill",
+    "enabled": true,
+    "defaultConfig": {},
+    "i18n": {
+      "ar": {
+        "name": "الستارة"
+      },
+      "en": {
+        "name": "Curtain"
+      }
+    }
+  },
+  {
+    "key": "wheel",
+    "kind": "wordwall",
+    "position": 12,
+    "iconKey": "wheel",
+    "fillTokenKey": "color.pill.pink.fill",
+    "enabled": true,
+    "defaultConfig": {},
+    "i18n": {
+      "ar": {
+        "name": "العجلة"
+      },
+      "en": {
+        "name": "Wheel"
+      }
+    }
+  },
+  {
+    "key": "cards",
+    "kind": "wordwall",
+    "position": 13,
+    "iconKey": "cards",
+    "fillTokenKey": "color.pill.lime.fill",
+    "enabled": true,
+    "defaultConfig": {},
+    "i18n": {
+      "ar": {
+        "name": "البطاقات"
+      },
+      "en": {
+        "name": "Cards"
+      }
+    }
+  },
+  {
+    "key": "ladder",
+    "kind": "wordwall",
+    "position": 14,
+    "iconKey": "ladder",
+    "fillTokenKey": "color.pill.peach.fill",
+    "enabled": true,
+    "defaultConfig": {
+      "rungOptions": [
+        5,
+        10
+      ],
+      "defaultRungs": 5
+    },
+    "i18n": {
+      "ar": {
+        "name": "سُلّم الارتقاء"
+      },
+      "en": {
+        "name": "Ascension Ladder"
+      }
+    }
+  },
+  {
+    "key": "tiles",
+    "kind": "wordwall",
+    "position": 15,
+    "iconKey": "tiles",
+    "fillTokenKey": "color.pill.mint.fill",
+    "enabled": true,
+    "defaultConfig": {},
+    "i18n": {
+      "ar": {
+        "name": "المربعات"
+      },
+      "en": {
+        "name": "Tiles"
+      }
+    }
+  },
+  {
+    "key": "honeycomb",
+    "kind": "wordwall",
+    "position": 16,
+    "iconKey": "hexagon",
+    "fillTokenKey": "color.pill.lavender.fill",
+    "enabled": true,
+    "defaultConfig": {},
+    "i18n": {
+      "ar": {
+        "name": "خلية النحل"
+      },
+      "en": {
+        "name": "Honeycomb"
+      }
+    }
+  }
+]

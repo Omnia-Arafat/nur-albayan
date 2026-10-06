@@ -1,0 +1,118 @@
+{
+  "avatars": [
+    {
+      "kind": "emoji",
+      "value": "👦",
+      "position": 0
+    },
+    {
+      "kind": "emoji",
+      "value": "👧",
+      "position": 1
+    },
+    {
+      "kind": "emoji",
+      "value": "🌟",
+      "position": 2
+    },
+    {
+      "kind": "emoji",
+      "value": "🦁",
+      "position": 3
+    },
+    {
+      "kind": "emoji",
+      "value": "🦅",
+      "position": 4
+    },
+    {
+      "kind": "emoji",
+      "value": "👑",
+      "position": 5
+    },
+    {
+      "kind": "emoji",
+      "value": "🚀",
+      "position": 6
+    },
+    {
+      "kind": "emoji",
+      "value": "🎯",
+      "position": 7
+    },
+    {
+      "kind": "emoji",
+      "value": "🦄",
+      "position": 8
+    },
+    {
+      "kind": "emoji",
+      "value": "🐬",
+      "position": 9
+    },
+    {
+      "kind": "emoji",
+      "value": "🏆",
+      "position": 10
+    },
+    {
+      "kind": "emoji",
+      "value": "🌸",
+      "position": 11
+    },
+    {
+      "kind": "emoji",
+      "value": "📖",
+      "position": 12
+    },
+    {
+      "kind": "emoji",
+      "value": "💡",
+      "position": 13
+    },
+    {
+      "kind": "emoji",
+      "value": "✨",
+      "position": 14
+    },
+    {
+      "kind": "emoji",
+      "value": "⭐",
+      "position": 15
+    }
+  ],
+  "colors": [
+    {
+      "tokenKey": "color.green.deep",
+      "position": 0
+    },
+    {
+      "tokenKey": "color.teal.deep",
+      "position": 1
+    },
+    {
+      "tokenKey": "color.blue",
+      "position": 2
+    },
+    {
+      "tokenKey": "color.purple.deep",
+      "position": 3
+    },
+    {
+      "tokenKey": "color.purple",
+      "position": 4
+    },
+    {
+      "tokenKey": "color.tag.lesson",
+      "position": 5
+    },
+    {
+      "tokenKey": "color.danger",
+      "position": 6
+    },
+    {
+      "tokenKey": "color.ink",
+      "position": 7
+    }
+  ]
+}

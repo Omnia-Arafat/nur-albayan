@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+/*
+ * No values here: every --nb-* variable comes from the design_tokens table,
+ * compiled by src/modules/theme/css.ts and injected by the root layout.
+ * This block only exposes them to Tailwind utilities (bg-paper, text-target, font-naskh...).
+ */
+@theme inline {
+  --color-paper: var(--nb-color-paper);
+  --color-surface: var(--nb-color-surface);
+  --color-ink: var(--nb-color-ink);
+  --color-ink-muted: var(--nb-color-ink-muted);
+  --color-border: var(--nb-color-border);
+  --color-success: var(--nb-color-success);
+  --color-danger: var(--nb-color-danger);
+  --color-target: var(--nb-role-target);
+  --color-contrast: var(--nb-role-contrast);
+  --color-base: var(--nb-role-base);
+  --color-secondary: var(--nb-role-secondary);
+  --color-rule: var(--nb-role-rule);
+  --font-display: var(--nb-font-display);
+  --font-ui: var(--nb-font-ui);
+  --font-naskh: var(--nb-font-naskh);
+  --font-quran: var(--nb-font-quran);
+  --radius-pill: var(--nb-radius-pill);
+  --radius-card: var(--nb-radius-card);
+  --radius-tile: var(--nb-radius-tile);
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-ui);
+}

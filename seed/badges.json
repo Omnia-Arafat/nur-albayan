@@ -1,0 +1,143 @@
+[
+  {
+    "key": "first-lesson",
+    "criteria": {
+      "type": "lessons_completed",
+      "count": 1
+    },
+    "iconKey": "flag",
+    "fillTokenKey": "color.pill.lime.fill",
+    "position": 0,
+    "i18n": {
+      "ar": {
+        "name": "الخطوة الأولى",
+        "description": "أنهيت أول درس"
+      },
+      "en": {
+        "name": "First step",
+        "description": "Finished your first lesson"
+      }
+    }
+  },
+  {
+    "key": "ten-lessons",
+    "criteria": {
+      "type": "lessons_completed",
+      "count": 10
+    },
+    "iconKey": "book",
+    "fillTokenKey": "color.pill.sky.fill",
+    "position": 1,
+    "i18n": {
+      "ar": {
+        "name": "عشر صفحات",
+        "description": "أنهيت عشرة دروس"
+      },
+      "en": {
+        "name": "Ten pages",
+        "description": "Finished ten lessons"
+      }
+    }
+  },
+  {
+    "key": "three-stars-five",
+    "criteria": {
+      "type": "lessons_with_stars",
+      "count": 5,
+      "minStars": 3
+    },
+    "iconKey": "star",
+    "fillTokenKey": "color.pill.yellow.fill",
+    "position": 2,
+    "i18n": {
+      "ar": {
+        "name": "خمس نجمات ذهبية",
+        "description": "ثلاث نجوم في خمسة دروس"
+      },
+      "en": {
+        "name": "Five golden pages",
+        "description": "Three stars on five lessons"
+      }
+    }
+  },
+  {
+    "key": "streak-7",
+    "criteria": {
+      "type": "streak_days",
+      "count": 7
+    },
+    "iconKey": "flame",
+    "fillTokenKey": "color.pill.peach.fill",
+    "position": 3,
+    "i18n": {
+      "ar": {
+        "name": "أسبوع متواصل",
+        "description": "قرأت سبعة أيام متتالية"
+      },
+      "en": {
+        "name": "Full week",
+        "description": "Read seven days in a row"
+      }
+    }
+  },
+  {
+    "key": "mistakes-mastered-20",
+    "criteria": {
+      "type": "words_mastered",
+      "count": 20
+    },
+    "iconKey": "check",
+    "fillTokenKey": "color.pill.mint.fill",
+    "position": 4,
+    "i18n": {
+      "ar": {
+        "name": "لا كلمة صعبة",
+        "description": "أتقنت عشرين كلمة من بنك الأخطاء"
+      },
+      "en": {
+        "name": "No hard words",
+        "description": "Mastered twenty words from your mistake bank"
+      }
+    }
+  },
+  {
+    "key": "ladder-peak",
+    "criteria": {
+      "type": "ladder_peaks",
+      "count": 1
+    },
+    "iconKey": "crown",
+    "fillTokenKey": "color.pill.lavender.fill",
+    "position": 5,
+    "i18n": {
+      "ar": {
+        "name": "بلغت القمة",
+        "description": "وصلت إلى قمة سلم الارتقاء"
+      },
+      "en": {
+        "name": "Peak reached",
+        "description": "Reached the top of the ascension ladder"
+      }
+    }
+  },
+  {
+    "key": "albayan-genius",
+    "criteria": {
+      "type": "riddles_cleared",
+      "count": 1
+    },
+    "iconKey": "trophy",
+    "fillTokenKey": "color.pill.rose.fill",
+    "position": 6,
+    "i18n": {
+      "ar": {
+        "name": "عبقري نور البيان",
+        "description": "حللت كل الألغاز"
+      },
+      "en": {
+        "name": "Nur Al-Bayan Genius",
+        "description": "Solved every riddle"
+      }
+    }
+  }
+]

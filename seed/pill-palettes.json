@@ -1,0 +1,24 @@
+[
+  {
+    "slug": "drill-classic",
+    "fillTokenKeys": [
+      "color.pill.yellow",
+      "color.pill.sky",
+      "color.pill.pink",
+      "color.pill.lime"
+    ],
+    "rowsPerColor": 2,
+    "isDefault": true
+  },
+  {
+    "slug": "drill-warm",
+    "fillTokenKeys": [
+      "color.pill.peach",
+      "color.pill.sky",
+      "color.pill.pink",
+      "color.pill.lime"
+    ],
+    "rowsPerColor": 2,
+    "isDefault": false
+  }
+]

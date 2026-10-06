@@ -1,0 +1,146 @@
+[
+  {
+    "kind": "correct",
+    "locale": "ar",
+    "text": "امتياز! 🌟",
+    "weight": 1
+  },
+  {
+    "kind": "correct",
+    "locale": "en",
+    "text": "Excellent! 🌟",
+    "weight": 1
+  },
+  {
+    "kind": "correct",
+    "locale": "ar",
+    "text": "إتقان! 🏆",
+    "weight": 1
+  },
+  {
+    "kind": "correct",
+    "locale": "en",
+    "text": "Perfect! 🏆",
+    "weight": 1
+  },
+  {
+    "kind": "correct",
+    "locale": "ar",
+    "text": "أحسنت! ⭐",
+    "weight": 1
+  },
+  {
+    "kind": "correct",
+    "locale": "en",
+    "text": "Well done! ⭐",
+    "weight": 1
+  },
+  {
+    "kind": "correct",
+    "locale": "ar",
+    "text": "إتقان رائع! ❤️⭐",
+    "weight": 1
+  },
+  {
+    "kind": "correct",
+    "locale": "en",
+    "text": "Magnificent reading! ❤️⭐",
+    "weight": 1
+  },
+  {
+    "kind": "correct",
+    "locale": "ar",
+    "text": "⭐⭐⭐⭐⭐",
+    "weight": 1
+  },
+  {
+    "kind": "correct",
+    "locale": "en",
+    "text": "⭐⭐⭐⭐⭐",
+    "weight": 1
+  },
+  {
+    "kind": "correct",
+    "locale": "ar",
+    "text": "❤️❤️❤️❤️❤️",
+    "weight": 1
+  },
+  {
+    "kind": "correct",
+    "locale": "en",
+    "text": "❤️❤️❤️❤️❤️",
+    "weight": 1
+  },
+  {
+    "kind": "wrong",
+    "locale": "ar",
+    "text": "تحتاج تدريباً إضافياً ⭐",
+    "weight": 1
+  },
+  {
+    "kind": "wrong",
+    "locale": "en",
+    "text": "Needs more practice ⭐",
+    "weight": 1
+  },
+  {
+    "kind": "danger_wrong",
+    "locale": "ar",
+    "text": "⚠️ تركيز مشدد! ({points})",
+    "weight": 1
+  },
+  {
+    "kind": "danger_wrong",
+    "locale": "en",
+    "text": "⚠️ High Focus! ({points})",
+    "weight": 1
+  },
+  {
+    "kind": "peak",
+    "locale": "ar",
+    "text": "ما شاء الله! بلغت القمة!",
+    "weight": 1
+  },
+  {
+    "kind": "peak",
+    "locale": "en",
+    "text": "Masha'Allah! Peak reached! 🌟",
+    "weight": 1
+  },
+  {
+    "kind": "break",
+    "locale": "ar",
+    "text": "أحسنت القراءة والبيان! حان وقت استراحة الألعاب!",
+    "weight": 1
+  },
+  {
+    "kind": "break",
+    "locale": "en",
+    "text": "Excellent reading! Time for a quick game break!",
+    "weight": 1
+  },
+  {
+    "kind": "instant_repeat",
+    "locale": "ar",
+    "text": "أحسنت! ({count}/{required}) ⭐",
+    "weight": 1
+  },
+  {
+    "kind": "instant_repeat",
+    "locale": "en",
+    "text": "Well done! ({count}/{required}) ⭐",
+    "weight": 1
+  },
+  {
+    "kind": "lesson_complete",
+    "locale": "ar",
+    "text": "ما شاء الله يا {name}!",
+    "weight": 1
+  },
+  {
+    "kind": "lesson_complete",
+    "locale": "en",
+    "text": "Masha'Allah, {name}!",
+    "weight": 1
+  }
+]

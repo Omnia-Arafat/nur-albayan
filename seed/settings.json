@@ -1,0 +1,306 @@
+[
+  {
+    "key": "sound.enabled",
+    "type": "boolean",
+    "defaultValue": true,
+    "group": "sound",
+    "allowedScopes": [
+      "platform",
+      "teacher",
+      "classroom",
+      "student",
+      "device"
+    ],
+    "position": 0
+  },
+  {
+    "key": "sound.volume",
+    "type": "integer",
+    "defaultValue": 80,
+    "group": "sound",
+    "allowedScopes": [
+      "platform",
+      "teacher",
+      "classroom",
+      "student",
+      "device"
+    ],
+    "position": 1,
+    "min": 0,
+    "max": 100,
+    "step": 5
+  },
+  {
+    "key": "games.breaksEnabled",
+    "type": "boolean",
+    "defaultValue": true,
+    "group": "games",
+    "allowedScopes": [
+      "platform",
+      "teacher",
+      "classroom",
+      "student",
+      "device"
+    ],
+    "position": 0
+  },
+  {
+    "key": "games.breakPositions",
+    "type": "json",
+    "defaultValue": [
+      0.33,
+      0.66,
+      1
+    ],
+    "group": "games",
+    "allowedScopes": [
+      "platform",
+      "teacher",
+      "classroom"
+    ],
+    "position": 1
+  },
+  {
+    "key": "games.defaultMode",
+    "type": "enum",
+    "defaultValue": "computer",
+    "group": "games",
+    "allowedScopes": [
+      "platform",
+      "teacher",
+      "classroom",
+      "student",
+      "device"
+    ],
+    "position": 2,
+    "options": [
+      "computer",
+      "teacher"
+    ]
+  },
+  {
+    "key": "games.defaultDifficulty",
+    "type": "enum",
+    "defaultValue": "easy",
+    "group": "games",
+    "allowedScopes": [
+      "platform",
+      "teacher",
+      "classroom",
+      "student",
+      "device"
+    ],
+    "position": 3,
+    "options": [
+      "easy",
+      "smart"
+    ]
+  },
+  {
+    "key": "lesson.speedTimerSeconds",
+    "type": "integer",
+    "defaultValue": 10,
+    "group": "lesson",
+    "allowedScopes": [
+      "platform",
+      "teacher",
+      "classroom",
+      "student",
+      "device"
+    ],
+    "position": 0,
+    "min": 3,
+    "max": 60,
+    "step": 1
+  },
+  {
+    "key": "lesson.shuffleCards",
+    "type": "boolean",
+    "defaultValue": false,
+    "group": "lesson",
+    "allowedScopes": [
+      "platform",
+      "teacher",
+      "classroom",
+      "student",
+      "device"
+    ],
+    "position": 1
+  },
+  {
+    "key": "lesson.noPenalty",
+    "type": "boolean",
+    "defaultValue": false,
+    "group": "lesson",
+    "allowedScopes": [
+      "platform",
+      "teacher",
+      "classroom",
+      "student",
+      "device"
+    ],
+    "position": 2
+  },
+  {
+    "key": "lesson.manualAdvance",
+    "type": "boolean",
+    "defaultValue": false,
+    "group": "lesson",
+    "allowedScopes": [
+      "platform",
+      "teacher",
+      "classroom",
+      "student",
+      "device"
+    ],
+    "position": 3
+  },
+  {
+    "key": "lesson.remediationDrillMode",
+    "type": "enum",
+    "defaultValue": "loop",
+    "group": "lesson",
+    "allowedScopes": [
+      "platform",
+      "teacher",
+      "classroom",
+      "student",
+      "device"
+    ],
+    "position": 4,
+    "options": [
+      "loop",
+      "single_pass",
+      "instant_repeat"
+    ]
+  },
+  {
+    "key": "lesson.repeatPolicy",
+    "type": "enum",
+    "defaultValue": "best",
+    "group": "lesson",
+    "allowedScopes": [
+      "platform",
+      "teacher",
+      "classroom"
+    ],
+    "position": 5,
+    "options": [
+      "best",
+      "latest",
+      "cumulative"
+    ]
+  },
+  {
+    "key": "display.fontScale",
+    "type": "enum",
+    "defaultValue": "normal",
+    "group": "display",
+    "allowedScopes": [
+      "platform",
+      "teacher",
+      "classroom",
+      "student",
+      "device"
+    ],
+    "position": 0,
+    "options": [
+      "normal",
+      "large",
+      "xlarge"
+    ]
+  },
+  {
+    "key": "display.fontPreference",
+    "type": "enum",
+    "defaultValue": "auto",
+    "group": "display",
+    "allowedScopes": [
+      "platform",
+      "teacher",
+      "classroom",
+      "student",
+      "device"
+    ],
+    "position": 1,
+    "options": [
+      "auto",
+      "kfgqpc",
+      "noto",
+      "amiri"
+    ]
+  },
+  {
+    "key": "display.themeMode",
+    "type": "enum",
+    "defaultValue": "light",
+    "group": "display",
+    "allowedScopes": [
+      "platform",
+      "teacher",
+      "classroom",
+      "student",
+      "device"
+    ],
+    "position": 2,
+    "options": [
+      "system",
+      "light",
+      "dark"
+    ]
+  },
+  {
+    "key": "gamification.dailyGoalLessons",
+    "type": "integer",
+    "defaultValue": 3,
+    "group": "gamification",
+    "allowedScopes": [
+      "platform",
+      "teacher",
+      "classroom",
+      "student",
+      "device"
+    ],
+    "position": 0,
+    "min": 1,
+    "max": 20,
+    "step": 1
+  },
+  {
+    "key": "gamification.xpPerLesson",
+    "type": "integer",
+    "defaultValue": 20,
+    "group": "gamification",
+    "allowedScopes": [
+      "platform"
+    ],
+    "position": 1,
+    "min": 0,
+    "max": 1000,
+    "step": 5
+  },
+  {
+    "key": "gamification.xpPerStar",
+    "type": "integer",
+    "defaultValue": 5,
+    "group": "gamification",
+    "allowedScopes": [
+      "platform"
+    ],
+    "position": 2,
+    "min": 0,
+    "max": 1000,
+    "step": 1
+  },
+  {
+    "key": "gamification.leaderboardEnabled",
+    "type": "boolean",
+    "defaultValue": false,
+    "group": "gamification",
+    "allowedScopes": [
+      "platform",
+      "classroom"
+    ],
+    "position": 3
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "key": "level-1",
+    "position": 1,
+    "xpThreshold": 0,
+    "iconKey": "level",
+    "i18n": {
+      "ar": {
+        "name": "بذرة"
+      },
+      "en": {
+        "name": "Seed"
+      }
+    }
+  },
+  {
+    "key": "level-2",
+    "position": 2,
+    "xpThreshold": 100,
+    "iconKey": "level",
+    "i18n": {
+      "ar": {
+        "name": "برعم"
+      },
+      "en": {
+        "name": "Sprout"
+      }
+    }
+  },
+  {
+    "key": "level-3",
+    "position": 3,
+    "xpThreshold": 250,
+    "iconKey": "level",
+    "i18n": {
+      "ar": {
+        "name": "قارئ صغير"
+      },
+      "en": {
+        "name": "Young reader"
+      }
+    }
+  },
+  {
+    "key": "level-4",
+    "position": 4,
+    "xpThreshold": 500,
+    "iconKey": "level",
+    "i18n": {
+      "ar": {
+        "name": "نجم القراءة"
+      },
+      "en": {
+        "name": "Reading star"
+      }
+    }
+  },
+  {
+    "key": "level-5",
+    "position": 5,
+    "xpThreshold": 900,
+    "iconKey": "level",
+    "i18n": {
+      "ar": {
+        "name": "قارئ متقن"
+      },
+      "en": {
+        "name": "Skilled reader"
+      }
+    }
+  },
+  {
+    "key": "level-6",
+    "position": 6,
+    "xpThreshold": 1400,
+    "iconKey": "level",
+    "i18n": {
+      "ar": {
+        "name": "حافظ البيان"
+      },
+      "en": {
+        "name": "Keeper of Al-Bayan"
+      }
+    }
+  }
+]

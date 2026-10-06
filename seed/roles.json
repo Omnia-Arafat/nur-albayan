@@ -1,0 +1,189 @@
+{
+  "roles": [
+    {
+      "key": "admin",
+      "position": 0,
+      "i18n": {
+        "ar": {
+          "label": "مشرف"
+        },
+        "en": {
+          "label": "Admin"
+        }
+      }
+    },
+    {
+      "key": "teacher",
+      "position": 1,
+      "i18n": {
+        "ar": {
+          "label": "معلم"
+        },
+        "en": {
+          "label": "Teacher"
+        }
+      }
+    },
+    {
+      "key": "student",
+      "position": 2,
+      "i18n": {
+        "ar": {
+          "label": "طالب"
+        },
+        "en": {
+          "label": "Student"
+        }
+      }
+    }
+  ],
+  "permissions": [
+    {
+      "key": "content.read",
+      "i18n": {
+        "ar": {
+          "description": "قراءة المحتوى المنشور"
+        },
+        "en": {
+          "description": "Read published content"
+        }
+      }
+    },
+    {
+      "key": "content.edit",
+      "i18n": {
+        "ar": {
+          "description": "تعديل المحتوى ونشره"
+        },
+        "en": {
+          "description": "Edit and publish content"
+        }
+      }
+    },
+    {
+      "key": "theme.edit",
+      "i18n": {
+        "ar": {
+          "description": "تعديل نظام التصميم"
+        },
+        "en": {
+          "description": "Edit the design system"
+        }
+      }
+    },
+    {
+      "key": "scoring.edit",
+      "i18n": {
+        "ar": {
+          "description": "تعديل النقاط والألعاب والأوسمة"
+        },
+        "en": {
+          "description": "Edit scoring, games and badges"
+        }
+      }
+    },
+    {
+      "key": "i18n.edit",
+      "i18n": {
+        "ar": {
+          "description": "تعديل اللغات والنصوص"
+        },
+        "en": {
+          "description": "Edit languages and UI text"
+        }
+      }
+    },
+    {
+      "key": "users.manage",
+      "i18n": {
+        "ar": {
+          "description": "إدارة المستخدمين"
+        },
+        "en": {
+          "description": "Manage users"
+        }
+      }
+    },
+    {
+      "key": "settings.platform",
+      "i18n": {
+        "ar": {
+          "description": "تعديل الإعدادات العامة"
+        },
+        "en": {
+          "description": "Edit platform defaults"
+        }
+      }
+    },
+    {
+      "key": "classrooms.manage",
+      "i18n": {
+        "ar": {
+          "description": "إدارة الفصول وطلابها"
+        },
+        "en": {
+          "description": "Manage own classrooms and their students"
+        }
+      }
+    },
+    {
+      "key": "students.grade",
+      "i18n": {
+        "ar": {
+          "description": "تقييم قراءة الطلاب"
+        },
+        "en": {
+          "description": "Grade students' reading"
+        }
+      }
+    },
+    {
+      "key": "reports.view",
+      "i18n": {
+        "ar": {
+          "description": "عرض تقارير الطلاب"
+        },
+        "en": {
+          "description": "View student reports"
+        }
+      }
+    },
+    {
+      "key": "progress.own",
+      "i18n": {
+        "ar": {
+          "description": "حفظ تقدمه ومزامنته"
+        },
+        "en": {
+          "description": "Save and sync own progress"
+        }
+      }
+    }
+  ],
+  "rolePermissions": {
+    "admin": [
+      "content.read",
+      "content.edit",
+      "theme.edit",
+      "scoring.edit",
+      "i18n.edit",
+      "users.manage",
+      "settings.platform",
+      "classrooms.manage",
+      "students.grade",
+      "reports.view",
+      "progress.own"
+    ],
+    "teacher": [
+      "content.read",
+      "classrooms.manage",
+      "students.grade",
+      "reports.view",
+      "progress.own"
+    ],
+    "student": [
+      "content.read",
+      "progress.own"
+    ]
+  }
+}

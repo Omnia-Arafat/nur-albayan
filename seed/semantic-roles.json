@@ -1,0 +1,77 @@
+[
+  {
+    "key": "target",
+    "tokenKey": "color.red",
+    "position": 0,
+    "i18n": {
+      "ar": {
+        "label": "الهدف",
+        "description": "ما يُدرَّس في الصفحة: الحركة أو المد أو السكون أو الشدة أو التنوين"
+      },
+      "en": {
+        "label": "Target",
+        "description": "What the page teaches: the haraka, madd, sukun, shaddah or tanween"
+      }
+    }
+  },
+  {
+    "key": "contrast",
+    "tokenKey": "color.blue",
+    "position": 1,
+    "i18n": {
+      "ar": {
+        "label": "المقابل",
+        "description": "المقطع المجاور لفصل الكلمة، وحروف القلقلة"
+      },
+      "en": {
+        "label": "Contrast",
+        "description": "The neighbouring syllable, and qalqalah letters"
+      }
+    }
+  },
+  {
+    "key": "base",
+    "tokenKey": "color.ink",
+    "position": 2,
+    "i18n": {
+      "ar": {
+        "label": "الأساس",
+        "description": "باقي الحروف"
+      },
+      "en": {
+        "label": "Base",
+        "description": "All other letters"
+      }
+    }
+  },
+  {
+    "key": "secondary",
+    "tokenKey": "color.purple",
+    "position": 3,
+    "i18n": {
+      "ar": {
+        "label": "ثانوي",
+        "description": "الأسماء في القصص والعناوين داخل الصناديق"
+      },
+      "en": {
+        "label": "Secondary",
+        "description": "Names in stories, headings inside boxes"
+      }
+    }
+  },
+  {
+    "key": "rule",
+    "tokenKey": "color.green",
+    "position": 4,
+    "i18n": {
+      "ar": {
+        "label": "القاعدة",
+        "description": "أسماء الأحكام في أقسام التجويد"
+      },
+      "en": {
+        "label": "Rule",
+        "description": "Rule names in the tajweed sections"
+      }
+    }
+  }
+]

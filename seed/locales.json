@@ -1,0 +1,20 @@
+[
+  {
+    "code": "ar",
+    "name": "العربية",
+    "dir": "rtl",
+    "numberingSystem": "arab",
+    "isDefault": true,
+    "enabled": true,
+    "position": 0
+  },
+  {
+    "code": "en",
+    "name": "English",
+    "dir": "ltr",
+    "numberingSystem": "latn",
+    "isDefault": false,
+    "enabled": true,
+    "position": 1
+  }
+]

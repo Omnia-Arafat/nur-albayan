@@ -1,0 +1,381 @@
+{
+  "theme": {
+    "slug": "book-light",
+    "name": "Book paper (light)",
+    "mode": "light",
+    "isDefault": true
+  },
+  "tokens": [
+    {
+      "group": "color",
+      "key": "color.paper",
+      "value": "#FEFBDA",
+      "description": "Page background, the book's cream paper"
+    },
+    {
+      "group": "color",
+      "key": "color.surface",
+      "value": "#FFFFFF",
+      "description": "Inside cards and panels"
+    },
+    {
+      "group": "color",
+      "key": "color.ink",
+      "value": "#1E1B1A",
+      "description": "Base Arabic text"
+    },
+    {
+      "group": "color",
+      "key": "color.ink.muted",
+      "value": "#5A5550",
+      "description": "Secondary text (passes 4.5:1 on paper)"
+    },
+    {
+      "group": "color",
+      "key": "color.divider",
+      "value": "#8C8C8C",
+      "description": "Cell dividers inside segmented pills"
+    },
+    {
+      "group": "color",
+      "key": "color.border",
+      "value": "#EAE3B8",
+      "description": "Panel borders on paper"
+    },
+    {
+      "group": "color",
+      "key": "color.red",
+      "value": "#ED425B",
+      "description": "Book red: target sound, titles (large text only on paper)"
+    },
+    {
+      "group": "color",
+      "key": "color.red.text",
+      "value": "#D8344E",
+      "description": "Book red darkened for small text, e.g. the teacher-note label"
+    },
+    {
+      "group": "color",
+      "key": "color.red.warm",
+      "value": "#E35C4E",
+      "description": "Page number pill outline"
+    },
+    {
+      "group": "color",
+      "key": "color.blue",
+      "value": "#3D68CA",
+      "description": "Contrast syllables, qalqalah"
+    },
+    {
+      "group": "color",
+      "key": "color.magenta",
+      "value": "#DE5698",
+      "description": "Alphabet letters, emphasis"
+    },
+    {
+      "group": "color",
+      "key": "color.purple",
+      "value": "#A3248F",
+      "description": "Subtitles, names in stories"
+    },
+    {
+      "group": "color",
+      "key": "color.purple.deep",
+      "value": "#4C1889",
+      "description": "Unit tag, primary action"
+    },
+    {
+      "group": "color",
+      "key": "color.teal",
+      "value": "#25A792",
+      "description": "Book teal"
+    },
+    {
+      "group": "color",
+      "key": "color.teal.deep",
+      "value": "#187565",
+      "description": "Read-and-observe tag (darkened for white text)"
+    },
+    {
+      "group": "color",
+      "key": "color.green",
+      "value": "#2CA775",
+      "description": "Rule labels (book value; too light for small text on paper)"
+    },
+    {
+      "group": "color",
+      "key": "color.green.deep",
+      "value": "#1F8A5F",
+      "description": "Headings and the Correct button"
+    },
+    {
+      "group": "color",
+      "key": "color.cyan",
+      "value": "#31ABD4",
+      "description": "Frames"
+    },
+    {
+      "group": "color",
+      "key": "color.orange",
+      "value": "#E09D5E",
+      "description": "Illustration accents"
+    },
+    {
+      "group": "color",
+      "key": "color.yellow",
+      "value": "#FFFA58",
+      "description": "Highlights"
+    },
+    {
+      "group": "color",
+      "key": "color.gold",
+      "value": "#D4A72C",
+      "description": "Golden cards, stars"
+    },
+    {
+      "group": "color",
+      "key": "color.tag.lesson",
+      "value": "#C9473B",
+      "description": "Lesson tag ribbon (book #E35C4E darkened for white text)"
+    },
+    {
+      "group": "color",
+      "key": "color.success",
+      "value": "#1F8A5F",
+      "description": "Correct"
+    },
+    {
+      "group": "color",
+      "key": "color.danger",
+      "value": "#A8352B",
+      "description": "Try again (text and outline)"
+    },
+    {
+      "group": "color",
+      "key": "color.pill.yellow.fill",
+      "value": "#FDFCCD"
+    },
+    {
+      "group": "color",
+      "key": "color.pill.yellow.line",
+      "value": "#C9C06A"
+    },
+    {
+      "group": "color",
+      "key": "color.pill.peach.fill",
+      "value": "#FBE5CC"
+    },
+    {
+      "group": "color",
+      "key": "color.pill.peach.line",
+      "value": "#C9A47A"
+    },
+    {
+      "group": "color",
+      "key": "color.pill.sky.fill",
+      "value": "#D5F4F8"
+    },
+    {
+      "group": "color",
+      "key": "color.pill.sky.line",
+      "value": "#4FB3CC"
+    },
+    {
+      "group": "color",
+      "key": "color.pill.mint.fill",
+      "value": "#DBF8F5"
+    },
+    {
+      "group": "color",
+      "key": "color.pill.mint.line",
+      "value": "#4DB8A8"
+    },
+    {
+      "group": "color",
+      "key": "color.pill.lime.fill",
+      "value": "#EEFCDC"
+    },
+    {
+      "group": "color",
+      "key": "color.pill.lime.line",
+      "value": "#8CC46A"
+    },
+    {
+      "group": "color",
+      "key": "color.pill.pink.fill",
+      "value": "#F5D7F0"
+    },
+    {
+      "group": "color",
+      "key": "color.pill.pink.line",
+      "value": "#C66BB4"
+    },
+    {
+      "group": "color",
+      "key": "color.pill.rose.fill",
+      "value": "#FACCE5"
+    },
+    {
+      "group": "color",
+      "key": "color.pill.rose.line",
+      "value": "#C74C8A"
+    },
+    {
+      "group": "color",
+      "key": "color.pill.lavender.fill",
+      "value": "#E8DCF3"
+    },
+    {
+      "group": "color",
+      "key": "color.pill.lavender.line",
+      "value": "#9A7BC4"
+    },
+    {
+      "group": "color",
+      "key": "color.pill.salmon.fill",
+      "value": "#FCD5CC"
+    },
+    {
+      "group": "color",
+      "key": "color.pill.salmon.line",
+      "value": "#D07A66"
+    },
+    {
+      "group": "radius",
+      "key": "radius.pill",
+      "value": "999px"
+    },
+    {
+      "group": "radius",
+      "key": "radius.card",
+      "value": "24px"
+    },
+    {
+      "group": "radius",
+      "key": "radius.tile",
+      "value": "20px"
+    },
+    {
+      "group": "radius",
+      "key": "radius.control",
+      "value": "14px"
+    },
+    {
+      "group": "border",
+      "key": "border.pill",
+      "value": "2px"
+    },
+    {
+      "group": "border",
+      "key": "border.story",
+      "value": "4px"
+    },
+    {
+      "group": "space",
+      "key": "space.1",
+      "value": "4px"
+    },
+    {
+      "group": "space",
+      "key": "space.2",
+      "value": "8px"
+    },
+    {
+      "group": "space",
+      "key": "space.3",
+      "value": "12px"
+    },
+    {
+      "group": "space",
+      "key": "space.4",
+      "value": "16px"
+    },
+    {
+      "group": "space",
+      "key": "space.5",
+      "value": "24px"
+    },
+    {
+      "group": "space",
+      "key": "space.6",
+      "value": "32px"
+    },
+    {
+      "group": "space",
+      "key": "space.7",
+      "value": "48px"
+    },
+    {
+      "group": "font_size",
+      "key": "font_size.drill",
+      "value": "2.75rem",
+      "description": "Drill words"
+    },
+    {
+      "group": "font_size",
+      "key": "font_size.card",
+      "value": "8rem",
+      "description": "The word on the lesson card"
+    },
+    {
+      "group": "font_size",
+      "key": "font_size.title",
+      "value": "2.25rem"
+    },
+    {
+      "group": "font_size",
+      "key": "font_size.subtitle",
+      "value": "1.125rem"
+    },
+    {
+      "group": "font_size",
+      "key": "font_size.body",
+      "value": "1rem"
+    },
+    {
+      "group": "font_size",
+      "key": "font_size.note",
+      "value": "0.9375rem"
+    },
+    {
+      "group": "font_weight",
+      "key": "font_weight.display",
+      "value": "900"
+    },
+    {
+      "group": "font_weight",
+      "key": "font_weight.bold",
+      "value": "800"
+    },
+    {
+      "group": "font_weight",
+      "key": "font_weight.drill",
+      "value": "700"
+    },
+    {
+      "group": "shadow",
+      "key": "shadow.card",
+      "value": "0 10px 0 rgb(0 0 0 / 0.08)"
+    },
+    {
+      "group": "shadow",
+      "key": "shadow.button",
+      "value": "0 6px 0 rgb(0 0 0 / 0.18)"
+    },
+    {
+      "group": "motion",
+      "key": "motion.fast",
+      "value": "150ms"
+    },
+    {
+      "group": "motion",
+      "key": "motion.normal",
+      "value": "300ms"
+    },
+    {
+      "group": "motion",
+      "key": "motion.celebrate",
+      "value": "1200ms"
+    }
+  ]
+}
