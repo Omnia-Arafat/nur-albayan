@@ -239,11 +239,11 @@
           "searchText": "خطا",
           "segments": [
             {
-              "text": "خَط",
+              "text": "خِطۡ",
               "role": "base"
             },
             {
-              "text": "ًَٔا",
+              "text": "ـًٔا",
               "role": "target"
             }
           ]
@@ -255,11 +255,11 @@
           "searchText": "وطا",
           "segments": [
             {
-              "text": "وَط",
+              "text": "وَطۡ",
               "role": "base"
             },
             {
-              "text": "ًۡٔا",
+              "text": "ـًٔا",
               "role": "target"
             }
           ]

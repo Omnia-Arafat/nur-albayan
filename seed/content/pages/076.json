@@ -34,7 +34,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "وكذلك جعلنا لكل نبى عدوا",
+          "searchText": "وكذلك جعلنا لكل نبى عدوࣰا",
           "segments": [
             {
               "text": "وَكَذَٰلِكَ جَعَلۡنَا لِكُ",
@@ -57,7 +57,7 @@
               "role": "base"
             },
             {
-              "text": "وًّا",
+              "text": "وࣰّا",
               "role": "target"
             }
           ]
@@ -66,7 +66,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "ٱلنار يعرضون عليها غدوا",
+          "searchText": "ٱلنار يعرضون عليها غدوࣰا",
           "segments": [
             {
               "text": "ٱل",
@@ -81,7 +81,7 @@
               "role": "base"
             },
             {
-              "text": "وًّا",
+              "text": "وࣰّا",
               "role": "target"
             }
           ]
@@ -90,7 +90,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 1,
-          "searchText": "وإن ٱلذين ٱختلفوا فيه لفى شك",
+          "searchText": "وإن ٱلذين ٱختلفوا فيه لفى شكࣲ",
           "segments": [
             {
               "text": "وَإِ",
@@ -113,7 +113,7 @@
               "role": "base"
             },
             {
-              "text": "كٍّ",
+              "text": "كࣲّ",
               "role": "target"
             }
           ]
@@ -142,7 +142,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 2,
-          "searchText": "فٱصبر إن وعد ٱلله حق",
+          "searchText": "فٱصبر إن وعد ٱلله حقࣱ",
           "segments": [
             {
               "text": "فَٱصۡبِرۡ إِ",
@@ -165,7 +165,7 @@
               "role": "base"
             },
             {
-              "text": "قٌّ",
+              "text": "قࣱّ",
               "role": "target"
             }
           ]
@@ -174,7 +174,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 2,
-          "searchText": "فلما ٱستيسوا منه خلصوا نجيا",
+          "searchText": "فلما ٱستيسوا منه خلصوا نجيࣰا",
           "segments": [
             {
               "text": "فَلَ",
@@ -189,7 +189,7 @@
               "role": "base"
             },
             {
-              "text": "يًّا",
+              "text": "يࣰّا",
               "role": "target"
             }
           ]
@@ -226,7 +226,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 3,
-          "searchText": "وتحبون ٱلمال حبࣰا جما",
+          "searchText": "وتحبون ٱلمال حبࣰا جمࣰا",
           "segments": [
             {
               "text": "وَتُحِ",
@@ -249,7 +249,7 @@
               "role": "base"
             },
             {
-              "text": "مًّا",
+              "text": "مࣰّا",
               "role": "target"
             }
           ]
@@ -258,14 +258,14 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 4,
-          "searchText": "وقلنا ٱهبطوا بعضكم لبعض عدو",
+          "searchText": "وقلنا ٱهبطوا بعضكم لبعض عدوࣱ",
           "segments": [
             {
               "text": "وَقُلۡنَا ٱهۡبِطُوا۟ بَعۡضُكُمۡ لِبَعۡضٍ عَدُ",
               "role": "base"
             },
             {
-              "text": "وٌّ",
+              "text": "وࣱّ",
               "role": "target"
             }
           ]
@@ -306,7 +306,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 5,
-          "searchText": "وإنى عليه لقوى أمين",
+          "searchText": "وإنى عليه لقوى أمينࣱ",
           "segments": [
             {
               "text": "وَإِ",
@@ -325,7 +325,7 @@
               "role": "target"
             },
             {
-              "text": "أَمِينٌ",
+              "text": "أَمِينࣱ",
               "role": "base"
             }
           ]
@@ -334,14 +334,14 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 5,
-          "searchText": "لقد علمت ما لنا فى بناتك من حق",
+          "searchText": "لقد علمت ما لنا فى بناتك من حقࣲ",
           "segments": [
             {
               "text": "لَقَدۡ عَلِمۡتَ مَا لَنَا فِى بَنَاتِكَ مِنۡ حَ",
               "role": "base"
             },
             {
-              "text": "قٍّ",
+              "text": "قࣲّ",
               "role": "target"
             }
           ]
@@ -350,7 +350,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 6,
-          "searchText": "وطعام ٱلذين أوتوا ٱلكتب حل",
+          "searchText": "وطعام ٱلذين أوتوا ٱلكتب حلࣱ",
           "segments": [
             {
               "text": "وَطَعَامُ ٱ",
@@ -365,7 +365,7 @@
               "role": "base"
             },
             {
-              "text": "لٌّ",
+              "text": "لࣱّ",
               "role": "target"
             }
           ]
@@ -374,14 +374,14 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 6,
-          "searchText": "بلى وعدا عليه حقا",
+          "searchText": "بلى وعدا عليه حقࣰا",
           "segments": [
             {
               "text": "بَلَىٰ وَعۡدًا عَلَيۡهِ حَ",
               "role": "base"
             },
             {
-              "text": "قًّا",
+              "text": "قࣰّا",
               "role": "target"
             }
           ]
@@ -418,7 +418,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 7,
-          "searchText": "تجلى ربه للجبل جعله دكا",
+          "searchText": "تجلى ربه للجبل جعله دكࣰا",
           "segments": [
             {
               "text": "تَجَ",
@@ -441,7 +441,7 @@
               "role": "base"
             },
             {
-              "text": "كًّا",
+              "text": "كࣰّا",
               "role": "target"
             }
           ]

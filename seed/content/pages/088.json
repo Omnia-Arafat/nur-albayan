@@ -100,7 +100,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 2,
-          "searchText": "وما كان لنفس أن تموت إلا بإذن ٱلله كتبࣰا مؤجلا",
+          "searchText": "وما كان لنفس أن تموت إلا بإذن ٱلله كتبࣰا مؤجلࣰا",
           "segments": [
             {
               "text": "وَمَا كَانَ لِنَفۡ",
@@ -127,7 +127,7 @@
               "role": "target"
             },
             {
-              "text": "ؤَجَّلًا",
+              "text": "ؤَجَّلࣰا",
               "role": "base"
             }
           ]
@@ -184,7 +184,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 4,
-          "searchText": "إن تبدوا خيرا أو تخفوه أو تعفوا عن سوءࣲ فإن ٱلله كان عفوࣰا قديرا",
+          "searchText": "إن تبدوا خيرا أو تخفوه أو تعفوا عن سوءࣲ فإن ٱلله كان عفوࣰا قديرࣰا",
           "segments": [
             {
               "text": "إِن ",
@@ -235,7 +235,7 @@
               "role": "target"
             },
             {
-              "text": "دِيرًا",
+              "text": "دِيرࣰا",
               "role": "base"
             }
           ]
@@ -340,7 +340,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 7,
-          "searchText": "الر كتب أحكمت ءايته ثم فصلت من لدن حكيم خبير",
+          "searchText": "الر كتب أحكمت ءايته ثم فصلت من لدن حكيم خبيرࣲ",
           "segments": [
             {
               "text": "الٓرۚ كِتَـٰ",
@@ -383,7 +383,7 @@
               "role": "target"
             },
             {
-              "text": "بِيرٍ",
+              "text": "بِيرࣲ",
               "role": "base"
             }
           ]
@@ -412,7 +412,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 9,
-          "searchText": "ٱعلموا أن ٱلله شديد ٱلعقاب وأن ٱلله غفورࣱ رحيم",
+          "searchText": "ٱعلموا أن ٱلله شديد ٱلعقاب وأن ٱلله غفورࣱ رحيمࣱ",
           "segments": [
             {
               "text": "ٱعۡلَمُوٓاْ أَ",
@@ -439,7 +439,7 @@
               "role": "target"
             },
             {
-              "text": "حِيمٌ",
+              "text": "حِيمࣱ",
               "role": "base"
             }
           ]

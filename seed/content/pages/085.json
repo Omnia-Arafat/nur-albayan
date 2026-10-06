@@ -57,7 +57,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "لكم موعدا",
+          "searchText": "لكم موعدࣰا",
           "segments": [
             {
               "text": "لَّكُم ",
@@ -68,7 +68,7 @@
               "role": "target"
             },
             {
-              "text": "وۡعِدًا",
+              "text": "وۡعِدࣰا",
               "role": "base"
             }
           ]

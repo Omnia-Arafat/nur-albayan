@@ -103,14 +103,14 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 1,
-          "searchText": "هذه ٱلحيوة ٱلدنيا متع",
+          "searchText": "هذه ٱلحيوة ٱلدنيا متعࣱ",
           "segments": [
             {
               "text": "هَـٰ",
               "role": "target"
             },
             {
-              "text": "ذِهِ ٱلۡحَيَوٰةُ ٱلدُّنۡيَا مَتَـٰعٌ",
+              "text": "ذِهِ ٱلۡحَيَوٰةُ ٱلدُّنۡيَا مَتَـٰعࣱ",
               "role": "base"
             }
           ]

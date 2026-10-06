@@ -76,7 +76,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "ذرنى ومن خلقت وحيدا",
+          "searchText": "ذرنى ومن خلقت وحيدࣰا",
           "segments": [
             {
               "text": "ذَرۡنِى وَمَ",
@@ -87,7 +87,7 @@
               "role": "target"
             },
             {
-              "text": "لَقۡتُ وَحِيدًا",
+              "text": "لَقۡتُ وَحِيدࣰا",
               "role": "base"
             }
           ]
@@ -96,7 +96,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "وجوهࣱ يومئذࣲ مسفرة",
+          "searchText": "وجوهࣱ يومئذࣲ مسفرةࣱ",
           "segments": [
             {
               "text": "وُجُوهࣱ ",
@@ -115,7 +115,7 @@
               "role": "target"
             },
             {
-              "text": "سۡفِرَةٌ",
+              "text": "سۡفِرَةࣱ",
               "role": "base"
             }
           ]
@@ -124,10 +124,10 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 1,
-          "searchText": "فعال لما يريد",
+          "searchText": "فعالࣱ لما يريد",
           "segments": [
             {
-              "text": "فَعَّالٌ ",
+              "text": "فَعَّالࣱ ",
               "role": "base"
             },
             {
@@ -144,7 +144,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 1,
-          "searchText": "وما هو بقول شيطنࣲ رجيم",
+          "searchText": "وما هو بقول شيطنࣲ رجيمࣲ",
           "segments": [
             {
               "text": "وَمَا هُوَ بِقَوۡلِ شَيۡطَٰنࣲ ",
@@ -155,7 +155,7 @@
               "role": "target"
             },
             {
-              "text": "جِيمٍ",
+              "text": "جِيمࣲ",
               "role": "base"
             }
           ]
@@ -164,7 +164,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 2,
-          "searchText": "فأنبتنا فيها حبا",
+          "searchText": "فأنبتنا فيها حبࣰا",
           "segments": [
             {
               "text": "فَأَ",
@@ -175,7 +175,7 @@
               "role": "target"
             },
             {
-              "text": "تۡنَا فِيهَا حَبًّا",
+              "text": "تۡنَا فِيهَا حَبࣰّا",
               "role": "base"
             }
           ]
@@ -184,7 +184,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 2,
-          "searchText": "وجوهࣱ يومئذ باسرة",
+          "searchText": "وجوهࣱ يومئذ باسرةࣱ",
           "segments": [
             {
               "text": "وُجُوهࣱ يَوۡمَئِذِ",
@@ -195,7 +195,7 @@
               "role": "target"
             },
             {
-              "text": "اسِرَةٌ",
+              "text": "اسِرَةࣱ",
               "role": "base"
             }
           ]
@@ -265,7 +265,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 1,
-          "searchText": "وأنزلنا من ٱلمعصرت ماءࣰ ثجاجا",
+          "searchText": "وأنزلنا من ٱلمعصرت ماءࣰ ثجاجࣰا",
           "segments": [
             {
               "text": "وَأَ",
@@ -284,7 +284,7 @@
               "role": "target"
             },
             {
-              "text": "جَّاجًا",
+              "text": "جَّاجࣰا",
               "role": "base"
             }
           ]
@@ -293,7 +293,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 1,
-          "searchText": "فتصبح صعيدࣰا زلقا",
+          "searchText": "فتصبح صعيدࣰا زلقࣰا",
           "segments": [
             {
               "text": "فَتُصۡبِحَ صَعِيدࣰا ",
@@ -304,7 +304,7 @@
               "role": "target"
             },
             {
-              "text": "لَقًا",
+              "text": "لَقࣰا",
               "role": "base"
             }
           ]
@@ -313,10 +313,10 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 2,
-          "searchText": "فيها كتب قيمة",
+          "searchText": "فيها كتبࣱ قيمة",
           "segments": [
             {
-              "text": "فِيهَا كُتُبٌ ",
+              "text": "فِيهَا كُتُبࣱ ",
               "role": "base"
             },
             {
@@ -333,7 +333,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 2,
-          "searchText": "فيها عينࣱ جارية",
+          "searchText": "فيها عينࣱ جاريةࣱ",
           "segments": [
             {
               "text": "فِيهَا عَيۡنࣱ ",
@@ -344,7 +344,7 @@
               "role": "target"
             },
             {
-              "text": "ارِيَةٌ",
+              "text": "ارِيَةࣱ",
               "role": "base"
             }
           ]
@@ -365,7 +365,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "ونخيلࣱ صنوانࣱ وغير صنوان",
+          "searchText": "ونخيلࣱ صنوانࣱ وغير صنوانࣲ",
           "segments": [
             {
               "text": "وَنَخِيلࣱ صِ",
@@ -384,7 +384,7 @@
               "role": "target"
             },
             {
-              "text": "انٍ",
+              "text": "انࣲ",
               "role": "base"
             }
           ]
@@ -393,7 +393,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "إنما ٱلحيوة ٱلدنيا لعبࣱ ولهو",
+          "searchText": "إنما ٱلحيوة ٱلدنيا لعبࣱ ولهوࣱ",
           "segments": [
             {
               "text": "إِنَّمَا ٱلۡحَيَوٰةُ ٱلدُّ",
@@ -412,7 +412,7 @@
               "role": "target"
             },
             {
-              "text": "لَهۡوٌ",
+              "text": "لَهۡوࣱ",
               "role": "base"
             }
           ]
@@ -472,7 +472,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "فكأين من قرية أهلكنها وهى ظالمةࣱ فهى خاوية على عروشها وبئرࣲ معطلةࣲ وقصرࣲ مشيد",
+          "searchText": "فكأين من قرية أهلكنها وهى ظالمةࣱ فهى خاوية على عروشها وبئرࣲ معطلةࣲ وقصرࣲ مشيدࣲ",
           "segments": [
             {
               "text": "فَكَأَيِّن ",
@@ -515,7 +515,7 @@
               "role": "target"
             },
             {
-              "text": "شِيدٍ",
+              "text": "شِيدࣲ",
               "role": "base"
             }
           ]

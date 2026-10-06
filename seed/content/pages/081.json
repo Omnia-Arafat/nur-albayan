@@ -349,7 +349,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 1,
-          "searchText": "عينࣱ جارية",
+          "searchText": "عينࣱ جاريةࣱ",
           "segments": [
             {
               "text": "عَيۡنࣱ ",
@@ -360,7 +360,7 @@
               "role": "target"
             },
             {
-              "text": "ارِيَةٌۭ",
+              "text": "ارِيَةࣱ",
               "role": "base"
             }
           ]
@@ -441,10 +441,10 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 2,
-          "searchText": "مائة صابرة",
+          "searchText": "مائةࣱ صابرة",
           "segments": [
             {
-              "text": "مِا۟ئَةٌۭ ",
+              "text": "مِا۟ئَةࣱ ",
               "role": "base"
             },
             {
@@ -461,10 +461,10 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 2,
-          "searchText": "مآء صديد",
+          "searchText": "مآءࣲ صديد",
           "segments": [
             {
-              "text": "مَّآءٍۢ ",
+              "text": "مَّآءࣲ ",
               "role": "base"
             },
             {
@@ -553,10 +553,10 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 3,
-          "searchText": "ملك كريم",
+          "searchText": "ملكࣱ كريم",
           "segments": [
             {
-              "text": "مَلَكٌۭ ",
+              "text": "مَلَكࣱ ",
               "role": "base"
             },
             {
@@ -613,7 +613,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "بنين",
+          "searchText": "بنينࣱ",
           "segments": [
             {
               "text": "بُ",
@@ -624,7 +624,7 @@
               "role": "target"
             },
             {
-              "text": "نٌ",
+              "text": "نࣱ",
               "role": "base"
             }
           ]
@@ -633,7 +633,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "صنوان",
+          "searchText": "صنوانࣱ",
           "segments": [
             {
               "text": "صِ",
@@ -644,7 +644,7 @@
               "role": "target"
             },
             {
-              "text": "انٌ",
+              "text": "انࣱ",
               "role": "base"
             }
           ]
@@ -653,7 +653,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "قنوان",
+          "searchText": "قنوانࣱ",
           "segments": [
             {
               "text": "قِ",
@@ -664,7 +664,7 @@
               "role": "target"
             },
             {
-              "text": "انٌ",
+              "text": "انࣱ",
               "role": "base"
             }
           ]

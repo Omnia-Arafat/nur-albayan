@@ -218,14 +218,14 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "رزقا",
+          "searchText": "رزقࣰا",
           "segments": [
             {
               "text": "رِ",
               "role": "target"
             },
             {
-              "text": "زۡقًا",
+              "text": "زۡقࣰا",
               "role": "base"
             }
           ]
@@ -234,7 +234,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "شرعة",
+          "searchText": "شرعةࣰ",
           "segments": [
             {
               "text": "شِ",
@@ -245,7 +245,7 @@
               "role": "target"
             },
             {
-              "text": "عَةً",
+              "text": "عَةࣰ",
               "role": "base"
             }
           ]
@@ -270,7 +270,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "فٱصبر صبرا",
+          "searchText": "فٱصبر صبرࣰا",
           "segments": [
             {
               "text": "فَٱصۡبِ",
@@ -281,7 +281,7 @@
               "role": "target"
             },
             {
-              "text": " صَبۡرًا",
+              "text": " صَبۡرࣰا",
               "role": "base"
             }
           ]
@@ -326,14 +326,14 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "خير",
+          "searchText": "خيرࣱ",
           "segments": [
             {
               "text": "خَيۡ",
               "role": "base"
             },
             {
-              "text": "رٌ",
+              "text": "رࣱ",
               "role": "target"
             }
           ]
@@ -454,7 +454,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 1,
-          "searchText": "مرصادا",
+          "searchText": "مرصادࣰا",
           "segments": [
             {
               "text": "مِ",
@@ -465,7 +465,7 @@
               "role": "target"
             },
             {
-              "text": "صَادًا",
+              "text": "صَادࣰا",
               "role": "base"
             }
           ]

@@ -48,7 +48,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "وسع ربنا كل شىء علما",
+          "searchText": "وسع ربنا كل شىء علمࣰا",
           "segments": [
             {
               "text": "وَسِعَ رَ",
@@ -67,7 +67,7 @@
               "role": "target"
             },
             {
-              "text": "شَىۡءٍ عِلۡمًا",
+              "text": "شَىۡءٍ عِلۡمࣰا",
               "role": "base"
             }
           ]
@@ -200,7 +200,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 3,
-          "searchText": "قل نار جهنم أشد حرا",
+          "searchText": "قل نار جهنم أشد حرࣰا",
           "segments": [
             {
               "text": "قُلۡ نَارُ جَهَ",
@@ -223,7 +223,7 @@
               "role": "base"
             },
             {
-              "text": "رًّ",
+              "text": "رࣰّ",
               "role": "target"
             },
             {
@@ -284,7 +284,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 5,
-          "searchText": "وإذا مروا بٱللغو مروا كراما",
+          "searchText": "وإذا مروا بٱللغو مروا كرامࣰا",
           "segments": [
             {
               "text": "وَإِذَا مَ",
@@ -311,7 +311,7 @@
               "role": "target"
             },
             {
-              "text": "وا۟ كِرَامًا",
+              "text": "وا۟ كِرَامࣰا",
               "role": "base"
             }
           ]

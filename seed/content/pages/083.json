@@ -223,7 +223,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "لهم مغفرة",
+          "searchText": "لهم مغفرةࣱ",
           "segments": [
             {
               "text": "لَّهُم ",
@@ -234,7 +234,7 @@
               "role": "target"
             },
             {
-              "text": "غۡفِرَةٌ",
+              "text": "غۡفِرَةࣱ",
               "role": "base"
             }
           ]
