@@ -42,7 +42,7 @@
             },
             {
               "text": "جِى",
-              "role": "base"
+              "role": "contrast"
             }
           ]
         },
@@ -58,7 +58,7 @@
             },
             {
               "text": "حَقُ",
-              "role": "base"
+              "role": "contrast"
             }
           ]
         },
@@ -74,7 +74,7 @@
             },
             {
               "text": "لُونَ",
-              "role": "base"
+              "role": "contrast"
             }
           ]
         },
@@ -106,7 +106,7 @@
             },
             {
               "text": "رِيكَ",
-              "role": "base"
+              "role": "contrast"
             }
           ]
         },
@@ -122,7 +122,7 @@
             },
             {
               "text": "لَةَ",
-              "role": "base"
+              "role": "contrast"
             }
           ]
         },
@@ -138,7 +138,7 @@
             },
             {
               "text": "عَامُ",
-              "role": "base"
+              "role": "contrast"
             }
           ]
         },
@@ -150,7 +150,7 @@
           "segments": [
             {
               "text": "أَ",
-              "role": "base"
+              "role": "contrast"
             },
             {
               "text": "تَوۡ",
@@ -158,7 +158,7 @@
             },
             {
               "text": "هُ",
-              "role": "base"
+              "role": "contrast"
             }
           ]
         },
@@ -174,7 +174,7 @@
             },
             {
               "text": "لُهَا",
-              "role": "base"
+              "role": "contrast"
             }
           ]
         },
@@ -190,7 +190,7 @@
             },
             {
               "text": "بِتُ",
-              "role": "base"
+              "role": "contrast"
             }
           ]
         },
@@ -206,7 +206,7 @@
             },
             {
               "text": "عَسَ",
-              "role": "base"
+              "role": "contrast"
             }
           ]
         },
@@ -222,7 +222,7 @@
             },
             {
               "text": "لُونَ",
-              "role": "base"
+              "role": "contrast"
             }
           ]
         },
@@ -234,7 +234,7 @@
           "segments": [
             {
               "text": "فَ",
-              "role": "base"
+              "role": "contrast"
             },
             {
               "text": "دَمۡ",
@@ -242,7 +242,7 @@
             },
             {
               "text": "دَمَ",
-              "role": "base"
+              "role": "contrast"
             }
           ]
         },
@@ -254,7 +254,7 @@
           "segments": [
             {
               "text": "لَ",
-              "role": "base"
+              "role": "contrast"
             },
             {
               "text": "تَأۡ",
@@ -262,7 +262,7 @@
             },
             {
               "text": "تُونَ",
-              "role": "base"
+              "role": "contrast"
             }
           ]
         },
@@ -278,7 +278,7 @@
             },
             {
               "text": "مِزُكَ",
-              "role": "base"
+              "role": "contrast"
             }
           ]
         },
@@ -294,7 +294,7 @@
             },
             {
               "text": "سِكَ",
-              "role": "base"
+              "role": "contrast"
             }
           ]
         },
@@ -310,7 +310,7 @@
             },
             {
               "text": "لُوا۟",
-              "role": "base"
+              "role": "contrast"
             }
           ]
         },
@@ -326,7 +326,7 @@
             },
             {
               "text": "كُوا۟",
-              "role": "base"
+              "role": "contrast"
             }
           ]
         },
@@ -342,7 +342,7 @@
             },
             {
               "text": "رَبُ",
-              "role": "base"
+              "role": "contrast"
             }
           ]
         },
@@ -358,7 +358,7 @@
             },
             {
               "text": "سِينَ",
-              "role": "base"
+              "role": "contrast"
             }
           ]
         },
@@ -378,7 +378,7 @@
             },
             {
               "text": "نَا",
-              "role": "base"
+              "role": "contrast"
             }
           ]
         },
@@ -390,7 +390,7 @@
           "segments": [
             {
               "text": "ءَ",
-              "role": "base"
+              "role": "contrast"
             },
             {
               "text": "أَسۡ",
@@ -398,7 +398,7 @@
             },
             {
               "text": "جُدُ",
-              "role": "base"
+              "role": "contrast"
             }
           ]
         },
@@ -410,7 +410,7 @@
           "segments": [
             {
               "text": "عَ",
-              "role": "base"
+              "role": "contrast"
             },
             {
               "text": "لَيۡ",
@@ -418,7 +418,7 @@
             },
             {
               "text": "هِ",
-              "role": "base"
+              "role": "contrast"
             }
           ]
         },
@@ -434,7 +434,7 @@
             },
             {
               "text": "طِيكَ",
-              "role": "base"
+              "role": "contrast"
             }
           ]
         },
@@ -450,7 +450,7 @@
             },
             {
               "text": "عُوثُونَ",
-              "role": "base"
+              "role": "contrast"
             }
           ]
         },
@@ -462,7 +462,7 @@
           "segments": [
             {
               "text": "رَ",
-              "role": "base"
+              "role": "contrast"
             },
             {
               "text": "أَوۡ",
@@ -482,7 +482,7 @@
           "segments": [
             {
               "text": "قَ",
-              "role": "base"
+              "role": "contrast"
             },
             {
               "text": "ضَيۡ",
@@ -502,7 +502,7 @@
           "segments": [
             {
               "text": "يُ",
-              "role": "base"
+              "role": "contrast"
             },
             {
               "text": "وَسۡ",
@@ -510,7 +510,7 @@
             },
             {
               "text": "وِسُ",
-              "role": "base"
+              "role": "contrast"
             }
           ]
         },
@@ -522,7 +522,7 @@
           "segments": [
             {
               "text": "أَ",
-              "role": "base"
+              "role": "contrast"
             },
             {
               "text": "نُلۡ",
@@ -530,7 +530,7 @@
             },
             {
               "text": "زِمُكُمُوهَا",
-              "role": "base"
+              "role": "contrast"
             }
           ]
         },
@@ -542,7 +542,7 @@
           "segments": [
             {
               "text": "فَ",
-              "role": "base"
+              "role": "contrast"
             },
             {
               "text": "تَخۡ",
@@ -550,7 +550,7 @@
             },
             {
               "text": "طَفُهُ",
-              "role": "base"
+              "role": "contrast"
             }
           ]
         },
@@ -574,7 +574,7 @@
             },
             {
               "text": "نَ",
-              "role": "base"
+              "role": "contrast"
             }
           ]
         },
@@ -586,7 +586,7 @@
           "segments": [
             {
               "text": "قُو",
-              "role": "base"
+              "role": "contrast"
             },
             {
               "text": "تِلۡ",

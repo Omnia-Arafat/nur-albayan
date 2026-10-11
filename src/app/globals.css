@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "./book.css";
 
 /*
  * No values here: every --nb-* variable comes from the design_tokens table,

@@ -15,9 +15,11 @@
     "check:hardcoded": "tsx scripts/check-hardcoded.ts",
     "db:seed:content": "tsx scripts/seed.ts --content",
     "book:build": "tsx scripts/book/build.ts",
-    "book:dump": "tsx scripts/book/dump-import.ts"
+    "book:dump": "tsx scripts/book/dump-import.ts",
+    "db:local": "tsx scripts/db-local.ts"
   },
   "dependencies": {
+    "@electric-sql/pglite": "^0.5.8",
     "@supabase/ssr": "^0.12.7",
     "@supabase/supabase-js": "^2.117.2",
     "drizzle-orm": "^0.45.3",
@@ -30,7 +32,6 @@
     "zod": "^4.6.5"
   },
   "devDependencies": {
-    "@electric-sql/pglite": "^0.5.8",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",

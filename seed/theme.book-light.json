@@ -267,6 +267,30 @@
       "value": "#D07A66"
     },
     {
+      "group": "color",
+      "key": "color.green.shadow",
+      "value": "#146046",
+      "description": "Pressed edge under green buttons"
+    },
+    {
+      "group": "color",
+      "key": "color.purple.night",
+      "value": "#2F0F57",
+      "description": "Pressed edge under purple buttons, hover ink"
+    },
+    {
+      "group": "color",
+      "key": "color.locked",
+      "value": "#DADAD4",
+      "description": "Outline of locked tiles and steps"
+    },
+    {
+      "group": "color",
+      "key": "color.danger.soft",
+      "value": "#F2C9C3",
+      "description": "Pressed edge under the try-again button"
+    },
+    {
       "group": "radius",
       "key": "radius.pill",
       "value": "999px"
@@ -444,6 +468,12 @@
       "key": "easing.out",
       "value": "ease-out",
       "description": "Things fading away"
+    },
+    {
+      "group": "shadow",
+      "key": "shadow.soft",
+      "value": "0 6px 0 rgb(0 0 0 / 0.06)",
+      "description": "Light lift under chosen tiles"
     }
   ]
 }
