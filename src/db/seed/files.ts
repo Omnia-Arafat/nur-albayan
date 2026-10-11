@@ -96,7 +96,7 @@ export const seedSchemas = {
     rolePermissions: z.record(z.string(), z.array(z.string())),
   }),
   avatars: z.object({
-    avatars: z.array(z.object({ kind: z.enum(["emoji", "asset"]), value: z.string(), position: z.number().int() })),
+    avatars: z.array(z.object({ kind: z.enum(["letter", "icon", "asset"]), value: z.string(), position: z.number().int() })),
     colors: z.array(z.object({ tokenKey: z.string(), position: z.number().int() })),
   }),
   levels: z.array(

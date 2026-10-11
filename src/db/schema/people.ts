@@ -63,11 +63,12 @@ export const profiles = pgTable("profiles", {
   ...timestamps(),
 }).enableRLS();
 
-export const avatarKind = pgEnum("avatar_kind", ["emoji", "asset"]);
+export const avatarKind = pgEnum("avatar_kind", ["letter", "icon", "asset"]);
 
 export const avatars = pgTable("avatars", {
   id: id(),
   kind: avatarKind("kind").notNull(),
+  /** letter: one letter of the alphabet, drawn as the book's letter tile; icon: a key in seed/icons.json. */
   value: text("value"),
   assetId: uuid("asset_id").references(() => assets.id, { onDelete: "cascade" }),
   /** Locked until the learner earns this badge; null = always available. */

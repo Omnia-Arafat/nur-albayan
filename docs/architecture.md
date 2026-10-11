@@ -130,7 +130,7 @@ At request time the theme is compiled to a `:root{--nb-...}` stylesheet, cached 
 - `profiles` (user_id → auth.users, display_name, locale, role_id, status `active|disabled`)
 - `classrooms` (owner_teacher_id, name, join_code) + `classroom_members` (classroom_id, student_id)
 - `students` (profile_id nullable, device_id nullable, claimed_at nullable, display_name, avatar_id, avatar_color_token, use_first_letter, created_by_teacher_id, login `username`, pin_hash) — a student exists without any account (local or device-only); login is optional, by self sign-up or a teacher-created username and PIN
-- `avatars` (emoji or asset, unlock_rule nullable), `avatar_colors` (token_key) — the avatar and color pickers from the pages repo, as data
+- `avatars` (a letter tile from the book's alphabet, an icon from the book icon set, or an asset; unlock_rule nullable), `avatar_colors` (token_key) — the avatar and color pickers from the pages repo, as data
 
 ### 4.6 Progress, mistakes, gamification
 - `sessions` (student_id, lesson_id, started_at, finished_at, scoring_profile_version, settings_snapshot jsonb)
@@ -182,7 +182,7 @@ The pages repo has no separate admin area. Its "dashboard" is the student roster
 
 | Feature in the pages repo | New home |
 |---|---|
-| Roster: list students, add (name, avatar emoji, color, or first-letter avatar), edit, delete, set active student, guest mode | Teacher dashboard → Students |
+| Roster: list students, add (name, letter-tile or book-icon avatar, color), edit, delete, set active student, guest mode | Teacher dashboard → Students |
 | Student profile: completed lessons with stars, accuracy, points, delete one lesson's progress | Teacher → Student detail; Student → My progress |
 | Mistake bank per student: list by lesson, mark one word mastered, clear all, launch remediation | Teacher → Student detail → Mistakes |
 | Printable report with doughnut chart (correct vs incorrect) | Teacher → Reports (print / PDF) |

@@ -10,7 +10,13 @@ export const cardTypeRule = z.object({
   lateCorrect: points.optional(),
 });
 
-export const surfaceKeys = ["card", "wordwall", "ladder", "review", "remediation"] as const;
+export const surfaceKeys = [
+  "card",
+  "wordwall",
+  "ladder",
+  "review",
+  "remediation",
+] as const;
 export type Surface = (typeof surfaceKeys)[number];
 
 export const scoringRules = z.object({
@@ -29,7 +35,12 @@ export const scoringRules = z.object({
   recordSurfaces: z.array(z.enum(surfaceKeys)).min(1),
   /** Highest threshold first: accuracy >= minAccuracy earns `stars`. */
   stars: z
-    .array(z.object({ minAccuracy: z.number().min(0).max(1), stars: z.number().int().min(0) }))
+    .array(
+      z.object({
+        minAccuracy: z.number().min(0).max(1),
+        stars: z.number().int().min(0),
+      }),
+    )
     .min(1),
   repeatPolicy: z.enum(["best", "latest", "cumulative"]),
   mastery: z.object({ consecutiveCorrect: z.number().int().min(1) }),

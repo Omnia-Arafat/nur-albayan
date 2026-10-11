@@ -66,7 +66,7 @@
       "type": "streak_days",
       "count": 7
     },
-    "iconKey": "flame",
+    "iconKey": "candle",
     "fillTokenKey": "color.pill.peach.fill",
     "position": 3,
     "i18n": {

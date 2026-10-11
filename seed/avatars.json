@@ -1,84 +1,164 @@
 {
   "avatars": [
     {
-      "kind": "emoji",
-      "value": "👦",
+      "kind": "letter",
+      "value": "أ",
       "position": 0
     },
     {
-      "kind": "emoji",
-      "value": "👧",
+      "kind": "letter",
+      "value": "ب",
       "position": 1
     },
     {
-      "kind": "emoji",
-      "value": "🌟",
+      "kind": "letter",
+      "value": "ت",
       "position": 2
     },
     {
-      "kind": "emoji",
-      "value": "🦁",
+      "kind": "letter",
+      "value": "ث",
       "position": 3
     },
     {
-      "kind": "emoji",
-      "value": "🦅",
+      "kind": "letter",
+      "value": "ج",
       "position": 4
     },
     {
-      "kind": "emoji",
-      "value": "👑",
+      "kind": "letter",
+      "value": "ح",
       "position": 5
     },
     {
-      "kind": "emoji",
-      "value": "🚀",
+      "kind": "letter",
+      "value": "خ",
       "position": 6
     },
     {
-      "kind": "emoji",
-      "value": "🎯",
+      "kind": "letter",
+      "value": "د",
       "position": 7
     },
     {
-      "kind": "emoji",
-      "value": "🦄",
+      "kind": "letter",
+      "value": "ذ",
       "position": 8
     },
     {
-      "kind": "emoji",
-      "value": "🐬",
+      "kind": "letter",
+      "value": "ر",
       "position": 9
     },
     {
-      "kind": "emoji",
-      "value": "🏆",
+      "kind": "letter",
+      "value": "ز",
       "position": 10
     },
     {
-      "kind": "emoji",
-      "value": "🌸",
+      "kind": "letter",
+      "value": "س",
       "position": 11
     },
     {
-      "kind": "emoji",
-      "value": "📖",
+      "kind": "letter",
+      "value": "ش",
       "position": 12
     },
     {
-      "kind": "emoji",
-      "value": "💡",
+      "kind": "letter",
+      "value": "ص",
       "position": 13
     },
     {
-      "kind": "emoji",
-      "value": "✨",
+      "kind": "letter",
+      "value": "ض",
       "position": 14
     },
     {
-      "kind": "emoji",
-      "value": "⭐",
+      "kind": "letter",
+      "value": "ط",
       "position": 15
+    },
+    {
+      "kind": "letter",
+      "value": "ظ",
+      "position": 16
+    },
+    {
+      "kind": "letter",
+      "value": "ع",
+      "position": 17
+    },
+    {
+      "kind": "letter",
+      "value": "غ",
+      "position": 18
+    },
+    {
+      "kind": "letter",
+      "value": "ف",
+      "position": 19
+    },
+    {
+      "kind": "letter",
+      "value": "ق",
+      "position": 20
+    },
+    {
+      "kind": "letter",
+      "value": "ك",
+      "position": 21
+    },
+    {
+      "kind": "letter",
+      "value": "ل",
+      "position": 22
+    },
+    {
+      "kind": "letter",
+      "value": "م",
+      "position": 23
+    },
+    {
+      "kind": "letter",
+      "value": "ن",
+      "position": 24
+    },
+    {
+      "kind": "letter",
+      "value": "ه",
+      "position": 25
+    },
+    {
+      "kind": "letter",
+      "value": "و",
+      "position": 26
+    },
+    {
+      "kind": "letter",
+      "value": "ي",
+      "position": 27
+    },
+    {
+      "kind": "icon",
+      "value": "book",
+      "position": 28
+    },
+    {
+      "kind": "icon",
+      "value": "candle",
+      "position": 29
+    },
+    {
+      "kind": "icon",
+      "value": "star",
+      "position": 30
+    },
+    {
+      "kind": "icon",
+      "value": "crown",
+      "position": 31
     }
   ],
   "colors": [
