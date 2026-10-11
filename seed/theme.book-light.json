@@ -402,6 +402,48 @@
       "group": "motion",
       "key": "motion.celebrate",
       "value": "1200ms"
+    },
+    {
+      "group": "motion",
+      "key": "motion.loop.short",
+      "value": "1400ms",
+      "description": "One beat of a looping hint (candle flicker)"
+    },
+    {
+      "group": "motion",
+      "key": "motion.loop",
+      "value": "2200ms",
+      "description": "Gentle looping movement (floating words, twinkling star)"
+    },
+    {
+      "group": "motion",
+      "key": "motion.loop.long",
+      "value": "2800ms",
+      "description": "Slow sweep (button shine)"
+    },
+    {
+      "group": "motion",
+      "key": "easing.standard",
+      "value": "cubic-bezier(0.2, 0, 0, 1)",
+      "description": "Things moving into place"
+    },
+    {
+      "group": "motion",
+      "key": "easing.bounce",
+      "value": "cubic-bezier(0.3, 1.6, 0.5, 1)",
+      "description": "Playful pop with a small overshoot"
+    },
+    {
+      "group": "motion",
+      "key": "easing.gentle",
+      "value": "ease-in-out",
+      "description": "Loops that breathe"
+    },
+    {
+      "group": "motion",
+      "key": "easing.out",
+      "value": "ease-out",
+      "description": "Things fading away"
     }
   ]
 }

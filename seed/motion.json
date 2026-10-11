@@ -1,0 +1,155 @@
+{
+  "note": "Every animation in the app, as data. Durations and easings are theme token keys, so a theme can slow everything down; with reduced motion on, only the opacity part of an entrance stays and loops stop.",
+  "animations": [
+    {
+      "key": "pop",
+      "use": "A node, badge or card appearing",
+      "duration": "motion.normal",
+      "easing": "easing.bounce",
+      "iterations": "1",
+      "fill": "both",
+      "frames": {
+        "0%": "transform:scale(.4);opacity:0",
+        "70%": "transform:scale(1.08);opacity:1",
+        "100%": "transform:scale(1)"
+      },
+      "reduced": {
+        "0%": "opacity:0",
+        "100%": "opacity:1"
+      }
+    },
+    {
+      "key": "rise",
+      "use": "Content entering a screen, a tab panel or a sheet",
+      "duration": "motion.normal",
+      "easing": "easing.standard",
+      "iterations": "1",
+      "fill": "both",
+      "frames": {
+        "0%": "transform:translateY(12px);opacity:0",
+        "100%": "transform:translateY(0);opacity:1"
+      },
+      "reduced": {
+        "0%": "opacity:0",
+        "100%": "opacity:1"
+      }
+    },
+    {
+      "key": "select",
+      "use": "A tab, chip or answer becoming the chosen one",
+      "duration": "motion.normal",
+      "easing": "easing.bounce",
+      "iterations": "1",
+      "fill": "both",
+      "frames": {
+        "0%": "transform:scale(.85)",
+        "100%": "transform:scale(1)"
+      }
+    },
+    {
+      "key": "pulse",
+      "use": "Ring around the learner's current place",
+      "duration": "motion.loop",
+      "easing": "easing.out",
+      "iterations": "infinite",
+      "fill": "none",
+      "frames": {
+        "0%": "transform:scale(1);opacity:.55",
+        "70%": "transform:scale(1.55);opacity:0",
+        "100%": "transform:scale(1.55);opacity:0"
+      }
+    },
+    {
+      "key": "bob",
+      "use": "The 'you are here' label",
+      "duration": "motion.loop.short",
+      "easing": "easing.gentle",
+      "iterations": "infinite",
+      "fill": "none",
+      "frames": {
+        "0%": "transform:translateY(0)",
+        "50%": "transform:translateY(-8px)",
+        "100%": "transform:translateY(0)"
+      }
+    },
+    {
+      "key": "float",
+      "use": "Words waiting to be read",
+      "duration": "motion.loop",
+      "easing": "easing.gentle",
+      "iterations": "infinite",
+      "direction": "alternate",
+      "fill": "none",
+      "frames": {
+        "0%": "transform:translateY(0)",
+        "100%": "transform:translateY(-5px)"
+      }
+    },
+    {
+      "key": "twinkle",
+      "use": "Stars",
+      "duration": "motion.loop",
+      "easing": "easing.gentle",
+      "iterations": "infinite",
+      "fill": "none",
+      "frames": {
+        "0%": "transform:scale(1) rotate(0);opacity:1",
+        "50%": "transform:scale(1.25) rotate(18deg);opacity:.75",
+        "100%": "transform:scale(1) rotate(0);opacity:1"
+      }
+    },
+    {
+      "key": "flicker",
+      "use": "The streak candle",
+      "duration": "motion.loop.short",
+      "easing": "easing.gentle",
+      "iterations": "infinite",
+      "origin": "50% 90%",
+      "fill": "none",
+      "frames": {
+        "0%": "transform:rotate(-4deg)",
+        "50%": "transform:rotate(4deg) scale(1.04)",
+        "100%": "transform:rotate(-4deg)"
+      }
+    },
+    {
+      "key": "shine",
+      "use": "The main action button",
+      "duration": "motion.loop.long",
+      "easing": "easing.gentle",
+      "iterations": "infinite",
+      "fill": "none",
+      "frames": {
+        "0%": "background-position:-160px 0",
+        "100%": "background-position:260px 0"
+      }
+    },
+    {
+      "key": "draw",
+      "use": "A progress ring filling up",
+      "duration": "motion.celebrate",
+      "easing": "easing.out",
+      "iterations": "1",
+      "fill": "both",
+      "frames": {
+        "from": "stroke-dashoffset:var(--nb-ring-length)"
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "key": "press",
+      "use": "Buttons and tabs pressed",
+      "properties": "transform",
+      "duration": "motion.fast",
+      "easing": "easing.standard"
+    },
+    {
+      "key": "state",
+      "use": "Colour and border changes (selected, hover)",
+      "properties": "background-color, color, border-color, box-shadow",
+      "duration": "motion.normal",
+      "easing": "easing.standard"
+    }
+  ]
+}
