@@ -50,6 +50,8 @@ export const localProfile = z.object({
   /** Pages finished per day, for the daily goal. */
   pagesByDay: z.record(z.string(), z.number()).default({}),
   peaks: z.number().default(0),
+  /** Points won in games (word wall, ladder); they count toward the level like lesson points. */
+  gamePoints: z.number().default(0),
   settings: z.record(z.string(), z.unknown()).default({}),
 });
 export type LocalProfile = z.infer<typeof localProfile>;
@@ -98,7 +100,7 @@ export const totalStars = (p: LocalProfile) => Object.values(p.records).reduce((
 export const xpOf = (p: LocalProfile, rules: ScoringRules, xp: { perLesson: number; perStar: number }) =>
   Object.values(p.records)
     .filter((r) => r.completedCount > 0)
-    .reduce((n, r) => n + xp.perLesson + r.stars * xp.perStar + effectiveScore(rules.repeatPolicy, r), 0);
+    .reduce((n, r) => n + xp.perLesson + r.stars * xp.perStar + effectiveScore(rules.repeatPolicy, r), p.gamePoints);
 
 export type Level = { key: string; position: number; xpThreshold: number; name: string };
 export function levelOf<L extends Level>(levels: L[], xp: number): { current: L; next: L | null } {

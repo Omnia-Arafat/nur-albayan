@@ -664,6 +664,24 @@
     "profile.accountText": "حساب اختيارى للآباء والمعلمين. ملفات الجهاز تُنقل إليه كما هى.",
     "profile.accountSoon": "الحسابات قريبًا",
     "profile.defaultName": "قارئ",
-    "profile.remove": "حذف الملف"
+    "profile.remove": "حذف الملف",
+    "review.title": "اقرأ من جديد",
+    "review.intro": "الصفحات التى قرأتها، تبدأ بالتى تحتاج تدريبًا أكثر.",
+    "review.empty": "لم تقرأ صفحة بعد. ابدأ الرحلة وستظهر صفحاتك هنا.",
+    "review.again": "اقرأ مرة أخرى",
+    "review.page": "صفحة {page}",
+    "review.best": "أفضل نتيجة {pct}",
+    "review.times": "قرأتها {n} مرة",
+    "review.bank": "كلمات تنتظرك فى بنك الأخطاء",
+    "review.bankText": "{n} كلمة لم تتقنها بعد.",
+    "review.toBank": "افتح البنك",
+    "review.allStars": "كل صفحاتك بثلاث نجوم. أحسنت!",
+    "profile.language": "اللغة",
+    "profile.icons": "أو صورة",
+    "profile.save": "حفظ",
+    "profile.confirmRemove": "احذف هذا الملف وكل تقدمه من الجهاز؟",
+    "profile.cancel": "إلغاء",
+    "profile.choose": "اختر {name}",
+    "badges.earned": "حصلت عليه"
   }
 }

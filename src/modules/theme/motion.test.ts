@@ -25,5 +25,7 @@ describe("motion system", () => {
     const reduced = css.slice(css.indexOf("prefers-reduced-motion"));
     expect(reduced).toContain(".nb-anim-pulse{animation:none}");
     expect(reduced).toContain(".nb-anim-pop{animation-name:nb-pop-reduced}");
+    // The learner's own "less motion" switch applies the same rules.
+    expect(css).toContain('[data-motion="less"] .nb-anim-pulse{animation:none}');
   });
 });

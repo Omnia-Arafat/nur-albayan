@@ -305,3 +305,85 @@ textarea.nb-input{resize:none;padding-block:10px;line-height:1.7}
 }
 .nb-cards>.nb-row-btns,.nb-result>.nb-row-btns{align-self:stretch}
 .nb-avatar .nb-avatar-level{color:var(--nb-color-ink)}
+
+/* games, ladder, mistakes */
+.nb-small{font-size:13px}
+.nb-m0{margin:0}
+.nb-grid-140{--min:140px}
+.nb-narrow-wide{max-width:1100px}
+.nb-games-tools{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:14px;align-items:end}
+.nb-ladder-card{align-items:center}
+.nb-ladder-top{display:flex;flex-direction:column;align-items:center;gap:2px;font-weight:900;color:var(--nb-color-purple-deep)}
+.nb-ladder{position:relative;display:flex;flex-direction:column;gap:12px;width:min(100%,420px);padding-inline:34px;box-sizing:border-box}
+.nb-ladder::before,.nb-ladder::after{content:"";position:absolute;top:-8px;bottom:-8px;width:10px;border-radius:999px;background:var(--nb-color-pill-peach-fill);border:2px solid var(--nb-color-pill-peach-line)}
+.nb-ladder::before{inset-inline-start:8px}.nb-ladder::after{inset-inline-end:8px}
+.nb-rung{position:relative;z-index:1;display:grid;grid-template-columns:44px minmax(0,1fr);align-items:center;gap:10px}
+.nb-rung .nb-pill{width:100%}
+.nb-rung:not(:last-child)::after{content:"";position:absolute;z-index:-1;inset-inline:-30px;bottom:-10px;height:8px;border-radius:999px;background:var(--nb-color-pill-peach-fill);border:2px solid var(--nb-color-pill-peach-line);box-sizing:border-box}
+.nb-rung-no{width:44px;height:44px;box-sizing:border-box;border-radius:50%;background:var(--nb-color-surface);border:2px solid var(--nb-color-locked);display:flex;align-items:center;justify-content:center;font-weight:900;color:var(--nb-color-ink-muted)}
+.nb-rung.done .nb-rung-no{border-color:var(--nb-color-pill-lime-line);background:var(--nb-color-pill-lime-fill)}
+.nb-rung.here .nb-rung-no{border-color:var(--nb-color-gold);background:var(--nb-color-yellow);color:var(--nb-color-ink)}
+.nb-rung.here .nb-pill{box-shadow:inset 0 0 14px var(--fill),0 0 0 4px var(--nb-color-yellow)}
+.nb-rung.next{opacity:.7}
+.nb-rung-blank{min-height:52px}
+.nb-band-row{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.nb-legend{flex-wrap:wrap;gap:8px 16px;font-size:13px}
+.nb-mcell{display:flex;flex-direction:column;align-items:center;gap:8px}.nb-mcell .nb-pill{width:100%}
+.nb-choice{display:flex;flex-direction:column;gap:8px}
+.nb-choice button{font:inherit;display:flex;align-items:center;gap:12px;min-height:60px;padding:8px 12px;border-radius:16px;border:2px solid var(--nb-color-border);background:var(--nb-color-surface);color:var(--nb-color-ink);text-align:start;cursor:pointer}
+.nb-choice button>span{display:flex;flex-direction:column;gap:2px;line-height:1.3}.nb-choice b{font-size:16px}.nb-choice .nb-muted{font-size:13px}
+.nb-choice button[aria-checked="true"]{border-color:var(--nb-color-pill-lavender-line);background:var(--nb-color-pill-lavender-fill)}
+@container nb (max-width: 640px){
+.nb-games-tools{grid-template-columns:minmax(0,1fr)}.nb-games-tools .nb-seg{width:100%}.nb-games-tools .nb-seg button{flex:1}
+.nb-ladder{padding-inline:26px}.nb-ladder::before{inset-inline-start:4px}.nb-ladder::after{inset-inline-end:4px}
+}
+.nb-btn:disabled,.nb-btn[aria-disabled="true"]{background:var(--nb-color-locked);border-color:var(--nb-color-locked);color:var(--nb-color-ink-muted);box-shadow:none;cursor:default;animation:none}
+
+/* badges, profile, review */
+.nb-plain{list-style:none;margin:0;padding:0}
+.nb-grow{flex:1;min-width:0}
+.nb-nowrap{flex-wrap:nowrap;align-items:flex-start}
+.nb-self-start{align-self:flex-start}
+.nb-level-big{flex:none;width:64px;height:64px;font-size:28px;border-width:3px}
+.nb-levels{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(110px,1fr));gap:10px}
+.nb-lv{display:flex;flex-direction:column;align-items:center;gap:4px;padding:12px 6px;border-radius:18px;border:2px solid var(--nb-color-border);background:var(--nb-color-surface);text-align:center;line-height:1.3}
+.nb-lv b{font-size:15px}.nb-lv .nb-muted{font-size:12px}
+.nb-lv-no{width:40px;height:40px;box-sizing:border-box;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:900;border:2px solid var(--nb-color-locked);background:var(--nb-color-pill-gray-fill);color:var(--nb-color-ink-muted)}
+.nb-lv.done .nb-lv-no{background:var(--nb-color-pill-lime-fill);border-color:var(--nb-color-pill-lime-line);color:var(--nb-color-success)}
+.nb-lv.here{border-color:var(--nb-color-red-warm);box-shadow:0 6px 0 var(--nb-color-pill-salmon-fill)}
+.nb-lv.here .nb-lv-no{background:var(--nb-color-surface);border-color:var(--nb-color-red-warm);color:var(--nb-color-red)}
+.nb-lv.next{background:var(--nb-color-paper)}
+.nb-tile{position:relative}
+.nb-tile-state{position:absolute;inset-block-start:10px;inset-inline-end:10px;display:flex}
+.nb-people{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:12px}
+.nb-person{font:inherit;display:flex;flex-direction:column;align-items:center;gap:6px;padding:14px 8px;border-radius:20px;border:2px solid var(--nb-color-border);background:var(--nb-color-surface);color:var(--nb-color-ink);cursor:pointer;line-height:1.3;min-width:0}
+.nb-person b{font-size:17px;margin-top:8px;max-width:100%;overflow-wrap:anywhere}
+.nb-person[aria-pressed="true"]{border-color:var(--nb-color-pill-lavender-line);background:var(--nb-color-pill-lavender-fill);box-shadow:0 6px 0 var(--nb-color-pill-lavender-line)}
+.nb-big-avatar{position:relative;width:72px;height:72px;box-sizing:border-box;flex:none;border-radius:22px;background:var(--c,var(--nb-color-pill-sky-fill));border:3px solid var(--c,var(--nb-color-pill-sky-line));color:var(--nb-color-surface);display:flex;align-items:center;justify-content:center;font-size:38px;line-height:1}
+.nb-big-avatar .nb-avatar-letter{padding-bottom:6px}
+.nb-big-avatar-add{background:var(--nb-color-surface);border-style:dashed;border-color:var(--nb-color-pill-lavender-line)}
+.nb-big-avatar .nb-avatar-level{display:inline-flex;position:absolute;inset-block-end:-8px;inset-inline-start:-8px;align-items:center;justify-content:center;width:28px;height:28px;box-sizing:border-box;padding:0;border-radius:50%;border:2px solid var(--nb-color-red-warm);background:var(--nb-color-surface);color:var(--nb-color-ink);font-family:var(--nb-font-ui);font-size:14px;font-weight:900;line-height:1}
+.nb-letters{display:grid;grid-template-columns:repeat(auto-fill,minmax(48px,1fr));gap:8px}
+.nb-pick-letter{font:inherit;height:52px;border-radius:14px;border:2px solid var(--nb-color-border);background:var(--nb-color-surface);color:var(--nb-color-teal-deep);font-family:var(--nb-font-naskh);font-weight:700;font-size:26px;line-height:1;padding:0 0 5px;display:flex;align-items:center;justify-content:center;cursor:pointer}
+.nb-pick-letter:has(svg){padding:0}
+.nb-pick-letter[aria-checked="true"]{background:var(--nb-color-teal-deep);border-color:var(--nb-color-teal-deep);color:var(--nb-color-surface)}
+.nb-pick-letter[aria-checked="true"]:has(svg){background:var(--nb-color-pill-lavender-fill);border-color:var(--nb-color-pill-lavender-line)}
+.nb-swatches{display:flex;flex-wrap:wrap;gap:10px}
+.nb-swatch{width:48px;height:48px;border-radius:50%;border:4px solid var(--nb-color-surface);background:var(--c);box-shadow:0 0 0 2px var(--nb-color-border);cursor:pointer;padding:0}
+.nb-swatch[aria-checked="true"]{box-shadow:0 0 0 3px var(--c)}
+.nb-band-danger{--fill:var(--nb-color-danger-soft);--line:var(--nb-color-danger);display:flex;flex-direction:column;gap:10px}
+.nb-review-list{display:flex;flex-direction:column;gap:10px}
+.nb-review-row{display:flex;align-items:center;gap:12px;min-height:64px;padding:8px 12px;border-radius:18px;border:2px solid var(--nb-color-border);background:var(--nb-color-surface);color:var(--nb-color-ink);text-decoration:none}
+.nb-review-page{flex:none;width:48px;height:48px;box-sizing:border-box;border-radius:14px;background:var(--fill);border:2px solid var(--line);display:flex;align-items:center;justify-content:center;font-weight:900;font-size:17px}
+.nb-review-text b{font-size:17px}
+/* Lesson titles from the book carry Qur'anic marks (e.g. the sukun over a tatweel) the UI font cannot draw. */
+.nb-book-text{font-family:var(--nb-font-naskh);font-weight:700}
+.nb-review-text{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px;line-height:1.35}
+.nb-review-stars{flex:none;display:flex;gap:2px}
+[data-colours="off"] .nb-runs>span{color:inherit!important}
+@container nb (max-width: 640px){
+.nb-people{grid-template-columns:repeat(2,minmax(0,1fr))}
+.nb-swatches{display:grid;grid-template-columns:repeat(auto-fill,44px);justify-content:space-between;gap:12px}.nb-swatch{width:44px;height:44px}
+.nb-levels{grid-template-columns:repeat(3,minmax(0,1fr))}
+.nb-level-big{width:52px;height:52px;font-size:22px}
+}

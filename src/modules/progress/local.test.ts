@@ -45,6 +45,8 @@ describe("device progress", () => {
     expect(xpOf(fresh, rules, { perLesson: 20, perStar: 5 })).toBe(0);
     const done = finishLesson(fresh, rules, 41, [word("a", "correct")], day).profile;
     expect(xpOf(done, rules, { perLesson: 20, perStar: 5 })).toBe(20 + 3 * 5 + 2);
+    // Game points (word wall, ladder) count toward the level too.
+    expect(xpOf({ ...done, gamePoints: 7 }, rules, { perLesson: 20, perStar: 5 })).toBe(20 + 3 * 5 + 2 + 7);
   });
 
   it("awards badges from their data rules", () => {

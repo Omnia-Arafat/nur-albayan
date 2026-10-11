@@ -5,6 +5,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
 import { AppDataProvider } from "@/components/app/app-data";
+import { DeviceSettings } from "@/components/app/device-settings";
 import { Header } from "@/components/app/header";
 import { getDb } from "@/db/client";
 import { feedbackMessages } from "@/db/schema";
@@ -57,6 +58,7 @@ export default async function LocaleLayout(props: LayoutProps<"/[locale]">) {
           }}
         >
           <div className="nb-app">
+            <DeviceSettings />
             <Header />
             {props.children}
           </div>

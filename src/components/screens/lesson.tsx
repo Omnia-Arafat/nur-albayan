@@ -4,13 +4,14 @@ import Link from "next/link";
 import { useMemo, useState } from "react";
 
 import { useApp, useT } from "@/components/app/app-data";
+import { ensureProfile } from "@/components/app/profiles";
 import { Seg } from "@/components/book/controls";
 import { Icon } from "@/components/book/icon";
 import { Meter, Ribbon, Tag } from "@/components/book/parts";
 import { pillVars, Word } from "@/components/book/word";
 import type { Lesson } from "@/modules/content/service";
-import { type CardRead, earnedBadges, finishLesson, newProfile } from "@/modules/progress/local";
-import { updateProfile, useDevice, writeDevice } from "@/modules/progress/store";
+import { type CardRead, earnedBadges, finishLesson } from "@/modules/progress/local";
+import { updateProfile, useDevice } from "@/modules/progress/store";
 import { summarize } from "@/modules/scoring/engine";
 
 import { NoteText, paletteOf, SectionView } from "./page-view";
@@ -77,19 +78,7 @@ export function LessonPlayer({ lesson, prev, next }: { lesson: Lesson; prev: num
     setReads(nextReads);
     if (i + 1 < cards.length) return setI(i + 1);
     // Finished: fold the session into the active device profile (one is created on first use).
-    let state = device;
-    let me = state.profiles.find((p) => p.id === state.activeId) ?? state.profiles[0];
-    if (!me) {
-      const letter = catalog.avatars.find((a) => a.kind === "letter");
-      me = newProfile(
-        crypto.randomUUID(),
-        t("profile.defaultName"),
-        { kind: "letter", value: letter?.value ?? "" },
-        catalog.avatarColors[0] ?? "color.blue",
-      );
-      state = { ...state, profiles: [me], activeId: me.id };
-      writeDevice(state);
-    }
+    const me = ensureProfile(device, catalog, t("profile.defaultName"));
     const done = finishLesson(me, rules, lesson.bookPage, nextReads);
     const before = new Set(me.badges);
     const badges = earnedBadges(done.profile, catalog.badges);
@@ -165,14 +154,14 @@ export function LessonPlayer({ lesson, prev, next }: { lesson: Lesson; prev: num
           <nav className="nb-spread nb-pager" aria-label={t("lesson.pageTag", { page: lesson.bookPage })}>
             {prev !== null ? (
               <Link href={t.href(`/lesson/${prev}`)} className="nb-btn nb-btn-quiet">
-                <Icon name="next" size={20} className="nb-flip nb-dir-flip" /> {t("lesson.prev")}
+                <Icon name="next" size={20} tone="lavender" className="nb-flip nb-dir-flip" /> {t("lesson.prev")}
               </Link>
             ) : (
               <span />
             )}
             {next !== null && (
               <Link href={t.href(`/lesson/${next}`)} className="nb-btn nb-btn-quiet">
-                {t("lesson.next")} <Icon name="next" size={20} className="nb-dir-flip" />
+                {t("lesson.next")} <Icon name="next" size={20} tone="lavender" className="nb-dir-flip" />
               </Link>
             )}
           </nav>

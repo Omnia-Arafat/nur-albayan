@@ -664,6 +664,24 @@
     "profile.accountText": "An optional account for parents and teachers. Device profiles move into it as they are.",
     "profile.accountSoon": "Accounts are coming soon",
     "profile.defaultName": "Reader",
-    "profile.remove": "Delete profile"
+    "profile.remove": "Delete profile",
+    "review.title": "Read again",
+    "review.intro": "Pages you have read, starting with the ones that need the most practice.",
+    "review.empty": "You haven't read a page yet. Start the journey and your pages will show up here.",
+    "review.again": "Read again",
+    "review.page": "Page {page}",
+    "review.best": "Best result {pct}",
+    "review.times": "Read {n} times",
+    "review.bank": "Words waiting in the mistake bank",
+    "review.bankText": "{n} words not mastered yet.",
+    "review.toBank": "Open the bank",
+    "review.allStars": "All your pages have three stars. Well done!",
+    "profile.language": "Language",
+    "profile.icons": "or a picture",
+    "profile.save": "Save",
+    "profile.confirmRemove": "Remove this profile and all its progress from this device?",
+    "profile.cancel": "Cancel",
+    "profile.choose": "Choose {name}",
+    "badges.earned": "Earned"
   }
 }

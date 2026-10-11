@@ -66,5 +66,7 @@ export function compileMotionCss(set: MotionSet, value: (tokenKey: string) => st
     reduced.push(`.nb-tr-${t.key}{transition-duration:0s}`);
   }
   out.push(`@media (prefers-reduced-motion: reduce){${reduced.join("")}}`);
+  // The same rules when a learner switches on "less motion" in their profile.
+  out.push(reduced.map((r) => `[data-motion="less"] ${r}`).join(""));
   return out.join("\n");
 }
