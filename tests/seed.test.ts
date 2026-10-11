@@ -142,3 +142,18 @@ describe("migrations and seed", () => {
     await client.close();
   }, 120_000);
 });
+
+describe("seed copy", () => {
+  // The book's look has no emoji: icons come from seed/icons.json.
+  it("contains no emoji", async () => {
+    const { readdirSync, readFileSync, statSync } = await import("node:fs");
+    const { join } = await import("node:path");
+    const files = (dir: string): string[] =>
+      readdirSync(dir).flatMap((f) => (statSync(join(dir, f)).isDirectory() ? files(join(dir, f)) : [join(dir, f)]));
+    const emoji = /[\p{Extended_Pictographic}\u{FE0F}\u{20E3}]/u;
+    const found = files("seed")
+      .filter((f) => f.endsWith(".json"))
+      .filter((f) => emoji.test(readFileSync(f, "utf8")));
+    expect(found).toEqual([]);
+  });
+});

@@ -2,97 +2,97 @@
   {
     "kind": "correct",
     "locale": "ar",
-    "text": "امتياز! 🌟",
+    "text": "امتياز!",
     "weight": 1
   },
   {
     "kind": "correct",
     "locale": "en",
-    "text": "Excellent! 🌟",
+    "text": "Excellent!",
     "weight": 1
   },
   {
     "kind": "correct",
     "locale": "ar",
-    "text": "إتقان! 🏆",
+    "text": "إتقان!",
     "weight": 1
   },
   {
     "kind": "correct",
     "locale": "en",
-    "text": "Perfect! 🏆",
+    "text": "Perfect!",
     "weight": 1
   },
   {
     "kind": "correct",
     "locale": "ar",
-    "text": "أحسنت! ⭐",
+    "text": "أحسنت!",
     "weight": 1
   },
   {
     "kind": "correct",
     "locale": "en",
-    "text": "Well done! ⭐",
+    "text": "Well done!",
     "weight": 1
   },
   {
     "kind": "correct",
     "locale": "ar",
-    "text": "إتقان رائع! ❤️⭐",
+    "text": "إتقان رائع!",
     "weight": 1
   },
   {
     "kind": "correct",
     "locale": "en",
-    "text": "Magnificent reading! ❤️⭐",
+    "text": "Magnificent reading!",
     "weight": 1
   },
   {
     "kind": "correct",
     "locale": "ar",
-    "text": "⭐⭐⭐⭐⭐",
+    "text": "",
     "weight": 1
   },
   {
     "kind": "correct",
     "locale": "en",
-    "text": "⭐⭐⭐⭐⭐",
+    "text": "",
     "weight": 1
   },
   {
     "kind": "correct",
     "locale": "ar",
-    "text": "❤️❤️❤️❤️❤️",
+    "text": "",
     "weight": 1
   },
   {
     "kind": "correct",
     "locale": "en",
-    "text": "❤️❤️❤️❤️❤️",
+    "text": "",
     "weight": 1
   },
   {
     "kind": "wrong",
     "locale": "ar",
-    "text": "تحتاج تدريباً إضافياً ⭐",
+    "text": "تحتاج تدريباً إضافياً",
     "weight": 1
   },
   {
     "kind": "wrong",
     "locale": "en",
-    "text": "Needs more practice ⭐",
+    "text": "Needs more practice",
     "weight": 1
   },
   {
     "kind": "danger_wrong",
     "locale": "ar",
-    "text": "⚠️ تركيز مشدد! ({points})",
+    "text": "تركيز مشدد! ({points})",
     "weight": 1
   },
   {
     "kind": "danger_wrong",
     "locale": "en",
-    "text": "⚠️ High Focus! ({points})",
+    "text": "High Focus! ({points})",
     "weight": 1
   },
   {
@@ -104,7 +104,7 @@
   {
     "kind": "peak",
     "locale": "en",
-    "text": "Masha'Allah! Peak reached! 🌟",
+    "text": "Masha'Allah! Peak reached!",
     "weight": 1
   },
   {
@@ -122,13 +122,13 @@
   {
     "kind": "instant_repeat",
     "locale": "ar",
-    "text": "أحسنت! ({count}/{required}) ⭐",
+    "text": "أحسنت! ({count}/{required})",
     "weight": 1
   },
   {
     "kind": "instant_repeat",
     "locale": "en",
-    "text": "Well done! ({count}/{required}) ⭐",
+    "text": "Well done! ({count}/{required})",
     "weight": 1
   },
   {
