@@ -13,19 +13,13 @@ describe("compileThemeCss", () => {
   );
 
   it("emits one variable per token and points roles at tokens", () => {
-    expect(cssVar("color.pill.yellow.fill")).toBe(
-      "--nb-color-pill-yellow-fill",
-    );
+    expect(cssVar("color.pill.yellow.fill")).toBe("--nb-color-pill-yellow-fill");
     expect(css).toContain("--nb-color-paper:#FEFBDA");
     expect(css).toContain("--nb-role-target:var(--nb-color-red)");
-    expect(css).toContain(
-      "--nb-font-naskh:'Noto Naskh Arabic', 'Amiri', serif",
-    );
+    expect(css).toContain("--nb-font-naskh:'Noto Naskh Arabic', 'Amiri', serif");
   });
 
   it("refuses values that could break out of the rule", () => {
-    expect(() =>
-      compileThemeCss([{ key: "color.x", value: "red;}body{" }], [], []),
-    ).toThrow();
+    expect(() => compileThemeCss([{ key: "color.x", value: "red;}body{" }], [], [])).toThrow();
   });
 });

@@ -10,9 +10,7 @@ import { cssVar } from "./css";
 const role = z.enum(["fill", "line", "accent", "paper", "none"]);
 
 export const iconSet = z.object({
-  style: z
-    .object({ viewBox: z.string(), lineWidth: z.number().positive() })
-    .loose(),
+  style: z.object({ viewBox: z.string(), lineWidth: z.number().positive() }).loose(),
   icons: z.array(
     z.object({
       key: z.string().regex(/^[a-z0-9-]+$/),
@@ -71,12 +69,9 @@ export function iconSvg(
     paper: "color.surface",
   } as Record<string, string>;
   const value = opts.resolve ?? ((k: string) => `var(${cssVar(k)})`);
-  const paint = (r: z.infer<typeof role>) =>
-    r === "none" ? "none" : value(tokens[r]);
+  const paint = (r: z.infer<typeof role>) => (r === "none" ? "none" : value(tokens[r]));
   const size = opts.size ?? 24;
-  const a11y = opts.title
-    ? `role="img" aria-label="${opts.title.replace(/[<>&"]/g, "")}"`
-    : `aria-hidden="true"`;
+  const a11y = opts.title ? `role="img" aria-label="${opts.title.replace(/[<>&"]/g, "")}"` : `aria-hidden="true"`;
   const parts = icon.parts
     .map(
       (p) =>

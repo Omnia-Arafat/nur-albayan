@@ -19,10 +19,6 @@ describe("joinRuns", () => {
   });
 
   it("looks past marks to the letters on each side", () => {
-    expect(joinRuns(["يَ", "بۡ", "حَثُ"])).toEqual([
-      `يَ${ZWJ}`,
-      `${ZWJ}بۡ${ZWJ}`,
-      `${ZWJ}حَثُ`,
-    ]);
+    expect(joinRuns(["يَ", "بۡ", "حَثُ"])).toEqual([`يَ${ZWJ}`, `${ZWJ}بۡ${ZWJ}`, `${ZWJ}حَثُ`]);
   });
 });

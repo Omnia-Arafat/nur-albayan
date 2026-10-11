@@ -22,24 +22,19 @@ export function pointsFor(rules: ScoringRules, input: GradeInput): number {
   switch (input.surface) {
     case "card": {
       const rule = rules.cardTypes[input.cardTypeKey];
-      if (!rule)
-        throw new Error(`No scoring rule for card type "${input.cardTypeKey}"`);
+      if (!rule) throw new Error(`No scoring rule for card type "${input.cardTypeKey}"`);
       if (!correct) return rule.wrong;
       return input.timedOut ? (rule.lateCorrect ?? rule.correct) : rule.correct;
     }
     case "wordwall":
-      return correct
-        ? rules.surfaces.wordwall.correct
-        : rules.surfaces.wordwall.wrong;
+      return correct ? rules.surfaces.wordwall.correct : rules.surfaces.wordwall.wrong;
     case "ladder": {
       const { rung, slip, peakBonus } = rules.surfaces.ladder;
       if (!correct) return slip;
       return input.reachedPeak ? rung + peakBonus : rung;
     }
     case "review":
-      return correct
-        ? rules.surfaces.review.correct
-        : rules.surfaces.review.wrong;
+      return correct ? rules.surfaces.review.correct : rules.surfaces.review.wrong;
     case "remediation": {
       const { correct: ok, wrong, mastered } = rules.surfaces.remediation;
       if (!correct) return wrong;
@@ -66,10 +61,7 @@ export type SessionSummary = {
  * `recordSurfaces` count, and self-graded attempts only when the profile allows.
  * Accuracy and stars come from card attempts, which is what the learner read.
  */
-export function summarize(
-  rules: ScoringRules,
-  attempts: ScoredAttempt[],
-): SessionSummary {
+export function summarize(rules: ScoringRules, attempts: ScoredAttempt[]): SessionSummary {
   let score = 0;
   let correct = 0;
   let wrong = 0;
@@ -84,13 +76,7 @@ export function summarize(
   }
   const total = correct + wrong;
   const accuracy = total === 0 ? 0 : correct / total;
-  return {
-    score,
-    correct,
-    wrong,
-    accuracy,
-    stars: total === 0 ? 0 : starsFor(rules, accuracy),
-  };
+  return { score, correct, wrong, accuracy, stars: total === 0 ? 0 : starsFor(rules, accuracy) };
 }
 
 export type LessonRecord = {
@@ -110,10 +96,7 @@ export const emptyRecord: LessonRecord = {
 };
 
 /** Fold a finished session into the lesson record. Stars only ever go up. */
-export function applySession(
-  record: LessonRecord,
-  session: SessionSummary,
-): LessonRecord {
+export function applySession(record: LessonRecord, session: SessionSummary): LessonRecord {
   return {
     bestScore: Math.max(record.bestScore, session.score),
     latestScore: session.score,
@@ -124,10 +107,7 @@ export function applySession(
 }
 
 /** The score that counts toward the learner's total, by repeat policy. */
-export function effectiveScore(
-  policy: ScoringRules["repeatPolicy"],
-  record: LessonRecord,
-): number {
+export function effectiveScore(policy: ScoringRules["repeatPolicy"], record: LessonRecord): number {
   switch (policy) {
     case "best":
       return record.bestScore;
@@ -138,28 +118,11 @@ export function effectiveScore(
   }
 }
 
-export type MistakeEntry = {
-  missCount: number;
-  correctStreak: number;
-  mastered: boolean;
-};
+export type MistakeEntry = { missCount: number; correctStreak: number; mastered: boolean };
 
 /** Update a mistake-bank entry after one read of that word. A miss resets the streak. */
-export function masteryStep(
-  rules: ScoringRules,
-  entry: MistakeEntry,
-  result: "correct" | "wrong",
-): MistakeEntry {
-  if (result === "wrong")
-    return {
-      missCount: entry.missCount + 1,
-      correctStreak: 0,
-      mastered: false,
-    };
+export function masteryStep(rules: ScoringRules, entry: MistakeEntry, result: "correct" | "wrong"): MistakeEntry {
+  if (result === "wrong") return { missCount: entry.missCount + 1, correctStreak: 0, mastered: false };
   const correctStreak = entry.correctStreak + 1;
-  return {
-    ...entry,
-    correctStreak,
-    mastered: correctStreak >= rules.mastery.consecutiveCorrect,
-  };
+  return { ...entry, correctStreak, mastered: correctStreak >= rules.mastery.consecutiveCorrect };
 }

@@ -16,8 +16,7 @@ const LETTER = /[\u0621-\u064A\u0671-\u06D3\u06FA-\u06FF]/;
 const TATWEEL = "\u0640";
 
 const lastLetter = (s: string) => {
-  for (let i = s.length - 1; i >= 0; i--)
-    if (LETTER.test(s[i]) || s[i] === TATWEEL) return s[i];
+  for (let i = s.length - 1; i >= 0; i--) if (LETTER.test(s[i]) || s[i] === TATWEEL) return s[i];
   return undefined;
 };
 const firstLetter = (s: string) => {
