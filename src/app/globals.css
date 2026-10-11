@@ -32,3 +32,37 @@ body {
   color: var(--color-ink);
   font-family: var(--font-ui);
 }
+
+/*
+ * No default browser controls: scrollbars, selects, checkboxes, radios and range inputs are reset
+ * here and drawn by the book's own components, so every control shares the design system's look.
+ */
+@layer base {
+  html {
+    scrollbar-color: var(--nb-color-pill-lavender-line) var(--nb-color-paper);
+    scrollbar-width: thin;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--nb-color-paper);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--nb-color-pill-lavender-fill);
+    border: 2px solid var(--nb-color-pill-lavender-line);
+    border-radius: var(--nb-radius-pill);
+  }
+  select,
+  input[type="checkbox"],
+  input[type="radio"],
+  input[type="range"],
+  input[type="search"]::-webkit-search-cancel-button {
+    appearance: none;
+  }
+  :focus-visible {
+    outline: 3px solid var(--nb-color-purple-deep);
+    outline-offset: 2px;
+  }
+}
