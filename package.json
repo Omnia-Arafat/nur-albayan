@@ -16,7 +16,7 @@
     "db:seed:content": "tsx scripts/seed.ts --content",
     "book:build": "tsx scripts/book/build.ts",
     "book:dump": "tsx scripts/book/dump-import.ts",
-    "db:local": "tsx scripts/db-local.ts"
+    "db:local": "tsx --conditions react-server scripts/db-local.ts"
   },
   "dependencies": {
     "@electric-sql/pglite": "^0.5.8",

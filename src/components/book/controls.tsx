@@ -138,3 +138,55 @@ export function Select<T extends string>({
     </div>
   );
 }
+
+/** Number with minus and plus buttons in the book's pill (no browser number input). */
+export function Stepper({
+  label,
+  value,
+  onChange,
+  min,
+  max,
+  step = 1,
+  format = String,
+  lessLabel,
+  moreLabel,
+}: {
+  label: string;
+  value: number;
+  onChange: (v: number) => void;
+  min?: number | null;
+  max?: number | null;
+  step?: number | null;
+  format?: (n: number) => string;
+  lessLabel: string;
+  moreLabel: string;
+}) {
+  const by = step || 1;
+  const clamp = (n: number) => Math.min(max ?? Infinity, Math.max(min ?? -Infinity, n));
+  return (
+    <div className="nb-stepper-row">
+      <span className="nb-stepper-label">{label}</span>
+      <div className="nb-stepper" role="group" aria-label={label}>
+        <button
+          type="button"
+          className="nb-tr-press"
+          aria-label={`${lessLabel}: ${label}`}
+          disabled={min != null && value <= min}
+          onClick={() => onChange(clamp(value - by))}
+        >
+          <span className="nb-stepper-minus" aria-hidden="true" />
+        </button>
+        <output aria-live="polite">{format(value)}</output>
+        <button
+          type="button"
+          className="nb-tr-press"
+          aria-label={`${moreLabel}: ${label}`}
+          disabled={max != null && value >= max}
+          onClick={() => onChange(clamp(value + by))}
+        >
+          <span className="nb-stepper-plus" aria-hidden="true" />
+        </button>
+      </div>
+    </div>
+  );
+}
