@@ -903,6 +903,7 @@
     "break.column": "عمود {n}",
     "break.pairs": "الأزواج: {n} من {total}",
     "break.moves": "المحاولات: {n}",
-    "break.memoryWin": "ما شاء الله! وجدت كل الأزواج فى {n} محاولة."
+    "break.memoryWin": "ما شاء الله! وجدت كل الأزواج فى {n} محاولة.",
+    "lang.switchTo": "التبديل إلى {name}"
   }
 }

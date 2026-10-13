@@ -903,6 +903,7 @@
     "break.column": "Column {n}",
     "break.pairs": "Pairs: {n} of {total}",
     "break.moves": "Moves: {n}",
-    "break.memoryWin": "Ma sha Allah! You found every pair in {n} moves."
+    "break.memoryWin": "Ma sha Allah! You found every pair in {n} moves.",
+    "lang.switchTo": "Switch to {name}"
   }
 }

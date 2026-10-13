@@ -100,6 +100,22 @@ export function Header() {
           </span>
         </Link>
       </div>
+      {/* On phones the two-way switch gives way to one button to the other language, at the start of the tab row. */}
+      {locales
+        .filter((l) => l.code !== locale.code)
+        .slice(0, locales.length === 2 ? 1 : 0)
+        .map((l) => (
+          <Link
+            key={l.code}
+            href={`/${l.code}${rest}`}
+            className="nb-lang-switch nb-tr-press"
+            lang={l.code}
+            hrefLang={l.code}
+            aria-label={t("lang.switchTo", { name: l.name })}
+          >
+            {l.name}
+          </Link>
+        ))}
       <nav className="nb-tabs" aria-label={t("nav.label")} ref={strip}>
         {TABS.map((x) => {
           const on = x === current;
