@@ -618,3 +618,6 @@ textarea.nb-input{resize:none;padding-block:10px;line-height:1.7}
 .nb-texts-tools{grid-template-columns:minmax(0,1fr)}
 .nb-reward-points{max-width:none}
 }
+/* The offline notice: a calm band at the bottom of the screen, above everything but menus. */
+.nb-offline{position:fixed;inset-inline:12px;bottom:12px;z-index:50;margin:0 auto;max-width:640px;display:flex;align-items:center;gap:10px;padding:12px 16px;border-radius:18px;background:var(--nb-color-pill-yellow-fill);border:2px solid var(--nb-color-pill-yellow-line);color:var(--nb-color-ink);font-weight:800}
+html[data-offline] .nb-app{padding-bottom:110px}

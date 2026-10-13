@@ -1009,6 +1009,13 @@
     "rewards.rule.streak_days": "أيام متتالية",
     "rewards.rule.words_mastered": "كلمات أتقنها",
     "rewards.rule.ladder_peaks": "مرات بلوغ قمة السلم",
-    "rewards.rule.riddles_cleared": "ألغاز محلولة"
+    "rewards.rule.riddles_cleared": "ألغاز محلولة",
+    "offline.banner": "لا يوجد اتصال. القراءة تعمل، ويُحفظ التقدم حين يعود الاتصال.",
+    "offline.title": "الكتاب على هذا الجهاز",
+    "offline.text": "احفظ صفحات الكتاب والألعاب هنا لتعمل بلا إنترنت.",
+    "offline.save": "احفظ الكتاب على هذا الجهاز",
+    "offline.update": "حدّث النسخة المحفوظة",
+    "offline.saving": "يُحفظ {n} من {total}…",
+    "offline.savedOn": "محفوظ للعمل بلا إنترنت · {date}"
   }
 }

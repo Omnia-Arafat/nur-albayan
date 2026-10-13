@@ -1,17 +1,18 @@
 import "../globals.css";
 
 import { eq } from "drizzle-orm";
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { notFound } from "next/navigation";
 
 import { AppDataProvider } from "@/components/app/app-data";
 import { DeviceSettings } from "@/components/app/device-settings";
+import { OfflineSupport } from "@/components/app/offline";
 import { getDb } from "@/db/client";
 import { feedbackMessages } from "@/db/schema";
 import { getCatalog } from "@/modules/catalog/service";
 import { listLessons } from "@/modules/content/service";
 import { getLocales, getMessages } from "@/modules/i18n/service";
-import { getTheme } from "@/modules/theme/service";
+import { getTheme, tokenValues } from "@/modules/theme/service";
 
 async function load(code: string) {
   const db = await getDb();
@@ -30,7 +31,18 @@ async function load(code: string) {
 
 export async function generateMetadata(props: LayoutProps<"/[locale]">): Promise<Metadata> {
   const { messages } = await load((await props.params).locale);
-  return { title: messages.app?.["brand.name"], description: messages.app?.["brand.tagline"] };
+  return {
+    title: messages.app?.["brand.name"],
+    description: messages.app?.["brand.tagline"],
+    icons: { apple: "/app-icon/apple-180.png" },
+    appleWebApp: { capable: true, title: messages.app?.["brand.name"] },
+  };
+}
+
+/** The browser bar takes the book's paper colour. */
+export async function generateViewport(): Promise<Viewport> {
+  const tokens = await tokenValues(await getDb());
+  return { themeColor: tokens.get("color.paper") };
 }
 
 export default async function LocaleLayout(props: LayoutProps<"/[locale]">) {
@@ -58,6 +70,7 @@ export default async function LocaleLayout(props: LayoutProps<"/[locale]">) {
         >
           <div className="nb-app">
             <DeviceSettings />
+            <OfflineSupport />
             {props.children}
           </div>
         </AppDataProvider>

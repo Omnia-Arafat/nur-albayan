@@ -1009,6 +1009,13 @@
     "rewards.rule.streak_days": "Days in a row",
     "rewards.rule.words_mastered": "Words learned",
     "rewards.rule.ladder_peaks": "Times at the top of the ladder",
-    "rewards.rule.riddles_cleared": "Riddles solved"
+    "rewards.rule.riddles_cleared": "Riddles solved",
+    "offline.banner": "You're offline. Reading still works, and progress saves when the connection is back.",
+    "offline.title": "The book on this device",
+    "offline.text": "Save the book's pages and games here so they work without internet.",
+    "offline.save": "Save the book on this device",
+    "offline.update": "Update the saved copy",
+    "offline.saving": "Saving {n} of {total}…",
+    "offline.savedOn": "Saved for offline use · {date}"
   }
 }

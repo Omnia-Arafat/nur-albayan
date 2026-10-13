@@ -3,6 +3,7 @@
 import { useState } from "react";
 
 import { AccountCard } from "@/components/app/account";
+import { SaveBook } from "@/components/app/offline";
 import { useApp, useT, xpRates } from "@/components/app/app-data";
 import { Avatar } from "@/components/app/header";
 import { addProfile } from "@/components/app/profiles";
@@ -175,6 +176,7 @@ export function Profile() {
             </section>
           )}
           <AccountCard />
+          <SaveBook />
         </aside>
       </div>
     </main>

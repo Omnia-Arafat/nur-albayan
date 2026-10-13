@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
 import {
   active,
@@ -75,6 +75,13 @@ export function ProgressSync() {
   const me = active(useDevice());
   const key = me?.link ? progressKey(me) : null;
   const owner = useRef<{ profile: string; ok: boolean } | null>(null);
+  // Bumped when the connection comes back, so a save that failed offline is sent again.
+  const [back, setBack] = useState(0);
+  useEffect(() => {
+    const on = () => setBack((n) => n + 1);
+    window.addEventListener("online", on);
+    return () => window.removeEventListener("online", on);
+  }, []);
 
   useEffect(() => {
     if (!me?.link || owner.current?.profile === me.id) return;
@@ -85,7 +92,16 @@ export function ProgressSync() {
   }, [me]);
 
   useEffect(() => {
-    if (!key || !me?.link || !owner.current?.ok || owner.current.profile !== me.id) return;
+    if (!key || !me?.link || !owner.current || owner.current.profile !== me.id) return;
+    if (!owner.current.ok) {
+      // The visit's first sync failed (offline, say): try it again once the connection is back.
+      if (back === 0) return;
+      const mine = owner.current;
+      void syncProfile(me).then((ok) => {
+        mine.ok = ok;
+      });
+      return;
+    }
     const studentId = me.link.studentId;
     const timer = setTimeout(() => {
       void upload(me).then((id) => {
@@ -95,7 +111,7 @@ export function ProgressSync() {
     return () => clearTimeout(timer);
     // Save when the progress changes, not when only the sync bookkeeping does.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [key]);
+  }, [key, back]);
 
   return null;
 }

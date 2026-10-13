@@ -28,3 +28,11 @@ export async function getTheme(db: Db): Promise<Theme> {
   const fontUrls = [...new Set(fontRows.map((f) => f.cssUrl).filter((u): u is string => !!u))];
   return { css, fontUrls };
 }
+
+/** The default theme's token values by key, for places that cannot read the theme's CSS (icons, the manifest). */
+export async function tokenValues(db: Db): Promise<Map<string, string>> {
+  const [theme] = await db.select().from(themes).where(eq(themes.isDefault, true));
+  if (!theme) return new Map();
+  const rows = await db.select().from(designTokens).where(eq(designTokens.themeId, theme.id));
+  return new Map(rows.map((r) => [r.key, r.value]));
+}
