@@ -4,7 +4,6 @@
  * from the design_tokens table; animation classes (.nb-anim-*, .nb-tr-*) come from seed/motion.json.
  * Layouts answer to the width of .nb-app (a size container), so the phone layout also works in a narrow pane.
  */
-.nb-scroll{scrollbar-color:var(--nb-color-pill-lavender-line) transparent;scrollbar-width:thin}
 .nb-lang{display:inline-flex;align-items:stretch;height:48px;box-sizing:border-box;border-radius:999px;border:2px solid var(--nb-color-pill-lavender-line);background:var(--nb-color-surface);overflow:hidden}
 .nb-lang button{font:inherit;font-weight:800;font-size:14px;line-height:1;border:0;margin:0;padding-inline:14px;background:transparent;color:var(--nb-color-purple-deep);cursor:pointer}
 .nb-lang button[aria-pressed="true"]{background:var(--nb-color-pill-lavender-fill)}
@@ -166,9 +165,9 @@ a{color:var(--nb-color-purple-deep)}a:hover{color:var(--nb-color-purple-night)}
 textarea.nb-input{resize:none;padding-block:10px;line-height:1.7}
 .nb-flip{transform:scaleX(-1)}
 .nb-table-wide{min-width:560px}
-.nb-scroll-x{overflow-x:auto;scrollbar-width:thin;scrollbar-color:var(--nb-color-pill-lavender-line) transparent}
+.nb-scroll-x{overflow-x:auto}
 /* side navigation for dashboards (custom, scrolls on its own) */
-.nb-sidenav{flex:0 0 240px;position:sticky;top:16px;max-height:calc(100vh - 32px);overflow:auto;scrollbar-width:thin;scrollbar-color:var(--nb-color-pill-lavender-line) transparent;background:var(--nb-color-surface);border:2px solid var(--nb-color-border);border-radius:24px;padding:12px;display:flex;flex-direction:column;gap:4px;box-sizing:border-box}
+.nb-sidenav{flex:0 0 240px;position:sticky;top:16px;max-height:calc(100vh - 32px);overflow:auto;background:var(--nb-color-surface);border:2px solid var(--nb-color-border);border-radius:24px;padding:12px;display:flex;flex-direction:column;gap:4px;box-sizing:border-box}
 .nb-sidenav a{display:flex;align-items:center;gap:10px;min-height:48px;padding-inline:10px;border-radius:14px;text-decoration:none;color:var(--nb-color-ink-muted);font-weight:800;font-size:15px}
 .nb-sidenav a[aria-current="page"]{background:var(--nb-color-pill-lavender-fill);color:var(--nb-color-purple-deep);font-weight:900}
 .nb-sidenav .group{font-size:12px;font-weight:900;color:var(--nb-color-ink-muted);padding:10px 10px 2px}
@@ -446,4 +445,24 @@ textarea.nb-input{resize:none;padding-block:10px;line-height:1.7}
 .nb-person-row{flex-wrap:wrap}
 .nb-person-tools{flex:1 1 100%;flex-wrap:wrap}
 .nb-edit-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+/* ---------- floating menus, fixed header and side column (2026-10-13 review) ---------- */
+/* The select's list sits on the page's top layer, positioned from its button by Select. */
+.nb-menu-float{position:fixed;z-index:60;box-sizing:border-box;font-family:var(--nb-font-ui);color:var(--nb-color-ink)}
+/* The header stays on screen while the page scrolls; it tightens once the page has moved. */
+.nb-header{position:sticky;top:0;z-index:30}
+@container nb (min-width: 641px){
+.nb-header[data-scrolled]{padding-block:8px}
+.nb-header[data-scrolled] .nb-brand-tag{display:none}
+.nb-header[data-scrolled] .nb-logo{width:42px;height:42px;border-radius:14px}
+}
+/* Beside the main column the side column stays in view too, scrolling on its own if it is taller than the screen. */
+@container nb (min-width: 920px){
+.nb-cols>.nb-col-side,.nb-home>.nb-col-side{position:sticky;top:calc(var(--nb-header-h,0px) + 16px);max-height:calc(100vh - var(--nb-header-h,0px) - 32px);overflow-y:auto;overscroll-behavior:contain;margin:-6px;padding:6px 6px 10px}
+}
+.nb-sidenav{top:calc(var(--nb-header-h,0px) + 16px);max-height:calc(100vh - var(--nb-header-h,0px) - 32px)}
+/* Scrollbars are drawn in globals.css with the ::-webkit-scrollbar parts (no arrow buttons). Setting
+   scrollbar-color would make Chrome swap them for its native bar, so it is only a fallback for Firefox. */
+@supports not selector(::-webkit-scrollbar){
+.nb-scroll,.nb-scroll-x,.nb-sidenav,.nb-col-side{scrollbar-width:thin;scrollbar-color:var(--nb-color-pill-lavender-line) transparent}
 }

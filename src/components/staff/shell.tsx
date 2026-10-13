@@ -5,6 +5,7 @@ import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useRef } from "react";
 
 import { useApp, useT } from "@/components/app/app-data";
+import { useStickyHeader } from "@/components/app/sticky-header";
 import { Icon } from "@/components/book/icon";
 
 /** Menu entries name message keys, so the server can pass them without translating. */
@@ -24,6 +25,7 @@ export function StaffShell({
 }) {
   const { locale, locales } = useApp();
   const t = useT();
+  const bar = useStickyHeader<HTMLElement>();
   const router = useRouter();
   const path = usePathname();
   const rest = path.replace(new RegExp(`^/${locale.code}`), "");
@@ -46,7 +48,7 @@ export function StaffShell({
 
   return (
     <>
-      <header className="nb-header nb-staff-header" role="banner">
+      <header className="nb-header nb-staff-header" role="banner" ref={bar}>
         <Link href={t.href("")} className="nb-brand" style={{ textDecoration: "none" }}>
           <span className="nb-logo">
             <Icon name="book" size={30} />

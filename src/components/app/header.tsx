@@ -10,6 +10,7 @@ import { active, levelOf, streakOf, totalStars, xpOf } from "@/modules/progress/
 import { useDevice } from "@/modules/progress/store";
 
 import { useApp, useT, xpRates } from "./app-data";
+import { useStickyHeader } from "./sticky-header";
 
 /** Sections in the header's tab strip: route, label key and icon. */
 const TABS = [
@@ -30,6 +31,7 @@ export function Header() {
     x.path === "" ? rest === "" || rest.startsWith("/lesson") : rest.startsWith(x.path),
   ).at(-1);
   const strip = useRef<HTMLElement>(null);
+  const bar = useStickyHeader<HTMLElement>();
   const device = useDevice();
   const me = active(device);
   const rules = catalog.scoring;
@@ -42,7 +44,7 @@ export function Header() {
   }, [current?.path]);
 
   return (
-    <header className="nb-header" role="banner">
+    <header className="nb-header" role="banner" ref={bar}>
       <Link href={t.href("")} className="nb-brand" style={{ textDecoration: "none" }}>
         <span className="nb-logo">
           <Icon name="book" size={30} />
@@ -138,10 +140,12 @@ export function Avatar({
       style={colour ? ({ "--c": colour } as React.CSSProperties) : undefined}
       data-filled={profile ? "" : undefined}
     >
-      {profile?.avatar.kind === "icon" ? (
+      {!profile ? (
+        <Icon name="profile" size={big ? 40 : 26} tone="sky" />
+      ) : profile.avatar.kind === "icon" ? (
         <Icon name={profile.avatar.value} size={big ? 40 : 24} />
       ) : (
-        <span className="nb-avatar-letter">{profile?.avatar.value ?? ""}</span>
+        <span className="nb-avatar-letter">{profile.avatar.value}</span>
       )}
       {level !== undefined && (
         <span className="nb-avatar-level" aria-hidden="true">

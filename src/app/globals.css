@@ -39,9 +39,15 @@ body {
  * here and drawn by the book's own components, so every control shares the design system's look.
  */
 @layer base {
-  html {
-    scrollbar-color: var(--nb-color-pill-lavender-line) var(--nb-color-paper);
-    scrollbar-width: thin;
+  @supports not selector(::-webkit-scrollbar) {
+    html {
+      scrollbar-color: var(--nb-color-pill-lavender-line) var(--nb-color-paper);
+      scrollbar-width: thin;
+    }
+  }
+  ::-webkit-scrollbar-button,
+  ::-webkit-scrollbar-corner {
+    display: none;
   }
   ::-webkit-scrollbar {
     width: 10px;

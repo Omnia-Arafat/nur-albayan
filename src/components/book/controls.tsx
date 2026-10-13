@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect, useId, useRef, useState } from "react";
+import { useEffect, useId, useLayoutEffect, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 
 /** Segmented pill: one choice of a few, the book's pill with grey dividers. */
 export function Seg<T extends string>({
@@ -76,11 +77,42 @@ export function Select<T extends string>({
   const list = useRef<HTMLDivElement>(null);
   const current = options.find((o) => o.value === value) ?? options[0];
 
+  const button = useRef<HTMLButtonElement>(null);
+  const [place, setPlace] = useState<React.CSSProperties>({});
+
   useEffect(() => {
     if (!open) return;
-    const close = (e: MouseEvent) => !box.current?.contains(e.target as Node) && setOpen(false);
+    const close = (e: MouseEvent) => {
+      const at = e.target as Node;
+      if (!box.current?.contains(at) && !list.current?.contains(at)) setOpen(false);
+    };
     document.addEventListener("mousedown", close);
     return () => document.removeEventListener("mousedown", close);
+  }, [open]);
+  // The list lives on the page's top layer (a portal), so no card or scroll box below can cover or clip it.
+  // It follows the button while the page scrolls and opens upwards when there is no room below.
+  useLayoutEffect(() => {
+    if (!open) return;
+    const follow = () => {
+      const r = button.current?.getBoundingClientRect();
+      if (!r) return;
+      const gap = 6;
+      const below = window.innerHeight - r.bottom - gap;
+      const up = below < 160 && r.top > below;
+      setPlace({
+        left: r.left,
+        width: r.width,
+        maxHeight: Math.min(220, (up ? r.top : below) - gap * 2),
+        ...(up ? { bottom: window.innerHeight - r.top + gap } : { top: r.bottom + gap }),
+      });
+    };
+    follow();
+    window.addEventListener("scroll", follow, true);
+    window.addEventListener("resize", follow);
+    return () => {
+      window.removeEventListener("scroll", follow, true);
+      window.removeEventListener("resize", follow);
+    };
   }, [open]);
   useEffect(() => {
     if (open) (list.current?.children[focus] as HTMLElement | undefined)?.focus();
@@ -108,6 +140,7 @@ export function Select<T extends string>({
       </span>
       <button
         type="button"
+        ref={button}
         className="nb-select nb-tr-state"
         aria-haspopup="listbox"
         aria-expanded={open}
@@ -120,21 +153,29 @@ export function Select<T extends string>({
         <span id={`${id}-value`}>{current?.label}</span>
         <span className="chev" aria-hidden="true" />
       </button>
-      {open && (
-        <div className="nb-menu nb-scroll nb-anim-pop" role="listbox" aria-labelledby={`${id}-label`} ref={list}>
-          {options.map((o) => (
-            <button
-              key={o.value}
-              type="button"
-              role="option"
-              aria-selected={o.value === value}
-              onClick={() => choose(o.value)}
-            >
-              {o.label}
-            </button>
-          ))}
-        </div>
-      )}
+      {open &&
+        createPortal(
+          <div
+            className="nb-menu nb-menu-float nb-scroll nb-anim-pop"
+            role="listbox"
+            aria-labelledby={`${id}-label`}
+            ref={list}
+            style={place}
+          >
+            {options.map((o) => (
+              <button
+                key={o.value}
+                type="button"
+                role="option"
+                aria-selected={o.value === value}
+                onClick={() => choose(o.value)}
+              >
+                {o.label}
+              </button>
+            ))}
+          </div>,
+          document.body,
+        )}
     </div>
   );
 }
