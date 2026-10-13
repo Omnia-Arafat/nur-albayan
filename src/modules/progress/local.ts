@@ -53,6 +53,18 @@ export const localProfile = z.object({
   /** Points won in games (word wall, ladder); they count toward the level like lesson points. */
   gamePoints: z.number().default(0),
   settings: z.record(z.string(), z.unknown()).default({}),
+  /**
+   * Set once the learner keeps this profile in an account: the student it saves to, and the pages and
+   * words the account held at the last sync (so a page a teacher started over goes here too).
+   */
+  link: z
+    .object({
+      studentId: z.string(),
+      pages: z.array(z.string()).default([]),
+      words: z.array(z.string()).default([]),
+      at: z.string(),
+    })
+    .optional(),
 });
 export type LocalProfile = z.infer<typeof localProfile>;
 export type Mistake = z.infer<typeof mistake>;
@@ -227,3 +239,72 @@ export function earnedBadges(p: LocalProfile, badges: BadgeRule[], today = new D
   };
   return badges.filter((b) => value(b.criteria as Criteria) >= ((b.criteria as Criteria).count ?? 1)).map((b) => b.key);
 }
+
+/**
+ * Brings the account's copy into a device profile. Values only grow (the better score, the higher
+ * count, the union of days and badges), except where the account dropped something it held at the last
+ * sync: a page a teacher started over, or a word they cleared, goes from the device too.
+ */
+export function mergeRemote(local: LocalProfile, remote: LocalProfile): LocalProfile {
+  const was = { pages: new Set(local.link?.pages ?? []), words: new Set(local.link?.words ?? []) };
+  const records: LocalProfile["records"] = {};
+  for (const page of new Set([...Object.keys(local.records), ...Object.keys(remote.records)])) {
+    const a = local.records[page];
+    const b = remote.records[page];
+    if (!b) {
+      if (a && !was.pages.has(page)) records[page] = a;
+      continue;
+    }
+    records[page] = a
+      ? {
+          bestScore: Math.max(a.bestScore, b.bestScore),
+          latestScore: a.latestScore,
+          cumulativeScore: Math.max(a.cumulativeScore, b.cumulativeScore),
+          stars: Math.max(a.stars, b.stars),
+          completedCount: Math.max(a.completedCount, b.completedCount),
+        }
+      : b;
+  }
+  const mistakes: LocalProfile["mistakes"] = {};
+  for (const id of new Set([...Object.keys(local.mistakes), ...Object.keys(remote.mistakes)])) {
+    const a = local.mistakes[id];
+    const b = remote.mistakes[id];
+    if (!b) {
+      if (a && !was.words.has(id)) mistakes[id] = a;
+      continue;
+    }
+    if (!a) {
+      mistakes[id] = b;
+      continue;
+    }
+    const newer = a.updatedAt >= b.updatedAt ? a : b;
+    mistakes[id] = {
+      ...newer,
+      missCount: Math.max(a.missCount, b.missCount),
+      mastered: a.mastered || b.mastered,
+      segments: a.segments.length ? a.segments : b.segments,
+    };
+  }
+  const pagesByDay = { ...remote.pagesByDay };
+  for (const [d, n] of Object.entries(local.pagesByDay)) pagesByDay[d] = Math.max(n, pagesByDay[d] ?? 0);
+  return {
+    ...local,
+    records,
+    mistakes,
+    badges: [...new Set([...local.badges, ...remote.badges])],
+    days: [...new Set([...local.days, ...remote.days])].sort(),
+    pagesByDay,
+    peaks: Math.max(local.peaks, remote.peaks),
+    gamePoints: Math.max(local.gamePoints, remote.gamePoints),
+  };
+}
+
+/** The link after a successful upload: the account now holds everything this profile has. */
+export const linkedTo = (p: LocalProfile, studentId: string, now = new Date()): LocalProfile => ({
+  ...p,
+  link: { studentId, pages: Object.keys(p.records), words: Object.keys(p.mistakes), at: now.toISOString() },
+});
+
+/** A profile's progress without its sync bookkeeping, to tell whether anything new needs saving. */
+export const progressKey = (p: LocalProfile) =>
+  JSON.stringify([p.records, p.mistakes, p.badges, p.days, p.pagesByDay, p.gamePoints]);

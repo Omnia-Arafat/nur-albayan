@@ -955,6 +955,13 @@
     "report.savePin": "حفظ الرقم",
     "report.pinSaved": "حُفظ الرقم الجديد.",
     "report.failed": "لم يتم. حاول مرة أخرى.",
-    "report.missN": "الأخطاء: {n}"
+    "report.missN": "الأخطاء: {n}",
+    "account.keep": "احفظ تقدم {name} فى هذا الحساب",
+    "account.keepText": "بعد ذلك يُحفظ التقدم وحده بعد كل قراءة، ويصلك ما صححه المعلم.",
+    "account.autoOn": "تقدم {name} يُحفظ فى هذا الحساب وحده.",
+    "account.lastSaved": "آخر حفظ: {time}",
+    "account.syncNow": "احفظ الآن",
+    "account.bring": "أحضر تقدمى إلى هذا الجهاز",
+    "account.linkedElse": "ملف {name} محفوظ فى حساب آخر. ادخل بذلك الحساب ليستمر الحفظ."
   }
 }

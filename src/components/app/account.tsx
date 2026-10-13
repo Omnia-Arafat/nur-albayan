@@ -10,6 +10,8 @@ import { tokenVar } from "@/components/book/word";
 import { active } from "@/modules/progress/local";
 import { useDevice } from "@/modules/progress/store";
 
+import { bringToDevice, syncProfile } from "./sync";
+
 export type Methods = { email: boolean; local: boolean; social: string[]; student: boolean };
 
 type Me = {
@@ -320,26 +322,26 @@ export function SignInForm({ methods, next, onSignedIn }: { methods: Methods; ne
   );
 }
 
-/** The profile page's account card: sign in by email, then copy this device's progress into the account. */
+/** The profile page's account card: sign in, then keep this device's profile saved in the account. */
 export function AccountCard() {
   const t = useT();
+  const { locale } = useApp();
   const { me, reload } = useMe();
-  const profile = active(useDevice());
-  const [upload, setUpload] = useState<{ state: "idle" | "busy" | "done" | "failed"; pages?: number; words?: number }>({
-    state: "idle",
-  });
-  const save = async () => {
-    if (!profile) return;
-    setUpload({ state: "busy" });
-    const r = await fetch("/api/v1/me/progress", {
-      method: "POST",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify(profile),
-    });
-    const d = (await r.json().catch(() => ({}))) as { records?: number; words?: number };
-    setUpload(r.ok ? { state: "done", pages: d.records, words: d.words } : { state: "failed" });
+  const device = useDevice();
+  const profile = active(device);
+  const [state, setState] = useState<"idle" | "busy" | "failed">("idle");
+  const mine = Boolean(profile?.link && me?.student && profile.link.studentId === me.student.id);
+  const elsewhere = Boolean(profile?.link && me?.student && profile.link.studentId !== me.student.id);
+  const run = async (job: () => Promise<boolean>) => {
+    setState("busy");
+    const ok = await job();
+    setState(ok ? "idle" : "failed");
     reload();
   };
+  const time = new Intl.DateTimeFormat(`${locale.code}-u-nu-${locale.numberingSystem}`, {
+    dateStyle: "medium",
+    timeStyle: "short",
+  });
   const signOut = async () => {
     await fetch("/api/v1/auth/session", { method: "DELETE" });
     reload();
@@ -357,19 +359,50 @@ export function AccountCard() {
       </div>
       {me?.viewer ? (
         <>
-          {profile ? (
-            <button type="button" className="nb-btn nb-btn-ok" disabled={upload.state === "busy"} onClick={save}>
-              {upload.state === "busy" ? t("account.uploading") : t("account.upload", { name: profile.name })}
+          {mine && profile?.link ? (
+            <div className="nb-stack">
+              <p className="nb-row nb-m0" role="status">
+                <Icon name="check" size={22} tone="lime" /> {t("account.autoOn", { name: profile.name })}
+              </p>
+              <p className="nb-muted nb-small nb-m0">
+                {t("account.lastSaved", { time: time.format(new Date(profile.link.at)) })}
+              </p>
+              <button
+                type="button"
+                className="nb-btn nb-btn-soft nb-self-start nb-w-auto"
+                disabled={state === "busy"}
+                onClick={() => run(() => syncProfile(profile))}
+              >
+                {state === "busy" ? t("account.uploading") : t("account.syncNow")}
+              </button>
+            </div>
+          ) : elsewhere ? (
+            <p className="nb-muted nb-m0">{t("account.linkedElse", { name: profile?.name ?? "" })}</p>
+          ) : profile ? (
+            <>
+              <p className="nb-muted nb-m0">{t("account.keepText")}</p>
+              <button
+                type="button"
+                className="nb-btn nb-btn-ok"
+                disabled={state === "busy"}
+                onClick={() => run(() => syncProfile(profile))}
+              >
+                {state === "busy" ? t("account.uploading") : t("account.keep", { name: profile.name })}
+              </button>
+            </>
+          ) : me.student ? (
+            <button
+              type="button"
+              className="nb-btn nb-btn-ok"
+              disabled={state === "busy"}
+              onClick={() => run(() => bringToDevice(device))}
+            >
+              {state === "busy" ? t("account.uploading") : t("account.bring")}
             </button>
           ) : (
             <p className="nb-muted nb-m0">{t("account.noProfile")}</p>
           )}
-          {upload.state === "done" && (
-            <p className="nb-m0" role="status">
-              {t("account.uploaded", { pages: t.num(upload.pages ?? 0), words: t.num(upload.words ?? 0) })}
-            </p>
-          )}
-          {upload.state === "failed" && (
+          {state === "failed" && (
             <p className="nb-error nb-m0" role="alert">
               {t("account.uploadFailed")}
             </p>

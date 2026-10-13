@@ -1,11 +1,11 @@
 import "server-only";
 
-import { and, eq, inArray, sql } from "drizzle-orm";
+import { and, asc, eq, gte, inArray, isNotNull, sql, sum } from "drizzle-orm";
 
 import type { Db } from "@/db/client";
 import * as s from "@/db/schema";
 
-import { dayKey, type LocalProfile, streakOf } from "./local";
+import { dayKey, type LocalProfile, localProfile, streakOf } from "./local";
 
 const uuid = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
 
@@ -123,13 +123,17 @@ export async function claimDeviceProgress(
           .onConflictDoNothing();
     }
 
-    // Game points live in the ledger under one row per device, replaced on each upload.
+    // Game points live in the ledger under one row per device, replaced on each upload. A device that
+    // synced already carries the other devices' points in its total, so its row holds only the rest.
     if (device.gamePoints > 0) {
       const ref = `device:${device.id}:games`;
       await tx.delete(s.xpLedger).where(and(eq(s.xpLedger.studentId, student.id), eq(s.xpLedger.refId, ref)));
-      await tx
-        .insert(s.xpLedger)
-        .values({ studentId: student.id, source: "game", amount: device.gamePoints, refId: ref });
+      const [others] = await tx
+        .select({ n: sum(s.xpLedger.amount) })
+        .from(s.xpLedger)
+        .where(and(eq(s.xpLedger.studentId, student.id), eq(s.xpLedger.source, "game")));
+      const amount = device.link ? device.gamePoints - Number(others?.n ?? 0) : device.gamePoints;
+      if (amount > 0) await tx.insert(s.xpLedger).values({ studentId: student.id, source: "game", amount, refId: ref });
     }
 
     const current = streakOf(device, today);
@@ -146,5 +150,98 @@ export async function claimDeviceProgress(
     }
 
     return { studentId: student.id, records, words, badges: device.badges.length, day: dayKey(today) };
+  });
+}
+
+/**
+ * The account's progress in the device's shape, so a device can bring it in (mergeRemote): pages by
+ * book page, banked words with their letters, badges, reading days and game points.
+ */
+export async function progressSnapshot(db: Db, studentId: string, today = new Date()): Promise<LocalProfile | null> {
+  const [st] = await db.select().from(s.students).where(eq(s.students.id, studentId));
+  if (!st) return null;
+  const [records, words, badges, [games], [streak], readDays] = await Promise.all([
+    db
+      .select({ r: s.lessonRecords, page: s.lessons.bookPage })
+      .from(s.lessonRecords)
+      .innerJoin(s.lessons, eq(s.lessons.id, s.lessonRecords.lessonId))
+      .where(eq(s.lessonRecords.studentId, studentId)),
+    db
+      .select({ m: s.mistakeBank, page: s.lessons.bookPage })
+      .from(s.mistakeBank)
+      .innerJoin(s.lessons, eq(s.lessons.id, s.mistakeBank.lessonId))
+      .where(eq(s.mistakeBank.studentId, studentId)),
+    db.select({ key: s.studentBadges.badgeKey }).from(s.studentBadges).where(eq(s.studentBadges.studentId, studentId)),
+    db
+      .select({ n: sum(s.xpLedger.amount) })
+      .from(s.xpLedger)
+      .where(and(eq(s.xpLedger.studentId, studentId), eq(s.xpLedger.source, "game"))),
+    db.select().from(s.streaks).where(eq(s.streaks.studentId, studentId)),
+    db
+      .selectDistinct({ day: sql<string>`to_char(${s.sessions.finishedAt}, 'YYYY-MM-DD')` })
+      .from(s.sessions)
+      .where(
+        and(
+          eq(s.sessions.studentId, studentId),
+          isNotNull(s.sessions.finishedAt),
+          gte(s.sessions.finishedAt, new Date(today.getTime() - 400 * 86_400_000)),
+        ),
+      ),
+  ]);
+  const segs = words.length
+    ? await db
+        .select()
+        .from(s.itemSegments)
+        .where(
+          inArray(
+            s.itemSegments.itemId,
+            words.map((w) => w.m.itemId),
+          ),
+        )
+        .orderBy(asc(s.itemSegments.position))
+    : [];
+  // Days a device uploaded are kept only as the streak: count back from its last day.
+  const days = new Set(readDays.map((d) => d.day));
+  if (streak?.lastActiveDay)
+    for (let i = 0; i < streak.current; i++) {
+      const d = new Date(`${streak.lastActiveDay}T12:00:00`);
+      d.setDate(d.getDate() - i);
+      days.add(dayKey(d));
+    }
+  return localProfile.parse({
+    id: st.deviceProfileId ?? st.id,
+    name: st.displayName,
+    avatar: { kind: "letter", value: Array.from(st.displayName)[0] ?? "" },
+    colorTokenKey: "color.blue",
+    createdAt: st.createdAt.toISOString(),
+    records: Object.fromEntries(
+      records.map(({ r, page }) => [
+        String(page),
+        {
+          bestScore: r.bestScore,
+          latestScore: r.latestScore,
+          cumulativeScore: r.cumulativeScore,
+          stars: r.stars,
+          completedCount: r.completedCount,
+        },
+      ]),
+    ),
+    mistakes: Object.fromEntries(
+      words.map(({ m, page }) => [
+        m.itemId,
+        {
+          itemId: m.itemId,
+          bookPage: page,
+          segments: segs.filter((g) => g.itemId === m.itemId).map((g) => ({ text: g.text, role: g.roleKey })),
+          missCount: m.missCount,
+          correctStreak: m.correctStreak,
+          mastered: m.masteredAt !== null,
+          updatedAt: (m.masteredAt ?? m.lastMissedAt ?? st.createdAt).toISOString(),
+        },
+      ]),
+    ),
+    badges: badges.map((b) => b.key),
+    days: [...days].sort(),
+    gamePoints: Number(games?.n ?? 0),
   });
 }

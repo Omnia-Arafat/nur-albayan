@@ -955,6 +955,13 @@
     "report.savePin": "Save PIN",
     "report.pinSaved": "New PIN saved.",
     "report.failed": "That didn't work. Try again.",
-    "report.missN": "Misses: {n}"
+    "report.missN": "Misses: {n}",
+    "account.keep": "Keep {name}'s progress in this account",
+    "account.keepText": "After that, progress saves by itself after every reading, and what your teacher grades comes here too.",
+    "account.autoOn": "{name}'s progress saves to this account by itself.",
+    "account.lastSaved": "Last saved: {time}",
+    "account.syncNow": "Save now",
+    "account.bring": "Bring my progress to this device",
+    "account.linkedElse": "{name}'s profile saves to another account. Sign in to that account to keep saving."
   }
 }
