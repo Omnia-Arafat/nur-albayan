@@ -50,7 +50,7 @@ export function LessonPlayer({ lesson, prev, next }: { lesson: Lesson; prev: num
   // A learner's own choice on this device wins over the platform default.
   const mine = active(device)?.settings ?? {};
   const setting = <T,>(key: string, fallback: T) => (mine[key] ?? catalog.settings[key] ?? fallback) as T;
-  const shuffle = setting("lesson.shuffleCards", false) === true;
+  const shuffle = setting<boolean>("lesson.shuffleCards", false) === true;
   const noPenalty = setting("lesson.noPenalty", false);
   const speedSeconds = setting("lesson.speedTimerSeconds", 10);
   const [round, setRound] = useState(1);
