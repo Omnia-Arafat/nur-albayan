@@ -909,6 +909,18 @@
     "lesson.breakText": "Play for a bit, then carry on reading where you stopped.",
     "lesson.continue": "Continue reading",
     "lesson.timeLeft": "{n} s left",
-    "lesson.late": "Time's up"
+    "lesson.late": "Time's up",
+    "student.intro": "If your teacher added you to a class, write the class code, your username and the PIN they gave you.",
+    "student.code": "Class code",
+    "student.username": "Username",
+    "student.pin": "PIN",
+    "student.wrong": "The class code, username or PIN is wrong.",
+    "student.locked": "Too many tries. Wait five minutes, then try again.",
+    "student.link": "In a class? Sign in with the class code",
+    "signIn.heading": "Sign in to your account",
+    "signIn.lead": "Learning needs no account. An account keeps your progress on all your devices and opens the teacher and admin dashboards.",
+    "signIn.who": "Who is signing in?",
+    "signIn.who.account": "Email account",
+    "signIn.who.student": "Class student"
   }
 }

@@ -191,7 +191,7 @@ export async function classroomOverview(db: Db, classroomId: string, days = 7): 
   return { classroom: { id: c.id, name: c.name, joinCode: c.joinCode }, days, kpis, students, hardest };
 }
 
-const hashPin = (pin: string) => {
+export const hashPin = (pin: string) => {
   const salt = randomBytes(16).toString("hex");
   return `scrypt:${salt}:${scryptSync(pin, salt, 32).toString("hex")}`;
 };

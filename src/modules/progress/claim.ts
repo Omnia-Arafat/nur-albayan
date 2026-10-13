@@ -24,8 +24,17 @@ export async function studentForAccount(db: Db, profileId: string, fallbackName:
  * Copy a device profile's progress into the signed-in account. Merging only ever keeps the better value
  * (stars, best score, counts), so uploading the same device twice, or two devices, loses nothing.
  */
-export async function claimDeviceProgress(db: Db, profileId: string, device: LocalProfile, today = new Date()) {
-  const student = await studentForAccount(db, profileId, device.name);
+export async function claimDeviceProgress(
+  db: Db,
+  owner: { profileId: string } | { studentId: string },
+  device: LocalProfile,
+  today = new Date(),
+) {
+  const student =
+    "studentId" in owner
+      ? (await db.select().from(s.students).where(eq(s.students.id, owner.studentId)))[0]
+      : await studentForAccount(db, owner.profileId, device.name);
+  if (!student) throw new Error("No such student");
   return db.transaction(async (tx) => {
     if (!student.deviceProfileId) {
       const [taken] = await tx

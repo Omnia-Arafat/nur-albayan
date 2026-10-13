@@ -5,10 +5,11 @@ import { getDb } from "@/db/client";
 import * as s from "@/db/schema";
 import { supabaseConfigured } from "@/lib/supabase/server";
 import { socialProviders } from "@/modules/auth/redirect";
+import { studentSignInReady } from "@/modules/auth/student-session";
 import { localSignIn } from "@/modules/auth/viewer";
 
 export default async function Page({ searchParams }: PageProps<"/[locale]/sign-in">) {
-  const { denied, failed } = await searchParams;
+  const { denied, failed, as } = await searchParams;
   const local = localSignIn();
   const db = await getDb();
   const people = local
@@ -20,7 +21,13 @@ export default async function Page({ searchParams }: PageProps<"/[locale]/sign-i
   return (
     <SignIn
       local={local}
-      methods={{ email: supabaseConfigured(), local, social: supabaseConfigured() ? socialProviders() : [] }}
+      methods={{
+        email: supabaseConfigured(),
+        local,
+        social: supabaseConfigured() ? socialProviders() : [],
+        student: studentSignInReady(),
+      }}
+      asStudent={as === "student"}
       people={people}
       denied={Boolean(denied)}
       failed={Boolean(failed)}

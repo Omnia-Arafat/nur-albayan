@@ -159,14 +159,14 @@ describe("uploading device progress to an account", () => {
       gamePoints: 40,
     };
 
-    const first = await claimDeviceProgress(db, accountId, device, today);
+    const first = await claimDeviceProgress(db, { profileId: accountId }, device, today);
     expect(first).toMatchObject({ records: 1, words: 1 });
     const worse = {
       ...device,
       records: { "41": { ...device.records["41"], bestScore: 50, stars: 1 } },
       gamePoints: 55,
     };
-    const again = await claimDeviceProgress(db, accountId, worse, today);
+    const again = await claimDeviceProgress(db, { profileId: accountId }, worse, today);
     expect(again.studentId).toBe(first.studentId);
 
     const [rec] = await db.select().from(s.lessonRecords).where(eq(s.lessonRecords.studentId, first.studentId));

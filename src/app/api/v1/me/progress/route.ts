@@ -8,5 +8,6 @@ export async function POST(req: Request) {
   if (g.error) return g.error;
   const b = await body(req, localProfile);
   if (b.error) return b.error;
-  return privateJson(await claimDeviceProgress(g.db, g.viewer.profileId, b.data));
+  const owner = g.viewer.studentId ? { studentId: g.viewer.studentId } : { profileId: g.viewer.profileId };
+  return privateJson(await claimDeviceProgress(g.db, owner, b.data));
 }

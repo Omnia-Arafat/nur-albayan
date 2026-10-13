@@ -8,6 +8,7 @@ import { and, asc, eq, inArray } from "drizzle-orm";
 
 import type { Db } from "../src/db/client";
 import * as s from "../src/db/schema";
+import { hashPin } from "../src/modules/classroom/service";
 import { recordSession } from "../src/modules/progress/server";
 
 export const FIXTURE_ADMIN = "00000000-0000-4000-8000-00000000a001";
@@ -69,6 +70,7 @@ export async function runDevFixtures(db: Db) {
         useFirstLetter: true,
         avatarColorId: colours[k % colours.length]?.id,
         username: `student${k + 1}`,
+        pinHash: hashPin("1234"),
         createdByTeacherId: FIXTURE_TEACHER,
       })
       .returning();

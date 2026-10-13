@@ -565,3 +565,5 @@ textarea.nb-input{resize:none;padding-block:10px;line-height:1.7}
 }
 /* A break inside a lesson: the game sits in the lesson's card, without a second card frame. */
 .nb-break-embed .nb-break-card{box-shadow:none;border:0;padding:0;background:transparent}
+/* Codes and PINs read better spaced out. */
+.nb-input-code{letter-spacing:.2em;font-weight:800;text-transform:uppercase}

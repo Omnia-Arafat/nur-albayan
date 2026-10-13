@@ -10,7 +10,7 @@ import { tokenVar } from "@/components/book/word";
 import { active } from "@/modules/progress/local";
 import { useDevice } from "@/modules/progress/store";
 
-export type Methods = { email: boolean; local: boolean; social: string[] };
+export type Methods = { email: boolean; local: boolean; social: string[]; student: boolean };
 
 type Me = {
   viewer: { name: string; roleKey: string; staff: boolean } | null;
@@ -215,6 +215,81 @@ function SocialSignIn({ providers, next }: { providers: string[]; next?: string 
   );
 }
 
+/** A class student: the class code from the teacher, their username and PIN. */
+export function StudentSignIn({ onSignedIn }: { onSignedIn: () => void }) {
+  const t = useT();
+  const [form, setForm] = useState({ joinCode: "", username: "", pin: "" });
+  const [state, setState] = useState<{ busy?: boolean; error?: "wrong" | "locked" }>({});
+  const field = (k: keyof typeof form) => (e: React.ChangeEvent<HTMLInputElement>) =>
+    setForm({ ...form, [k]: k === "pin" ? e.target.value.replace(/\D/g, "") : e.target.value });
+  const send = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setState({ busy: true });
+    const r = await fetch("/api/v1/auth/student", {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify(form),
+    });
+    if (r.ok) return onSignedIn();
+    setState({ error: r.status === 429 ? "locked" : "wrong" });
+  };
+  return (
+    <form className="nb-stack nb-email-form" onSubmit={send}>
+      <p className="nb-muted nb-m0">{t("student.intro")}</p>
+      <label className="nb-field">
+        <span className="nb-label">{t("student.code")}</span>
+        <input
+          className="nb-input nb-input-code"
+          dir="ltr"
+          autoComplete="off"
+          autoCapitalize="characters"
+          required
+          minLength={4}
+          maxLength={12}
+          value={form.joinCode}
+          onChange={field("joinCode")}
+        />
+      </label>
+      <label className="nb-field">
+        <span className="nb-label">{t("student.username")}</span>
+        <input
+          className="nb-input"
+          dir="ltr"
+          autoComplete="username"
+          autoCapitalize="none"
+          required
+          maxLength={40}
+          value={form.username}
+          onChange={field("username")}
+        />
+      </label>
+      <label className="nb-field">
+        <span className="nb-label">{t("student.pin")}</span>
+        <input
+          className="nb-input nb-input-code"
+          type="password"
+          inputMode="numeric"
+          dir="ltr"
+          autoComplete="current-password"
+          required
+          minLength={4}
+          maxLength={6}
+          value={form.pin}
+          onChange={field("pin")}
+        />
+      </label>
+      {state.error && (
+        <p className="nb-error nb-m0" role="alert">
+          {t(state.error === "locked" ? "student.locked" : "student.wrong")}
+        </p>
+      )}
+      <button type="submit" className="nb-btn nb-btn-ok" disabled={state.busy}>
+        {state.busy ? t("account.busy") : t("account.signInAction")}
+      </button>
+    </form>
+  );
+}
+
 /** Every sign-in this site offers: providers first, then email with a password or with a one-time link. */
 export function SignInForm({ methods, next, onSignedIn }: { methods: Methods; next?: string; onSignedIn: () => void }) {
   const t = useT();
@@ -316,6 +391,11 @@ export function AccountCard() {
       ) : (
         <>
           <p className="nb-muted nb-m0">{t("profile.accountText")}</p>
+          {me?.methods.student && (
+            <Link href={t.href("/sign-in?as=student")} className="nb-btn nb-btn-quiet nb-self-start">
+              {t("student.link")}
+            </Link>
+          )}
           {me?.methods.email ? (
             <SignInForm methods={me.methods} onSignedIn={reload} />
           ) : (

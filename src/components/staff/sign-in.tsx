@@ -4,8 +4,9 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
-import { type Methods, SignInForm } from "@/components/app/account";
+import { type Methods, SignInForm, StudentSignIn } from "@/components/app/account";
 import { useT } from "@/components/app/app-data";
+import { Seg } from "@/components/book/controls";
 import { Icon } from "@/components/book/icon";
 
 /** Staff sign-in. On the local database it lists the sample accounts; with Supabase it offers email (password or link) and any social providers. */
@@ -15,7 +16,9 @@ export function SignIn({
   people,
   denied,
   failed,
+  asStudent,
 }: {
+  asStudent: boolean;
   local: boolean;
   methods: Methods;
   failed: boolean;
@@ -25,6 +28,7 @@ export function SignIn({
   const t = useT();
   const router = useRouter();
   const [busy, setBusy] = useState<string | null>(null);
+  const [who, setWho] = useState<"account" | "student">(asStudent && methods.student ? "student" : "account");
   const go = async (p: (typeof people)[number]) => {
     setBusy(p.id);
     const r = await fetch("/api/v1/auth/local", {
@@ -47,19 +51,40 @@ export function SignIn({
         <span className="nb-brand-name">{t("brand.name")}</span>
       </Link>
       <section className="nb-card nb-anim-rise">
-        <h1 className="nb-h1">{t("signIn.title")}</h1>
-        <p className="nb-sub">{t("signIn.intro")}</p>
+        <h1 className="nb-h1">{t("signIn.heading")}</h1>
+        <p className="nb-sub">{t("signIn.lead")}</p>
+        {methods.student && (
+          <Seg
+            label={t("signIn.who")}
+            wide
+            value={who}
+            onChange={setWho}
+            options={[
+              { value: "account", label: t("signIn.who.account") },
+              { value: "student", label: t("signIn.who.student") },
+            ]}
+          />
+        )}
         {denied && <p className="nb-band nb-band-danger nb-m0">{t("signIn.denied")}</p>}
         {failed && <p className="nb-band nb-band-danger nb-m0">{t("account.failed")}</p>}
-        <SignInForm
-          methods={methods}
-          next={t.href("/teacher")}
-          onSignedIn={() => {
-            router.push(t.href("/teacher"));
-            router.refresh();
-          }}
-        />
-        {local ? (
+        {who === "student" ? (
+          <StudentSignIn
+            onSignedIn={() => {
+              router.push(t.href("/profile"));
+              router.refresh();
+            }}
+          />
+        ) : (
+          <SignInForm
+            methods={methods}
+            next={t.href("/teacher")}
+            onSignedIn={() => {
+              router.push(t.href("/teacher"));
+              router.refresh();
+            }}
+          />
+        )}
+        {who === "account" && local ? (
           <>
             <p className="nb-muted nb-m0">{t("signIn.local")}</p>
             <div className="nb-people">
@@ -82,7 +107,7 @@ export function SignIn({
             </div>
           </>
         ) : (
-          !methods.email && <p className="nb-muted nb-m0">{t("signIn.soon")}</p>
+          who === "account" && !methods.email && <p className="nb-muted nb-m0">{t("signIn.soon")}</p>
         )}
         <Link href={t.href("")} className="nb-btn nb-btn-quiet nb-self-start">
           {t("staff.toApp")}
