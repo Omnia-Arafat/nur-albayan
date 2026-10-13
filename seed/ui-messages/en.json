@@ -828,6 +828,21 @@
     "option.kfgqpc": "Mushaf font",
     "option.noto": "Noto Naskh",
     "option.amiri": "Amiri",
-    "option.system": "Match the device"
+    "option.system": "Match the device",
+    "account.email": "Your email",
+    "account.send": "Send me a sign-in link",
+    "account.sending": "Sending…",
+    "account.sent": "We sent a sign-in link to {email}. Open it on this device.",
+    "account.sendFailed": "We couldn't send the link. Check the address and try again.",
+    "account.failed": "Sign-in didn't finish. Ask for a new link.",
+    "account.emailIntro": "Write your email and we'll send you a link to sign in, no password needed.",
+    "account.signedIn": "Signed in as {name}",
+    "account.upload": "Save {name}'s progress to my account",
+    "account.uploading": "Saving…",
+    "account.uploaded": "Saved to your account. Pages: {pages}, hard words: {words}.",
+    "account.uploadFailed": "The progress wasn't saved. Try again.",
+    "account.toDashboard": "Open the teacher dashboard",
+    "account.signOut": "Sign out",
+    "account.noProfile": "Read a page first, then save your progress here."
   }
 }

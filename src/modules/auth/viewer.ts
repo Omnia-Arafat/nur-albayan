@@ -1,11 +1,11 @@
 import "server-only";
 
-import { createServerClient } from "@supabase/ssr";
 import { eq } from "drizzle-orm";
 import { cookies } from "next/headers";
 
 import type { Db } from "@/db/client";
 import * as s from "@/db/schema";
+import { supabaseConfigured, supabaseServer } from "@/lib/supabase/server";
 
 /** A signed-in staff member or student account. Learners without an account never have one. */
 export type Viewer = { profileId: string; displayName: string; roleKey: string; permissions: string[] };
@@ -19,26 +19,10 @@ export const LOCAL_SIGN_IN_COOKIE = "nb-local-profile";
 export const localSignIn = () =>
   (process.env.DATABASE_URL ?? "").startsWith("pglite:") && process.env.NODE_ENV !== "production";
 
-const supabaseConfigured = () =>
-  Boolean(process.env.NEXT_PUBLIC_SUPABASE_URL && process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY);
-
 /** The Supabase auth user id from the request's session cookies, if any. */
 async function supabaseUserId(): Promise<string | null> {
   if (!supabaseConfigured()) return null;
-  const store = await cookies();
-  const client = createServerClient(process.env.NEXT_PUBLIC_SUPABASE_URL!, process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!, {
-    cookies: {
-      getAll: () => store.getAll(),
-      setAll: (list) => {
-        try {
-          list.forEach(({ name, value, options }) => store.set(name, value, options));
-        } catch {
-          // Server Components cannot set cookies; the session refresh happens in a route handler.
-        }
-      },
-    },
-  });
-  const { data } = await client.auth.getUser();
+  const { data } = await (await supabaseServer()).auth.getUser();
   return data.user?.id ?? null;
 }
 

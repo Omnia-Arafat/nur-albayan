@@ -3,10 +3,11 @@ import { inArray } from "drizzle-orm";
 import { SignIn } from "@/components/staff/sign-in";
 import { getDb } from "@/db/client";
 import * as s from "@/db/schema";
+import { supabaseConfigured } from "@/lib/supabase/server";
 import { localSignIn } from "@/modules/auth/viewer";
 
 export default async function Page({ searchParams }: PageProps<"/[locale]/sign-in">) {
-  const { denied } = await searchParams;
+  const { denied, failed } = await searchParams;
   const local = localSignIn();
   const db = await getDb();
   const people = local
@@ -15,5 +16,13 @@ export default async function Page({ searchParams }: PageProps<"/[locale]/sign-i
         .from(s.profiles)
         .where(inArray(s.profiles.roleKey, ["admin", "teacher"]))
     : [];
-  return <SignIn local={local} people={people} denied={Boolean(denied)} />;
+  return (
+    <SignIn
+      local={local}
+      email={supabaseConfigured()}
+      people={people}
+      denied={Boolean(denied)}
+      failed={Boolean(failed)}
+    />
+  );
 }

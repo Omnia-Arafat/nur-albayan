@@ -16,6 +16,8 @@ const { recordSession } = await import("@/modules/progress/server");
 const { pageForEdit, savePage } = await import("@/modules/content/editor");
 const { setSetting, settingsAt } = await import("@/modules/settings/service");
 const { addStudent, classroomOverview } = await import("@/modules/classroom/service");
+const { claimDeviceProgress } = await import("@/modules/progress/claim");
+const { newProfile } = await import("@/modules/progress/local");
 
 const seed = loadSeed();
 let db: Db;
@@ -119,5 +121,64 @@ describe("settings", () => {
       ]);
       expect(missing).toEqual([]);
     }
+  });
+});
+
+describe("uploading device progress to an account", () => {
+  it("merges keeping the better values, and is safe to repeat", async () => {
+    const accountId = crypto.randomUUID();
+    await db.insert(s.profiles).values({ id: accountId, displayName: "A", roleKey: "student" });
+    const [badge] = await db.select({ key: s.badges.key }).from(s.badges).limit(1);
+    const item = drillable()[0];
+    const today = new Date(2026, 9, 13);
+    const device = {
+      ...newProfile("device-1", "Lina", { kind: "letter", value: "L" }, "color.pill.sky.fill", today),
+      records: { "41": { bestScore: 80, latestScore: 80, cumulativeScore: 80, stars: 2, completedCount: 1 } },
+      mistakes: {
+        [item.id]: {
+          itemId: item.id,
+          bookPage: 41,
+          segments: [],
+          missCount: 3,
+          correctStreak: 0,
+          mastered: false,
+          updatedAt: today.toISOString(),
+        },
+        old: {
+          itemId: "old",
+          bookPage: 41,
+          segments: [],
+          missCount: 1,
+          correctStreak: 0,
+          mastered: false,
+          updatedAt: "",
+        },
+      },
+      badges: [badge.key, "not-a-badge"],
+      days: ["2026-10-12", "2026-10-13"],
+      gamePoints: 40,
+    };
+
+    const first = await claimDeviceProgress(db, accountId, device, today);
+    expect(first).toMatchObject({ records: 1, words: 1 });
+    const worse = {
+      ...device,
+      records: { "41": { ...device.records["41"], bestScore: 50, stars: 1 } },
+      gamePoints: 55,
+    };
+    const again = await claimDeviceProgress(db, accountId, worse, today);
+    expect(again.studentId).toBe(first.studentId);
+
+    const [rec] = await db.select().from(s.lessonRecords).where(eq(s.lessonRecords.studentId, first.studentId));
+    expect(rec).toMatchObject({ bestScore: 80, stars: 2 });
+    const [student] = await db.select().from(s.students).where(eq(s.students.id, first.studentId));
+    expect(student.deviceProfileId).toBe("device-1");
+    expect(await db.select().from(s.studentBadges).where(eq(s.studentBadges.studentId, first.studentId))).toHaveLength(
+      1,
+    );
+    const xp = await db.select().from(s.xpLedger).where(eq(s.xpLedger.studentId, first.studentId));
+    expect(xp.map((x) => x.amount)).toEqual([55]);
+    const [streak] = await db.select().from(s.streaks).where(eq(s.streaks.studentId, first.studentId));
+    expect(streak).toMatchObject({ current: 2, lastActiveDay: "2026-10-13" });
   });
 });

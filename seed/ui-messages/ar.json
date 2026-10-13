@@ -828,6 +828,21 @@
     "option.kfgqpc": "خط المصحف",
     "option.noto": "نوتو نسخ",
     "option.amiri": "أميرى",
-    "option.system": "حسب الجهاز"
+    "option.system": "حسب الجهاز",
+    "account.email": "بريدك الإلكترونى",
+    "account.send": "أرسل رابط الدخول",
+    "account.sending": "جارٍ الإرسال…",
+    "account.sent": "أرسلنا رابط الدخول إلى {email}. افتحه على هذا الجهاز.",
+    "account.sendFailed": "لم نستطع إرسال الرابط. تأكد من البريد وحاول مرة أخرى.",
+    "account.failed": "لم يكتمل الدخول. اطلب رابطًا جديدًا.",
+    "account.emailIntro": "اكتب بريدك وسنرسل لك رابطًا للدخول، بلا كلمة مرور.",
+    "account.signedIn": "دخلت باسم {name}",
+    "account.upload": "احفظ تقدم {name} فى حسابى",
+    "account.uploading": "جارٍ الحفظ…",
+    "account.uploaded": "حُفظ فى حسابك. الصفحات: {pages}، الكلمات الصعبة: {words}.",
+    "account.uploadFailed": "لم يُحفظ التقدم. حاول مرة أخرى.",
+    "account.toDashboard": "افتح لوحة المعلم",
+    "account.signOut": "خروج",
+    "account.noProfile": "اقرأ صفحة أولًا، ثم احفظ تقدمك هنا."
   }
 }
