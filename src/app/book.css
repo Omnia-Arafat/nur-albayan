@@ -466,3 +466,7 @@ textarea.nb-input{resize:none;padding-block:10px;line-height:1.7}
 @supports not selector(::-webkit-scrollbar){
 .nb-scroll,.nb-scroll-x,.nb-sidenav,.nb-col-side{scrollbar-width:thin;scrollbar-color:var(--nb-color-pill-lavender-line) transparent}
 }
+/* "or" between provider buttons and the email form: a rule on each side of the word. */
+.nb-or{display:flex;align-items:center;gap:10px;color:var(--nb-color-ink-muted);font-weight:800;font-size:14px}
+.nb-or::before,.nb-or::after{content:"";flex:1;height:2px;border-radius:2px;background:var(--nb-color-divider)}
+.nb-sign-in-form .nb-seg{width:100%}

@@ -4,6 +4,7 @@ import { SignIn } from "@/components/staff/sign-in";
 import { getDb } from "@/db/client";
 import * as s from "@/db/schema";
 import { supabaseConfigured } from "@/lib/supabase/server";
+import { socialProviders } from "@/modules/auth/redirect";
 import { localSignIn } from "@/modules/auth/viewer";
 
 export default async function Page({ searchParams }: PageProps<"/[locale]/sign-in">) {
@@ -19,7 +20,7 @@ export default async function Page({ searchParams }: PageProps<"/[locale]/sign-i
   return (
     <SignIn
       local={local}
-      email={supabaseConfigured()}
+      methods={{ email: supabaseConfigured(), local, social: supabaseConfigured() ? socialProviders() : [] }}
       people={people}
       denied={Boolean(denied)}
       failed={Boolean(failed)}

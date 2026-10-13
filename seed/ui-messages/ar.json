@@ -843,6 +843,23 @@
     "account.uploadFailed": "لم يُحفظ التقدم. حاول مرة أخرى.",
     "account.toDashboard": "افتح لوحة المعلم",
     "account.signOut": "خروج",
-    "account.noProfile": "اقرأ صفحة أولًا، ثم احفظ تقدمك هنا."
+    "account.noProfile": "اقرأ صفحة أولًا، ثم احفظ تقدمك هنا.",
+    "account.password": "كلمة المرور",
+    "account.signInAction": "دخول",
+    "account.signUpAction": "إنشاء الحساب",
+    "account.newAccount": "جديد هنا؟ أنشئ حسابًا",
+    "account.haveAccount": "عندى حساب، أريد الدخول",
+    "account.passwordHint": "ثمانية أحرف أو أرقام على الأقل.",
+    "account.wrongPassword": "البريد أو كلمة المرور غير صحيحة.",
+    "account.unconfirmed": "لم يُؤكَّد هذا البريد بعد. افتح رابط التأكيد الذى أرسلناه إليك.",
+    "account.taken": "لهذا البريد حساب بالفعل. ادخل بكلمة المرور أو برابط الدخول.",
+    "account.weakPassword": "اختر كلمة مرور أطول، ثمانية أحرف على الأقل.",
+    "account.confirm": "أرسلنا رابط تأكيد إلى {email}. افتحه لإتمام الحساب.",
+    "account.busy": "لحظة…",
+    "account.or": "أو",
+    "account.way": "طريقة الدخول",
+    "account.way.password": "كلمة المرور",
+    "account.way.link": "رابط بالبريد",
+    "account.with.google": "الدخول بحساب Google"
   }
 }

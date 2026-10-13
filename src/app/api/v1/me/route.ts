@@ -4,6 +4,7 @@ import { getDb } from "@/db/client";
 import * as s from "@/db/schema";
 import { privateJson } from "@/lib/api";
 import { supabaseConfigured } from "@/lib/supabase/server";
+import { socialProviders } from "@/modules/auth/redirect";
 import { getViewer, localSignIn } from "@/modules/auth/viewer";
 
 /** Who is signed in (if anyone) and which sign-in methods this site offers. */
@@ -23,6 +24,10 @@ export async function GET() {
       staff: viewer.permissions.includes("reports.view"),
     },
     student: student ?? null,
-    methods: { email: supabaseConfigured(), local: localSignIn() },
+    methods: {
+      email: supabaseConfigured(),
+      local: localSignIn(),
+      social: supabaseConfigured() ? socialProviders() : [],
+    },
   });
 }

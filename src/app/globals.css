@@ -45,6 +45,10 @@ body {
       scrollbar-width: thin;
     }
   }
+  input::-ms-reveal,
+  input::-ms-clear {
+    display: none;
+  }
   ::-webkit-scrollbar-button,
   ::-webkit-scrollbar-corner {
     display: none;

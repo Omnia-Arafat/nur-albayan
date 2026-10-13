@@ -4,20 +4,20 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
-import { EmailSignIn } from "@/components/app/account";
+import { type Methods, SignInForm } from "@/components/app/account";
 import { useT } from "@/components/app/app-data";
 import { Icon } from "@/components/book/icon";
 
-/** Staff sign-in. On the local database it lists the sample accounts; with Supabase it sends an email sign-in link. */
+/** Staff sign-in. On the local database it lists the sample accounts; with Supabase it offers email (password or link) and any social providers. */
 export function SignIn({
   local,
-  email,
+  methods,
   people,
   denied,
   failed,
 }: {
   local: boolean;
-  email: boolean;
+  methods: Methods;
   failed: boolean;
   people: { id: string; name: string; roleKey: string }[];
   denied: boolean;
@@ -51,7 +51,14 @@ export function SignIn({
         <p className="nb-sub">{t("signIn.intro")}</p>
         {denied && <p className="nb-band nb-band-danger nb-m0">{t("signIn.denied")}</p>}
         {failed && <p className="nb-band nb-band-danger nb-m0">{t("account.failed")}</p>}
-        {email && <EmailSignIn next={t.href("/teacher")} />}
+        <SignInForm
+          methods={methods}
+          next={t.href("/teacher")}
+          onSignedIn={() => {
+            router.push(t.href("/teacher"));
+            router.refresh();
+          }}
+        />
         {local ? (
           <>
             <p className="nb-muted nb-m0">{t("signIn.local")}</p>
@@ -75,7 +82,7 @@ export function SignIn({
             </div>
           </>
         ) : (
-          !email && <p className="nb-muted nb-m0">{t("signIn.soon")}</p>
+          !methods.email && <p className="nb-muted nb-m0">{t("signIn.soon")}</p>
         )}
         <Link href={t.href("")} className="nb-btn nb-btn-quiet nb-self-start">
           {t("staff.toApp")}

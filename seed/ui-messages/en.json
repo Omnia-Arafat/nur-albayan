@@ -843,6 +843,23 @@
     "account.uploadFailed": "The progress wasn't saved. Try again.",
     "account.toDashboard": "Open the teacher dashboard",
     "account.signOut": "Sign out",
-    "account.noProfile": "Read a page first, then save your progress here."
+    "account.noProfile": "Read a page first, then save your progress here.",
+    "account.password": "Password",
+    "account.signInAction": "Sign in",
+    "account.signUpAction": "Create account",
+    "account.newAccount": "New here? Create an account",
+    "account.haveAccount": "I already have an account",
+    "account.passwordHint": "At least 8 letters or numbers.",
+    "account.wrongPassword": "The email or password is wrong.",
+    "account.unconfirmed": "This email isn't confirmed yet. Open the confirmation link we sent you.",
+    "account.taken": "This email already has an account. Sign in with its password or a sign-in link.",
+    "account.weakPassword": "Choose a longer password, at least 8 characters.",
+    "account.confirm": "We sent a confirmation link to {email}. Open it to finish your account.",
+    "account.busy": "One moment…",
+    "account.or": "or",
+    "account.way": "How to sign in",
+    "account.way.password": "Password",
+    "account.way.link": "Email link",
+    "account.with.google": "Continue with Google"
   }
 }
