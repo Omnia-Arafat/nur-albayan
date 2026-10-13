@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 
 import { useApp, useT } from "@/components/app/app-data";
 import { ensureProfile } from "@/components/app/profiles";
@@ -10,14 +10,23 @@ import { Icon } from "@/components/book/icon";
 import { Meter, Ribbon, Tag } from "@/components/book/parts";
 import { pillVars, Word } from "@/components/book/word";
 import type { Lesson } from "@/modules/content/service";
-import { type CardRead, earnedBadges, finishLesson } from "@/modules/progress/local";
+import { PLAYABLE } from "@/modules/games/screens";
+import { active, type CardRead, earnedBadges, finishLesson } from "@/modules/progress/local";
 import { updateProfile, useDevice } from "@/modules/progress/store";
 import { summarize } from "@/modules/scoring/engine";
 
+import { ConnectFour, MemoryMatch, TicTacToe } from "./break-games";
 import { NoteText, paletteOf, SectionView } from "./page-view";
 import { Result, type ResultData } from "./result";
+import { shuffled } from "./word-game";
 
-type Mode = "page" | "cards";
+type Mode = "page" | "cards" | "break";
+
+const BREAKS: Record<string, (p: { from: string; embedded?: boolean }) => React.ReactNode> = {
+  xo: TicTacToe,
+  connect4: ConnectFour,
+  memory: MemoryMatch,
+};
 
 /** Pick a cheer by weight. */
 function cheerOf(list: { text: string; weight: number }[], seed: number) {
@@ -38,15 +47,34 @@ export function LessonPlayer({ lesson, prev, next }: { lesson: Lesson; prev: num
   const [reads, setReads] = useState<CardRead[]>([]);
   const [result, setResult] = useState<ResultData | null>(null);
   const rules = catalog.scoring;
-  const cards = useMemo(
-    () =>
-      lesson.sections.flatMap((s) =>
-        s.items
-          .map((it, idx) => ({ it, palette: paletteOf(s, it, idx, catalog.palette) }))
-          .filter(({ it }) => it.isDrillable && s.kind !== "rule_definition" && s.kind !== "story"),
-      ),
-    [lesson, catalog.palette],
-  );
+  // A learner's own choice on this device wins over the platform default.
+  const mine = active(device)?.settings ?? {};
+  const setting = <T,>(key: string, fallback: T) => (mine[key] ?? catalog.settings[key] ?? fallback) as T;
+  const shuffle = setting("lesson.shuffleCards", false) === true;
+  const noPenalty = setting("lesson.noPenalty", false);
+  const speedSeconds = setting("lesson.speedTimerSeconds", 10);
+  const [round, setRound] = useState(1);
+  const cards = useMemo(() => {
+    const all = lesson.sections.flatMap((s) =>
+      s.items
+        .map((it, idx) => ({ it, palette: paletteOf(s, it, idx, catalog.palette) }))
+        .filter(({ it }) => it.isDrillable && s.kind !== "rule_definition" && s.kind !== "story"),
+    );
+    return shuffle ? shuffled(all, round) : all;
+  }, [lesson, catalog.palette, shuffle, round]);
+  // Breaks fall inside the deck (the one at the end is offered on the result screen).
+  const breakGames = catalog.games.filter((g) => g.kind === "break" && PLAYABLE.has(g.key) && BREAKS[g.key]);
+  const breakAt = setting("games.breaksEnabled", true)
+    ? [
+        ...new Set(
+          setting<number[]>("games.breakPositions", [])
+            .map((p) => Math.round(p * cards.length))
+            .filter((n) => n > 0 && n < cards.length),
+        ),
+      ]
+    : [];
+  const [breakGame, setBreakGame] = useState<string | null>(null);
+  const BreakGame = breakGame ? BREAKS[breakGame] : undefined;
   const card = cards[i];
   const live = rules
     ? summarize(
@@ -56,6 +84,8 @@ export function LessonPlayer({ lesson, prev, next }: { lesson: Lesson; prev: num
           cardTypeKey: r.cardTypeKey,
           result: r.result,
           gradedBy: r.gradedBy,
+          timedOut: r.timedOut,
+          noPenalty: r.noPenalty,
         })),
       )
     : null;
@@ -69,14 +99,44 @@ export function LessonPlayer({ lesson, prev, next }: { lesson: Lesson; prev: num
       : 0;
   const cheers = feedback.filter((f) => f.kind === "correct");
 
+  // Speed cards count down; a right read after the timer still scores, at the late rate.
+  const timed = card?.it.cardType === "speed";
+  const [left, setLeft] = useState(speedSeconds);
+  const [cardKey, setCardKey] = useState("");
+  const thisKey = `${round}:${i}`;
+  if (cardKey !== thisKey) {
+    setCardKey(thisKey);
+    setLeft(speedSeconds);
+  }
+  useEffect(() => {
+    if (!timed || mode !== "cards" || left <= 0) return;
+    const id = setTimeout(() => setLeft((n) => n - 1), 1000);
+    return () => clearTimeout(id);
+  }, [timed, mode, left]);
+
   const grade = (result: "correct" | "wrong") => {
     if (!card || !rules) return;
     const nextReads = [
       ...reads,
-      { itemId: card.it.id, cardTypeKey: card.it.cardType, segments: card.it.segments, result, gradedBy: grader },
+      {
+        itemId: card.it.id,
+        cardTypeKey: card.it.cardType,
+        segments: card.it.segments,
+        result,
+        gradedBy: grader,
+        timedOut: timed && left <= 0,
+        noPenalty,
+      },
     ];
     setReads(nextReads);
-    if (i + 1 < cards.length) return setI(i + 1);
+    if (i + 1 < cards.length) {
+      setI(i + 1);
+      if (breakAt.includes(i + 1) && breakGames.length) {
+        setBreakGame(breakGames[breakAt.indexOf(i + 1) % breakGames.length].key);
+        setMode("break");
+      }
+      return;
+    }
     // Finished: fold the session into the active device profile (one is created on first use).
     const me = ensureProfile(device, catalog, t("profile.defaultName"));
     const done = finishLesson(me, rules, lesson.bookPage, nextReads);
@@ -98,6 +158,7 @@ export function LessonPlayer({ lesson, prev, next }: { lesson: Lesson; prev: num
     setI(0);
     setResult(null);
     setMode("page");
+    setRound(round + 1);
   };
 
   if (result) return <Result lesson={lesson} data={result} next={next} onAgain={restart} />;
@@ -110,11 +171,11 @@ export function LessonPlayer({ lesson, prev, next }: { lesson: Lesson; prev: num
           {lesson.observeTag && <Ribbon colour="color.teal.deep">{lesson.observeTag}</Ribbon>}
           {lesson.lessonTag && <Ribbon colour="color.tag.lesson">{lesson.lessonTag}</Ribbon>}
         </div>
-        {cards.length > 0 && (
+        {cards.length > 0 && mode !== "break" && (
           <Seg
             label={t("lesson.view")}
             value={mode}
-            onChange={setMode}
+            onChange={(m) => setMode(m)}
             options={[
               { value: "page", label: t("lesson.page") },
               { value: "cards", label: t("lesson.cards") },
@@ -123,7 +184,26 @@ export function LessonPlayer({ lesson, prev, next }: { lesson: Lesson; prev: num
         )}
       </div>
 
-      {mode === "page" ? (
+      {mode === "break" ? (
+        <section className="nb-card nb-anim-rise nb-break-embed" aria-label={t("lesson.breakTitle")}>
+          <div className="nb-spread">
+            <div>
+              <h2 className="nb-h2">{t("lesson.breakTitle")}</h2>
+              <p className="nb-muted nb-m0">{t("lesson.breakText")}</p>
+            </div>
+            <button type="button" className="nb-btn nb-btn-ok" onClick={() => setMode("cards")}>
+              {t("lesson.continue")} <Icon name="next" size={22} className="nb-dir-flip" />
+            </button>
+          </div>
+          <Seg
+            label={t("games.breaks")}
+            value={breakGame ?? breakGames[0]?.key ?? ""}
+            onChange={setBreakGame}
+            options={breakGames.map((g) => ({ value: g.key, label: g.name }))}
+          />
+          {BreakGame && <BreakGame key={breakGame} from={String(lesson.bookPage)} embedded />}
+        </section>
+      ) : mode === "page" ? (
         <section className="nb-card nb-anim-rise" aria-label={t("lesson.pageTag", { page: lesson.bookPage })}>
           <div className="nb-spread">
             <h1 className="nb-h1" lang="ar">
@@ -177,6 +257,12 @@ export function LessonPlayer({ lesson, prev, next }: { lesson: Lesson; prev: num
                 {cardType && card.it.cardType !== "normal" && (
                   <Tag palette="yellow">
                     <Icon name={cardType.iconKey} size={18} /> {cardType.label}
+                  </Tag>
+                )}
+                {timed && (
+                  <Tag palette={left > 0 ? "sky" : "salmon"}>
+                    <Icon name="timer" size={18} />{" "}
+                    {left > 0 ? t("lesson.timeLeft", { n: t.num(left) }) : t("lesson.late")}
                   </Tag>
                 )}
                 <Tag palette="lime">{t("lesson.points", { n: live?.score ?? 0 })}</Tag>

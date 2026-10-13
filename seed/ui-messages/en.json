@@ -904,6 +904,11 @@
     "break.pairs": "Pairs: {n} of {total}",
     "break.moves": "Moves: {n}",
     "break.memoryWin": "Ma sha Allah! You found every pair in {n} moves.",
-    "lang.switchTo": "Switch to {name}"
+    "lang.switchTo": "Switch to {name}",
+    "lesson.breakTitle": "Break time",
+    "lesson.breakText": "Play for a bit, then carry on reading where you stopped.",
+    "lesson.continue": "Continue reading",
+    "lesson.timeLeft": "{n} s left",
+    "lesson.late": "Time's up"
   }
 }

@@ -116,6 +116,10 @@ export type CardRead = {
   segments: { text: string; role: string }[];
   result: "correct" | "wrong";
   gradedBy: "self" | "teacher";
+  /** A speed card read after its timer ran out. */
+  timedOut?: boolean;
+  /** The lesson ran with "no penalty", so a miss costs nothing. */
+  noPenalty?: boolean;
 };
 
 /** Fold a finished lesson session into the profile: record, mistake bank, reading day. */
@@ -131,6 +135,8 @@ export function finishLesson(
     cardTypeKey: r.cardTypeKey,
     result: r.result,
     gradedBy: r.gradedBy,
+    timedOut: r.timedOut,
+    noPenalty: r.noPenalty,
   }));
   const summary = summarize(rules, attempts);
   const key = String(bookPage);

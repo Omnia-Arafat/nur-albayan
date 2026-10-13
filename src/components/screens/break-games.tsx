@@ -30,6 +30,34 @@ import { GameShell, NoWords, shuffled, useGameWords } from "./word-game";
 type Mode = "computer" | "teacher";
 type BreakConfig = { modes?: Mode[]; difficulties?: Difficulty[]; rows?: number; cols?: number; pairs?: number };
 
+/** On its own page a break has the games frame; inside a lesson it is just the board and its tools. */
+function Frame({
+  embedded,
+  gameKey,
+  from,
+  tools,
+  children,
+}: {
+  embedded?: boolean;
+  gameKey: string;
+  from: string;
+  tools?: React.ReactNode;
+  children: React.ReactNode;
+}) {
+  if (!embedded)
+    return (
+      <GameShell gameKey={gameKey} from={from} tools={tools}>
+        {children}
+      </GameShell>
+    );
+  return (
+    <div className="nb-stack-lg">
+      {tools && <div className="nb-row nb-center">{tools}</div>}
+      {children}
+    </div>
+  );
+}
+
 /** Pause before the computer answers, so its move reads as a turn rather than a jump. */
 const THINK_MS = 450;
 const SIDE: Record<Player, string> = { x: "pink", o: "sky" };
@@ -116,7 +144,7 @@ function Status({
 /** Drawn marks (no letters or emoji): two crossed bars, or a ring. */
 const XoMark = ({ p }: { p: Player }) => <span className={`nb-xo-mark ${p}`} aria-hidden="true" />;
 
-export function TicTacToe({ from }: { from: string }) {
+export function TicTacToe({ from, embedded }: { from: string; embedded?: boolean }) {
   const t = useT();
   const b = useBreak("xo");
   const [board, setBoard] = useState<Cell[]>(Array(9).fill(null));
@@ -145,7 +173,7 @@ export function TicTacToe({ from }: { from: string }) {
   };
   const line = result && result !== "draw" ? result.line : [];
   return (
-    <GameShell gameKey="xo" from={from} tools={<BreakTools b={b} />}>
+    <Frame embedded={embedded} gameKey="xo" from={from} tools={<BreakTools b={b} />}>
       <section className="nb-card nb-anim-rise nb-break-card">
         <Status turn={turn} result={result} mode={b.mode} mark={(p) => <XoMark p={p} />} onAgain={again} />
         <div className="nb-xo" role="grid" aria-label={t("break.board")}>
@@ -169,13 +197,13 @@ export function TicTacToe({ from }: { from: string }) {
           ))}
         </div>
       </section>
-    </GameShell>
+    </Frame>
   );
 }
 
 const Disc = ({ p }: { p: Player }) => <span className="nb-disc" style={pillVars(SIDE[p])} aria-hidden="true" />;
 
-export function ConnectFour({ from }: { from: string }) {
+export function ConnectFour({ from, embedded }: { from: string; embedded?: boolean }) {
   const t = useT();
   const b = useBreak("connect4");
   const fresh = () => emptyGrid(b.cfg.rows ?? 6, b.cfg.cols ?? 7);
@@ -209,7 +237,7 @@ export function ConnectFour({ from }: { from: string }) {
   };
   const line = result && result !== "draw" ? result.line : [];
   return (
-    <GameShell gameKey="connect4" from={from} tools={<BreakTools b={b} />}>
+    <Frame embedded={embedded} gameKey="connect4" from={from} tools={<BreakTools b={b} />}>
       <section className="nb-card nb-anim-rise nb-break-card">
         <Status turn={turn} result={result} mode={b.mode} mark={(p) => <Disc p={p} />} onAgain={again} />
         <div className="nb-c4" style={{ "--cols": grid.cols } as React.CSSProperties} dir="ltr">
@@ -239,12 +267,12 @@ export function ConnectFour({ from }: { from: string }) {
           ))}
         </div>
       </section>
-    </GameShell>
+    </Frame>
   );
 }
 
 /** Pairs of the page's own words, face down; find the two of each. */
-export function MemoryMatch({ from }: { from: string }) {
+export function MemoryMatch({ from, embedded }: { from: string; embedded?: boolean }) {
   const t = useT();
   const b = useBreak("memory");
   const { words, ready } = useGameWords(from);
@@ -272,9 +300,9 @@ export function MemoryMatch({ from }: { from: string }) {
 
   if (!ready || !words.length)
     return (
-      <GameShell gameKey="memory" from={from}>
+      <Frame embedded={embedded} gameKey="memory" from={from}>
         <NoWords from={from} loading={!ready} />
-      </GameShell>
+      </Frame>
     );
 
   const flip = (card: (typeof deck)[number]) => {
@@ -290,7 +318,7 @@ export function MemoryMatch({ from }: { from: string }) {
   };
   const won = chosen.length > 0 && r.found.length === chosen.length;
   return (
-    <GameShell gameKey="memory" from={from}>
+    <Frame embedded={embedded} gameKey="memory" from={from}>
       <section className="nb-card nb-anim-rise nb-break-card">
         <div className="nb-spread">
           <span className="nb-muted">
@@ -340,6 +368,6 @@ export function MemoryMatch({ from }: { from: string }) {
           </div>
         )}
       </section>
-    </GameShell>
+    </Frame>
   );
 }

@@ -904,6 +904,11 @@
     "break.pairs": "الأزواج: {n} من {total}",
     "break.moves": "المحاولات: {n}",
     "break.memoryWin": "ما شاء الله! وجدت كل الأزواج فى {n} محاولة.",
-    "lang.switchTo": "التبديل إلى {name}"
+    "lang.switchTo": "التبديل إلى {name}",
+    "lesson.breakTitle": "وقت الاستراحة",
+    "lesson.breakText": "العب قليلًا ثم تابع القراءة من حيث توقفت.",
+    "lesson.continue": "تابع القراءة",
+    "lesson.timeLeft": "باقٍ {n} ث",
+    "lesson.late": "انتهى الوقت"
   }
 }
