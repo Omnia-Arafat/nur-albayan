@@ -21,3 +21,6 @@ jobs:
       - run: pnpm check:hardcoded
       - run: pnpm test
       - run: pnpm build
+        env:
+          # The build only imports the database client; it never connects.
+          DATABASE_URL: pglite:.data/ci
