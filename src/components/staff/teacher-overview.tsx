@@ -93,7 +93,13 @@ export function TeacherOverview({
                       <td>
                         <span className="nb-row nb-nowrap nb-center-y">
                           <Avatar profile={{ avatar: st.avatar, colorTokenKey: st.colorTokenKey }} />
-                          {st.name}
+                          <Link
+                            href={t.href(`/teacher/students/${st.id}?class=${classroom.id}`)}
+                            className="nb-link-strong"
+                            aria-label={t("report.open", { name: st.name })}
+                          >
+                            {st.name}
+                          </Link>
                         </span>
                       </td>
                       <td data-label={t("teacher.colReached")}>

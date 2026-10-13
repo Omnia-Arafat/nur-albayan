@@ -567,3 +567,35 @@ textarea.nb-input{resize:none;padding-block:10px;line-height:1.7}
 .nb-break-embed .nb-break-card{box-shadow:none;border:0;padding:0;background:transparent}
 /* Codes and PINs read better spaced out. */
 .nb-input-code{letter-spacing:.2em;font-weight:800;text-transform:uppercase}
+/* Text for screen readers only. */
+.nb-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+/* ---------- a teacher's report on one student ---------- */
+.nb-report-who{gap:14px;margin-block:4px}
+.nb-report-who .nb-avatar{width:64px;height:64px;font-size:32px}
+.nb-kpis-6{--min:150px}
+.nb-report-page{display:flex;flex-direction:column;gap:2px;line-height:1.35}
+.nb-report-act{text-align:end;width:1%;white-space:nowrap}
+.nb-report-confirm{display:flex;flex-direction:column;gap:8px;align-items:stretch;white-space:normal;max-width:280px}
+.nb-report-bank,.nb-report-days{display:flex;flex-direction:column;gap:8px}
+.nb-report-bank li{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;padding:8px 10px;border-radius:16px;border:2px solid var(--nb-color-border);background:var(--nb-color-surface)}
+.nb-report-bank li .nb-btn{margin-inline-start:auto;min-height:44px}
+.nb-report-days li{display:flex;justify-content:space-between;gap:10px;align-items:baseline;padding-block:6px;border-bottom:2px dashed var(--nb-color-border)}
+.nb-report-days li:last-child{border-bottom:0}
+.nb-print-only{display:none}
+@container nb (max-width: 640px){
+.nb-report-act{text-align:start;width:auto;grid-column:1 / -1}
+.nb-report-confirm{max-width:none}
+}
+@media print{
+.nb-header,.nb-sidenav,.nb-no-print,nextjs-portal{display:none !important}
+.nb-print-only{display:block}
+.nb-report .nb-card{box-shadow:none;break-inside:avoid;animation:none}
+.nb-report .nb-cols{display:block}
+.nb-report .nb-col-side{position:static;max-height:none;overflow:visible}
+.nb-report .nb-table-stack thead{display:table-header-group}
+}
+/* A name that opens its page: bold, with a full-size tap target. */
+.nb-link-strong{display:inline-flex;align-items:center;min-height:44px;min-width:44px;font-weight:900;font-size:17px;text-decoration:none;color:var(--nb-color-ink)}
+.nb-link-strong:hover{color:var(--nb-color-purple-deep);text-decoration:underline}
+.nb-report-bank .nb-pill{max-width:100%;white-space:normal;min-height:0;padding:8px 12px 2px;line-height:1.9}
+.nb-report-bank .nb-runs,.nb-hard .nb-runs{white-space:normal}

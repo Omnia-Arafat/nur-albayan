@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
@@ -73,7 +74,13 @@ export function TeacherStudents({
             <li key={st.id} className="nb-student-row">
               <Avatar profile={{ avatar: st.avatar, colorTokenKey: st.colorTokenKey }} />
               <span className="nb-review-text">
-                <b>{st.name}</b>
+                <Link
+                  href={t.href(`/teacher/students/${st.id}?class=${current}`)}
+                  className="nb-link-strong"
+                  aria-label={t("report.open", { name: st.name })}
+                >
+                  {st.name}
+                </Link>
                 <span className="nb-muted nb-small" dir="ltr">
                   {st.username ?? ""}
                 </span>
