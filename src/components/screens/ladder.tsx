@@ -1,55 +1,28 @@
 "use client";
 
-import Link from "next/link";
 import { useMemo, useState } from "react";
 
 import { useApp, useT } from "@/components/app/app-data";
 import { ensureProfile } from "@/components/app/profiles";
 import { Seg } from "@/components/book/controls";
 import { Icon } from "@/components/book/icon";
-import { Meter, Tag } from "@/components/book/parts";
+import { Meter } from "@/components/book/parts";
 import { Pill, pillVars } from "@/components/book/word";
-import { active, earnedBadges, openMistakes } from "@/modules/progress/local";
+import { earnedBadges, gameRead } from "@/modules/progress/local";
 import { updateProfile, useDevice } from "@/modules/progress/store";
 import { pointsFor } from "@/modules/scoring/engine";
 
-import { useLesson } from "./use-lesson";
-
-type Word = { id: string; segments: { text: string; role: string }[]; script: "naskh" | "uthmani"; cardType: string };
-
-/** A shuffle that stays the same for one round (seeded by the round number). */
-const shuffled = <T,>(xs: T[], seed: number) =>
-  xs
-    .map((x, i) => ({ x, k: Math.sin(seed * 9973 + i * 7919) }))
-    .sort((a, b) => a.k - b.k)
-    .map((v) => v.x);
+import { GameShell, NoWords, shuffled, useGameWords, type Word } from "./word-game";
 
 export function Ladder({ from }: { from: string }) {
-  const { catalog, locale } = useApp();
+  const { catalog } = useApp();
   const t = useT();
   const device = useDevice();
-  const me = active(device);
   const game = catalog.games.find((g) => g.key === "ladder");
   const cfg = (game?.defaultConfig ?? {}) as { rungOptions?: number[]; defaultRungs?: number };
   const [rungs, setRungs] = useState(cfg.defaultRungs ?? 5);
   const [round, setRound] = useState(1);
-  const lesson = useLesson(from === "bank" ? null : Number(from), locale.code);
-  const pool: Word[] = useMemo(() => {
-    if (from === "bank")
-      return me
-        ? openMistakes(me).map((m) => ({
-            id: m.itemId,
-            segments: m.segments,
-            script: "naskh" as const,
-            cardType: "normal",
-          }))
-        : [];
-    return (lesson?.sections ?? []).flatMap((s) =>
-      s.items
-        .filter((i) => i.isDrillable)
-        .map((i) => ({ id: i.id, segments: i.segments, script: i.script, cardType: i.cardType })),
-    );
-  }, [from, lesson, me]);
+  const { words: pool, ready } = useGameWords(from);
   const words = useMemo(() => shuffled(pool, round).slice(0, rungs), [pool, round, rungs]);
   // A new set of words starts a new climb (state reset during render, not in an effect).
   const key = `${rungs}:${words.map((w) => w.id).join(",")}`;
@@ -73,12 +46,12 @@ export function Ladder({ from }: { from: string }) {
       queue: result === "wrong" ? [...rest, head] : rest,
       climbed: result === "wrong" ? climbed : [...climbed, head],
     });
-    if (gained || reachedPeak) {
-      updateProfile(ensureProfile(device, catalog, t("profile.defaultName")).id, (p) => {
-        const next = { ...p, gamePoints: p.gamePoints + gained, peaks: p.peaks + (reachedPeak ? 1 : 0) };
-        return { ...next, badges: [...new Set([...p.badges, ...earnedBadges(next, catalog.badges)])] };
-      });
-    }
+    // A slip banks the word like any other miss; the climb's points and peaks count toward the level.
+    updateProfile(ensureProfile(device, catalog, t("profile.defaultName")).id, (p) => {
+      const read = { itemId: head.id, bookPage: head.bookPage, segments: head.segments, result };
+      const next = { ...gameRead(p, rules, read, gained), peaks: p.peaks + (reachedPeak ? 1 : 0) };
+      return { ...next, badges: [...new Set([...p.badges, ...earnedBadges(next, catalog.badges)])] };
+    });
   };
 
   const steps = words.map((w, k) => ({
@@ -87,26 +60,23 @@ export function Ladder({ from }: { from: string }) {
   }));
   const peakBadge = catalog.badges.find((b) => (b.criteria as { type?: string }).type === "ladder_peaks");
 
+  const tools = cfg.rungOptions && (
+    <Seg
+      label={t("ladder.rung")}
+      value={String(rungs)}
+      onChange={(v) => setRungs(Number(v))}
+      options={cfg.rungOptions.map((n) => ({ value: String(n), label: t("ladder.rungs", { n }) }))}
+    />
+  );
+  if (!ready || !pool.length)
+    return (
+      <GameShell gameKey="ladder" from={from}>
+        <NoWords from={from} loading={!ready} />
+      </GameShell>
+    );
+
   return (
-    <main className="nb-page nb-narrow-wide">
-      <div className="nb-spread">
-        <Link href={t.href(`/games?page=${from === "bank" ? "" : from}`)} className="nb-btn nb-btn-quiet">
-          <Icon name="next" size={20} tone="lavender" className="nb-flip nb-dir-flip" /> {t("nav.games")}
-        </Link>
-        <div className="nb-row">
-          <Tag palette={pal}>
-            <Icon name="ladder" size={18} tone={pal} /> {game?.name}
-          </Tag>
-          {cfg.rungOptions && (
-            <Seg
-              label={t("ladder.rung")}
-              value={String(rungs)}
-              onChange={(v) => setRungs(Number(v))}
-              options={cfg.rungOptions.map((n) => ({ value: String(n), label: t("ladder.rungs", { n }) }))}
-            />
-          )}
-        </div>
-      </div>
+    <GameShell gameKey="ladder" from={from} tools={tools}>
       <div className="nb-cols">
         <section className="nb-card nb-col-main nb-anim-rise nb-ladder-card">
           <div className={`nb-ladder-top${atPeak ? " nb-anim-pop" : ""}`}>
@@ -192,6 +162,6 @@ export function Ladder({ from }: { from: string }) {
           )}
         </aside>
       </div>
-    </main>
+    </GameShell>
   );
 }

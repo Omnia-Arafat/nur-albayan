@@ -101,7 +101,11 @@ export async function runSeed(db: AnyDb, data: SeedData) {
     await tx
       .insert(s.games)
       .values(data.games.map(({ i18n: _i18n, ...g }) => g))
-      .onConflictDoNothing();
+      // New config keys from the seed reach existing games; values an admin already set win.
+      .onConflictDoUpdate({
+        target: s.games.key,
+        set: { defaultConfig: sql`excluded.default_config || ${s.games.defaultConfig}` },
+      });
     await tx
       .insert(s.gamesI18n)
       .values(data.games.flatMap((g) => i18nRows(g.key, g.i18n)))

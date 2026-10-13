@@ -429,6 +429,11 @@
     },
     {
       "group": "motion",
+      "key": "motion.spin",
+      "value": "2600ms"
+    },
+    {
+      "group": "motion",
       "key": "motion.loop.short",
       "value": "1400ms",
       "description": "One beat of a looping hint (candle flicker)"

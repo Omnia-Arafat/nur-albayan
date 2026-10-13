@@ -60,7 +60,9 @@
     "iconKey": "cards",
     "fillTokenKey": "color.pill.pink.fill",
     "enabled": true,
-    "defaultConfig": {},
+    "defaultConfig": {
+      "pairs": 6
+    },
     "i18n": {
       "ar": {
         "name": "لعبة الذاكرة"
@@ -96,7 +98,9 @@
     "iconKey": "box",
     "fillTokenKey": "color.pill.yellow.fill",
     "enabled": true,
-    "defaultConfig": {},
+    "defaultConfig": {
+      "boardSize": 12
+    },
     "i18n": {
       "ar": {
         "name": "الصناديق"
@@ -113,7 +117,9 @@
     "iconKey": "curtain",
     "fillTokenKey": "color.pill.sky.fill",
     "enabled": true,
-    "defaultConfig": {},
+    "defaultConfig": {
+      "boardSize": 12
+    },
     "i18n": {
       "ar": {
         "name": "الستارة"
@@ -130,7 +136,9 @@
     "iconKey": "wheel",
     "fillTokenKey": "color.pill.pink.fill",
     "enabled": true,
-    "defaultConfig": {},
+    "defaultConfig": {
+      "boardSize": 12
+    },
     "i18n": {
       "ar": {
         "name": "العجلة"
@@ -147,7 +155,9 @@
     "iconKey": "cards",
     "fillTokenKey": "color.pill.lime.fill",
     "enabled": true,
-    "defaultConfig": {},
+    "defaultConfig": {
+      "boardSize": 12
+    },
     "i18n": {
       "ar": {
         "name": "البطاقات"
@@ -187,7 +197,9 @@
     "iconKey": "tiles",
     "fillTokenKey": "color.pill.mint.fill",
     "enabled": true,
-    "defaultConfig": {},
+    "defaultConfig": {
+      "boardSize": 12
+    },
     "i18n": {
       "ar": {
         "name": "المربعات"
@@ -204,7 +216,9 @@
     "iconKey": "hexagon",
     "fillTokenKey": "color.pill.lavender.fill",
     "enabled": true,
-    "defaultConfig": {},
+    "defaultConfig": {
+      "boardSize": 12
+    },
     "i18n": {
       "ar": {
         "name": "خلية النحل"

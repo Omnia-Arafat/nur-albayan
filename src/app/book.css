@@ -470,3 +470,85 @@ textarea.nb-input{resize:none;padding-block:10px;line-height:1.7}
 .nb-or{display:flex;align-items:center;gap:10px;color:var(--nb-color-ink-muted);font-weight:800;font-size:14px}
 .nb-or::before,.nb-or::after{content:"";flex:1;height:2px;border-radius:2px;background:var(--nb-color-divider)}
 .nb-sign-in-form .nb-seg{width:100%}
+/* ---------- games: shared empty state ---------- */
+.nb-self-center{align-self:center}
+.nb-empty{align-items:center;padding-block:36px}
+.nb-empty-mark{width:84px;height:84px;border-radius:24px;background:var(--nb-color-pill-lavender-fill);border:2px solid var(--nb-color-pill-lavender-line);display:flex;align-items:center;justify-content:center}
+/* ---------- word wall: boxes, curtain, tiles, honeycomb ---------- */
+.nb-wall{display:grid;grid-template-columns:repeat(auto-fill,minmax(132px,1fr));gap:12px}
+.nb-wall-cell{position:relative;overflow:hidden;font:inherit;min-height:96px;box-sizing:border-box;padding:10px;border-radius:20px;border:2px solid var(--line);background:var(--fill);color:var(--nb-color-ink);display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 5px 0 var(--line)}
+.nb-wall-cell:disabled{cursor:default}
+.nb-wall-cell:not(.open):not(.done):disabled{opacity:.55}
+.nb-wall-cell.open{background:var(--nb-color-surface);border-color:var(--nb-color-pill-lavender-line);box-shadow:0 5px 0 var(--nb-color-pill-lavender-line)}
+.nb-wall-cell.done{background:var(--nb-color-pill-lime-fill);border-color:var(--nb-color-pill-lime-line);box-shadow:0 5px 0 var(--nb-color-pill-lime-line)}
+.nb-wall-cell.review{border-style:dashed}
+.nb-wall-cell .nb-pill{max-width:100%;white-space:normal}
+.nb-wall-no{font-weight:900;font-size:32px;line-height:1;color:var(--nb-color-purple-deep);position:relative;z-index:1}
+.nb-wall-mark{position:absolute;inset-block-start:6px;inset-inline-end:6px;width:28px;height:28px;border-radius:50%;background:var(--nb-color-surface);display:flex;align-items:center;justify-content:center}
+/* Box: a lid band across the top. Curtain: two drapes with folds. Both lift away on opening. */
+.nb-wall-cover{position:absolute;inset:0;pointer-events:none}
+.nb-wall-boxes .nb-wall-cover{inset-block-end:auto;height:30%;background:var(--line);opacity:.35;border-radius:18px 18px 6px 6px}
+.nb-wall-curtain .nb-wall-cell{background:var(--nb-color-surface)}
+.nb-wall-curtain .nb-wall-cover{background:repeating-linear-gradient(90deg,var(--fill) 0 14px,var(--line) 14px 17px);opacity:.92}
+.nb-wall-curtain .nb-wall-no{background:var(--nb-color-surface);border-radius:14px;padding:4px 12px;border:2px solid var(--line)}
+.nb-wall-tiles .nb-wall-cell{perspective:600px}
+/* Honeycomb: hexagons in offset rows. */
+.nb-wall-honeycomb{grid-template-columns:repeat(auto-fill,minmax(128px,1fr));gap:8px}
+.nb-wall-honeycomb .nb-wall-cell{clip-path:polygon(25% 3%,75% 3%,100% 50%,75% 97%,25% 97%,0 50%);border-radius:0;box-shadow:none;min-height:104px;padding-inline:22px;border:0;background:var(--line)}
+.nb-wall-honeycomb .nb-wall-cell::before{content:"";position:absolute;inset:3px;clip-path:inherit;background:var(--fill)}
+.nb-wall-honeycomb .nb-wall-cell>*{position:relative}
+.nb-wall-honeycomb .nb-wall-cell.done{background:var(--nb-color-pill-lime-line)}
+.nb-wall-honeycomb .nb-wall-cell.done::before{background:var(--nb-color-pill-lime-fill)}
+.nb-wall-honeycomb .nb-wall-mark{inset-block-start:10px;inset-inline-end:50%;transform:translateX(50%)}
+[dir="rtl"] .nb-wall-honeycomb .nb-wall-mark{transform:translateX(-50%)}
+.nb-wall-reveal{display:flex;flex-direction:column;align-items:center;gap:16px;padding:18px;border-radius:22px;background:var(--nb-color-paper);border:2px dashed var(--nb-color-pill-peach-line)}
+.nb-wall-reveal .nb-pill{max-width:100%;white-space:normal}
+/* Cards: a fanned pile. */
+.nb-deck{display:flex;flex-direction:column;align-items:center;gap:12px}
+.nb-deck-pile{position:relative;width:150px;height:110px}
+.nb-deck-pile span{position:absolute;inset:0;border-radius:18px;background:var(--fill);border:2px solid var(--line);transform:translate(calc(var(--i) * 5px),calc(var(--i) * -5px)) rotate(calc(var(--i) * 2deg));box-shadow:0 4px 0 var(--line)}
+/* Wheel: SVG slices in the book's pill colours, a pointer above. */
+.nb-wheel-box{position:relative;overflow:hidden;width:100%;display:flex;flex-direction:column;align-items:center;gap:16px}
+.nb-wheel{width:min(320px,100%);aspect-ratio:1;display:block}
+.nb-wheel-no{font-family:var(--nb-font-ui);font-weight:900;font-size:13px;fill:var(--nb-color-purple-deep)}
+.nb-wheel-done path{opacity:.6}
+.nb-wheel-hub{fill:var(--nb-color-surface);stroke:var(--line);stroke-width:3}
+.nb-wheel-pointer{width:0;height:0;border-inline:14px solid transparent;border-top:22px solid var(--nb-color-red);margin-bottom:-26px;position:relative;z-index:1}
+/* ---------- breaks: tic-tac-toe, Connect 4, memory ---------- */
+.nb-break-card{align-items:stretch;gap:18px}
+.nb-break-status{display:flex;flex-direction:column;gap:12px;align-items:stretch}
+.nb-break-side{display:inline-flex;align-items:center;gap:8px;height:44px;box-sizing:border-box;padding-inline:10px 14px;border-radius:999px;border:2px solid var(--nb-color-border);background:var(--nb-color-surface);font-weight:800}
+.nb-break-side.on{border-color:var(--line);background:var(--fill)}
+.nb-break-text{display:flex;align-items:center;justify-content:center;gap:8px;font-size:18px}
+.nb-xo{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;width:min(340px,100%);margin-inline:auto}
+.nb-xo-cell{font:inherit;aspect-ratio:1;border-radius:20px;border:2px solid var(--nb-color-border);background:var(--nb-color-paper);display:flex;align-items:center;justify-content:center;cursor:pointer}
+.nb-xo-cell:disabled{cursor:default}
+.nb-xo-cell.win{background:var(--fill);border-color:var(--line)}
+.nb-xo-mark{position:relative;display:block;width:44px;height:44px}
+.nb-xo-mark.o{border-radius:50%;border:8px solid var(--nb-color-pill-sky-line);box-sizing:border-box}
+.nb-xo-mark.x::before,.nb-xo-mark.x::after{content:"";position:absolute;inset-block:0;inset-inline-start:calc(50% - 4px);width:8px;border-radius:4px;background:var(--nb-color-pill-pink-line);transform:rotate(45deg)}
+.nb-xo-mark.x::after{transform:rotate(-45deg)}
+.nb-break-side .nb-xo-mark{width:24px;height:24px}
+.nb-break-side .nb-xo-mark.o{border-width:5px}
+.nb-break-side .nb-xo-mark.x::before,.nb-break-side .nb-xo-mark.x::after{width:5px;inset-inline-start:calc(50% - 2.5px)}
+.nb-c4{display:grid;grid-template-columns:repeat(var(--cols),1fr);gap:6px;padding:10px;border-radius:22px;background:var(--nb-color-pill-lavender-line);width:min(460px,100%);margin-inline:auto;box-sizing:border-box}
+.nb-c4-col{font:inherit;display:grid;gap:6px;padding:0;border:0;background:transparent;cursor:pointer;border-radius:14px}
+.nb-c4-col:disabled{cursor:default}
+.nb-c4-col:not(:disabled):hover .nb-c4-hole{background:var(--nb-color-pill-lavender-fill)}
+.nb-c4-hole{aspect-ratio:1;border-radius:50%;background:var(--nb-color-surface);display:flex;align-items:center;justify-content:center;overflow:hidden}
+.nb-c4-hole>span{width:88%;height:88%}
+.nb-c4-hole.win{outline:3px solid var(--nb-color-gold);outline-offset:-3px}
+.nb-disc{display:block;width:100%;height:100%;border-radius:50%;background:var(--fill);border:3px solid var(--line);box-sizing:border-box}
+.nb-break-side .nb-disc{width:24px;height:24px}
+.nb-memory{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:10px}
+.nb-memory-card{font:inherit;min-height:92px;padding:8px;border-radius:18px;border:2px solid var(--nb-color-pill-lavender-line);background:var(--nb-color-pill-lavender-fill);display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 4px 0 var(--nb-color-pill-lavender-line)}
+.nb-memory-card.up{background:var(--nb-color-surface)}
+.nb-memory-card.found{background:var(--nb-color-pill-lime-fill);border-color:var(--nb-color-pill-lime-line);box-shadow:0 4px 0 var(--nb-color-pill-lime-line);cursor:default}
+.nb-memory-card .nb-pill{max-width:100%;white-space:normal}
+@container nb (max-width: 640px){
+.nb-wall{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.nb-wall-cell{min-height:84px}
+.nb-memory{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.nb-memory-card{min-height:80px;padding:6px}
+.nb-break-side{height:40px;font-size:14px}
+}

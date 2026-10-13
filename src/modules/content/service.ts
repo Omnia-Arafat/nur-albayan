@@ -1,4 +1,4 @@
-import { and, asc, eq, inArray, ne } from "drizzle-orm";
+import { and, asc, count, eq, inArray, ne } from "drizzle-orm";
 
 import type { Db } from "@/db/client";
 import * as s from "@/db/schema";
@@ -16,6 +16,8 @@ export type LessonListItem = {
   stageTagToken: string | null;
   unitPosition: number;
   unitTitle: string | null;
+  /** Words on the page a learner can read aloud and be graded on; games need at least one. */
+  drillable: number;
 };
 
 export type Segment = { text: string; role: string; cellBreakAfter: boolean };
@@ -59,6 +61,15 @@ export async function listLessons(db: Db, locale: string): Promise<LessonListIte
     .where(ne(s.lessons.status, "archived"))
     .orderBy(asc(s.lessons.bookPage));
   const ids = rows.map((r) => r.lesson.id);
+  const counts = ids.length
+    ? await db
+        .select({ lessonId: s.lessonSections.lessonId, n: count() })
+        .from(s.items)
+        .innerJoin(s.lessonSections, eq(s.lessonSections.id, s.items.sectionId))
+        .where(and(inArray(s.lessonSections.lessonId, ids), eq(s.items.isDrillable, true)))
+        .groupBy(s.lessonSections.lessonId)
+    : [];
+  const drillable = new Map(counts.map((c) => [c.lessonId, Number(c.n)]));
   const unitIds = [...new Set(rows.map((r) => r.unit.id))];
   const stageIds = [...new Set(rows.map((r) => r.stage.id))];
   const sg = stageIds.length
@@ -95,6 +106,7 @@ export async function listLessons(db: Db, locale: string): Promise<LessonListIte
       stageTagToken: stage.tagTokenKey,
       unitPosition: unit.position,
       unitTitle: u?.title ?? null,
+      drillable: drillable.get(lesson.id) ?? 0,
     };
   });
 }

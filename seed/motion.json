@@ -134,6 +134,55 @@
       "frames": {
         "from": "stroke-dashoffset:var(--nb-ring-length)"
       }
+    },
+    {
+      "key": "flip",
+      "use": "A word tile turning over to show its word",
+      "duration": "motion.normal",
+      "easing": "easing.standard",
+      "iterations": "1",
+      "fill": "both",
+      "frames": {
+        "0%": "transform:perspective(600px) rotateY(90deg);opacity:.3",
+        "100%": "transform:perspective(600px) rotateY(0);opacity:1"
+      },
+      "reduced": {
+        "0%": "opacity:0",
+        "100%": "opacity:1"
+      }
+    },
+    {
+      "key": "lift",
+      "use": "A theatre curtain or a box lid opening on a word",
+      "duration": "motion.normal",
+      "easing": "easing.out",
+      "iterations": "1",
+      "fill": "both",
+      "origin": "top",
+      "frames": {
+        "0%": "transform:scaleY(1);opacity:1",
+        "100%": "transform:scaleY(0);opacity:0"
+      },
+      "reduced": {
+        "0%": "opacity:1",
+        "100%": "opacity:0"
+      }
+    },
+    {
+      "key": "drop",
+      "use": "A Connect 4 disc falling into its column",
+      "duration": "motion.normal",
+      "easing": "easing.bounce",
+      "iterations": "1",
+      "fill": "both",
+      "frames": {
+        "0%": "transform:translateY(-320%);opacity:.6",
+        "100%": "transform:translateY(0);opacity:1"
+      },
+      "reduced": {
+        "0%": "opacity:0",
+        "100%": "opacity:1"
+      }
     }
   ],
   "transitions": [
@@ -150,6 +199,13 @@
       "properties": "background-color, color, border-color, box-shadow",
       "duration": "motion.normal",
       "easing": "easing.standard"
+    },
+    {
+      "key": "spin",
+      "use": "The word wheel turning until it stops on a word",
+      "properties": "transform",
+      "duration": "motion.spin",
+      "easing": "easing.out"
     }
   ]
 }

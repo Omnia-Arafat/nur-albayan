@@ -166,6 +166,34 @@ export function reviewMistake(
   return { ...p, mistakes: { ...p.mistakes, [itemId]: { ...m, ...step, updatedAt: now.toISOString() } } };
 }
 
+/**
+ * One graded word in a word game: its points go to the game total, and a miss goes to the mistake bank
+ * (a right read of a banked word counts toward mastering it), so games are reading practice too.
+ */
+export function gameRead(
+  p: LocalProfile,
+  rules: ScoringRules,
+  read: { itemId: string; bookPage: number; segments: { text: string; role: string }[]; result: "correct" | "wrong" },
+  points: number,
+  now = new Date(),
+): LocalProfile {
+  const prev = p.mistakes[read.itemId];
+  const mistakes =
+    !prev && read.result === "correct"
+      ? p.mistakes
+      : {
+          ...p.mistakes,
+          [read.itemId]: {
+            ...masteryStep(rules, prev ?? { missCount: 0, correctStreak: 0, mastered: false }, read.result),
+            itemId: read.itemId,
+            bookPage: prev?.bookPage ?? read.bookPage,
+            segments: prev?.segments ?? read.segments,
+            updatedAt: now.toISOString(),
+          },
+        };
+  return { ...p, gamePoints: p.gamePoints + points, mistakes };
+}
+
 export const openMistakes = (p: LocalProfile) => Object.values(p.mistakes).filter((m) => !m.mastered);
 export const masteredCount = (p: LocalProfile) => Object.values(p.mistakes).filter((m) => m.mastered).length;
 
