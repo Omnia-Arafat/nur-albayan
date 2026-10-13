@@ -146,10 +146,12 @@ export function LessonPlayer({ lesson, prev, next }: { lesson: Lesson; prev: num
                 {t("lesson.startCards")} <Icon name="next" size={22} className="nb-dir-flip" />
               </button>
             )}
-            <Link href={t.href(`/games?page=${lesson.bookPage}`)} className="nb-btn nb-btn-soft">
-              <Icon name="cards" size={26} />
-              {t("lesson.wordGames")}
-            </Link>
+            {cards.length > 0 && (
+              <Link href={t.href(`/games?page=${lesson.bookPage}`)} className="nb-btn nb-btn-soft">
+                <Icon name="cards" size={26} />
+                {t("lesson.wordGames")}
+              </Link>
+            )}
           </div>
           <nav className="nb-spread nb-pager" aria-label={t("lesson.pageTag", { page: lesson.bookPage })}>
             {prev !== null ? (

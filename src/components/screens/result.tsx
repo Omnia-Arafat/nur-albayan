@@ -161,9 +161,11 @@ export function Result({
             <Icon name="review" size={24} /> {t("result.again")}
           </button>
         )}
-        <Link href={t.href(`/games?page=${lesson.bookPage}`)} className="nb-btn nb-btn-quiet">
-          <Icon name="cards" size={24} /> {t("result.break")}
-        </Link>
+        {lesson.sections.some((x) => x.items.some((i) => i.isDrillable)) && (
+          <Link href={t.href(`/games?page=${lesson.bookPage}`)} className="nb-btn nb-btn-quiet">
+            <Icon name="cards" size={24} /> {t("result.break")}
+          </Link>
+        )}
       </div>
     </main>
   );

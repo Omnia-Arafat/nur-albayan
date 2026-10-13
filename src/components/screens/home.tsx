@@ -81,10 +81,12 @@ export function Home() {
               >
                 {t("home.read")} <Icon name="next" size={24} />
               </Link>
-              <Link href={t.href(`/games?page=${here.bookPage}`)} className="nb-btn-secondary">
-                <Icon name="cards" size={28} />
-                {t("home.play")}
-              </Link>
+              {here.drillable > 0 && (
+                <Link href={t.href(`/games?page=${here.bookPage}`)} className="nb-btn-secondary">
+                  <Icon name="cards" size={28} />
+                  {t("home.play")}
+                </Link>
+              )}
             </div>
           </div>
         )}

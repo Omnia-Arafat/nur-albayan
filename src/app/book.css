@@ -552,3 +552,8 @@ textarea.nb-input{resize:none;padding-block:10px;line-height:1.7}
 .nb-memory-card{min-height:80px;padding:6px}
 .nb-break-side{height:40px;font-size:14px}
 }
+/* Google's standard sign-in button: white, a thin grey border, its G mark and dark text. */
+.nb-social{font:inherit;display:flex;align-items:center;justify-content:center;gap:12px;width:100%;min-height:48px;box-sizing:border-box;padding-inline:16px;border-radius:999px;border:1px solid var(--nb-color-ink-muted);background:var(--nb-color-surface);color:var(--nb-color-ink);font-weight:700;font-size:15px;cursor:pointer}
+.nb-social:hover{background:var(--nb-color-paper)}
+.nb-social:disabled{opacity:.6;cursor:default}
+.nb-social img{flex:none;display:block}

@@ -193,8 +193,17 @@ function SocialSignIn({ providers, next }: { providers: string[]; next?: string 
   return (
     <div className="nb-stack">
       {providers.map((p) => (
-        <button key={p} type="button" className="nb-btn nb-btn-soft nb-social" disabled={busy} onClick={() => go(p)}>
-          {t(`account.with.${p}`)}
+        <button
+          key={p}
+          type="button"
+          className={`nb-social nb-social-${p} nb-tr-state nb-tr-press`}
+          disabled={busy}
+          onClick={() => go(p)}
+        >
+          {/* The provider's own mark, as its brand rules require; the only logo outside the book's icon set. */}
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={`/brand/${p}-g.svg`} alt="" width={20} height={20} />
+          <span>{t(`account.with.${p}`)}</span>
         </button>
       ))}
       {failed && (
