@@ -10,9 +10,13 @@ import { runSeed } from "../src/db/seed/run";
 const url = process.env.DATABASE_URL_DIRECT ?? process.env.DATABASE_URL;
 if (!url) throw new Error("DATABASE_URL is not set");
 
-const client = postgres(url, { prepare: false, max: 1 });
-const db = drizzle(client);
-await runSeed(db, loadSeed());
-if (process.argv.includes("--content")) await runContentSeed(db, loadContent());
-await client.end();
-console.log(process.argv.includes("--content") ? "Seed and book content loaded." : "Seed loaded.");
+async function main() {
+  const client = postgres(url!, { prepare: false, max: 1 });
+  const db = drizzle(client);
+  await runSeed(db, loadSeed());
+  if (process.argv.includes("--content")) await runContentSeed(db, loadContent());
+  await client.end();
+  console.log(process.argv.includes("--content") ? "Seed and book content loaded." : "Seed loaded.");
+}
+
+main();
