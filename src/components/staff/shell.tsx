@@ -39,7 +39,7 @@ export function StaffShell({
   }, [current?.path]);
 
   const signOut = async () => {
-    await fetch("/api/v1/auth/local", { method: "DELETE" });
+    await fetch("/api/v1/auth/session", { method: "DELETE" });
     router.push(t.href(""));
     router.refresh();
   };

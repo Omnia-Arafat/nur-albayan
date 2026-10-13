@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 
+import { AccountCard } from "@/components/app/account";
 import { useApp, useT, xpRates } from "@/components/app/app-data";
 import { Avatar } from "@/components/app/header";
 import { addProfile } from "@/components/app/profiles";
@@ -173,24 +174,7 @@ export function Profile() {
               ))}
             </section>
           )}
-          <section
-            className="nb-band nb-anim-rise"
-            style={
-              {
-                "--fill": tokenVar("color.pill.sky.fill"),
-                "--line": tokenVar("color.pill.sky.line"),
-              } as React.CSSProperties
-            }
-          >
-            <div className="nb-row">
-              <Icon name="profile" size={36} tone="sky" />
-              <b>{t("profile.account")}</b>
-            </div>
-            <p className="nb-muted nb-m0">{t("profile.accountText")}</p>
-            <span className="nb-btn nb-btn-quiet" aria-disabled="true">
-              {t("profile.accountSoon")}
-            </span>
-          </section>
+          <AccountCard />
         </aside>
       </div>
     </main>
