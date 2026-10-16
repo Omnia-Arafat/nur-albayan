@@ -7,6 +7,7 @@ import { Seg } from "@/components/book/controls";
 import { Tag } from "@/components/book/parts";
 import type { MessageRow } from "@/modules/admin/service";
 import { placeholders } from "@/modules/i18n/placeholders";
+import { matchesSearch } from "@/modules/i18n/search";
 
 type LocaleView = { code: string; name: string; dir: "ltr" | "rtl"; isDefault: boolean };
 type Show = "all" | "missing" | "check";
@@ -30,13 +31,13 @@ export function AdminTexts({ rows, locales }: { rows: MessageRow[]; locales: Loc
     return locales.some((l) => valueOf(r, l.code) && placeholders(valueOf(r, l.code)).join() !== want);
   };
   const counts = { missing: rows.filter(missing).length, check: rows.filter(mismatch).length };
-  const q = query.trim().toLowerCase();
+  const q = query.trim();
   const shown = useMemo(
     () =>
       rows.filter(
         (r) =>
           (show === "all" || (show === "missing" ? missing(r) : mismatch(r))) &&
-          (!q || r.key.toLowerCase().includes(q) || Object.values(r.values).some((v) => v.toLowerCase().includes(q))),
+          (!q || matchesSearch(r.key, q) || Object.values(r.values).some((v) => matchesSearch(v, q))),
       ),
     // The counts above read the same values; recomputing on save keeps a fixed row from vanishing mid-edit.
     // eslint-disable-next-line react-hooks/exhaustive-deps

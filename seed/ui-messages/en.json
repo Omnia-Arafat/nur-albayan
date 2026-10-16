@@ -1032,6 +1032,9 @@
     "classes.manage": "Open a class",
     "teacher.moveTo": "Move to class",
     "teacher.moved": "Moved to {name}.",
-    "teacher.print": "Print the class report"
+    "teacher.print": "Print the class report",
+    "classes.search": "Search classes by name or code",
+    "classes.clearSearch": "Clear the search",
+    "classes.noMatch": "No class matches “{query}”."
   }
 }

@@ -5,8 +5,10 @@ import { useRouter } from "next/navigation";
 import { useState } from "react";
 
 import { useT } from "@/components/app/app-data";
+import { SearchField } from "@/components/book/controls";
 import { Icon } from "@/components/book/icon";
 import { Tag } from "@/components/book/parts";
+import { matchesSearch } from "@/modules/i18n/search";
 
 type Room = { id: string; name: string; joinCode: string; students: number };
 
@@ -17,6 +19,8 @@ export function TeacherClasses({ classes }: { classes: Room[] }) {
   const [name, setName] = useState("");
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [query, setQuery] = useState("");
+  const shown = classes.filter((c) => matchesSearch(`${c.name} ${c.joinCode}`, query));
 
   const create = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -39,14 +43,28 @@ export function TeacherClasses({ classes }: { classes: Room[] }) {
       <section className="nb-card nb-col-main nb-anim-rise">
         <h1 className="nb-h1">{t("staff.classes")}</h1>
         <p className="nb-sub">{t("classes.intro")}</p>
-        {classes.length ? (
+        {classes.length > 0 && (
+          <div className="nb-class-search">
+            <SearchField
+              label={t("classes.search")}
+              clearLabel={t("classes.clearSearch")}
+              value={query}
+              onChange={setQuery}
+            />
+          </div>
+        )}
+        {!classes.length ? (
+          <p className="nb-muted nb-m0">{t("teacher.noClass")}</p>
+        ) : shown.length ? (
           <ul className="nb-plain nb-review-list">
-            {classes.map((c) => (
+            {shown.map((c) => (
               <ClassRow key={c.id} room={c} />
             ))}
           </ul>
         ) : (
-          <p className="nb-muted nb-m0">{t("teacher.noClass")}</p>
+          <p className="nb-muted nb-m0" role="status">
+            {t("classes.noMatch", { query: query.trim() })}
+          </p>
         )}
       </section>
       <aside className="nb-col-side">

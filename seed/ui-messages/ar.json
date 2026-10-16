@@ -1032,6 +1032,9 @@
     "classes.manage": "افتح فصلًا",
     "teacher.moveTo": "انقل إلى فصل",
     "teacher.moved": "نُقل إلى {name}.",
-    "teacher.print": "اطبع تقرير الفصل"
+    "teacher.print": "اطبع تقرير الفصل",
+    "classes.search": "ابحث عن فصل بالاسم أو الرمز",
+    "classes.clearSearch": "امسح البحث",
+    "classes.noMatch": "لا يوجد فصل يطابق «{query}»."
   }
 }

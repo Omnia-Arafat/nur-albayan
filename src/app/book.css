@@ -571,6 +571,15 @@ textarea.nb-input{resize:none;padding-block:10px;line-height:1.7}
 .nb-input-code{letter-spacing:.2em;font-weight:800;text-transform:uppercase}
 /* Text for screen readers only. */
 .nb-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+/* ---------- search box ---------- */
+.nb-search-box{position:relative;display:block}
+.nb-search-box .nb-input{padding-inline-end:52px}
+.nb-search-clear{position:absolute;inset-block:0;inset-inline-end:2px;width:48px;min-height:44px;border:0;background:transparent;cursor:pointer;display:flex;align-items:center;justify-content:center;border-radius:12px}
+.nb-search-clear span{position:relative;width:22px;height:22px;border-radius:50%;background:var(--nb-color-pill-lavender-fill);border:2px solid var(--nb-color-pill-lavender-line)}
+.nb-search-clear span::before,.nb-search-clear span::after{content:"";position:absolute;inset:0;margin:auto;width:10px;height:2.5px;border-radius:2px;background:var(--nb-color-purple-deep);rotate:45deg}
+.nb-search-clear span::after{rotate:-45deg}
+.nb-search-clear:focus-visible{outline:3px solid var(--nb-color-pill-lavender-line);outline-offset:-3px}
+.nb-class-search{margin-block:4px 12px}
 /* ---------- a teacher's classes ---------- */
 .nb-class-row{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;padding:12px 14px;border-radius:18px;border:2px solid var(--nb-color-border);background:var(--nb-color-surface)}
 .nb-class-main{display:flex;flex-direction:column;gap:6px;flex:1 1 220px;min-width:0}

@@ -231,3 +231,53 @@ export function Stepper({
     </div>
   );
 }
+
+/**
+ * The search box: filters as each letter is typed, with the book's own clear button in place of the
+ * browser's. Matching itself is the caller's (see matchesSearch), so every list searches the same way.
+ */
+export function SearchField({
+  label,
+  clearLabel,
+  value,
+  onChange,
+}: {
+  label: string;
+  clearLabel: string;
+  value: string;
+  onChange: (v: string) => void;
+}) {
+  const input = useRef<HTMLInputElement>(null);
+  return (
+    <label className="nb-field nb-search">
+      <span className="nb-label">{label}</span>
+      <span className="nb-search-box">
+        <input
+          ref={input}
+          className="nb-input"
+          type="text"
+          inputMode="search"
+          enterKeyHint="search"
+          autoComplete="off"
+          spellCheck={false}
+          value={value}
+          onChange={(e) => onChange(e.target.value)}
+          onKeyDown={(e) => e.key === "Escape" && value && onChange("")}
+        />
+        {value && (
+          <button
+            type="button"
+            className="nb-search-clear nb-tr-press"
+            aria-label={clearLabel}
+            onClick={() => {
+              onChange("");
+              input.current?.focus();
+            }}
+          >
+            <span aria-hidden="true" />
+          </button>
+        )}
+      </span>
+    </label>
+  );
+}
