@@ -2,14 +2,14 @@ import type { MetadataRoute } from "next";
 
 import { getDb } from "@/db/client";
 import { getLocales, getMessages } from "@/modules/i18n/service";
-import { tokenValues } from "@/modules/theme/service";
+import { brandTokenValues } from "@/modules/theme/service";
 
 /** The install manifest, in the default locale, with the theme's paper and ink colours. */
 export default async function manifest(): Promise<MetadataRoute.Manifest> {
   const db = await getDb();
   const locales = await getLocales(db);
   const def = locales.find((l) => l.isDefault) ?? locales[0];
-  const [messages, tokens] = await Promise.all([getMessages(db, def.code), tokenValues(db)]);
+  const [messages, tokens] = await Promise.all([getMessages(db, def.code), brandTokenValues()]);
   const name = messages.app?.["brand.name"] ?? "";
   return {
     name,
