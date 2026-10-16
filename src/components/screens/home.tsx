@@ -47,21 +47,23 @@ export function Home() {
               <h1 lang="ar">{here.title}</h1>
               {here.subtitle && <p>{here.subtitle}</p>}
             </div>
-            <div className="nb-hero-words">
-              {lesson?.observeTag && <Ribbon colour="color.teal.deep">{lesson.observeTag}</Ribbon>}
-              <div className="nb-anim-float nb-word-row">
-                {words.map((w) => (
-                  <span
-                    key={w.id}
-                    className="nb-word"
-                    style={{ fontFamily: w.script === "uthmani" ? "var(--nb-font-quran)" : undefined }}
-                  >
-                    <Word segments={w.segments} />
-                  </span>
-                ))}
+            {words.length > 0 && (
+              <div className="nb-hero-words">
+                {lesson?.observeTag && <Ribbon colour="color.teal.deep">{lesson.observeTag}</Ribbon>}
+                <div className="nb-anim-float nb-word-row">
+                  {words.map((w) => (
+                    <span
+                      key={w.id}
+                      className="nb-word"
+                      style={{ fontFamily: w.script === "uthmani" ? "var(--nb-font-quran)" : undefined }}
+                    >
+                      <Word segments={w.segments} />
+                    </span>
+                  ))}
+                </div>
+                <span className="nb-hero-note">{t("home.fromPage", { page: here.bookPage })}</span>
               </div>
-              <span className="nb-hero-note">{t("home.fromPage", { page: here.bookPage })}</span>
-            </div>
+            )}
             {unit && (
               <div className="nb-hero-progress">
                 <span className="nb-hero-page">
