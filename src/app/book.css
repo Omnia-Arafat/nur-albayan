@@ -569,6 +569,22 @@ textarea.nb-input{resize:none;padding-block:10px;line-height:1.7}
 .nb-input-code{letter-spacing:.2em;font-weight:800;text-transform:uppercase}
 /* Text for screen readers only. */
 .nb-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+/* ---------- a teacher's classes ---------- */
+.nb-class-row{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;padding:12px 14px;border-radius:18px;border:2px solid var(--nb-color-border);background:var(--nb-color-surface)}
+.nb-class-main{display:flex;flex-direction:column;gap:6px;flex:1 1 220px;min-width:0}
+.nb-class-name{font-size:1.1em;overflow-wrap:anywhere}
+.nb-class-meta{flex-wrap:wrap;gap:6px 10px}
+.nb-class-code{font-weight:700;letter-spacing:.12em;padding:2px 10px;border-radius:10px;border:2px solid var(--nb-color-pill-lavender-line);background:var(--nb-color-pill-lavender-fill);color:var(--nb-color-purple-deep)}
+.nb-class-actions{flex-wrap:wrap;gap:6px;align-items:center}
+.nb-class-rename{flex-wrap:wrap;gap:8px;align-items:flex-end}
+.nb-class-rename .nb-field{flex:1 1 180px;min-width:0}
+.nb-student-acts{flex-wrap:wrap;gap:6px;margin-inline-start:auto;justify-content:flex-end}
+.nb-student-acts .nb-select-box{min-width:170px}
+.nb-student-acts .nb-select-box>.nb-label{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+@container nb (max-width: 520px){
+.nb-student-row:has(.nb-student-acts){flex-wrap:wrap}
+.nb-student-acts{width:100%;justify-content:flex-start}
+}
 /* ---------- a teacher's report on one student ---------- */
 .nb-report-who{gap:14px;margin-block:4px}
 .nb-report-who .nb-avatar{width:64px;height:64px;font-size:32px}

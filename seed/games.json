@@ -73,25 +73,6 @@
     }
   },
   {
-    "key": "riddles",
-    "kind": "break",
-    "position": 3,
-    "iconKey": "question",
-    "fillTokenKey": "color.pill.lavender.fill",
-    "enabled": true,
-    "defaultConfig": {
-      "completionBadgeKey": "albayan-genius"
-    },
-    "i18n": {
-      "ar": {
-        "name": "الألغاز"
-      },
-      "en": {
-        "name": "Riddles"
-      }
-    }
-  },
-  {
     "key": "boxes",
     "kind": "wordwall",
     "position": 10,

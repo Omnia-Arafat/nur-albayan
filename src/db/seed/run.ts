@@ -1,4 +1,4 @@
-import { and, eq, sql } from "drizzle-orm";
+import { and, eq, notInArray, sql } from "drizzle-orm";
 import type { PgDatabase, PgQueryResultHKT } from "drizzle-orm/pg-core";
 
 import * as s from "../schema";
@@ -142,7 +142,10 @@ export async function runSeed(db: AnyDb, data: SeedData) {
 
     const haveAvatars = await tx.select({ n: sql<number>`count(*)::int` }).from(s.avatars);
     if (haveAvatars[0].n === 0) await tx.insert(s.avatars).values(data.avatars.avatars);
-    await tx.insert(s.avatarColors).values(data.avatars.colors).onConflictDoNothing({ target: s.avatarColors.tokenKey });
+    await tx
+      .insert(s.avatarColors)
+      .values(data.avatars.colors)
+      .onConflictDoNothing({ target: s.avatarColors.tokenKey });
 
     // gamification
     await tx
@@ -161,5 +164,26 @@ export async function runSeed(db: AnyDb, data: SeedData) {
       .insert(s.badgesI18n)
       .values(data.badges.flatMap((b) => i18nRows(b.key, b.i18n)))
       .onConflictDoNothing();
+
+    // Games and badges dropped from the seed (not in the printed book) are turned off where they were
+    // seeded before. Rows stay, so progress that points at them is kept.
+    await tx
+      .update(s.games)
+      .set({ enabled: false })
+      .where(
+        notInArray(
+          s.games.key,
+          data.games.map((g) => g.key),
+        ),
+      );
+    await tx
+      .update(s.badges)
+      .set({ enabled: false })
+      .where(
+        notInArray(
+          s.badges.key,
+          data.badges.map((b) => b.key),
+        ),
+      );
   });
 }

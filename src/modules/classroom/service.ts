@@ -245,3 +245,40 @@ export async function isMember(db: Db, classroomId: string, studentId: string) {
     .where(and(eq(s.classroomMembers.classroomId, classroomId), eq(s.classroomMembers.studentId, studentId)));
   return Boolean(m);
 }
+
+// Join codes skip letters and digits that read alike (0/O, 1/I/L), since children type them.
+const CODE_CHARS = "ABCDEFGHJKMNPQRSTUVWXYZ23456789";
+const newCode = (n = 6) => Array.from(randomBytes(n), (b) => CODE_CHARS[b % CODE_CHARS.length]).join("");
+
+/** A teacher opens a class; it gets a fresh join code that students type to sign in. */
+export async function createClassroom(db: Db, teacherId: string, name: string) {
+  for (let tries = 0; tries < 5; tries++) {
+    const joinCode = newCode();
+    const [taken] = await db
+      .select({ id: s.classrooms.id })
+      .from(s.classrooms)
+      .where(eq(s.classrooms.joinCode, joinCode));
+    if (taken) continue;
+    const [room] = await db.insert(s.classrooms).values({ ownerTeacherId: teacherId, name, joinCode }).returning();
+    return room;
+  }
+  throw new Error("No free join code");
+}
+
+/** Renames a class or archives it. An archived class leaves the lists; its students and progress stay. */
+export async function updateClassroom(db: Db, classroomId: string, patch: { name?: string; archived?: boolean }) {
+  const set: Partial<typeof s.classrooms.$inferInsert> = { updatedAt: new Date() };
+  if (patch.name) set.name = patch.name;
+  if (patch.archived !== undefined) set.archivedAt = patch.archived ? new Date() : null;
+  await db.update(s.classrooms).set(set).where(eq(s.classrooms.id, classroomId));
+}
+
+/** Moves a student from one of the teacher's classes to another, keeping all their progress. */
+export async function moveStudent(db: Db, fromId: string, toId: string, studentId: string) {
+  await db.transaction(async (tx) => {
+    await tx
+      .delete(s.classroomMembers)
+      .where(and(eq(s.classroomMembers.classroomId, fromId), eq(s.classroomMembers.studentId, studentId)));
+    await tx.insert(s.classroomMembers).values({ classroomId: toId, studentId }).onConflictDoNothing();
+  });
+}

@@ -30,6 +30,9 @@ export function TeacherOverview({
       <section className="nb-card">
         <h1 className="nb-h1">{t("staff.overview")}</h1>
         <p className="nb-muted nb-m0">{t("teacher.noClass")}</p>
+        <Link href={t.href("/teacher/classes")} className="nb-btn nb-btn-ok nb-w-auto nb-self-start">
+          <Icon name="grid-3" size={22} /> {t("classes.manage")}
+        </Link>
       </section>
     );
   const { kpis, students, hardest, classroom } = overview;
@@ -56,7 +59,12 @@ export function TeacherOverview({
                 {t("teacher.joinCode", { code: classroom.joinCode })}
               </p>
             </div>
-            <ClassPicker classes={classes} current={classroom.id} />
+            <span className="nb-row nb-center-y nb-no-print">
+              <ClassPicker classes={classes} current={classroom.id} />
+              <button type="button" className="nb-btn nb-btn-soft nb-w-auto" onClick={() => window.print()}>
+                <Icon name="book" size={22} /> {t("teacher.print")}
+              </button>
+            </span>
           </div>
           <div className="nb-grid nb-kpis">
             {kpi.map((k) => (
@@ -71,7 +79,10 @@ export function TeacherOverview({
         <section className="nb-card nb-anim-rise">
           <div className="nb-spread">
             <h2 className="nb-h2">{t("staff.students")}</h2>
-            <Link href={t.href(`/teacher/grade?class=${classroom.id}`)} className="nb-btn nb-btn-soft nb-w-auto">
+            <Link
+              href={t.href(`/teacher/grade?class=${classroom.id}`)}
+              className="nb-btn nb-btn-soft nb-w-auto nb-no-print"
+            >
               <Icon name="check" size={22} /> {t("teacher.startGrading")}
             </Link>
           </div>
@@ -145,7 +156,7 @@ export function TeacherOverview({
             <p className="nb-muted nb-m0">{t("teacher.noHard")}</p>
           )}
         </section>
-        <section className="nb-card">
+        <section className="nb-card nb-no-print">
           <h2 className="nb-h2">{t("teacher.classSettings")}</h2>
           {settings.map((s) => (
             <SettingControl

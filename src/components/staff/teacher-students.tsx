@@ -6,6 +6,8 @@ import { useState } from "react";
 
 import { useT } from "@/components/app/app-data";
 import { Avatar } from "@/components/app/header";
+import { Select } from "@/components/book/controls";
+import { Icon } from "@/components/book/icon";
 import type { StudentRow } from "@/modules/classroom/service";
 
 import { ClassPicker } from "./class-picker";
@@ -27,12 +29,16 @@ export function TeacherStudents({
   const [error, setError] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
   const [confirm, setConfirm] = useState<string | null>(null);
+  const [note, setNote] = useState<string | null>(null);
 
   if (!current)
     return (
       <section className="nb-card">
         <h1 className="nb-h1">{t("staff.students")}</h1>
         <p className="nb-muted nb-m0">{t("teacher.noClass")}</p>
+        <Link href={t.href("/teacher/classes")} className="nb-btn nb-btn-ok nb-w-auto nb-self-start">
+          <Icon name="grid-3" size={22} /> {t("classes.manage")}
+        </Link>
       </section>
     );
 
@@ -55,6 +61,18 @@ export function TeacherStudents({
     setPin("");
     router.refresh();
   };
+  const others = classes.filter((c) => c.id !== current);
+  const move = async (id: string, to: string) => {
+    const r = await fetch(`/api/v1/classrooms/${current}/students/${id}`, {
+      method: "PATCH",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({ moveTo: to }),
+    }).catch(() => null);
+    if (!r?.ok) return setError(t("classes.failed"));
+    setError(null);
+    setNote(t("teacher.moved", { name: others.find((c) => c.id === to)?.name ?? "" }));
+    router.refresh();
+  };
   const remove = async (id: string) => {
     await fetch(`/api/v1/classrooms/${current}/students/${id}`, { method: "DELETE" });
     setConfirm(null);
@@ -69,6 +87,11 @@ export function TeacherStudents({
           <ClassPicker classes={classes} current={current} />
         </div>
         {!students.length && <p className="nb-muted nb-m0">{t("teacher.noStudents")}</p>}
+        {note && (
+          <p className="nb-muted nb-m0" role="status">
+            {note}
+          </p>
+        )}
         <ul className="nb-plain nb-review-list">
           {students.map((st) => (
             <li key={st.id} className="nb-student-row">
@@ -95,14 +118,27 @@ export function TeacherStudents({
                   </button>
                 </span>
               ) : (
-                <button
-                  type="button"
-                  className="nb-btn nb-btn-quiet"
-                  aria-label={t("teacher.confirmRemove", { name: st.name })}
-                  onClick={() => setConfirm(st.id)}
-                >
-                  {t("teacher.remove")}
-                </button>
+                <span className="nb-row nb-center-y nb-student-acts">
+                  {others.length > 0 && (
+                    <Select
+                      label={t("teacher.moveTo")}
+                      value=""
+                      options={[
+                        { value: "", label: t("teacher.moveTo") },
+                        ...others.map((c) => ({ value: c.id, label: c.name })),
+                      ]}
+                      onChange={(to) => to && void move(st.id, to)}
+                    />
+                  )}
+                  <button
+                    type="button"
+                    className="nb-btn nb-btn-quiet"
+                    aria-label={t("teacher.confirmRemove", { name: st.name })}
+                    onClick={() => setConfirm(st.id)}
+                  >
+                    {t("teacher.remove")}
+                  </button>
+                </span>
               )}
             </li>
           ))}

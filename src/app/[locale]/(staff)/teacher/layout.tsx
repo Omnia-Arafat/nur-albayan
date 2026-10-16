@@ -6,6 +6,7 @@ const NAV: NavEntry[] = [
   { path: "/teacher", label: "staff.overview", icon: "journey" },
   { path: "/teacher/students", label: "staff.students", icon: "profile" },
   { path: "/teacher/grade", label: "staff.grade", icon: "check" },
+  { path: "/teacher/classes", label: "staff.classes", icon: "grid-3" },
 ];
 
 export default async function TeacherLayout({ children, params }: LayoutProps<"/[locale]/teacher">) {

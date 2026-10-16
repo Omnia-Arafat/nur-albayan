@@ -119,25 +119,5 @@
         "description": "Reached the top of the ascension ladder"
       }
     }
-  },
-  {
-    "key": "albayan-genius",
-    "criteria": {
-      "type": "riddles_cleared",
-      "count": 1
-    },
-    "iconKey": "trophy",
-    "fillTokenKey": "color.pill.rose.fill",
-    "position": 6,
-    "i18n": {
-      "ar": {
-        "name": "عبقري نور البيان",
-        "description": "حللت كل الألغاز"
-      },
-      "en": {
-        "name": "Nur Al-Bayan Genius",
-        "description": "Solved every riddle"
-      }
-    }
   }
 ]

@@ -1016,6 +1016,22 @@
     "offline.save": "احفظ الكتاب على هذا الجهاز",
     "offline.update": "حدّث النسخة المحفوظة",
     "offline.saving": "يُحفظ {n} من {total}…",
-    "offline.savedOn": "محفوظ للعمل بلا إنترنت · {date}"
+    "offline.savedOn": "محفوظ للعمل بلا إنترنت · {date}",
+    "staff.classes": "الفصول",
+    "classes.intro": "افتح فصلًا لكل مجموعة تُعلّمها. ينضمّ الطلاب برمز الفصل، أو تضيفهم أنت بأسمائهم.",
+    "classes.needName": "اكتب اسمًا للفصل.",
+    "classes.failed": "لم يُحفظ ذلك. حاول مرة أخرى.",
+    "classes.new": "فصل جديد",
+    "classes.name": "اسم الفصل",
+    "classes.create": "افتح الفصل",
+    "classes.code": "رمز الفصل",
+    "classes.students": "الطلاب: {n}",
+    "classes.rename": "تغيير الاسم",
+    "classes.archive": "أرشفة",
+    "classes.confirmArchive": "أرشفة {name}؟ سيختفي من قوائمك، ويبقى تقدّم طلابه كاملًا.",
+    "classes.manage": "افتح فصلًا",
+    "teacher.moveTo": "انقل إلى فصل",
+    "teacher.moved": "نُقل إلى {name}.",
+    "teacher.print": "اطبع تقرير الفصل"
   }
 }

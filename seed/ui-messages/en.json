@@ -1016,6 +1016,22 @@
     "offline.save": "Save the book on this device",
     "offline.update": "Update the saved copy",
     "offline.saving": "Saving {n} of {total}…",
-    "offline.savedOn": "Saved for offline use · {date}"
+    "offline.savedOn": "Saved for offline use · {date}",
+    "staff.classes": "Classes",
+    "classes.intro": "Open a class for each group you teach. Students join with the class code, or you add them by name.",
+    "classes.needName": "Write a name for the class.",
+    "classes.failed": "That didn't save. Try again.",
+    "classes.new": "New class",
+    "classes.name": "Class name",
+    "classes.create": "Open the class",
+    "classes.code": "Class code",
+    "classes.students": "Students: {n}",
+    "classes.rename": "Rename",
+    "classes.archive": "Archive",
+    "classes.confirmArchive": "Archive {name}? It leaves your lists, and its students keep all their progress.",
+    "classes.manage": "Open a class",
+    "teacher.moveTo": "Move to class",
+    "teacher.moved": "Moved to {name}.",
+    "teacher.print": "Print the class report"
   }
 }
