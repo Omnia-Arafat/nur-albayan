@@ -1,0 +1,46 @@
+{
+  "cues": {
+    "correct": {
+      "wave": "triangle",
+      "notes": [
+        { "hz": 660, "ms": 90 },
+        { "hz": 880, "ms": 150 }
+      ]
+    },
+    "again": {
+      "wave": "sine",
+      "notes": [
+        { "hz": 392, "ms": 120 },
+        { "hz": 330, "ms": 180 }
+      ]
+    },
+    "finish": {
+      "wave": "triangle",
+      "notes": [
+        { "hz": 523, "ms": 110 },
+        { "hz": 659, "ms": 110 },
+        { "hz": 784, "ms": 110 },
+        { "hz": 1047, "ms": 260 }
+      ]
+    },
+    "win": {
+      "wave": "triangle",
+      "notes": [
+        { "hz": 587, "ms": 100 },
+        { "hz": 784, "ms": 100 },
+        { "hz": 988, "ms": 240 }
+      ]
+    },
+    "draw": {
+      "wave": "sine",
+      "notes": [
+        { "hz": 523, "ms": 140 },
+        { "hz": 523, "ms": 180 }
+      ]
+    },
+    "tap": { "wave": "sine", "notes": [{ "hz": 740, "ms": 45 }] }
+  },
+  "gapMs": 18,
+  "attackMs": 8,
+  "peakGain": 0.22
+}

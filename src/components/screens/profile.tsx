@@ -3,21 +3,27 @@
 import { useState } from "react";
 
 import { AccountCard } from "@/components/app/account";
+import { DeviceBackupCard } from "@/components/app/backup";
 import { SaveBook } from "@/components/app/offline";
 import { useApp, useT, xpRates } from "@/components/app/app-data";
 import { Avatar } from "@/components/app/header";
+import { useSetting } from "@/components/app/sound";
 import { addProfile } from "@/components/app/profiles";
-import { Switch } from "@/components/book/controls";
+import { Seg, Switch } from "@/components/book/controls";
 import { Icon } from "@/components/book/icon";
 import { tokenVar } from "@/components/book/word";
 import { levelOf, type LocalProfile, xpOf } from "@/modules/progress/local";
 import { updateProfile, useDevice, writeDevice } from "@/modules/progress/store";
+import { playCue, sounds } from "@/modules/sound/cues";
 
 /** Device settings a learner can switch; read by DeviceSettings. Defaults are on unless listed here. */
 export const SETTINGS = [
   { key: "colours", label: "profile.colours", fallback: true },
   { key: "lessMotion", label: "profile.lessMotion", fallback: false },
 ] as const;
+
+/** Volume steps offered on the profile (percent). */
+const VOLUMES = [25, 50, 75, 100];
 
 export function Profile() {
   const { catalog } = useApp();
@@ -32,6 +38,10 @@ export function Profile() {
     (a) => a.kind === "icon" && a.value && (!a.unlockBadgeKey || me?.badges.includes(a.unlockBadgeKey)),
   );
   const edit = (fn: (p: LocalProfile) => LocalProfile) => me && updateProfile(me.id, fn);
+  const set = (key: string, value: unknown) => edit((p) => ({ ...p, settings: { ...p.settings, [key]: value } }));
+  const soundOn = useSetting<boolean>("sound.enabled", true) !== false;
+  const volume = Number(useSetting("sound.volume", 80));
+  const themeMode = useSetting<"light" | "dark" | "system">("display.themeMode", "light");
   const remove = () => {
     if (!me) return;
     const profiles = device.profiles.filter((p) => p.id !== me.id);
@@ -173,10 +183,42 @@ export function Profile() {
                   onChange={(v) => edit((p) => ({ ...p, settings: { ...p.settings, [s.key]: v } }))}
                 />
               ))}
+              <Seg
+                label={t("profile.theme")}
+                wide
+                value={themeMode}
+                onChange={(v) => set("display.themeMode", v)}
+                options={[
+                  { value: "light", label: t("profile.themeLight") },
+                  { value: "dark", label: t("profile.themeDark") },
+                  { value: "system", label: t("profile.themeSystem") },
+                ]}
+              />
+              <Switch
+                label={t("profile.sound")}
+                checked={soundOn}
+                onChange={(v) => {
+                  set("sound.enabled", v);
+                  if (v) playCue(sounds, "tap", volume);
+                }}
+              />
+              {soundOn && (
+                <Seg
+                  label={t("profile.volume")}
+                  wide
+                  value={String(volume)}
+                  onChange={(v) => {
+                    set("sound.volume", Number(v));
+                    playCue(sounds, "correct", Number(v));
+                  }}
+                  options={VOLUMES.map((n) => ({ value: String(n), label: t.pct(n / 100) }))}
+                />
+              )}
             </section>
           )}
           <AccountCard />
           <SaveBook />
+          <DeviceBackupCard />
         </aside>
       </div>
     </main>

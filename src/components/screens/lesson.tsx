@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 
+import { useSound } from "@/components/app/sound";
 import { useApp, useT } from "@/components/app/app-data";
 import { ensureProfile } from "@/components/app/profiles";
 import { Seg } from "@/components/book/controls";
@@ -47,6 +48,7 @@ export function LessonPlayer({ lesson, prev, next }: { lesson: Lesson; prev: num
   const [reads, setReads] = useState<CardRead[]>([]);
   const [result, setResult] = useState<ResultData | null>(null);
   const rules = catalog.scoring;
+  const play = useSound();
   // A learner's own choice on this device wins over the platform default.
   const mine = active(device)?.settings ?? {};
   const setting = <T,>(key: string, fallback: T) => (mine[key] ?? catalog.settings[key] ?? fallback) as T;
@@ -116,6 +118,7 @@ export function LessonPlayer({ lesson, prev, next }: { lesson: Lesson; prev: num
 
   const grade = (result: "correct" | "wrong") => {
     if (!card || !rules) return;
+    play(i + 1 < cards.length ? (result === "correct" ? "correct" : "again") : "finish");
     const nextReads = [
       ...reads,
       {

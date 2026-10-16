@@ -8,6 +8,21 @@ import { scoringRules } from "@/modules/scoring/profile";
 const i18n = <T extends z.ZodRawShape>(shape: T) => z.record(z.string(), z.object(shape));
 const hex = z.string().regex(/^#[0-9A-Fa-f]{6}$/);
 
+/** A theme file: the theme row and its tokens (the default light theme, and the night theme). */
+const themeFile = z.object({
+  theme: z.object({ slug: z.string(), name: z.string(), mode: z.enum(["light", "dark"]), isDefault: z.boolean() }),
+  tokens: z.array(
+    z
+      .object({
+        group: z.enum(["color", "font", "font_size", "font_weight", "radius", "space", "shadow", "motion", "border"]),
+        key: z.string().regex(/^[a-z_]+(\.[a-z0-9_]+)+$/),
+        value: z.string().min(1),
+        description: z.string().optional(),
+      })
+      .refine((t) => t.group !== "color" || hex.safeParse(t.value).success, "color tokens must be #RRGGBB"),
+  ),
+});
+
 export const seedSchemas = {
   locales: z.array(
     z.object({
@@ -20,19 +35,8 @@ export const seedSchemas = {
       position: z.number().int(),
     }),
   ),
-  theme: z.object({
-    theme: z.object({ slug: z.string(), name: z.string(), mode: z.enum(["light", "dark"]), isDefault: z.boolean() }),
-    tokens: z.array(
-      z
-        .object({
-          group: z.enum(["color", "font", "font_size", "font_weight", "radius", "space", "shadow", "motion", "border"]),
-          key: z.string().regex(/^[a-z_]+(\.[a-z0-9_]+)+$/),
-          value: z.string().min(1),
-          description: z.string().optional(),
-        })
-        .refine((t) => t.group !== "color" || hex.safeParse(t.value).success, "color tokens must be #RRGGBB"),
-    ),
-  }),
+  theme: themeFile,
+  nightTheme: themeFile,
   fonts: z.array(
     z.object({
       role: z.enum(["display", "naskh", "quran", "ui"]),
@@ -96,7 +100,9 @@ export const seedSchemas = {
     rolePermissions: z.record(z.string(), z.array(z.string())),
   }),
   avatars: z.object({
-    avatars: z.array(z.object({ kind: z.enum(["letter", "icon", "asset"]), value: z.string(), position: z.number().int() })),
+    avatars: z.array(
+      z.object({ kind: z.enum(["letter", "icon", "asset"]), value: z.string(), position: z.number().int() }),
+    ),
     colors: z.array(z.object({ tokenKey: z.string(), position: z.number().int() })),
   }),
   levels: z.array(
@@ -138,6 +144,7 @@ export const seedSchemas = {
 const files = {
   locales: "locales.json",
   theme: "theme.book-light.json",
+  nightTheme: "theme.book-night.json",
   fonts: "fonts.json",
   semanticRoles: "semantic-roles.json",
   pillPalettes: "pill-palettes.json",

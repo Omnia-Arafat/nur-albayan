@@ -3,6 +3,7 @@
 import { createContext, useContext, useMemo } from "react";
 
 import type { Catalog } from "@/modules/catalog/service";
+import { effectiveScore } from "@/modules/scoring/engine";
 import type { LessonListItem } from "@/modules/content/service";
 import { fill, type Locale, type Messages } from "@/modules/i18n/service";
 
@@ -39,7 +40,8 @@ export function useT() {
       const v = Object.fromEntries(Object.entries(vars).map(([k, x]) => [k, typeof x === "number" ? num(x) : x]));
       return fill(messages.app?.[key] ?? key, v);
     };
-    return Object.assign(t, { num, pct, href: (path: string) => `/${locale.code}${path}` });
+    const has = (key: string) => messages.app?.[key] != null;
+    return Object.assign(t, { num, pct, has, href: (path: string) => `/${locale.code}${path}` });
   }, [messages, locale]);
 }
 
@@ -48,3 +50,22 @@ export const xpRates = (catalog: Catalog) => ({
   perLesson: Number(catalog.settings["gamification.xpPerLesson"] ?? 0),
   perStar: Number(catalog.settings["gamification.xpPerStar"] ?? 0),
 });
+
+/**
+ * A learner's points as their header shows them: each finished page by the repeat policy, plus XP per
+ * page and per star, plus game points. Used wherever staff or classmates see someone's points.
+ */
+export function studentPoints(
+  catalog: Catalog,
+  lessons: { stars: number; bestScore: number; latestScore: number; cumulativeScore: number; completedCount: number }[],
+  gamePoints: number,
+) {
+  const rules = catalog.scoring;
+  const rates = xpRates(catalog);
+  return lessons
+    .filter((l) => l.completedCount > 0)
+    .reduce(
+      (n, l) => n + rates.perLesson + l.stars * rates.perStar + (rules ? effectiveScore(rules.repeatPolicy, l) : 0),
+      gamePoints,
+    );
+}

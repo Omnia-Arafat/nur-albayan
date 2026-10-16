@@ -1,5 +1,6 @@
 "use client";
 
+import { MyLeaderboards } from "@/components/app/leaderboard";
 import { useApp, useT, xpRates } from "@/components/app/app-data";
 import { Icon } from "@/components/book/icon";
 import { Meter, Tag } from "@/components/book/parts";
@@ -80,6 +81,7 @@ export function Badges() {
           })}
         </ul>
       </section>
+      <MyLeaderboards />
     </main>
   );
 }

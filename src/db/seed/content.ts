@@ -23,7 +23,9 @@ export const ruleExamplePart = z.union([
   z.object({ text: z.string(), role: z.string() }),
   z.object({ op: z.enum(["plus", "equals", "arrow", "dash", "dot", "compare"]) }),
 ]);
-export type RuleExamplePart = { text: string; role: string; op?: never } | { op: "plus" | "equals" | "arrow" | "dash" | "dot" | "compare" };
+export type RuleExamplePart =
+  | { text: string; role: string; op?: never }
+  | { op: "plus" | "equals" | "arrow" | "dash" | "dot" | "compare" };
 
 const contentItem = z.object({
   cardType: z.string(),
@@ -56,13 +58,27 @@ export const contentLesson = z.object({
   }),
   sections: z.array(
     z.object({
-      kind: z.enum(["letter_tiles", "picture_grid", "segmented_rows", "word_rows", "sentences", "story", "rule_table", "rule_definition"]),
+      kind: z.enum([
+        "letter_tiles",
+        "picture_grid",
+        "segmented_rows",
+        "word_rows",
+        "sentences",
+        "story",
+        "rule_table",
+        "rule_definition",
+      ]),
       config: z.record(z.string(), z.unknown()).optional(),
       items: z.array(contentItem),
     }),
   ),
-  rules: z.array(z.object({ example: z.array(ruleExamplePart), i18n: i18n({ title: z.string(), description: z.string() }) })),
-  games: z.record(z.string(), z.object({ enabled: z.boolean().optional(), config: z.record(z.string(), z.unknown()).optional() })),
+  rules: z.array(
+    z.object({ example: z.array(ruleExamplePart), i18n: i18n({ title: z.string(), description: z.string() }) }),
+  ),
+  games: z.record(
+    z.string(),
+    z.object({ enabled: z.boolean().optional(), config: z.record(z.string(), z.unknown()).optional() }),
+  ),
   source: z.string().optional(),
 });
 export type ContentLesson = z.infer<typeof contentLesson>;
@@ -73,7 +89,9 @@ export const contentBook = z.object({
   i18n: i18n({ title: z.string(), subtitle: z.string().optional() }),
   stages: z.array(z.object({ slug: z.string(), position: z.number().int(), i18n: i18n({ title: z.string() }) })),
   /** The book's numbered topics inside a unit; each one is seeded as a unit row. */
-  topics: z.array(z.object({ slug: z.string(), stage: z.string(), position: z.number().int(), i18n: i18n({ title: z.string() }) })),
+  topics: z.array(
+    z.object({ slug: z.string(), stage: z.string(), position: z.number().int(), i18n: i18n({ title: z.string() }) }),
+  ),
 });
 export type ContentBook = z.infer<typeof contentBook>;
 
@@ -106,7 +124,10 @@ export async function runContentSeed(db: AnyDb, content: ContentSeed) {
     const { book } = content;
     let [bookRow] = await tx.select({ id: s.books.id }).from(s.books).where(eq(s.books.slug, book.slug));
     if (!bookRow) {
-      [bookRow] = await tx.insert(s.books).values({ slug: book.slug, edition: book.edition }).returning({ id: s.books.id });
+      [bookRow] = await tx
+        .insert(s.books)
+        .values({ slug: book.slug, edition: book.edition })
+        .returning({ id: s.books.id });
       await tx.insert(s.booksI18n).values(i18nRows(bookRow.id, book.i18n));
     }
 
@@ -117,7 +138,10 @@ export async function runContentSeed(db: AnyDb, content: ContentSeed) {
         .from(s.stages)
         .where(sql`${s.stages.bookId} = ${bookRow.id} and ${s.stages.position} = ${stage.position}`);
       if (!stageRow) {
-        [stageRow] = await tx.insert(s.stages).values({ bookId: bookRow.id, position: stage.position }).returning({ id: s.stages.id });
+        [stageRow] = await tx
+          .insert(s.stages)
+          .values({ bookId: bookRow.id, position: stage.position })
+          .returning({ id: s.stages.id });
         await tx.insert(s.stagesI18n).values(i18nRows(stageRow.id, stage.i18n));
       }
       stageIds.set(stage.slug, stageRow.id);
@@ -132,7 +156,10 @@ export async function runContentSeed(db: AnyDb, content: ContentSeed) {
         .from(s.units)
         .where(sql`${s.units.stageId} = ${stageId} and ${s.units.position} = ${topic.position}`);
       if (!unitRow) {
-        [unitRow] = await tx.insert(s.units).values({ stageId, position: topic.position }).returning({ id: s.units.id });
+        [unitRow] = await tx
+          .insert(s.units)
+          .values({ stageId, position: topic.position })
+          .returning({ id: s.units.id });
         await tx.insert(s.unitsI18n).values(i18nRows(unitRow.id, topic.i18n));
       }
       unitOfTopic.set(topic.slug, unitRow.id);
@@ -146,7 +173,10 @@ export async function runContentSeed(db: AnyDb, content: ContentSeed) {
       const storagePath = `book/images/${slug}.webp`;
       let [row] = await tx.select({ id: s.assets.id }).from(s.assets).where(eq(s.assets.storagePath, storagePath));
       if (!row) {
-        [row] = await tx.insert(s.assets).values({ kind: "image", storagePath, mimeType: "image/webp" }).returning({ id: s.assets.id });
+        [row] = await tx
+          .insert(s.assets)
+          .values({ kind: "image", storagePath, mimeType: "image/webp" })
+          .returning({ id: s.assets.id });
         await tx.insert(s.assetsI18n).values(i18nRows(row.id, { ar: { alt }, en: { alt: slug.replace(/-/g, " ") } }));
       }
       assetOfImage.set(slug, row.id);
@@ -162,7 +192,13 @@ export async function runContentSeed(db: AnyDb, content: ContentSeed) {
 
       const [lessonRow] = await tx
         .insert(s.lessons)
-        .values({ unitId, slug: lesson.slug, bookPage: lesson.bookPage, position: lesson.bookPage, status: lesson.status })
+        .values({
+          unitId,
+          slug: lesson.slug,
+          bookPage: lesson.bookPage,
+          position: lesson.bookPage,
+          status: lesson.status,
+        })
         .returning({ id: s.lessons.id });
       await tx.insert(s.lessonsI18n).values(i18nRows(lessonRow.id, lesson.i18n));
 
@@ -201,7 +237,8 @@ export async function runContentSeed(db: AnyDb, content: ContentSeed) {
             cellBreakAfter: seg.cellBreakAfter ?? false,
           })),
         );
-        for (let i = 0; i < segments.length; i += 1000) await tx.insert(s.itemSegments).values(segments.slice(i, i + 1000));
+        for (let i = 0; i < segments.length; i += 1000)
+          await tx.insert(s.itemSegments).values(segments.slice(i, i + 1000));
       }
 
       for (const [rulePos, rule] of lesson.rules.entries()) {
@@ -214,9 +251,16 @@ export async function runContentSeed(db: AnyDb, content: ContentSeed) {
 
       const overrides = Object.entries(lesson.games);
       if (overrides.length) {
-        await tx.insert(s.lessonGameOverrides).values(
-          overrides.map(([gameKey, o]) => ({ lessonId: lessonRow.id, gameKey, enabled: o.enabled ?? null, config: o.config ?? {} })),
-        );
+        await tx
+          .insert(s.lessonGameOverrides)
+          .values(
+            overrides.map(([gameKey, o]) => ({
+              lessonId: lessonRow.id,
+              gameKey,
+              enabled: o.enabled ?? null,
+              config: o.config ?? {},
+            })),
+          );
       }
     }
   });

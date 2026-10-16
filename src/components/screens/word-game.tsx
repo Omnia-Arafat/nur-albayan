@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useMemo } from "react";
 
+import { useSound } from "@/components/app/sound";
 import { useApp, useT } from "@/components/app/app-data";
 import { ensureProfile } from "@/components/app/profiles";
 import { Icon } from "@/components/book/icon";
@@ -72,7 +73,9 @@ export function useGradeWord() {
   const { catalog } = useApp();
   const t = useT();
   const device = useDevice();
+  const play = useSound();
   return (word: Word, result: "correct" | "wrong") => {
+    play(result === "correct" ? "correct" : "again");
     const rules = catalog.scoring;
     if (!rules) return 0;
     const points = pointsFor(rules, { surface: "wordwall", cardTypeKey: word.cardType, result });

@@ -64,6 +64,13 @@ export function AdminOverview({ data }: { data: PlatformOverview }) {
         <h2 className="nb-h2">{t("teacher.lastDays", { n: t.num(data.days) })}</h2>
         {tiles(reading)}
       </section>
+      <section className="nb-card nb-anim-rise">
+        <h2 className="nb-h2">{t("export.title")}</h2>
+        <p className="nb-muted nb-m0">{t("export.text")}</p>
+        <a href="/api/v1/admin/export" className="nb-btn nb-btn-soft nb-self-start nb-w-auto" download>
+          <Icon name="box" size={22} tone="sky" /> {t("export.download")}
+        </a>
+      </section>
     </div>
   );
 }

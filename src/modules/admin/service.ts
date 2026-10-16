@@ -1,6 +1,6 @@
 import "server-only";
 
-import { and, asc, count, eq, gte, isNotNull, isNull, sql } from "drizzle-orm";
+import { and, asc, count, desc, eq, gte, isNotNull, isNull, sql } from "drizzle-orm";
 
 import type { Db } from "@/db/client";
 import * as s from "@/db/schema";
@@ -207,4 +207,68 @@ export async function platformOverview(db: Db, days = 7): Promise<PlatformOvervi
     accuracy: total ? Number(reads.correct) / total : null,
     badgesEarned: Number(badges.n),
   };
+}
+
+/* ---------- design: theme colours ---------- */
+
+export type ThemeColours = {
+  slug: string;
+  name: string;
+  mode: "light" | "dark";
+  isDefault: boolean;
+  tokens: { key: string; value: string; description: string | null }[];
+};
+
+const HEX = /^#[0-9A-Fa-f]{6}$/;
+
+/** Every theme's colour tokens. A night theme lists the default theme's colours too, with its own where set. */
+export async function themeColours(db: Db): Promise<ThemeColours[]> {
+  const [themeRows, tokens] = await Promise.all([
+    db.select().from(s.themes).orderBy(desc(s.themes.isDefault), asc(s.themes.slug)),
+    db.select().from(s.designTokens).where(eq(s.designTokens.group, "color")).orderBy(asc(s.designTokens.key)),
+  ]);
+  const base = themeRows.find((t) => t.isDefault);
+  const baseTokens = tokens.filter((t) => t.themeId === base?.id);
+  return themeRows.map((t) => ({
+    slug: t.slug,
+    name: t.name,
+    mode: t.mode,
+    isDefault: t.isDefault,
+    tokens: baseTokens.map((b) => {
+      const own = tokens.find((x) => x.themeId === t.id && x.key === b.key);
+      return { key: b.key, value: (own ?? b).value, description: b.description };
+    }),
+  }));
+}
+
+/** Sets one colour of one theme. Only colours the default theme has can be set, and only as #RRGGBB. */
+export async function setThemeColour(
+  db: Db,
+  input: { theme: string; key: string; value: string },
+): Promise<{ ok: true } | { ok: false; error: "unknown" | "colour" }> {
+  if (!HEX.test(input.value)) return { ok: false, error: "colour" };
+  const [theme] = await db.select().from(s.themes).where(eq(s.themes.slug, input.theme));
+  const [base] = await db.select().from(s.themes).where(eq(s.themes.isDefault, true));
+  if (!theme || !base) return { ok: false, error: "unknown" };
+  const [known] = await db
+    .select()
+    .from(s.designTokens)
+    .where(
+      and(eq(s.designTokens.themeId, base.id), eq(s.designTokens.key, input.key), eq(s.designTokens.group, "color")),
+    );
+  if (!known) return { ok: false, error: "unknown" };
+  await db
+    .insert(s.designTokens)
+    .values({
+      themeId: theme.id,
+      group: "color",
+      key: input.key,
+      value: input.value.toUpperCase(),
+      description: known.description,
+    })
+    .onConflictDoUpdate({
+      target: [s.designTokens.themeId, s.designTokens.key],
+      set: { value: input.value.toUpperCase() },
+    });
+  return { ok: true };
 }

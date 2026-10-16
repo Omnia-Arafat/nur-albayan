@@ -120,7 +120,7 @@ describe("migrations and seed", () => {
       feedback: await count("feedback_messages"),
       games: await count("games"),
     }).toEqual(before);
-    expect(before.tokens).toBe(seed.theme.tokens.length);
+    expect(before.tokens).toBe(seed.theme.tokens.length + seed.nightTheme.tokens.length);
 
     const rls = await db.execute<{ n: number }>(
       sql`select count(*)::int as n from pg_tables where schemaname = 'public' and not rowsecurity`,

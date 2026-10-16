@@ -2,6 +2,8 @@
 
 import { useMemo, useState } from "react";
 
+import { type BoardState, openBoard, useBoardSender } from "@/components/app/board";
+import { useSound } from "@/components/app/sound";
 import { useApp, useT } from "@/components/app/app-data";
 import { Select } from "@/components/book/controls";
 import { Icon } from "@/components/book/icon";
@@ -26,6 +28,7 @@ export function TeacherGrade({
 }) {
   const { lessons, locale, catalog } = useApp();
   const t = useT();
+  const play = useSound();
   const [studentId, setStudentId] = useState(students[0]?.id ?? "");
   const student = students.find((s) => s.id === studentId);
   const firstPage = lessons[0]?.bookPage ?? 1;
@@ -56,6 +59,7 @@ export function TeacherGrade({
   };
   const grade = (result: Read["result"]) => {
     const next = [...reads, { itemId: cards[reads.length].it.id, result }];
+    play(next.length === cards.length ? "finish" : result === "correct" ? "correct" : "again");
     setReads(next);
     if (next.length === cards.length) save(next);
   };
@@ -119,63 +123,94 @@ export function TeacherGrade({
   const correct = reads.filter((r) => r.result === "correct").length;
   const card = cards[reads.length];
   return (
-    <section className="nb-card nb-anim-rise nb-cards" aria-label={t("grade.title")}>
-      <div className="nb-spread nb-full">
-        <b>{student?.name}</b>
-        <span className="nb-muted">
-          {lesson ? t("lesson.cardOf", { n: Math.min(reads.length + 1, cards.length), total: cards.length }) : ""}
-        </span>
-      </div>
-      <Meter value={cards.length ? reads.length / cards.length : 0} />
-      {done ? (
-        <>
-          <Ring
-            value={correct / cards.length}
-            size={132}
-            label={t("result.accuracy")}
-            text={t.pct(correct / cards.length)}
-          />
-          <p className="nb-center nb-m0" role="status">
-            {state === "saving"
-              ? t("grade.saving")
-              : state === "saved"
-                ? t("grade.saved", { name: student?.name ?? "" })
-                : t("grade.failed")}
-          </p>
-          <div className="nb-row nb-row-btns nb-center">
-            {state === "failed" && (
-              <button type="button" className="nb-btn nb-btn-ok" onClick={() => save(reads)}>
-                {t("admin.save")}
+    <>
+      <BoardSync
+        state={
+          lesson && student
+            ? {
+                student: student.name,
+                n: reads.length + 1,
+                total: cards.length,
+                card: card ? { segments: card.it.segments, script: card.it.script, palette: card.palette } : null,
+                accuracy: done ? correct / cards.length : null,
+              }
+            : null
+        }
+      />
+      <section className="nb-card nb-anim-rise nb-cards" aria-label={t("grade.title")}>
+        <div className="nb-spread nb-full">
+          <b>{student?.name}</b>
+          <span className="nb-muted">
+            {lesson ? t("lesson.cardOf", { n: Math.min(reads.length + 1, cards.length), total: cards.length }) : ""}
+          </span>
+        </div>
+        <Meter value={cards.length ? reads.length / cards.length : 0} />
+        {done ? (
+          <>
+            <Ring
+              value={correct / cards.length}
+              size={132}
+              label={t("result.accuracy")}
+              text={t.pct(correct / cards.length)}
+            />
+            <p className="nb-center nb-m0" role="status">
+              {state === "saving"
+                ? t("grade.saving")
+                : state === "saved"
+                  ? t("grade.saved", { name: student?.name ?? "" })
+                  : t("grade.failed")}
+            </p>
+            <div className="nb-row nb-row-btns nb-center">
+              {state === "failed" && (
+                <button type="button" className="nb-btn nb-btn-ok" onClick={() => save(reads)}>
+                  {t("admin.save")}
+                </button>
+              )}
+              <button type="button" className="nb-btn nb-btn-soft" onClick={restart} disabled={state === "saving"}>
+                {t("grade.again")}
               </button>
-            )}
-            <button type="button" className="nb-btn nb-btn-soft" onClick={restart} disabled={state === "saving"}>
-              {t("grade.again")}
-            </button>
-          </div>
-        </>
-      ) : card ? (
-        <>
-          <div
-            key={card.it.id}
-            className="nb-bigcard nb-anim-pop"
-            style={{
-              ...pillVars(card.palette),
-              fontFamily: card.it.script === "uthmani" ? "var(--nb-font-quran)" : undefined,
-            }}
-          >
-            <Word segments={card.it.segments} />
-          </div>
-          <div className="nb-row nb-row-btns nb-center">
-            <button type="button" className="nb-btn nb-btn-ok nb-btn-big" onClick={() => grade("correct")}>
-              <Icon name="check" size={26} colours={{ fill: "color.surface", line: "color.surface" }} />{" "}
-              {t("lesson.right")}
-            </button>
-            <button type="button" className="nb-btn nb-btn-again nb-btn-big" onClick={() => grade("wrong")}>
-              {t("lesson.again")}
-            </button>
-          </div>
-        </>
-      ) : null}
-    </section>
+            </div>
+          </>
+        ) : card ? (
+          <>
+            <div
+              key={card.it.id}
+              className="nb-bigcard nb-anim-pop"
+              style={{
+                ...pillVars(card.palette),
+                fontFamily: card.it.script === "uthmani" ? "var(--nb-font-quran)" : undefined,
+              }}
+            >
+              <Word segments={card.it.segments} />
+            </div>
+            <div className="nb-row nb-row-btns nb-center">
+              <button type="button" className="nb-btn nb-btn-ok nb-btn-big" onClick={() => grade("correct")}>
+                <Icon name="check" size={26} colours={{ fill: "color.surface", line: "color.surface" }} />{" "}
+                {t("lesson.right")}
+              </button>
+              <button type="button" className="nb-btn nb-btn-again nb-btn-big" onClick={() => grade("wrong")}>
+                {t("lesson.again")}
+              </button>
+            </div>
+          </>
+        ) : null}
+        <button
+          type="button"
+          className="nb-btn nb-btn-quiet nb-self-center"
+          onClick={() => openBoard(t.href("/board"))}
+        >
+          <Icon name="columns" size={20} tone="lavender" /> {t("board.open")}
+        </button>
+      </section>
+    </>
   );
+}
+
+/** Keeps an open board window showing this session (re-sent only when what it shows changes). */
+function BoardSync({ state }: { state: BoardState | null }) {
+  const key = JSON.stringify(state);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  const stable = useMemo(() => state, [key]);
+  useBoardSender(stable);
+  return null;
 }

@@ -1,10 +1,11 @@
 "use client";
 
+import { DEVICE_KEY } from "./keys";
 import { useSyncExternalStore } from "react";
 
 import { type DeviceState, deviceState, emptyState, type LocalProfile } from "./local";
 
-const KEY = "nur-albayan.device.v1";
+const KEY = DEVICE_KEY;
 const listeners = new Set<() => void>();
 let cache: DeviceState | null = null;
 

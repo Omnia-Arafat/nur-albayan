@@ -4,13 +4,12 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
-import { useApp, useT, xpRates } from "@/components/app/app-data";
+import { studentPoints, useApp, useT } from "@/components/app/app-data";
 import { Avatar } from "@/components/app/header";
 import { Icon } from "@/components/book/icon";
 import { Meter, Tag } from "@/components/book/parts";
 import { Pill, pillVars } from "@/components/book/word";
 import type { StudentReport } from "@/modules/classroom/report";
-import { effectiveScore } from "@/modules/scoring/engine";
 
 /** Accuracy at or above this reads as on track (the same display threshold as the overview). */
 const ON_TRACK = 0.8;
@@ -33,14 +32,7 @@ export function StudentDetail({ report }: { report: StudentReport }) {
   });
   const fullDate = new Intl.DateTimeFormat(`${locale.code}-u-nu-${locale.numberingSystem}`, { dateStyle: "long" });
   // The same total the learner sees in their header: lessons by the repeat policy, stars, and game points.
-  const rules = catalog.scoring;
-  const rates = xpRates(catalog);
-  const points = report.lessons
-    .filter((l) => l.completedCount > 0)
-    .reduce(
-      (n, l) => n + rates.perLesson + l.stars * rates.perStar + (rules ? effectiveScore(rules.repeatPolicy, l) : 0),
-      report.gamePoints,
-    );
+  const points = studentPoints(catalog, report.lessons, report.gamePoints);
   const maxStars = Math.max(0, ...(catalog.scoring?.stars ?? []).map((s) => s.stars));
 
   const act = async (url: string, init: RequestInit) => {

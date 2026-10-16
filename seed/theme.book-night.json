@@ -1,0 +1,310 @@
+{
+  "theme": {
+    "slug": "book-night",
+    "name": "Book at night (dark)",
+    "mode": "dark",
+    "isDefault": false
+  },
+  "tokens": [
+    {
+      "group": "color",
+      "key": "color.paper",
+      "value": "#17122A",
+      "description": "Night version of color.paper"
+    },
+    {
+      "group": "color",
+      "key": "color.surface",
+      "value": "#231B3B",
+      "description": "Night version of color.surface"
+    },
+    {
+      "group": "color",
+      "key": "color.ink",
+      "value": "#F6F1E4",
+      "description": "Night version of color.ink"
+    },
+    {
+      "group": "color",
+      "key": "color.ink.muted",
+      "value": "#BDB4CF",
+      "description": "Night version of color.ink.muted"
+    },
+    {
+      "group": "color",
+      "key": "color.divider",
+      "value": "#7A7192",
+      "description": "Night version of color.divider"
+    },
+    {
+      "group": "color",
+      "key": "color.border",
+      "value": "#3D3360",
+      "description": "Night version of color.border"
+    },
+    {
+      "group": "color",
+      "key": "color.red",
+      "value": "#FF6F82",
+      "description": "Night version of color.red"
+    },
+    {
+      "group": "color",
+      "key": "color.red.text",
+      "value": "#FF8A9A",
+      "description": "Night version of color.red.text"
+    },
+    {
+      "group": "color",
+      "key": "color.red.warm",
+      "value": "#FF8670",
+      "description": "Night version of color.red.warm"
+    },
+    {
+      "group": "color",
+      "key": "color.blue",
+      "value": "#86A8F5",
+      "description": "Night version of color.blue"
+    },
+    {
+      "group": "color",
+      "key": "color.magenta",
+      "value": "#F27DB5",
+      "description": "Night version of color.magenta"
+    },
+    {
+      "group": "color",
+      "key": "color.purple",
+      "value": "#E58AD6",
+      "description": "Night version of color.purple"
+    },
+    {
+      "group": "color",
+      "key": "color.purple.deep",
+      "value": "#CDB6F7",
+      "description": "Night version of color.purple.deep"
+    },
+    {
+      "group": "color",
+      "key": "color.teal",
+      "value": "#4FD0B9",
+      "description": "Night version of color.teal"
+    },
+    {
+      "group": "color",
+      "key": "color.teal.deep",
+      "value": "#6FD8C4",
+      "description": "Night version of color.teal.deep"
+    },
+    {
+      "group": "color",
+      "key": "color.green",
+      "value": "#46C48E",
+      "description": "Night version of color.green"
+    },
+    {
+      "group": "color",
+      "key": "color.green.deep",
+      "value": "#2E9D6E",
+      "description": "Night version of color.green.deep"
+    },
+    {
+      "group": "color",
+      "key": "color.cyan",
+      "value": "#5CC8EC",
+      "description": "Night version of color.cyan"
+    },
+    {
+      "group": "color",
+      "key": "color.orange",
+      "value": "#F2B47A",
+      "description": "Night version of color.orange"
+    },
+    {
+      "group": "color",
+      "key": "color.gold",
+      "value": "#E8C24F",
+      "description": "Night version of color.gold"
+    },
+    {
+      "group": "color",
+      "key": "color.olive",
+      "value": "#C9BF55",
+      "description": "Night version of color.olive"
+    },
+    {
+      "group": "color",
+      "key": "color.tag.lesson",
+      "value": "#E0705F",
+      "description": "Night version of color.tag.lesson"
+    },
+    {
+      "group": "color",
+      "key": "color.success",
+      "value": "#5ED3A0",
+      "description": "Night version of color.success"
+    },
+    {
+      "group": "color",
+      "key": "color.danger",
+      "value": "#FF8C7C",
+      "description": "Night version of color.danger"
+    },
+    {
+      "group": "color",
+      "key": "color.pill.yellow.fill",
+      "value": "#3A3518",
+      "description": "Night version of color.pill.yellow.fill"
+    },
+    {
+      "group": "color",
+      "key": "color.pill.yellow.line",
+      "value": "#BFB45A",
+      "description": "Night version of color.pill.yellow.line"
+    },
+    {
+      "group": "color",
+      "key": "color.pill.peach.fill",
+      "value": "#3D2C1C",
+      "description": "Night version of color.pill.peach.fill"
+    },
+    {
+      "group": "color",
+      "key": "color.pill.peach.line",
+      "value": "#C9A47A",
+      "description": "Night version of color.pill.peach.line"
+    },
+    {
+      "group": "color",
+      "key": "color.pill.sky.fill",
+      "value": "#163845",
+      "description": "Night version of color.pill.sky.fill"
+    },
+    {
+      "group": "color",
+      "key": "color.pill.sky.line",
+      "value": "#5CC0D8",
+      "description": "Night version of color.pill.sky.line"
+    },
+    {
+      "group": "color",
+      "key": "color.pill.mint.fill",
+      "value": "#15393A",
+      "description": "Night version of color.pill.mint.fill"
+    },
+    {
+      "group": "color",
+      "key": "color.pill.mint.line",
+      "value": "#5CC4B4",
+      "description": "Night version of color.pill.mint.line"
+    },
+    {
+      "group": "color",
+      "key": "color.pill.green.fill",
+      "value": "#1C3420",
+      "description": "Night version of color.pill.green.fill"
+    },
+    {
+      "group": "color",
+      "key": "color.pill.green.line",
+      "value": "#6CC468",
+      "description": "Night version of color.pill.green.line"
+    },
+    {
+      "group": "color",
+      "key": "color.pill.gray.fill",
+      "value": "#2E2A3A",
+      "description": "Night version of color.pill.gray.fill"
+    },
+    {
+      "group": "color",
+      "key": "color.pill.gray.line",
+      "value": "#9A96A6",
+      "description": "Night version of color.pill.gray.line"
+    },
+    {
+      "group": "color",
+      "key": "color.pill.lime.fill",
+      "value": "#253A18",
+      "description": "Night version of color.pill.lime.fill"
+    },
+    {
+      "group": "color",
+      "key": "color.pill.lime.line",
+      "value": "#9AD178",
+      "description": "Night version of color.pill.lime.line"
+    },
+    {
+      "group": "color",
+      "key": "color.pill.pink.fill",
+      "value": "#3E1F3A",
+      "description": "Night version of color.pill.pink.fill"
+    },
+    {
+      "group": "color",
+      "key": "color.pill.pink.line",
+      "value": "#D27FC2",
+      "description": "Night version of color.pill.pink.line"
+    },
+    {
+      "group": "color",
+      "key": "color.pill.rose.fill",
+      "value": "#43192E",
+      "description": "Night version of color.pill.rose.fill"
+    },
+    {
+      "group": "color",
+      "key": "color.pill.rose.line",
+      "value": "#D8649C",
+      "description": "Night version of color.pill.rose.line"
+    },
+    {
+      "group": "color",
+      "key": "color.pill.lavender.fill",
+      "value": "#30244A",
+      "description": "Night version of color.pill.lavender.fill"
+    },
+    {
+      "group": "color",
+      "key": "color.pill.lavender.line",
+      "value": "#A78BD3",
+      "description": "Night version of color.pill.lavender.line"
+    },
+    {
+      "group": "color",
+      "key": "color.pill.salmon.fill",
+      "value": "#421F1A",
+      "description": "Night version of color.pill.salmon.fill"
+    },
+    {
+      "group": "color",
+      "key": "color.pill.salmon.line",
+      "value": "#DC8B77",
+      "description": "Night version of color.pill.salmon.line"
+    },
+    {
+      "group": "color",
+      "key": "color.locked",
+      "value": "#4A4560",
+      "description": "Night version of color.locked"
+    },
+    {
+      "group": "color",
+      "key": "color.danger.soft",
+      "value": "#4A2630",
+      "description": "Night version of color.danger.soft"
+    },
+    {
+      "group": "color",
+      "key": "color.green.shadow",
+      "value": "#0E3A2A",
+      "description": "Night version of color.green.shadow"
+    },
+    {
+      "group": "color",
+      "key": "color.purple.night",
+      "value": "#0D0820",
+      "description": "Night version of color.purple.night"
+    }
+  ]
+}

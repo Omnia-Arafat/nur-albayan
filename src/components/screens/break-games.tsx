@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 
+import { useSound } from "@/components/app/sound";
 import { useApp, useT } from "@/components/app/app-data";
 import { Seg } from "@/components/book/controls";
 import { Icon } from "@/components/book/icon";
@@ -109,6 +110,11 @@ function Status({
   onAgain: () => void;
 }) {
   const t = useT();
+  const play = useSound();
+  const ended = result === "draw" ? "draw" : result ? result.winner : null;
+  useEffect(() => {
+    if (ended) play(ended === "draw" ? "draw" : ended === "x" ? "win" : "again");
+  }, [ended, play]);
   const name = (p: Player) => (p === "x" ? t("break.you") : t(`break.side.${mode}`));
   const text =
     result === "draw"

@@ -25,7 +25,24 @@ export async function getTheme(db: Db): Promise<Theme> {
     .from(fonts)
     .where(and(eq(fonts.isDefault, true)));
   const roles = await db.select().from(semanticRoles);
-  const css = compileThemeCss(tokens, fontRows, roles) + "\n" + compileMotionCss(motion);
+  const [night] = await db
+    .select()
+    .from(themes)
+    .where(and(eq(themes.mode, "dark"), eq(themes.isDefault, false)));
+  const nightTokens = night ? await db.select().from(designTokens).where(eq(designTokens.themeId, night.id)) : [];
+  const css = [
+    compileThemeCss(tokens, fontRows, roles),
+    // Night colours when the learner picks them, or follows a device set to dark.
+    ...(nightTokens.length
+      ? [
+          compileThemeCss(nightTokens, [], [], ':root[data-theme="dark"]'),
+          `@media (prefers-color-scheme: dark){${compileThemeCss(nightTokens, [], [], ':root[data-theme="system"]')}}`,
+          ':root[data-theme="dark"]{color-scheme:dark}',
+          '@media (prefers-color-scheme: dark){:root[data-theme="system"]{color-scheme:dark}}',
+        ]
+      : []),
+    compileMotionCss(motion),
+  ].join("\n");
   const fontUrls = [...new Set(fontRows.map((f) => f.cssUrl).filter((u): u is string => !!u))];
   return { css, fontUrls };
 }

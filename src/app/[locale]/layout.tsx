@@ -8,6 +8,7 @@ import { AppDataProvider } from "@/components/app/app-data";
 import { DeviceSettings } from "@/components/app/device-settings";
 import { OfflineSupport } from "@/components/app/offline";
 import { FitText } from "@/components/book/fit-text";
+import { DEVICE_KEY } from "@/modules/progress/keys";
 import { getDb } from "@/db/client";
 import { feedbackMessages } from "@/db/schema";
 import { getCatalog } from "@/modules/catalog/service";
@@ -57,6 +58,8 @@ export default async function LocaleLayout(props: LayoutProps<"/[locale]">) {
           <link key={u} rel="stylesheet" href={u} />
         ))}
         <style id="nb-theme" dangerouslySetInnerHTML={{ __html: theme.css }} />
+        {/* Picks day or night before the first paint, so a night reader never sees a white flash. */}
+        <script dangerouslySetInnerHTML={{ __html: themeBoot(catalog.settings["display.themeMode"]) }} />
       </head>
       <body>
         <AppDataProvider
@@ -79,4 +82,10 @@ export default async function LocaleLayout(props: LayoutProps<"/[locale]">) {
       </body>
     </html>
   );
+}
+
+/** The inline script that sets data-theme from the active device profile, else the platform default. */
+function themeBoot(platform: unknown) {
+  const fallback = JSON.stringify(typeof platform === "string" ? platform : "light");
+  return `try{var d=JSON.parse(localStorage.getItem(${JSON.stringify(DEVICE_KEY)})||"{}"),p=(d.profiles||[]).find(function(x){return x.id===d.activeId})||{},m=(p.settings||{})["display.themeMode"]||${fallback};document.documentElement.dataset.theme=m==="dark"||m==="system"?m:"light"}catch(e){}`;
 }

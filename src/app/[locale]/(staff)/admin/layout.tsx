@@ -8,6 +8,7 @@ const NAV: NavEntry[] = [
   { path: "/admin", label: "staff.pages", icon: "book" },
   { path: "/admin/texts", label: "staff.texts", icon: "cards" },
   { path: "/admin/rewards", label: "staff.rewards", icon: "trophy" },
+  { path: "/admin/design", label: "staff.design", icon: "star" },
   { group: "staff.groupPeople" },
   { path: "/admin/people", label: "staff.people", icon: "profile" },
   { path: "/admin/settings", label: "staff.platformSettings", icon: "level" },

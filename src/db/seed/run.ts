@@ -62,6 +62,16 @@ export async function runSeed(db: AnyDb, data: SeedData) {
       .insert(s.designTokens)
       .values(data.theme.tokens.map((t) => ({ ...t, themeId: theme.id })))
       .onConflictDoNothing({ target: [s.designTokens.themeId, s.designTokens.key] });
+    // The night theme only re-colours: it holds the colour tokens that differ from the default theme.
+    const [night] = await tx
+      .insert(s.themes)
+      .values(data.nightTheme.theme)
+      .onConflictDoUpdate({ target: s.themes.slug, set: excluded(["name", "mode"]) })
+      .returning({ id: s.themes.id });
+    await tx
+      .insert(s.designTokens)
+      .values(data.nightTheme.tokens.map((t) => ({ ...t, themeId: night.id })))
+      .onConflictDoNothing({ target: [s.designTokens.themeId, s.designTokens.key] });
 
     for (const font of data.fonts) {
       const existing = await tx

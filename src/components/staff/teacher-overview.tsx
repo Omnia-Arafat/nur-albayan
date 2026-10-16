@@ -3,10 +3,12 @@
 import Link from "next/link";
 
 import { useT } from "@/components/app/app-data";
+import { Leaderboard } from "@/components/app/leaderboard";
 import { Avatar } from "@/components/app/header";
 import { Icon } from "@/components/book/icon";
 import { Meter, Tag } from "@/components/book/parts";
 import { Pill, pillVars } from "@/components/book/word";
+import type { LeaderRow } from "@/modules/classroom/leaderboard";
 import type { Overview } from "@/modules/classroom/service";
 
 import { ClassPicker } from "./class-picker";
@@ -19,10 +21,12 @@ export function TeacherOverview({
   classes,
   overview,
   settings,
+  leaders,
 }: {
   classes: { id: string; name: string; students: number }[];
   overview: Overview | null;
   settings: SettingView[];
+  leaders: LeaderRow[] | null;
 }) {
   const t = useT();
   if (!overview)
@@ -156,6 +160,7 @@ export function TeacherOverview({
             <p className="nb-muted nb-m0">{t("teacher.noHard")}</p>
           )}
         </section>
+        {leaders && <Leaderboard title={t("leaders.title")} rows={leaders} />}
         <section className="nb-card nb-no-print">
           <h2 className="nb-h2">{t("teacher.classSettings")}</h2>
           {settings.map((s) => (

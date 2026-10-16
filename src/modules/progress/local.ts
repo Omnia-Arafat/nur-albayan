@@ -308,3 +308,41 @@ export const linkedTo = (p: LocalProfile, studentId: string, now = new Date()): 
 /** A profile's progress without its sync bookkeeping, to tell whether anything new needs saving. */
 export const progressKey = (p: LocalProfile) =>
   JSON.stringify([p.records, p.mistakes, p.badges, p.days, p.pagesByDay, p.gamePoints]);
+
+/** A device backup file: what "Back up this device" saves, and "Restore" reads. */
+export const deviceBackup = z.object({
+  kind: z.literal("nur-albayan.device-backup"),
+  savedAt: z.string(),
+  device: deviceState,
+});
+export type DeviceBackup = z.infer<typeof deviceBackup>;
+
+export const backupOf = (state: DeviceState, now = new Date()): DeviceBackup => ({
+  kind: "nur-albayan.device-backup",
+  savedAt: now.toISOString(),
+  device: state,
+});
+
+/**
+ * Brings a backup into this device without losing anything: a profile already here keeps the better of
+ * each record (as when two devices sync), and new profiles are added. Returns the new state and how many
+ * profiles were added or merged.
+ */
+export function restoreBackup(state: DeviceState, backup: DeviceBackup) {
+  const profiles = [...state.profiles];
+  let added = 0;
+  let merged = 0;
+  for (const p of backup.device.profiles) {
+    const i = profiles.findIndex((x) => x.id === p.id);
+    if (i < 0) {
+      // Account links belong to the device that made them; the restored copy syncs again once kept.
+      profiles.push({ ...p, link: undefined });
+      added++;
+    } else {
+      const here = profiles[i];
+      profiles[i] = { ...mergeRemote({ ...here, link: undefined }, p), link: here.link, settings: here.settings };
+      merged++;
+    }
+  }
+  return { state: { ...state, profiles, activeId: state.activeId ?? profiles[0]?.id ?? null }, added, merged };
+}

@@ -571,6 +571,43 @@ textarea.nb-input{resize:none;padding-block:10px;line-height:1.7}
 .nb-input-code{letter-spacing:.2em;font-weight:800;text-transform:uppercase}
 /* Text for screen readers only. */
 .nb-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+/* ---------- leaderboard ---------- */
+.nb-leaders{display:flex;flex-direction:column;gap:8px;counter-reset:none}
+.nb-leader{display:flex;align-items:center;gap:10px;min-height:56px;padding:6px 12px;border-radius:16px;border:2px solid var(--nb-color-border);background:var(--nb-color-surface)}
+.nb-leader.me{border-color:var(--nb-color-pill-lavender-line);background:var(--nb-color-pill-lavender-fill)}
+.nb-leader-place{display:inline-flex;align-items:center;gap:2px;min-width:52px;font-size:18px}
+.nb-leader-name{flex:1 1 auto;min-width:0;font-weight:800;overflow-wrap:anywhere}
+.nb-leader-points{display:inline-flex;align-items:center;gap:4px;font-weight:900;white-space:nowrap}
+/* ---------- admin design editor ---------- */
+.nb-colours{display:flex;flex-direction:column;gap:8px}
+.nb-colour{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;padding:8px 10px;border-radius:16px;border:2px solid var(--nb-color-border);background:var(--nb-color-surface)}
+.nb-colour-chip{flex:none;width:44px;height:44px;border-radius:12px;border:2px solid var(--nb-color-border);cursor:pointer;box-shadow:inset 0 0 0 3px var(--nb-color-surface)}
+.nb-colour-text{display:flex;flex-direction:column;gap:2px;flex:1 1 160px;min-width:0;overflow-wrap:anywhere}
+.nb-colour-text code{font-size:12px;color:var(--nb-color-ink-muted)}
+.nb-colour-hex{flex:0 0 120px;width:120px;text-transform:uppercase;letter-spacing:.06em}
+.nb-colour-swatches{flex:1 1 100%;display:grid;grid-template-columns:repeat(auto-fill,minmax(44px,1fr));gap:6px}
+.nb-colour-swatch{height:44px;border-radius:12px;border:2px solid var(--nb-color-border);cursor:pointer}
+.nb-colour-swatch.on{outline:3px solid var(--nb-color-purple-deep);outline-offset:2px}
+.nb-colour-act{flex:1 1 100%;gap:8px}
+.nb-design-preview{background:var(--nb-color-paper);color:var(--nb-color-ink);position:sticky;top:calc(var(--nb-header-h,0px) + 16px)}
+.nb-design-sample{display:flex;flex-direction:column;gap:12px;padding:14px;border-radius:18px;background:var(--nb-color-surface);border:2px solid var(--nb-color-border)}
+.nb-design-sample .nb-ribbon{align-self:flex-start}
+.nb-design-pills{flex-wrap:wrap;gap:8px}
+@container nb (max-width: 520px){.nb-colour-hex{flex:1 1 120px}}
+/* On a phone the sample sits first and stays in view, kept small, so each change shows while typing. */
+@container nb (max-width: 919px){
+.nb-design-cols>.nb-col-side{order:-1;position:sticky;top:calc(var(--nb-header-h,0px) + 8px);z-index:2}
+.nb-design-cols .nb-design-preview{padding:10px 12px;gap:8px}
+.nb-design-cols .nb-design-preview .nb-h2,.nb-design-cols .nb-design-text,.nb-design-cols .nb-design-tags{display:none}
+.nb-design-cols .nb-design-sample{padding:10px;gap:8px}
+}
+.nb-backup-actions{flex-wrap:wrap;gap:8px;margin-block:4px}
+/* ---------- classroom board (second screen) ---------- */
+.nb-board{min-height:100dvh;box-sizing:border-box;display:flex;flex-direction:column;gap:20px;padding:24px clamp(16px,4vw,48px);background:var(--nb-color-paper);color:var(--nb-color-ink)}
+.nb-board-wait{align-items:center;justify-content:center}
+.nb-board-top{font-size:clamp(18px,2.4vw,30px);font-weight:900}
+.nb-board-word{flex:1;display:flex;align-items:center;justify-content:center;text-align:center;font-family:var(--nb-font-naskh);font-weight:700;font-size:clamp(64px,min(20vw,32vh),260px);overflow-wrap:anywhere;line-height:1.6;padding:2vw 4vw;border-radius:40px;background:var(--nb-color-surface);border:4px solid var(--line);box-shadow:inset 0 0 40px var(--fill)}
+.nb-board-done{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;font-size:clamp(48px,8vw,120px)}
 /* ---------- search box ---------- */
 .nb-search-box{position:relative;display:block}
 .nb-search-box .nb-input{padding-inline-end:52px}
