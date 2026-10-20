@@ -6,7 +6,7 @@ note: [للمعلم والآباء:] يكتب حرف الألف بدون همز�
 ## letter_tiles cols=5
 ا/أَلِفْ@purple ; ب/بَاءْ@teal ; ت/تَاءْ@teal ; ث/ثَاءْ@teal ; ج/جِيمْ@purple
 ح/حَاءْ@purple ; خ/خَاءْ@purple ; د/دَالْ@red ; ذ/ذَالْ@red ; ر/رَاءْ@olive
-ز/زَايْ@olive ; س/سِينْ@purple ; ش/شِينْ@purple ; ص/صَادْ@ink ; ض/ضَادْ@ink
+ز/زَاىْ@olive ; س/سِينْ@purple ; ش/شِينْ@purple ; ص/صَادْ@ink ; ض/ضَادْ@ink
 ط/طَاءْ@red ; ظ/ظَاءْ@red ; ع/عَيْن@teal ; غ/غَيْن@teal ; ف/فَاءْ@magenta
 ق/قَافْ@magenta ; ك/كَافْ@olive ; ل/لَامْ@olive ; م/مِيمْ@purple ; ن/نُونْ@teal
 هـ/هَاءْ@red ; و/وَاوْ@ink ; ء/هَمْزَة@red ; ى/يَاءْ@magenta

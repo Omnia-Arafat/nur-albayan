@@ -216,7 +216,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 1,
-          "searchText": "عليم حكيم - سميع بصير ( )",
+          "searchText": "عليم حكيمࣱ - سميع بصيرࣱ ( ࣱ )",
           "segments": [
             {
               "text": "عَلِي",
@@ -231,7 +231,7 @@
               "role": "base"
             },
             {
-              "text": "مٌ",
+              "text": "مࣱ",
               "role": "target"
             },
             {
@@ -251,7 +251,7 @@
               "role": "base"
             },
             {
-              "text": "رُۢ",
+              "text": "رࣱ",
               "role": "target"
             },
             {
@@ -259,7 +259,7 @@
               "role": "base"
             },
             {
-              "text": "( ـٌ ـ ـٌۭ ـ ـٌۢ )",
+              "text": "( ـࣱ ـ ـٌ ـ ـُۢ )",
               "role": "rule"
             }
           ]
@@ -360,7 +360,7 @@
           "cardType": "normal",
           "script": "naskh",
           "rowBand": 2,
-          "searchText": "سؤال الميت فى قبره حق ( )",
+          "searchText": "سؤال الميت في قبره حق ( )",
           "segments": [
             {
               "text": "سُؤَالُ الْمَ",
@@ -371,7 +371,7 @@
               "role": "target"
             },
             {
-              "text": "تِ فِى قَبْرِهِ حَ",
+              "text": "تِ فِي قَبْرِهِ حَ",
               "role": "base"
             },
             {
@@ -431,7 +431,7 @@
               "role": "base"
             },
             {
-              "text": "( ٱلۡ ـ ٱلۡ )",
+              "text": "( ٱلۡ ـ ٱل )",
               "role": "rule"
             }
           ]
@@ -440,14 +440,14 @@
           "cardType": "normal",
           "script": "naskh",
           "rowBand": 3,
-          "searchText": "الساعى على الأرملة والمسكين كالمجاهد ( ال ال )",
+          "searchText": "الساعي على الأرملة والمسكين كالمجاهد ( ال ال )",
           "segments": [
             {
               "text": "ا",
               "role": "target"
             },
             {
-              "text": "لسَّاعِى عَلَى ",
+              "text": "لسَّاعِي عَلَى ",
               "role": "base"
             },
             {
@@ -475,7 +475,7 @@
               "role": "base"
             },
             {
-              "text": "( الْ ـ الْ )",
+              "text": "( الْ ـ ال )",
               "role": "rule"
             }
           ]
@@ -496,7 +496,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 4,
-          "searchText": "ءامن ٱلرسول بمآ أنزل إليه وٱلسمآء ذات ٱلبروج ( ءا آ )",
+          "searchText": "ءامن ٱلرسول بمآ أنزل إليه وٱلسمآء ذات ٱلبروج ( ءا ) ( آ )",
           "segments": [
             {
               "text": "ءَا",
@@ -528,7 +528,15 @@
               "role": "base"
             },
             {
-              "text": "( ءَا ـ ـَآ )",
+              "text": "( ءا )",
+              "role": "rule"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "( ـآ )",
               "role": "rule"
             }
           ]
@@ -537,14 +545,14 @@
           "cardType": "normal",
           "script": "naskh",
           "rowBand": 4,
-          "searchText": "آمن محمد وصدق فى إيمانه ( آ )",
+          "searchText": "آمن محمد وصدق في إيمانه ( آ )",
           "segments": [
             {
               "text": "آ",
               "role": "target"
             },
             {
-              "text": "مَنَ مُحَمَّدٌ وَصَدَقَ فِى إِيمَانِهِ ",
+              "text": "مَنَ مُحَمَّدٌ وَصَدَقَ فِي إِيمَانِهِ ",
               "role": "base"
             },
             {
@@ -569,7 +577,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 5,
-          "searchText": "وٱلضحى وٱليل إذا سجى ( حى جى )",
+          "searchText": "وٱلضحى ١ وٱليل إذا سجى ( حى جى )",
           "segments": [
             {
               "text": "وَٱلضُّ",
@@ -580,7 +588,7 @@
               "role": "target"
             },
             {
-              "text": " وَٱلَّيۡلِ إِذَا سَ",
+              "text": " ۝١ وَٱلَّيۡلِ إِذَا سَ",
               "role": "base"
             },
             {
@@ -601,7 +609,7 @@
           "cardType": "normal",
           "script": "naskh",
           "rowBand": 5,
-          "searchText": "سعى المصلحون فى الخير ( عى )",
+          "searchText": "سعى المصلحون في الخير ( عى )",
           "segments": [
             {
               "text": "سَ",
@@ -612,7 +620,7 @@
               "role": "target"
             },
             {
-              "text": " الْمُصْلِحُونَ فِى الْخَيْرِ ",
+              "text": " الْمُصْلِحُونَ فِي الْخَيْرِ ",
               "role": "base"
             },
             {
@@ -637,7 +645,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 6,
-          "searchText": "ولا ترهقنى من أمرى عسرا ( نى رى )",
+          "searchText": "ولا ترهقنى من أمرى عسرا ( نى )",
           "segments": [
             {
               "text": "وَلَا تُرۡهِقۡ",
@@ -660,7 +668,7 @@
               "role": "base"
             },
             {
-              "text": "( نِى ـ رِى )",
+              "text": "( نِى )",
               "role": "rule"
             }
           ]
@@ -669,7 +677,7 @@
           "cardType": "normal",
           "script": "naskh",
           "rowBand": 6,
-          "searchText": "سافر أخي مع أبي ( خي بي )",
+          "searchText": "سافر أخي مع أبي ( خي )",
           "segments": [
             {
               "text": "سَافَرَ أَ",
@@ -692,7 +700,7 @@
               "role": "base"
             },
             {
-              "text": "( خِي ـ بِي )",
+              "text": "( خِي )",
               "role": "rule"
             }
           ]

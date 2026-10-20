@@ -25,7 +25,7 @@ export function NoteText({ text }: { text: string }) {
 
 /** One section of the printed page, drawn with the book's components by kind. */
 export function SectionView({ section, palette }: { section: Section; palette: string[] }) {
-  const cfg = section.config as { columns?: number };
+  const cfg = section.config as { columns?: number; markColor?: string };
   const cols = Math.max(1, cfg.columns ?? 4);
   const kind = section.kind;
   const label = section.label || section.title;
@@ -39,7 +39,7 @@ export function SectionView({ section, palette }: { section: Section; palette: s
             className="nb-rule-line"
             style={{ fontFamily: it.script === "uthmani" ? "var(--nb-font-quran)" : "var(--nb-font-naskh)" }}
           >
-            <Word segments={it.segments} />
+            <Word segments={it.segments} marks={cfg.markColor} tint={it.tint ?? undefined} />
           </p>
         ))}
       </div>
@@ -56,6 +56,8 @@ export function SectionView({ section, palette }: { section: Section; palette: s
             segments={it.segments}
             palette={paletteOf(section, it, i, palette)}
             script={it.script}
+            marks={cfg.markColor}
+            tint={it.tint ?? undefined}
             className={variant === "tiles" ? "nb-pill-tile" : variant === "lines" ? "nb-pill-line" : ""}
           />
         ))}

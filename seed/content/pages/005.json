@@ -47,7 +47,7 @@
               "cellBreakAfter": true
             },
             {
-              "text": "غ",
+              "text": "غَـ",
               "role": "target"
             },
             {
@@ -79,7 +79,7 @@
               "cellBreakAfter": true
             },
             {
-              "text": "ف",
+              "text": "فَـ",
               "role": "target"
             },
             {
@@ -111,7 +111,7 @@
               "cellBreakAfter": true
             },
             {
-              "text": "ق",
+              "text": "قَـ",
               "role": "target"
             },
             {
@@ -143,7 +143,7 @@
               "cellBreakAfter": true
             },
             {
-              "text": "ك",
+              "text": "كَـ",
               "role": "target"
             },
             {
@@ -175,7 +175,7 @@
               "cellBreakAfter": true
             },
             {
-              "text": "ل",
+              "text": "لَـ",
               "role": "target"
             },
             {
@@ -207,7 +207,7 @@
               "cellBreakAfter": true
             },
             {
-              "text": "م",
+              "text": "مَـ",
               "role": "target"
             },
             {
@@ -253,7 +253,7 @@
               "cellBreakAfter": true
             },
             {
-              "text": "ن",
+              "text": "نَـ",
               "role": "target"
             },
             {
@@ -290,7 +290,7 @@
               "cellBreakAfter": true
             },
             {
-              "text": "هـ",
+              "text": "هَـ",
               "role": "target"
             },
             {
@@ -322,7 +322,7 @@
               "cellBreakAfter": true
             },
             {
-              "text": "و",
+              "text": "وَ",
               "role": "target"
             },
             {
@@ -354,7 +354,7 @@
               "cellBreakAfter": true
             },
             {
-              "text": "يـ",
+              "text": "يَـ",
               "role": "target"
             },
             {
@@ -573,7 +573,7 @@
         },
         {
           "cardType": "normal",
-          "tint": "purple",
+          "tint": "blue",
           "script": "naskh",
           "rowBand": 1,
           "searchText": "ش",
@@ -612,7 +612,7 @@
         },
         {
           "cardType": "normal",
-          "tint": "green",
+          "tint": "blue",
           "script": "naskh",
           "rowBand": 2,
           "searchText": "ذ",

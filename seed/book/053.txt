@@ -9,11 +9,13 @@ note: [للمعلم والآباء:] يعرف المتعلم على الفرق �
 // The letter purple, the tanween red.
 ## letter_tiles cols=3 colors=pink
 <تِنۡ> = [تٍ] ; <جِنۡ> = [جٍ] ; <ذِنۡ> = [ذٍ]
-## letter_tiles cols=5 colors=green,green
+## letter_tiles cols=5 colors=green
 [بٍ] ; [ثٍ] ; [خٍ] ; [رٍ] ; [ىٍ]
-[ضٍ] ; [غٍ] ; [شٍ] ; [قٍ] ; [فٍ]
+// Second row: purple letters / green letters with the iqlab meem, the tanween red.
+## letter_tiles cols=5 colors=green marks=red
+ضٍ@purple ; غٍ@purple ; شٍ@purple ; قِۭ@green ; فِۭ@green
 // The tanween syllable red.
-## word_rows cols=5 colors=sky,sky,sky,pink,pink label=تدريب ١ أمثلة قرآنية
+## word_rows cols=5 colors=sky,sky,sky,pink,pink label=(تدريب ١) أمثلة قرآنية
 نَبَ[إٍ] ; حَمَ[إٍ] ; شُعَ[بٍ] ; بَيۡ[تٍ] ; مُكۡ[ثٍ]
 بَهِي[جٍ] ; حِلۡيَ[ةٍ] ; أَيۡ[دٍ] ; حَنِي[ذٍ] ; سُو[رٍ]
 زَنِي[مٍ] ; أُنَا[سٍ] ; غَوَا[شٍ] ; هُزُ[وًا] ; وَزۡ[نًا]

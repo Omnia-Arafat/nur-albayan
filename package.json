@@ -16,6 +16,7 @@
     "db:seed:content": "tsx --conditions react-server scripts/seed.ts --content",
     "book:build": "tsx scripts/book/build.ts",
     "book:dump": "tsx scripts/book/dump-import.ts",
+    "book:sync": "tsx --conditions react-server scripts/book/sync.ts",
     "db:local": "tsx --conditions react-server scripts/db-local.ts"
   },
   "dependencies": {

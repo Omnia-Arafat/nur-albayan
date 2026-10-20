@@ -90,7 +90,6 @@
       "config": {
         "columns": 5,
         "rowColors": [
-          "green",
           "green"
         ]
       },
@@ -154,64 +153,81 @@
               "role": "target"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "kind": "letter_tiles",
+      "config": {
+        "columns": 5,
+        "rowColors": [
+          "green"
+        ],
+        "markColor": "red"
+      },
+      "items": [
         {
           "cardType": "normal",
+          "tint": "purple",
           "script": "uthmani",
-          "rowBand": 1,
+          "rowBand": 0,
           "searchText": "ض",
           "segments": [
             {
               "text": "ضٍ",
-              "role": "target"
+              "role": "base"
             }
           ]
         },
         {
           "cardType": "normal",
+          "tint": "purple",
           "script": "uthmani",
-          "rowBand": 1,
+          "rowBand": 0,
           "searchText": "غ",
           "segments": [
             {
               "text": "غٍ",
-              "role": "target"
+              "role": "base"
             }
           ]
         },
         {
           "cardType": "normal",
+          "tint": "purple",
           "script": "uthmani",
-          "rowBand": 1,
+          "rowBand": 0,
           "searchText": "ش",
           "segments": [
             {
               "text": "شٍ",
-              "role": "target"
+              "role": "base"
             }
           ]
         },
         {
           "cardType": "normal",
+          "tint": "green",
           "script": "uthmani",
-          "rowBand": 1,
+          "rowBand": 0,
           "searchText": "ق",
           "segments": [
             {
-              "text": "قٍ",
-              "role": "target"
+              "text": "قِۭ",
+              "role": "base"
             }
           ]
         },
         {
           "cardType": "normal",
+          "tint": "green",
           "script": "uthmani",
-          "rowBand": 1,
+          "rowBand": 0,
           "searchText": "ف",
           "segments": [
             {
-              "text": "فٍ",
-              "role": "target"
+              "text": "فِۭ",
+              "role": "base"
             }
           ]
         }
@@ -228,7 +244,7 @@
           "pink",
           "pink"
         ],
-        "label": "تدريب ١ أمثلة قرآنية"
+        "label": "(تدريب ١) أمثلة قرآنية"
       },
       "items": [
         {

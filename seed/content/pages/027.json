@@ -21,7 +21,8 @@
         "rowColors": [
           "green",
           "pink"
-        ]
+        ],
+        "markColor": "red"
       },
       "items": [
         {
@@ -203,7 +204,8 @@
           "pink",
           "pink"
         ],
-        "label": "أمثلة قرآنية"
+        "label": "أمثلة قرآنية",
+        "markColor": "red"
       },
       "items": [
         {
@@ -509,7 +511,8 @@
           "peach",
           "sky",
           "sky"
-        ]
+        ],
+        "markColor": "red"
       },
       "items": [
         {
@@ -519,15 +522,7 @@
           "searchText": "فحشر فنادى",
           "segments": [
             {
-              "text": "فَحَشَرَ فَنَ",
-              "role": "base"
-            },
-            {
-              "text": "ا",
-              "role": "target"
-            },
-            {
-              "text": "دَى",
+              "text": "فَحَشَرَ فَنَادَى",
               "role": "base"
             },
             {
@@ -543,20 +538,8 @@
           "searchText": "هنالك دعا",
           "segments": [
             {
-              "text": "هُنَ",
+              "text": "هُنَالِكَ دَعَا",
               "role": "base"
-            },
-            {
-              "text": "ا",
-              "role": "target"
-            },
-            {
-              "text": "لِكَ دَعَ",
-              "role": "base"
-            },
-            {
-              "text": "ا",
-              "role": "target"
             }
           ]
         },
@@ -567,28 +550,8 @@
           "searchText": "وأرنا مناسكنا",
           "segments": [
             {
-              "text": "وَأَرِنَ",
+              "text": "وَأَرِنَا مَنَاسِكَنَا",
               "role": "base"
-            },
-            {
-              "text": "ا",
-              "role": "target"
-            },
-            {
-              "text": " مَنَ",
-              "role": "base"
-            },
-            {
-              "text": "ا",
-              "role": "target"
-            },
-            {
-              "text": "سِكَنَ",
-              "role": "base"
-            },
-            {
-              "text": "ا",
-              "role": "target"
             }
           ]
         },
@@ -607,15 +570,7 @@
               "role": "target"
             },
             {
-              "text": "لِكَ قَ",
-              "role": "base"
-            },
-            {
-              "text": "ا",
-              "role": "target"
-            },
-            {
-              "text": "لَ",
+              "text": "لِكَ قَالَ",
               "role": "base"
             }
           ]
@@ -635,28 +590,8 @@
               "role": "target"
             },
             {
-              "text": "لِيَهَ",
+              "text": "لِيَهَا سَافِلَهَا",
               "role": "base"
-            },
-            {
-              "text": "ا",
-              "role": "target"
-            },
-            {
-              "text": " سَ",
-              "role": "base"
-            },
-            {
-              "text": "ا",
-              "role": "target"
-            },
-            {
-              "text": "فِلَهَ",
-              "role": "base"
-            },
-            {
-              "text": "ا",
-              "role": "target"
             }
           ]
         },
@@ -667,23 +602,7 @@
           "searchText": "تاب وءامن",
           "segments": [
             {
-              "text": "تَ",
-              "role": "base"
-            },
-            {
-              "text": "ا",
-              "role": "target"
-            },
-            {
-              "text": "بَ وَءَ",
-              "role": "base"
-            },
-            {
-              "text": "ا",
-              "role": "target"
-            },
-            {
-              "text": "مَنَ",
+              "text": "تَابَ وَءَامَنَ",
               "role": "base"
             }
           ]
@@ -711,12 +630,8 @@
               "role": "target"
             },
             {
-              "text": "هَ",
+              "text": "هَا",
               "role": "base"
-            },
-            {
-              "text": "ا",
-              "role": "target"
             }
           ]
         },
@@ -727,15 +642,7 @@
           "searchText": "فتعاطى فعقر",
           "segments": [
             {
-              "text": "فَتَعَ",
-              "role": "base"
-            },
-            {
-              "text": "ا",
-              "role": "target"
-            },
-            {
-              "text": "طَى",
+              "text": "فَتَعَاطَى",
               "role": "base"
             },
             {
@@ -755,23 +662,7 @@
           "searchText": "وقال ما نهىكما",
           "segments": [
             {
-              "text": "وَقَ",
-              "role": "base"
-            },
-            {
-              "text": "ا",
-              "role": "target"
-            },
-            {
-              "text": "لَ مَ",
-              "role": "base"
-            },
-            {
-              "text": "ا",
-              "role": "target"
-            },
-            {
-              "text": " نَهَى",
+              "text": "وَقَالَ مَا نَهَى",
               "role": "base"
             },
             {
@@ -779,12 +670,8 @@
               "role": "target"
             },
             {
-              "text": "كُمَ",
+              "text": "كُمَا",
               "role": "base"
-            },
-            {
-              "text": "ا",
-              "role": "target"
             }
           ]
         },
@@ -795,36 +682,8 @@
           "searchText": "قال لا تخافا",
           "segments": [
             {
-              "text": "قَ",
+              "text": "قَالَ لَا تَخَافَا",
               "role": "base"
-            },
-            {
-              "text": "ا",
-              "role": "target"
-            },
-            {
-              "text": "لَ لَ",
-              "role": "base"
-            },
-            {
-              "text": "ا",
-              "role": "target"
-            },
-            {
-              "text": " تَخَ",
-              "role": "base"
-            },
-            {
-              "text": "ا",
-              "role": "target"
-            },
-            {
-              "text": "فَ",
-              "role": "base"
-            },
-            {
-              "text": "ا",
-              "role": "target"
             }
           ]
         },
@@ -835,15 +694,7 @@
           "searchText": "إذا تلىها",
           "segments": [
             {
-              "text": "إِذَ",
-              "role": "base"
-            },
-            {
-              "text": "ا",
-              "role": "target"
-            },
-            {
-              "text": " تَلَى",
+              "text": "إِذَا تَلَى",
               "role": "base"
             },
             {
@@ -851,12 +702,8 @@
               "role": "target"
             },
             {
-              "text": "هَ",
+              "text": "هَا",
               "role": "base"
-            },
-            {
-              "text": "ا",
-              "role": "target"
             }
           ]
         },

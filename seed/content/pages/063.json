@@ -57,8 +57,12 @@
               "role": "base"
             },
             {
-              "text": "صَّىٰ",
+              "text": "صَّ",
               "role": "target"
+            },
+            {
+              "text": "ىٰ",
+              "role": "base"
             }
           ]
         },
@@ -73,8 +77,12 @@
               "role": "base"
             },
             {
-              "text": "لَّىٰ",
+              "text": "لَّ",
               "role": "target"
+            },
+            {
+              "text": "ىٰ",
+              "role": "base"
             }
           ]
         },
@@ -165,8 +173,12 @@
               "role": "base"
             },
             {
-              "text": "مَّا",
+              "text": "مَّ",
               "role": "target"
+            },
+            {
+              "text": "ا",
+              "role": "base"
             }
           ]
         },
@@ -181,8 +193,12 @@
               "role": "base"
             },
             {
-              "text": "مَّا",
+              "text": "مَّ",
               "role": "target"
+            },
+            {
+              "text": "ا",
+              "role": "base"
             }
           ]
         },
@@ -357,11 +373,11 @@
           "searchText": "أسس",
           "segments": [
             {
-              "text": "أُ",
+              "text": "أَ",
               "role": "base"
             },
             {
-              "text": "سِّ",
+              "text": "سَّ",
               "role": "target"
             },
             {
@@ -401,11 +417,11 @@
               "role": "base"
             },
             {
-              "text": "نَّا",
+              "text": "نَّ",
               "role": "target"
             },
             {
-              "text": "عࣲ",
+              "text": "اعࣲ",
               "role": "base"
             }
           ]
@@ -421,11 +437,11 @@
               "role": "base"
             },
             {
-              "text": "حَّا",
+              "text": "حَّ",
               "role": "target"
             },
             {
-              "text": "رࣲ",
+              "text": "ارࣲ",
               "role": "base"
             }
           ]
@@ -461,11 +477,11 @@
               "role": "base"
             },
             {
-              "text": "عَّا",
+              "text": "عَّ",
               "role": "target"
             },
             {
-              "text": "لࣱ",
+              "text": "الࣱ",
               "role": "base"
             }
           ]
@@ -481,11 +497,11 @@
               "role": "base"
             },
             {
-              "text": "بَّا",
+              "text": "بَّ",
               "role": "target"
             },
             {
-              "text": "رࣰا",
+              "text": "ارࣰا",
               "role": "base"
             }
           ]
@@ -501,11 +517,11 @@
               "role": "base"
             },
             {
-              "text": "هَّا",
+              "text": "هَّ",
               "role": "target"
             },
             {
-              "text": "جࣰا",
+              "text": "اجࣰا",
               "role": "base"
             }
           ]
@@ -541,8 +557,12 @@
               "role": "base"
             },
             {
-              "text": "كَّىٰ",
+              "text": "كَّ",
               "role": "target"
+            },
+            {
+              "text": "ىٰ",
+              "role": "base"
             }
           ]
         },
@@ -577,8 +597,12 @@
               "role": "base"
             },
             {
-              "text": "طَّىٰ",
+              "text": "طَّ",
               "role": "target"
+            },
+            {
+              "text": "ىٰ",
+              "role": "base"
             }
           ]
         },
@@ -686,18 +710,18 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 7,
-          "searchText": "مكنكم",
+          "searchText": "مكناكم",
           "segments": [
             {
               "text": "مَ",
               "role": "base"
             },
             {
-              "text": "كَّنَّٰ",
+              "text": "كَّنَّ",
               "role": "target"
             },
             {
-              "text": "كُمۡ",
+              "text": "اكُمۡ",
               "role": "base"
             }
           ]

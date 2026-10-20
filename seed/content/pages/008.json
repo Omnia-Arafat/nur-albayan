@@ -63,7 +63,7 @@
               "cellBreakAfter": true
             },
             {
-              "text": "أَ",
+              "text": "ـأَ",
               "role": "contrast",
               "cellBreakAfter": true
             },
@@ -85,7 +85,7 @@
               "cellBreakAfter": true
             },
             {
-              "text": "جَـ",
+              "text": "ـجَـ",
               "role": "contrast",
               "cellBreakAfter": true
             },
@@ -107,7 +107,7 @@
               "cellBreakAfter": true
             },
             {
-              "text": "طَـ",
+              "text": "ـطَـ",
               "role": "contrast",
               "cellBreakAfter": true
             },
@@ -253,7 +253,7 @@
           "cardType": "normal",
           "script": "naskh",
           "rowBand": 2,
-          "searchText": "نشر",
+          "searchText": "نثر",
           "segments": [
             {
               "text": "نَـ",
@@ -261,7 +261,7 @@
               "cellBreakAfter": true
             },
             {
-              "text": "ـشَـ",
+              "text": "ـثَـ",
               "role": "contrast",
               "cellBreakAfter": true
             },
@@ -451,7 +451,7 @@
           "cardType": "normal",
           "script": "naskh",
           "rowBand": 4,
-          "searchText": "نحر",
+          "searchText": "نخر",
           "segments": [
             {
               "text": "نَـ",
@@ -459,7 +459,7 @@
               "cellBreakAfter": true
             },
             {
-              "text": "ـحَـ",
+              "text": "ـخَـ",
               "role": "contrast",
               "cellBreakAfter": true
             },

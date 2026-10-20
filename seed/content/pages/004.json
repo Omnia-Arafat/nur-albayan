@@ -47,7 +47,7 @@
               "cellBreakAfter": true
             },
             {
-              "text": "ر",
+              "text": "رَ",
               "role": "target"
             },
             {
@@ -79,7 +79,7 @@
               "cellBreakAfter": true
             },
             {
-              "text": "ز",
+              "text": "زَ",
               "role": "target"
             },
             {
@@ -111,7 +111,7 @@
               "cellBreakAfter": true
             },
             {
-              "text": "س",
+              "text": "سَـ",
               "role": "target"
             },
             {
@@ -143,7 +143,7 @@
               "cellBreakAfter": true
             },
             {
-              "text": "ش",
+              "text": "شَـ",
               "role": "target"
             },
             {
@@ -175,7 +175,7 @@
               "cellBreakAfter": true
             },
             {
-              "text": "ص",
+              "text": "صَـ",
               "role": "target"
             },
             {
@@ -207,7 +207,7 @@
               "cellBreakAfter": true
             },
             {
-              "text": "ض",
+              "text": "ضَـ",
               "role": "target"
             },
             {
@@ -239,7 +239,7 @@
               "cellBreakAfter": true
             },
             {
-              "text": "ط",
+              "text": "طَـ",
               "role": "target"
             },
             {
@@ -271,7 +271,7 @@
               "cellBreakAfter": true
             },
             {
-              "text": "ظ",
+              "text": "ظَـ",
               "role": "target"
             },
             {
@@ -303,7 +303,7 @@
               "cellBreakAfter": true
             },
             {
-              "text": "ع",
+              "text": "عَـ",
               "role": "target"
             },
             {
@@ -332,6 +332,7 @@
       "items": [
         {
           "cardType": "normal",
+          "tint": "blue",
           "script": "naskh",
           "rowBand": 0,
           "searchText": "ر",
@@ -344,6 +345,7 @@
         },
         {
           "cardType": "normal",
+          "tint": "red",
           "script": "naskh",
           "rowBand": 0,
           "searchText": "ز",
@@ -356,6 +358,7 @@
         },
         {
           "cardType": "normal",
+          "tint": "green",
           "script": "naskh",
           "rowBand": 0,
           "searchText": "س",
@@ -368,6 +371,7 @@
         },
         {
           "cardType": "normal",
+          "tint": "ink",
           "script": "naskh",
           "rowBand": 0,
           "searchText": "ش",
@@ -380,6 +384,7 @@
         },
         {
           "cardType": "normal",
+          "tint": "blue",
           "script": "naskh",
           "rowBand": 0,
           "searchText": "ص",
@@ -392,6 +397,7 @@
         },
         {
           "cardType": "normal",
+          "tint": "red",
           "script": "naskh",
           "rowBand": 0,
           "searchText": "ض",
@@ -404,6 +410,7 @@
         },
         {
           "cardType": "normal",
+          "tint": "green",
           "script": "naskh",
           "rowBand": 0,
           "searchText": "ط",
@@ -416,6 +423,7 @@
         },
         {
           "cardType": "normal",
+          "tint": "ink",
           "script": "naskh",
           "rowBand": 0,
           "searchText": "ظ",
@@ -428,6 +436,7 @@
         },
         {
           "cardType": "normal",
+          "tint": "blue",
           "script": "naskh",
           "rowBand": 0,
           "searchText": "ع",
@@ -440,6 +449,7 @@
         },
         {
           "cardType": "normal",
+          "tint": "red",
           "script": "naskh",
           "rowBand": 1,
           "searchText": "د",
@@ -452,6 +462,7 @@
         },
         {
           "cardType": "normal",
+          "tint": "green",
           "script": "naskh",
           "rowBand": 1,
           "searchText": "ذ",
@@ -464,6 +475,7 @@
         },
         {
           "cardType": "normal",
+          "tint": "blue",
           "script": "naskh",
           "rowBand": 1,
           "searchText": "خ",
@@ -476,6 +488,7 @@
         },
         {
           "cardType": "normal",
+          "tint": "red",
           "script": "naskh",
           "rowBand": 1,
           "searchText": "ح",
@@ -488,18 +501,20 @@
         },
         {
           "cardType": "normal",
+          "tint": "green",
           "script": "naskh",
           "rowBand": 1,
           "searchText": "ج",
           "segments": [
             {
-              "text": "جَ",
+              "text": "جَـ",
               "role": "base"
             }
           ]
         },
         {
           "cardType": "normal",
+          "tint": "ink",
           "script": "naskh",
           "rowBand": 1,
           "searchText": "ث",
@@ -512,6 +527,7 @@
         },
         {
           "cardType": "normal",
+          "tint": "blue",
           "script": "naskh",
           "rowBand": 1,
           "searchText": "ت",
@@ -524,6 +540,7 @@
         },
         {
           "cardType": "normal",
+          "tint": "red",
           "script": "naskh",
           "rowBand": 1,
           "searchText": "ب",
@@ -536,6 +553,7 @@
         },
         {
           "cardType": "normal",
+          "tint": "green",
           "script": "naskh",
           "rowBand": 1,
           "searchText": "أ",

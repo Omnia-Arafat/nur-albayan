@@ -7,7 +7,7 @@
   "i18n": {
     "ar": {
       "title": "تدريب ( ٣) على الرسم الإملائى",
-      "teacherNote": "[للمعلم والآباء:] يعرف المتعلم أن الهمزة مع ألف المد فى الرسم القرآنى [(ءَا)] والهمزة مع ألف المد فى الرسم الإملائى [(آ)] كما فى كلمة [(آمَنَ)] وإن اختلفا فى الرسم لكن الزمن الصوتى واحد، [هام جدًا:] القراءة اليومية [( ٧، ١٨).]",
+      "teacherNote": "[للمعلم والآباء:] يعرف المتعلم أن الهمزة مع ألف المد فى الرسم القرآنى [(ءَا)] والهمزة مع ألف المد فى الرسم الإملائى [(آ)] كما فى كلمة ([آ]مَنَ) وإن اختلفا فى الرسم لكن الزمن الصوتى واحد، [هام جدًا:] القراءة اليومية [( ٧، ١٨).]",
       "lessonTag": "الدرس الثالث",
       "observeTag": "اقرأ ولاحظ"
     }
@@ -473,11 +473,11 @@
           "searchText": "آتاها",
           "segments": [
             {
-              "text": "آ",
+              "text": "آتَا",
               "role": "target"
             },
             {
-              "text": "تَاهَا",
+              "text": "هَا",
               "role": "base"
             }
           ]
@@ -489,12 +489,12 @@
           "searchText": "آخرنا",
           "segments": [
             {
-              "text": "آ",
-              "role": "target"
+              "text": "آخِرِ",
+              "role": "base"
             },
             {
-              "text": "خِرِنَا",
-              "role": "base"
+              "text": "نَا",
+              "role": "target"
             }
           ]
         },
@@ -527,7 +527,8 @@
         "rowColors": [
           "sky",
           "pink"
-        ]
+        ],
+        "markColor": "red"
       },
       "items": [
         {
@@ -561,19 +562,7 @@
           "searchText": "تاب وأناب",
           "segments": [
             {
-              "text": "تَا",
-              "role": "target"
-            },
-            {
-              "text": "بَ وَأَ",
-              "role": "base"
-            },
-            {
-              "text": "نَا",
-              "role": "target"
-            },
-            {
-              "text": "بَ",
+              "text": "تَابَ وَأَنَابَ",
               "role": "base"
             }
           ]
@@ -585,19 +574,7 @@
           "searchText": "هاجر وجاهد",
           "segments": [
             {
-              "text": "هَا",
-              "role": "target"
-            },
-            {
-              "text": "جَرَ وَ",
-              "role": "base"
-            },
-            {
-              "text": "جَا",
-              "role": "target"
-            },
-            {
-              "text": "هَدَ",
+              "text": "هَاجَرَ وَجَاهَدَ",
               "role": "base"
             }
           ]
@@ -609,23 +586,7 @@
           "searchText": "أقام صلاته",
           "segments": [
             {
-              "text": "أَ",
-              "role": "base"
-            },
-            {
-              "text": "قَا",
-              "role": "target"
-            },
-            {
-              "text": "مَ صَ",
-              "role": "base"
-            },
-            {
-              "text": "لَا",
-              "role": "target"
-            },
-            {
-              "text": "تَهُ",
+              "text": "أَقَامَ صَلَاتَهُ",
               "role": "base"
             }
           ]
@@ -637,23 +598,7 @@
           "searchText": "رجاه فهداه",
           "segments": [
             {
-              "text": "رَ",
-              "role": "base"
-            },
-            {
-              "text": "جَا",
-              "role": "target"
-            },
-            {
-              "text": "هُ فَهَ",
-              "role": "base"
-            },
-            {
-              "text": "دَا",
-              "role": "target"
-            },
-            {
-              "text": "هُ",
+              "text": "رَجَاهُ فَهَدَاهُ",
               "role": "base"
             }
           ]
@@ -665,23 +610,7 @@
           "searchText": "أجابه فدعاه",
           "segments": [
             {
-              "text": "أَ",
-              "role": "base"
-            },
-            {
-              "text": "جَا",
-              "role": "target"
-            },
-            {
-              "text": "بَهُ فَدَ",
-              "role": "base"
-            },
-            {
-              "text": "عَا",
-              "role": "target"
-            },
-            {
-              "text": "هُ",
+              "text": "أَجَابَهُ فَدَعَاهُ",
               "role": "base"
             }
           ]
@@ -694,7 +623,8 @@
         "columns": 1,
         "rowColors": [
           "pink"
-        ]
+        ],
+        "markColor": "red"
       },
       "items": [
         {
@@ -704,47 +634,7 @@
           "searchText": "أطاع عمر أباه ففاز برضا خالقه",
           "segments": [
             {
-              "text": "أَ",
-              "role": "base"
-            },
-            {
-              "text": "طَا",
-              "role": "target"
-            },
-            {
-              "text": "عَ عُمَرُ أَ",
-              "role": "base"
-            },
-            {
-              "text": "بَا",
-              "role": "target"
-            },
-            {
-              "text": "هُ فَ",
-              "role": "base"
-            },
-            {
-              "text": "فَا",
-              "role": "target"
-            },
-            {
-              "text": "زَ بِرِ",
-              "role": "base"
-            },
-            {
-              "text": "ضَا",
-              "role": "target"
-            },
-            {
-              "text": " ",
-              "role": "base"
-            },
-            {
-              "text": "خَا",
-              "role": "target"
-            },
-            {
-              "text": "لِقِهِ",
+              "text": "أَطَاعَ عُمَرُ أَبَاهُ فَفَازَ بِرِضَا خَالِقِهِ",
               "role": "base"
             }
           ]

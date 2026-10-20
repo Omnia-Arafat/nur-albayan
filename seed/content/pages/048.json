@@ -109,14 +109,14 @@
           "cardType": "normal",
           "script": "naskh",
           "rowBand": 1,
-          "searchText": "يحيي",
+          "searchText": "يحمي",
           "segments": [
             {
               "text": "يَحْ",
               "role": "target"
             },
             {
-              "text": "يِي",
+              "text": "مِي",
               "role": "contrast"
             }
           ]
@@ -128,15 +128,11 @@
           "searchText": "آتوه",
           "segments": [
             {
-              "text": "آ",
-              "role": "base"
-            },
-            {
-              "text": "تَوْ",
+              "text": "آتَ",
               "role": "target"
             },
             {
-              "text": "هُ",
+              "text": "وْهُ",
               "role": "contrast"
             }
           ]
@@ -148,15 +144,11 @@
           "searchText": "آيتين",
           "segments": [
             {
-              "text": "آيَ",
-              "role": "base"
-            },
-            {
-              "text": "تَيْ",
+              "text": "آيَتَ",
               "role": "target"
             },
             {
-              "text": "نِ",
+              "text": "يْنِ",
               "role": "contrast"
             }
           ]
@@ -168,15 +160,11 @@
           "searchText": "آمنت",
           "segments": [
             {
-              "text": "آ",
-              "role": "base"
-            },
-            {
-              "text": "مَنْ",
+              "text": "آمَ",
               "role": "target"
             },
             {
-              "text": "تُ",
+              "text": "نْتُ",
               "role": "contrast"
             }
           ]
@@ -204,11 +192,11 @@
           "searchText": "الولاء",
           "segments": [
             {
-              "text": "الْ",
+              "text": "الْوَ",
               "role": "target"
             },
             {
-              "text": "وَلَاءُ",
+              "text": "لَاءُ",
               "role": "contrast"
             }
           ]
@@ -220,11 +208,11 @@
           "searchText": "العقاب",
           "segments": [
             {
-              "text": "الْ",
+              "text": "الْعِ",
               "role": "target"
             },
             {
-              "text": "عِقَابُ",
+              "text": "قَابُ",
               "role": "contrast"
             }
           ]

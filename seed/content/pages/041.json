@@ -90,7 +90,7 @@
             },
             {
               "text": "رِغۡ",
-              "role": "target"
+              "role": "contrast"
             }
           ]
         },
@@ -149,15 +149,11 @@
           "searchText": "أتوه",
           "segments": [
             {
-              "text": "أَ",
-              "role": "contrast"
-            },
-            {
-              "text": "تَوۡ",
+              "text": "أَتَ",
               "role": "target"
             },
             {
-              "text": "هُ",
+              "text": "وۡهُ",
               "role": "contrast"
             }
           ]
@@ -233,11 +229,7 @@
           "searchText": "فدمدم",
           "segments": [
             {
-              "text": "فَ",
-              "role": "contrast"
-            },
-            {
-              "text": "دَمۡ",
+              "text": "فَدَمۡ",
               "role": "target"
             },
             {
@@ -253,11 +245,7 @@
           "searchText": "لتأتون",
           "segments": [
             {
-              "text": "لَ",
-              "role": "contrast"
-            },
-            {
-              "text": "تَأۡ",
+              "text": "لَتَأۡ",
               "role": "target"
             },
             {
@@ -374,11 +362,11 @@
             },
             {
               "text": "لَكۡ",
-              "role": "target"
+              "role": "contrast"
             },
             {
               "text": "نَا",
-              "role": "contrast"
+              "role": "base"
             }
           ]
         },
@@ -389,11 +377,7 @@
           "searchText": "ءأسجد",
           "segments": [
             {
-              "text": "ءَ",
-              "role": "contrast"
-            },
-            {
-              "text": "أَسۡ",
+              "text": "ءَأَسۡ",
               "role": "target"
             },
             {
@@ -409,15 +393,11 @@
           "searchText": "عليه",
           "segments": [
             {
-              "text": "عَ",
-              "role": "contrast"
-            },
-            {
-              "text": "لَيۡ",
+              "text": "عَلَ",
               "role": "target"
             },
             {
-              "text": "هِ",
+              "text": "يۡهُ",
               "role": "contrast"
             }
           ]
@@ -449,7 +429,15 @@
               "role": "target"
             },
             {
-              "text": "عُوثُونَ",
+              "text": "عُو",
+              "role": "contrast"
+            },
+            {
+              "text": "ثُو",
+              "role": "target"
+            },
+            {
+              "text": "نَ",
               "role": "contrast"
             }
           ]
@@ -461,16 +449,12 @@
           "searchText": "رأوهم",
           "segments": [
             {
-              "text": "رَ",
-              "role": "contrast"
-            },
-            {
-              "text": "أَوۡ",
+              "text": "رَأَوۡ",
               "role": "target"
             },
             {
               "text": "هُمۡ",
-              "role": "target"
+              "role": "contrast"
             }
           ]
         },
@@ -481,16 +465,12 @@
           "searchText": "قضيتم",
           "segments": [
             {
-              "text": "قَ",
+              "text": "قَضَيۡتُ",
+              "role": "target"
+            },
+            {
+              "text": "مۡ",
               "role": "contrast"
-            },
-            {
-              "text": "ضَيۡ",
-              "role": "target"
-            },
-            {
-              "text": "تُمۡ",
-              "role": "target"
             }
           ]
         },
@@ -501,11 +481,7 @@
           "searchText": "يوسوس",
           "segments": [
             {
-              "text": "يُ",
-              "role": "contrast"
-            },
-            {
-              "text": "وَسۡ",
+              "text": "يُوَسۡ",
               "role": "target"
             },
             {
@@ -521,16 +497,16 @@
           "searchText": "أنلزمكموها",
           "segments": [
             {
-              "text": "أَ",
-              "role": "contrast"
-            },
-            {
-              "text": "نُلۡ",
+              "text": "أَنُلۡزِ",
               "role": "target"
             },
             {
-              "text": "زِمُكُمُوهَا",
+              "text": "مُكُمُ",
               "role": "contrast"
+            },
+            {
+              "text": "وهَا",
+              "role": "base"
             }
           ]
         },
@@ -541,11 +517,7 @@
           "searchText": "فتخطفه",
           "segments": [
             {
-              "text": "فَ",
-              "role": "contrast"
-            },
-            {
-              "text": "تَخۡ",
+              "text": "فَتَخۡ",
               "role": "target"
             },
             {
@@ -561,19 +533,11 @@
           "searchText": "وليضربن",
           "segments": [
             {
-              "text": "وَلۡ",
+              "text": "وَلۡيَضۡرِ",
               "role": "target"
             },
             {
-              "text": "يَضۡ",
-              "role": "target"
-            },
-            {
-              "text": "رِبۡ",
-              "role": "target"
-            },
-            {
-              "text": "نَ",
+              "text": "بۡنَ",
               "role": "contrast"
             }
           ]
@@ -589,11 +553,7 @@
               "role": "contrast"
             },
             {
-              "text": "تِلۡ",
-              "role": "target"
-            },
-            {
-              "text": "تُمۡ",
+              "text": "تِلۡتُمۡ",
               "role": "target"
             }
           ]

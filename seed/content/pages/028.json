@@ -8,7 +8,7 @@
     "ar": {
       "title": "الـمـدود",
       "subtitle": "٢ـ المد بالياء (بِى)",
-      "teacherNote": "[للمعلم والآباء: طريقة الهجاء للقاعدة: (بِـ)] ياء مد طبيعى [(بِى) (تِـ)] ياء مد طبيعى [(تِى)] فى السطر الأول والثانى يجمع بين كل حرفين فى مربع لبيان الفرق الزمنى فى الصوت بينهما، وهكذا فى كلمات التدريب. [هام جداً:] القراءة اليومية للصفحة رقم [( ٧، ١٨، ٢٨)]",
+      "teacherNote": "[للمعلم والآباء: طريقة الهجاء للقاعدة:] بِـ ياء مد طبيعى [(بِى)] تِـ ياء مد طبيعى [(تِى)] فى السطر الأول والثانى يجمع بين كل حرفين فى مربع لبيان الفرق الزمنى فى الصوت بينهما، وهكذا فى كلمات التدريب. [هام جداً:] القراءة اليومية للصفحة رقم [( ٧، ١٨، ٢٨)]",
       "lessonTag": "الدرس الأول",
       "observeTag": "اقرأ ولاحظ"
     }
@@ -23,7 +23,8 @@
           "sky",
           "pink",
           "pink"
-        ]
+        ],
+        "markColor": "red"
       },
       "items": [
         {
@@ -273,23 +274,15 @@
           "searchText": "زا - زى",
           "segments": [
             {
-              "text": "زَ",
+              "text": "زَا",
               "role": "secondary"
-            },
-            {
-              "text": "ا",
-              "role": "target"
             },
             {
               "text": " - ",
               "role": "separator"
             },
             {
-              "text": "زِ",
-              "role": "secondary"
-            },
-            {
-              "text": "ى",
+              "text": "زِى",
               "role": "target"
             }
           ]
@@ -301,23 +294,15 @@
           "searchText": "سا - سى",
           "segments": [
             {
-              "text": "سَـ",
+              "text": "سَا",
               "role": "secondary"
-            },
-            {
-              "text": "ـا",
-              "role": "target"
             },
             {
               "text": " - ",
               "role": "separator"
             },
             {
-              "text": "سِـ",
-              "role": "secondary"
-            },
-            {
-              "text": "ى",
+              "text": "سِى",
               "role": "target"
             }
           ]
@@ -329,23 +314,15 @@
           "searchText": "شا - شى",
           "segments": [
             {
-              "text": "شَـ",
+              "text": "شَا",
               "role": "secondary"
-            },
-            {
-              "text": "ـا",
-              "role": "target"
             },
             {
               "text": " - ",
               "role": "separator"
             },
             {
-              "text": "شِـ",
-              "role": "secondary"
-            },
-            {
-              "text": "ى",
+              "text": "شِى",
               "role": "target"
             }
           ]
@@ -357,23 +334,15 @@
           "searchText": "صا - صى",
           "segments": [
             {
-              "text": "صَـ",
+              "text": "صَا",
               "role": "secondary"
-            },
-            {
-              "text": "ـا",
-              "role": "target"
             },
             {
               "text": " - ",
               "role": "separator"
             },
             {
-              "text": "صِـ",
-              "role": "secondary"
-            },
-            {
-              "text": "ى",
+              "text": "صِى",
               "role": "target"
             }
           ]
@@ -385,23 +354,15 @@
           "searchText": "ضا - ضى",
           "segments": [
             {
-              "text": "ضَـ",
+              "text": "ضَا",
               "role": "secondary"
-            },
-            {
-              "text": "ـا",
-              "role": "target"
             },
             {
               "text": " - ",
               "role": "separator"
             },
             {
-              "text": "ضِـ",
-              "role": "secondary"
-            },
-            {
-              "text": "ى",
+              "text": "ضِى",
               "role": "target"
             }
           ]
@@ -413,23 +374,15 @@
           "searchText": "طا - طى",
           "segments": [
             {
-              "text": "طَـ",
+              "text": "طَا",
               "role": "secondary"
-            },
-            {
-              "text": "ـا",
-              "role": "target"
             },
             {
               "text": " - ",
               "role": "separator"
             },
             {
-              "text": "طِـ",
-              "role": "secondary"
-            },
-            {
-              "text": "ى",
+              "text": "طِى",
               "role": "target"
             }
           ]
@@ -441,23 +394,15 @@
           "searchText": "ظا - ظى",
           "segments": [
             {
-              "text": "ظَـ",
+              "text": "ظَا",
               "role": "secondary"
-            },
-            {
-              "text": "ـا",
-              "role": "target"
             },
             {
               "text": " - ",
               "role": "separator"
             },
             {
-              "text": "ظِـ",
-              "role": "secondary"
-            },
-            {
-              "text": "ى",
+              "text": "ظِى",
               "role": "target"
             }
           ]
@@ -469,23 +414,15 @@
           "searchText": "عا - عى",
           "segments": [
             {
-              "text": "عَـ",
+              "text": "عَا",
               "role": "secondary"
-            },
-            {
-              "text": "ـا",
-              "role": "target"
             },
             {
               "text": " - ",
               "role": "separator"
             },
             {
-              "text": "عِـ",
-              "role": "secondary"
-            },
-            {
-              "text": "ى",
+              "text": "عِى",
               "role": "target"
             }
           ]
@@ -497,23 +434,15 @@
           "searchText": "غا - غى",
           "segments": [
             {
-              "text": "غَـ",
+              "text": "غَا",
               "role": "secondary"
-            },
-            {
-              "text": "ـا",
-              "role": "target"
             },
             {
               "text": " - ",
               "role": "separator"
             },
             {
-              "text": "غِـ",
-              "role": "secondary"
-            },
-            {
-              "text": "ى",
+              "text": "غِى",
               "role": "target"
             }
           ]
@@ -525,23 +454,15 @@
           "searchText": "فا - فى",
           "segments": [
             {
-              "text": "فَـ",
+              "text": "فَا",
               "role": "secondary"
-            },
-            {
-              "text": "ـا",
-              "role": "target"
             },
             {
               "text": " - ",
               "role": "separator"
             },
             {
-              "text": "فِـ",
-              "role": "secondary"
-            },
-            {
-              "text": "ى",
+              "text": "فِى",
               "role": "target"
             }
           ]
@@ -554,7 +475,8 @@
         "columns": 8,
         "rowColors": [
           "green"
-        ]
+        ],
+        "markColor": "red"
       },
       "items": [
         {
@@ -695,7 +617,8 @@
           "peach",
           "peach"
         ],
-        "label": "تدريب (١)"
+        "label": "تدريب (١)",
+        "markColor": "red"
       },
       "items": [
         {
@@ -813,12 +736,8 @@
               "role": "target"
             },
             {
-              "text": "دِ",
+              "text": "دِى",
               "role": "base"
-            },
-            {
-              "text": "ى",
-              "role": "target"
             }
           ]
         },
@@ -841,12 +760,8 @@
               "role": "target"
             },
             {
-              "text": "رِ",
+              "text": "رِى",
               "role": "base"
-            },
-            {
-              "text": "ى",
-              "role": "target"
             }
           ]
         },
@@ -869,12 +784,8 @@
               "role": "target"
             },
             {
-              "text": "لِ",
+              "text": "لِى",
               "role": "base"
-            },
-            {
-              "text": "ى",
-              "role": "target"
             }
           ]
         },
@@ -915,7 +826,8 @@
         "rowColors": [
           "sky",
           "sky"
-        ]
+        ],
+        "markColor": "red"
       },
       "items": [
         {

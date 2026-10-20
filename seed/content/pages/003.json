@@ -7,7 +7,7 @@
   "i18n": {
     "ar": {
       "title": "الحركـات",
-      "subtitle": "١ـ الْحُرُوفُ بِحَرَكَةِ الْفَتْحِ",
+      "subtitle": "١ـ الْحُروفُ بِحَرَكَةِ الْفَتْحِ",
       "teacherNote": "[للمعلم والآباء:] الحروف تقرأ بالفتح (صوت الحرف) [ويعرف المتعلم] معنى الفتح: أى نفتح الفم عند النطق بالحرف، [ويعرف أن الفتحة] خط صغير فوق الحرف- [يدرب المتعلم] على قراءة الحرف بالصورة أعلى الصفحة وبدون صورة أسفل الصفحة تنبية: يتم تعريف المتعلم باسم الحرف من خلال الهجاء للحرف فنقول مثلاً (بَاءْ) فتحة (بَ) جِيمْ فتحة (جَ) وهكذا.",
       "unitTag": "الوحدة الأولى",
       "lessonTag": "الدرس الأول",
@@ -50,7 +50,7 @@
               "cellBreakAfter": true
             },
             {
-              "text": "أ",
+              "text": "أَ",
               "role": "target"
             },
             {
@@ -82,7 +82,7 @@
               "cellBreakAfter": true
             },
             {
-              "text": "ب",
+              "text": "بَـ",
               "role": "target"
             },
             {
@@ -119,7 +119,7 @@
               "cellBreakAfter": true
             },
             {
-              "text": "ت",
+              "text": "تَـ",
               "role": "target"
             },
             {
@@ -151,7 +151,7 @@
               "cellBreakAfter": true
             },
             {
-              "text": "ث",
+              "text": "ثَـ",
               "role": "target"
             },
             {
@@ -183,7 +183,7 @@
               "cellBreakAfter": true
             },
             {
-              "text": "ج",
+              "text": "جَـ",
               "role": "target"
             },
             {
@@ -215,7 +215,7 @@
               "cellBreakAfter": true
             },
             {
-              "text": "ح",
+              "text": "حَـ",
               "role": "target"
             },
             {
@@ -247,7 +247,7 @@
               "cellBreakAfter": true
             },
             {
-              "text": "خ",
+              "text": "خَـ",
               "role": "target"
             },
             {
@@ -279,7 +279,7 @@
               "cellBreakAfter": true
             },
             {
-              "text": "د",
+              "text": "دَ",
               "role": "target"
             },
             {
@@ -311,7 +311,7 @@
               "cellBreakAfter": true
             },
             {
-              "text": "ذ",
+              "text": "ذَ",
               "role": "target"
             },
             {
@@ -340,6 +340,7 @@
       "items": [
         {
           "cardType": "normal",
+          "tint": "blue",
           "script": "naskh",
           "rowBand": 0,
           "searchText": "أ",
@@ -352,6 +353,7 @@
         },
         {
           "cardType": "normal",
+          "tint": "red",
           "script": "naskh",
           "rowBand": 0,
           "searchText": "ب",
@@ -364,6 +366,7 @@
         },
         {
           "cardType": "normal",
+          "tint": "green",
           "script": "naskh",
           "rowBand": 0,
           "searchText": "ت",
@@ -376,6 +379,7 @@
         },
         {
           "cardType": "normal",
+          "tint": "ink",
           "script": "naskh",
           "rowBand": 0,
           "searchText": "ث",
@@ -388,6 +392,7 @@
         },
         {
           "cardType": "normal",
+          "tint": "blue",
           "script": "naskh",
           "rowBand": 0,
           "searchText": "ج",
@@ -400,6 +405,7 @@
         },
         {
           "cardType": "normal",
+          "tint": "red",
           "script": "naskh",
           "rowBand": 0,
           "searchText": "ح",
@@ -412,6 +418,7 @@
         },
         {
           "cardType": "normal",
+          "tint": "green",
           "script": "naskh",
           "rowBand": 0,
           "searchText": "خ",
@@ -424,6 +431,7 @@
         },
         {
           "cardType": "normal",
+          "tint": "ink",
           "script": "naskh",
           "rowBand": 0,
           "searchText": "د",
@@ -436,6 +444,7 @@
         },
         {
           "cardType": "normal",
+          "tint": "blue",
           "script": "naskh",
           "rowBand": 0,
           "searchText": "ذ",
@@ -448,6 +457,7 @@
         },
         {
           "cardType": "normal",
+          "tint": "red",
           "script": "naskh",
           "rowBand": 1,
           "searchText": "ج",
@@ -460,6 +470,7 @@
         },
         {
           "cardType": "normal",
+          "tint": "green",
           "script": "naskh",
           "rowBand": 1,
           "searchText": "ح",
@@ -472,6 +483,7 @@
         },
         {
           "cardType": "normal",
+          "tint": "blue",
           "script": "naskh",
           "rowBand": 1,
           "searchText": "خ",
@@ -484,6 +496,7 @@
         },
         {
           "cardType": "normal",
+          "tint": "red",
           "script": "naskh",
           "rowBand": 1,
           "searchText": "ب",
@@ -496,6 +509,7 @@
         },
         {
           "cardType": "normal",
+          "tint": "green",
           "script": "naskh",
           "rowBand": 1,
           "searchText": "ت",
@@ -508,6 +522,7 @@
         },
         {
           "cardType": "normal",
+          "tint": "ink",
           "script": "naskh",
           "rowBand": 1,
           "searchText": "ث",
@@ -520,6 +535,7 @@
         },
         {
           "cardType": "normal",
+          "tint": "blue",
           "script": "naskh",
           "rowBand": 1,
           "searchText": "د",
@@ -532,6 +548,7 @@
         },
         {
           "cardType": "normal",
+          "tint": "red",
           "script": "naskh",
           "rowBand": 1,
           "searchText": "ذ",
@@ -544,6 +561,7 @@
         },
         {
           "cardType": "normal",
+          "tint": "green",
           "script": "naskh",
           "rowBand": 1,
           "searchText": "أ",

@@ -6,9 +6,9 @@
   "status": "review",
   "i18n": {
     "ar": {
-      "title": "الْمَدُّ بِالْيَاءِ",
+      "title": "الْمَدُّ بالْيَاءِ",
       "subtitle": "تدريب ( ٣) على الرسم الإملائى",
-      "teacherNote": "[للمعلم والآباء:] تقرأ الجمل كلمة ... كلمة ثم تجمع الجمل فى صوت واحد. [يعرف المتعلم] أن الياء المدية فى الرسم الإملائى فى آخر الكلمة يوضع تحتها نقطتان مثل كلمة [(عصانِي)] [وفى الرسم القرآنى لا يوضع تحتها شئ.] [يعرف المتعلم:] الفرق بين الهمزة ألف المد فى القرآن [(ءَا)] وفى الرسم الإملائى [(آ)]",
+      "teacherNote": "[للمعلم والآباء:] تقرأ الجمل كلمة ... كلمة ثم تجمع الجمل فى صوت واحد. [يعرف المتعلم] أن الياء المدية فى الرسم الإملائى فى آخر الكلمة يوضع تحتها نقطتان مثل كلمة (عصا[نِي]) [وفى الرسم القرآنى لا يوضع تحتها شى.] [يعرف المتعلم:] الفرق بين الهمزة ألف المد فى القرآن [(ءَا)] وفى الرسم الإملائى [(آ)]",
       "lessonTag": "الدرس الثالث",
       "observeTag": "اقرأ ولاحظ"
     }
@@ -23,7 +23,8 @@
           "green",
           "pink",
           "pink"
-        ]
+        ],
+        "markColor": "red"
       },
       "items": [
         {
@@ -34,7 +35,7 @@
           "segments": [
             {
               "text": "عَصَا",
-              "role": "base"
+              "role": "secondary"
             },
             {
               "text": "نِي",
@@ -50,7 +51,7 @@
           "segments": [
             {
               "text": "حِسَا",
-              "role": "base"
+              "role": "secondary"
             },
             {
               "text": "بِي",
@@ -66,7 +67,7 @@
           "segments": [
             {
               "text": "لَ",
-              "role": "base"
+              "role": "secondary"
             },
             {
               "text": "قِي",
@@ -74,7 +75,7 @@
             },
             {
               "text": "نَا",
-              "role": "base"
+              "role": "secondary"
             }
           ]
         },
@@ -86,7 +87,7 @@
           "segments": [
             {
               "text": "أُ",
-              "role": "base"
+              "role": "secondary"
             },
             {
               "text": "جِي",
@@ -94,7 +95,7 @@
             },
             {
               "text": "بُ",
-              "role": "base"
+              "role": "secondary"
             }
           ]
         },
@@ -106,7 +107,7 @@
           "segments": [
             {
               "text": "تَ",
-              "role": "base"
+              "role": "secondary"
             },
             {
               "text": "لِي",
@@ -114,7 +115,7 @@
             },
             {
               "text": "نُ",
-              "role": "base"
+              "role": "secondary"
             }
           ]
         },
@@ -126,7 +127,7 @@
           "segments": [
             {
               "text": "يَ",
-              "role": "base"
+              "role": "secondary"
             },
             {
               "text": "ضِي",
@@ -134,7 +135,7 @@
             },
             {
               "text": "قُ",
-              "role": "base"
+              "role": "secondary"
             }
           ]
         },
@@ -150,7 +151,7 @@
             },
             {
               "text": "وَانُ",
-              "role": "base"
+              "role": "secondary"
             }
           ]
         },
@@ -166,7 +167,7 @@
             },
             {
               "text": "زَانُ",
-              "role": "base"
+              "role": "secondary"
             }
           ]
         },
@@ -178,7 +179,7 @@
           "segments": [
             {
               "text": "آثِ",
-              "role": "base"
+              "role": "secondary"
             },
             {
               "text": "مِي",
@@ -186,7 +187,7 @@
             },
             {
               "text": "نَ",
-              "role": "base"
+              "role": "secondary"
             }
           ]
         },
@@ -198,7 +199,7 @@
           "segments": [
             {
               "text": "آكِ",
-              "role": "base"
+              "role": "secondary"
             },
             {
               "text": "لِي",
@@ -206,7 +207,7 @@
             },
             {
               "text": "نَ",
-              "role": "base"
+              "role": "secondary"
             }
           ]
         },
@@ -218,7 +219,7 @@
           "segments": [
             {
               "text": "آيَا",
-              "role": "base"
+              "role": "secondary"
             },
             {
               "text": "تِي",
@@ -234,7 +235,7 @@
           "segments": [
             {
               "text": "آخِ",
-              "role": "base"
+              "role": "secondary"
             },
             {
               "text": "ذِي",
@@ -242,7 +243,7 @@
             },
             {
               "text": "نَ",
-              "role": "base"
+              "role": "secondary"
             }
           ]
         },
@@ -254,7 +255,7 @@
           "segments": [
             {
               "text": "قَرَا",
-              "role": "base"
+              "role": "secondary"
             },
             {
               "text": "طِي",
@@ -262,7 +263,7 @@
             },
             {
               "text": "سُ",
-              "role": "base"
+              "role": "secondary"
             }
           ]
         },
@@ -274,7 +275,7 @@
           "segments": [
             {
               "text": "فِدَا",
-              "role": "base"
+              "role": "secondary"
             },
             {
               "text": "ئِي",
@@ -290,7 +291,7 @@
           "segments": [
             {
               "text": "مُ",
-              "role": "base"
+              "role": "secondary"
             },
             {
               "text": "صِي",
@@ -298,7 +299,7 @@
             },
             {
               "text": "بُهَا",
-              "role": "base"
+              "role": "secondary"
             }
           ]
         },
@@ -310,7 +311,7 @@
           "segments": [
             {
               "text": "فُرُ",
-              "role": "base"
+              "role": "secondary"
             },
             {
               "text": "شِي",
@@ -329,7 +330,8 @@
           "sky",
           "pink",
           "pink"
-        ]
+        ],
+        "markColor": "red"
       },
       "items": [
         {
@@ -339,36 +341,8 @@
           "searchText": "صلاحي في صلاتي وصيامي",
           "segments": [
             {
-              "text": "صَلَا",
-              "role": "base"
-            },
-            {
-              "text": "حِي",
-              "role": "target"
-            },
-            {
-              "text": " ",
-              "role": "base"
-            },
-            {
-              "text": "فِي",
-              "role": "target"
-            },
-            {
-              "text": " صَلَا",
-              "role": "base"
-            },
-            {
-              "text": "تِي",
-              "role": "target"
-            },
-            {
-              "text": " وَصِيَا",
-              "role": "base"
-            },
-            {
-              "text": "مِي",
-              "role": "target"
+              "text": "صَلَاحِي فِي صَلَاتِي وَصِيَامِي",
+              "role": "secondary"
             }
           ]
         },
@@ -379,28 +353,8 @@
           "searchText": "راحتي في طاعة خالقي",
           "segments": [
             {
-              "text": "رَاحَ",
-              "role": "base"
-            },
-            {
-              "text": "تِي",
-              "role": "target"
-            },
-            {
-              "text": " ",
-              "role": "base"
-            },
-            {
-              "text": "فِي",
-              "role": "target"
-            },
-            {
-              "text": " طَاعَةِ خَالِ",
-              "role": "base"
-            },
-            {
-              "text": "قِي",
-              "role": "target"
+              "text": "رَاحَتِي فِي طَاعَةِ خَالِقِي",
+              "role": "secondary"
             }
           ]
         },
@@ -411,28 +365,8 @@
           "searchText": "زارني خالي ومعه خالتي",
           "segments": [
             {
-              "text": "زَارَ",
-              "role": "base"
-            },
-            {
-              "text": "نِي",
-              "role": "target"
-            },
-            {
-              "text": " خَا",
-              "role": "base"
-            },
-            {
-              "text": "لِي",
-              "role": "target"
-            },
-            {
-              "text": " وَمَعَهُ خَالَ",
-              "role": "base"
-            },
-            {
-              "text": "تِي",
-              "role": "target"
+              "text": "زَارَنِي خَالِي وَمَعَهُ خَالَتِي",
+              "role": "secondary"
             }
           ]
         },
@@ -443,20 +377,8 @@
           "searchText": "أحافظ على كتبي وأدواتي",
           "segments": [
             {
-              "text": "أُحَافِظُ عَلَى كُتُ",
-              "role": "base"
-            },
-            {
-              "text": "بِي",
-              "role": "target"
-            },
-            {
-              "text": " وَأَدَوَا",
-              "role": "base"
-            },
-            {
-              "text": "تِي",
-              "role": "target"
+              "text": "أُحَافِظُ عَلَى كُتُبِي وأَدَوَاتِي",
+              "role": "secondary"
             }
           ]
         },
@@ -467,16 +389,8 @@
           "searchText": "صام وقام فزاد إيمانه",
           "segments": [
             {
-              "text": "صَامَ وَقَامَ فَزَادَ ",
-              "role": "base"
-            },
-            {
-              "text": "إِي",
-              "role": "target"
-            },
-            {
-              "text": "مَانُهُ",
-              "role": "base"
+              "text": "صَامَ وَقَامَ فَزَادَ إِيمَانُهُ",
+              "role": "secondary"
             }
           ]
         },
@@ -487,36 +401,8 @@
           "searchText": "يسير سامي مع أخيه شادي",
           "segments": [
             {
-              "text": "يَ",
-              "role": "base"
-            },
-            {
-              "text": "سِي",
-              "role": "target"
-            },
-            {
-              "text": "رُ سَا",
-              "role": "base"
-            },
-            {
-              "text": "مِي",
-              "role": "target"
-            },
-            {
-              "text": " مَعَ أَ",
-              "role": "base"
-            },
-            {
-              "text": "خِي",
-              "role": "target"
-            },
-            {
-              "text": "هِ شَا",
-              "role": "base"
-            },
-            {
-              "text": "دِي",
-              "role": "target"
+              "text": "يَسِيرُ سَامِي مَعَ أَخِيهِ شَادِي",
+              "role": "secondary"
             }
           ]
         },
@@ -527,24 +413,8 @@
           "searchText": "زار أبي صديقه",
           "segments": [
             {
-              "text": "زَارَ أَ",
-              "role": "base"
-            },
-            {
-              "text": "بِي",
-              "role": "target"
-            },
-            {
-              "text": " صَ",
-              "role": "base"
-            },
-            {
-              "text": "دِي",
-              "role": "target"
-            },
-            {
-              "text": "قَهُ",
-              "role": "base"
+              "text": "زَارَ أَبِي صَدِيقَهُ",
+              "role": "secondary"
             }
           ]
         },
@@ -555,16 +425,8 @@
           "searchText": "لبس أخي ملابسه",
           "segments": [
             {
-              "text": "لَبِسَ أَ",
-              "role": "base"
-            },
-            {
-              "text": "خِي",
-              "role": "target"
-            },
-            {
-              "text": " مَلَابِسَهُ",
-              "role": "base"
+              "text": "لَبِسَ أَخِي مَلَابِسَهُ",
+              "role": "secondary"
             }
           ]
         }

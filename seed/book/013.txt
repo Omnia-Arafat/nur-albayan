@@ -10,10 +10,10 @@ note: [للمعلم والآباء:] يحرص المتعلم على خفض شف�
 ـئِـ@red ; ـبِـ@teal ; ـتِـ@purple ; ـثِـ@magenta ; جِـ@orange
 حِـ@olive ; خِـ@red ; ـدِ@blue ; ـذِ@green
 ـرِ@purple ; ـزِ@ink ; ـسِـ@red ; ـشِـ@orange
-// Letter pairs: the letter with kasra red, the letter with fatha blue.
+// Letter pairs: the right letter blue, the left letter red, as printed.
 ## letter_tiles cols=4 colors=pink,green,peach,pink,pink
 {صَ}[صِـ] ; {ضَ}[ضِـ] ; {طَ}[طِ] ; {ظَ}[ظِ]
 {عَ}[عِـ] ; {غَ}[غِـ] ; {فَ}[فِـ] ; {قَ}[قِـ]
-{كَ}[كِ] ; [لِ]{لَـ} ; [مِ]{مَـ} ; {نَ}[نِ]
-[هِ]{هَـ} ; {وَ}[وِ] ; [يِ]{يَـ} ; {يَ}[ىِ]
-[تِ]{بَ} ; {نَ}[بِ] ; [غِ]{عَـ} ; {ضَ}[طِ]
+{كَ}[كِ] ; {لِ}[لَـ] ; {مِ}[مَـ] ; {نَ}[نِ]
+{هِ}[هَـ] ; {وَ}[وِ] ; {يِ}[يَـ] ; {يَ}[ىِ]
+{تِ}[بَ] ; {نَ}[بِ] ; {غِ}[عَـ] ; {ضَ}[طِ]

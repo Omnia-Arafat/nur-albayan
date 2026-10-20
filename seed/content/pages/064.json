@@ -8,7 +8,7 @@
     "ar": {
       "title": "الشدة",
       "subtitle": "اللام الشَّمْسِيَّةُ",
-      "teacherNote": "[للمعلم والآباء:] يتم قراءة الكلمات من خلال مقطعين [الأحمر (الطَّا)] ثم [الأزرق (رِقِ)] ثم تقرأ تجميعًا ثم تعاد مرة ثانية بدون تقطيع والهدف من التقطيع فى أول مرة تمكين القاعدة الجديده، [يعرف المتعلم] أن حرف المد يسقط إذا ألتقى بالساكن مثل [( فِى ٱلنَّهَارِ )]",
+      "teacherNote": "[للمعلم والآباء:] يتم قراءة الكلمات من خلال مقطعين [الأحمر (الطَّا)] ثم {الأزرق (رِقِ)} ثم تقرأ تجميعًا ثم تعاد مرة ثانية بدون تقطيع والهدف من التقطيع فى أول مرة تمكين القاعدة الجديده، [يعرف المتعلم] أن حرف المد يسقط إذا ألتقى بالساكن مثل [( فِى ٱلنَّهَارِ )]",
       "lessonTag": "الدرس الثالث",
       "observeTag": "اقرأ ولاحظ"
     }
@@ -32,7 +32,7 @@
               "role": "target"
             },
             {
-              "text": " هى لام تكتب ولا تنطق وخالية من أى تشكيل وليس عليها سكون والحرف الذى يليها يكون مشددا",
+              "text": " هى لام تكتب ولا تنطق وخالية من أى تشكيل وليس عليها سكون والحرف الذى يليها يكون مشدداً",
               "role": "base"
             }
           ]
@@ -60,16 +60,12 @@
           "searchText": "ٱلطارق",
           "segments": [
             {
-              "text": "ٱل",
-              "role": "base"
-            },
-            {
-              "text": "طَّ",
+              "text": "ٱلطَّا",
               "role": "target"
             },
             {
-              "text": "ارِقِ",
-              "role": "base"
+              "text": "رِقِ",
+              "role": "contrast"
             }
           ]
         },
@@ -77,19 +73,15 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "ٱلتواب",
+          "searchText": "ٱلثواب",
           "segments": [
             {
-              "text": "ٱل",
-              "role": "base"
-            },
-            {
-              "text": "تَّ",
+              "text": "ٱلثَّ",
               "role": "target"
             },
             {
-              "text": "وَّابُ",
-              "role": "base"
+              "text": "وَابُ",
+              "role": "contrast"
             }
           ]
         },
@@ -100,16 +92,12 @@
           "searchText": "ٱلصعقة",
           "segments": [
             {
-              "text": "ٱل",
-              "role": "base"
-            },
-            {
-              "text": "صَّٰ",
+              "text": "ٱلصَّٰ",
               "role": "target"
             },
             {
               "text": "عِقَةُ",
-              "role": "base"
+              "role": "contrast"
             }
           ]
         },
@@ -120,16 +108,12 @@
           "searchText": "ٱلرأس",
           "segments": [
             {
-              "text": "ٱل",
-              "role": "base"
-            },
-            {
-              "text": "رَّ",
+              "text": "ٱلرَّ",
               "role": "target"
             },
             {
               "text": "أۡسُ",
-              "role": "base"
+              "role": "contrast"
             }
           ]
         },
@@ -140,16 +124,12 @@
           "searchText": "ٱلتقوى",
           "segments": [
             {
-              "text": "ٱل",
-              "role": "base"
-            },
-            {
-              "text": "تَّ",
+              "text": "ٱلتَّ",
               "role": "target"
             },
             {
               "text": "قۡوَىٰ",
-              "role": "base"
+              "role": "contrast"
             }
           ]
         },
@@ -160,16 +140,12 @@
           "searchText": "ٱلتراقى",
           "segments": [
             {
-              "text": "ٱل",
-              "role": "base"
-            },
-            {
-              "text": "تَّ",
+              "text": "ٱلتَّ",
               "role": "target"
             },
             {
               "text": "رَاقِىَ",
-              "role": "base"
+              "role": "contrast"
             }
           ]
         },
@@ -180,16 +156,12 @@
           "searchText": "ٱللطيف",
           "segments": [
             {
-              "text": "ٱل",
-              "role": "base"
-            },
-            {
-              "text": "لَّ",
+              "text": "ٱللَّ",
               "role": "target"
             },
             {
               "text": "طِيفُ",
-              "role": "base"
+              "role": "contrast"
             }
           ]
         },
@@ -200,16 +172,12 @@
           "searchText": "ٱلذباب",
           "segments": [
             {
-              "text": "ٱل",
-              "role": "base"
-            },
-            {
-              "text": "ذُّ",
+              "text": "ٱلذُّ",
               "role": "target"
             },
             {
               "text": "بَابُ",
-              "role": "base"
+              "role": "contrast"
             }
           ]
         },
@@ -220,16 +188,12 @@
           "searchText": "ٱلزبد",
           "segments": [
             {
-              "text": "ٱل",
-              "role": "base"
-            },
-            {
-              "text": "زَّ",
+              "text": "ٱلزَّ",
               "role": "target"
             },
             {
               "text": "بَدُ",
-              "role": "base"
+              "role": "contrast"
             }
           ]
         },
@@ -240,16 +204,12 @@
           "searchText": "ٱلسجدون",
           "segments": [
             {
-              "text": "ٱل",
-              "role": "base"
-            },
-            {
-              "text": "سَّٰ",
+              "text": "ٱلسَّٰ",
               "role": "target"
             },
             {
               "text": "جِدُونَ",
-              "role": "base"
+              "role": "contrast"
             }
           ]
         },
@@ -260,16 +220,12 @@
           "searchText": "ٱلراجفة",
           "segments": [
             {
-              "text": "ٱل",
-              "role": "base"
-            },
-            {
-              "text": "رَّ",
+              "text": "ٱلرَّا",
               "role": "target"
             },
             {
-              "text": "اجِفَةُ",
-              "role": "base"
+              "text": "جِفَةُ",
+              "role": "contrast"
             }
           ]
         },
@@ -280,16 +236,12 @@
           "searchText": "ٱلدهر",
           "segments": [
             {
-              "text": "ٱل",
-              "role": "base"
-            },
-            {
-              "text": "دَّ",
+              "text": "ٱلدَّ",
               "role": "target"
             },
             {
               "text": "هۡرُ",
-              "role": "base"
+              "role": "contrast"
             }
           ]
         },
@@ -300,16 +252,12 @@
           "searchText": "ٱلناس",
           "segments": [
             {
-              "text": "ٱل",
-              "role": "base"
-            },
-            {
-              "text": "نَّ",
+              "text": "ٱلنَّا",
               "role": "target"
             },
             {
-              "text": "اسِ",
-              "role": "base"
+              "text": "سَ",
+              "role": "contrast"
             }
           ]
         },
@@ -320,16 +268,12 @@
           "searchText": "للزكوة",
           "segments": [
             {
-              "text": "لِل",
-              "role": "base"
-            },
-            {
-              "text": "زَّ",
+              "text": "لِلزَّ",
               "role": "target"
             },
             {
               "text": "كَوٰةِ",
-              "role": "base"
+              "role": "contrast"
             }
           ]
         },
@@ -340,16 +284,12 @@
           "searchText": "للصلوة",
           "segments": [
             {
-              "text": "لِل",
-              "role": "base"
-            },
-            {
-              "text": "صَّ",
+              "text": "لِلصَّ",
               "role": "target"
             },
             {
               "text": "لَوٰةِ",
-              "role": "base"
+              "role": "contrast"
             }
           ]
         },
@@ -360,16 +300,12 @@
           "searchText": "للذكر",
           "segments": [
             {
-              "text": "لِل",
-              "role": "base"
-            },
-            {
-              "text": "ذِّ",
+              "text": "لِلذَّ",
               "role": "target"
             },
             {
-              "text": "كۡرِ",
-              "role": "base"
+              "text": "كَرِ",
+              "role": "contrast"
             }
           ]
         },
@@ -380,16 +316,12 @@
           "searchText": "ٱلضأن",
           "segments": [
             {
-              "text": "ٱل",
-              "role": "base"
-            },
-            {
-              "text": "ضَّ",
+              "text": "ٱلضَّ",
               "role": "target"
             },
             {
               "text": "أۡنِ",
-              "role": "base"
+              "role": "contrast"
             }
           ]
         },
@@ -400,16 +332,12 @@
           "searchText": "ٱلثقلان",
           "segments": [
             {
-              "text": "ٱل",
-              "role": "base"
-            },
-            {
-              "text": "ثَّ",
+              "text": "ٱلثَّ",
               "role": "target"
             },
             {
               "text": "قَلَانِ",
-              "role": "base"
+              "role": "contrast"
             }
           ]
         },
@@ -420,16 +348,12 @@
           "searchText": "ٱلصرح",
           "segments": [
             {
-              "text": "ٱل",
-              "role": "base"
-            },
-            {
-              "text": "صَّ",
+              "text": "ٱلصَّ",
               "role": "target"
             },
             {
               "text": "رۡحَ",
-              "role": "base"
+              "role": "contrast"
             }
           ]
         },
@@ -440,16 +364,12 @@
           "searchText": "ٱلظلمين",
           "segments": [
             {
-              "text": "ٱل",
-              "role": "base"
-            },
-            {
-              "text": "ظَّٰ",
+              "text": "ٱلظَّٰ",
               "role": "target"
             },
             {
               "text": "لِمِينَ",
-              "role": "base"
+              "role": "contrast"
             }
           ]
         }
@@ -474,23 +394,7 @@
           "searchText": "يولج ٱليل فى ٱلنهار",
           "segments": [
             {
-              "text": "يُولِجُ ٱ",
-              "role": "base"
-            },
-            {
-              "text": "لَّ",
-              "role": "target"
-            },
-            {
-              "text": "يۡلَ فِى ٱل",
-              "role": "base"
-            },
-            {
-              "text": "نَّ",
-              "role": "target"
-            },
-            {
-              "text": "هَارِ",
+              "text": "يُولِجُ ٱلَّيۡلَ فِى ٱلنَّهَارِ",
               "role": "base"
             }
           ]
@@ -502,15 +406,7 @@
           "searchText": "لعلنا نتبع ٱلسحرة",
           "segments": [
             {
-              "text": "لَعَلَّنَا نَتَّبِعُ ٱل",
-              "role": "base"
-            },
-            {
-              "text": "سَّ",
-              "role": "target"
-            },
-            {
-              "text": "حَرَةَ",
+              "text": "لَعَلَّنَا نَتَّبِعُ ٱلسَّحَرَةَ",
               "role": "base"
             }
           ]
@@ -522,15 +418,7 @@
           "searchText": "وإنه لمن ٱلصدقين",
           "segments": [
             {
-              "text": "وَإِنَّهُۥ لَمِنَ ٱل",
-              "role": "base"
-            },
-            {
-              "text": "صَّٰ",
-              "role": "target"
-            },
-            {
-              "text": "دِقِينَ",
+              "text": "وَإِنَّهُۥ لَمِنَ ٱلصَّٰدِقِينَ",
               "role": "base"
             }
           ]
@@ -542,23 +430,7 @@
           "searchText": "هو ٱلتواب ٱلرحيم",
           "segments": [
             {
-              "text": "هُوَ ٱل",
-              "role": "base"
-            },
-            {
-              "text": "تَّ",
-              "role": "target"
-            },
-            {
-              "text": "وَّابُ ٱل",
-              "role": "base"
-            },
-            {
-              "text": "رَّ",
-              "role": "target"
-            },
-            {
-              "text": "حِيمُ",
+              "text": "هُوَ ٱلتَّوَّابُ ٱلرَّحِيمُ",
               "role": "base"
             }
           ]
@@ -570,15 +442,7 @@
           "searchText": "وٱلذين هم للزكوة فعلون",
           "segments": [
             {
-              "text": "وَٱلَّذِينَ هُمۡ لِل",
-              "role": "base"
-            },
-            {
-              "text": "زَّ",
-              "role": "target"
-            },
-            {
-              "text": "كَوٰةِ فَٰعِلُونَ",
+              "text": "وَٱلَّذِينَ هُمۡ لِلزَّكَوٰةِ فَٰعِلُونَ",
               "role": "base"
             }
           ]
@@ -590,23 +454,7 @@
           "searchText": "ٱلشهر ٱلحرام بٱلشهر ٱلحرام",
           "segments": [
             {
-              "text": "ٱل",
-              "role": "base"
-            },
-            {
-              "text": "شَّ",
-              "role": "target"
-            },
-            {
-              "text": "هۡرُ ٱلۡحَرَامُ بِٱل",
-              "role": "base"
-            },
-            {
-              "text": "شَّ",
-              "role": "target"
-            },
-            {
-              "text": "هۡرِ ٱلۡحَرَامِ",
+              "text": "ٱلشَّهۡرُ ٱلۡحَرَامُ بِٱلشَّهۡرِ ٱلۡحَرَامِ",
               "role": "base"
             }
           ]

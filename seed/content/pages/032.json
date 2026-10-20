@@ -49,7 +49,7 @@
           "searchText": "ببو",
           "segments": [
             {
-              "text": "بُـ",
+              "text": "بُ",
               "role": "secondary",
               "cellBreakAfter": true
             },
@@ -66,7 +66,7 @@
           "searchText": "تتو",
           "segments": [
             {
-              "text": "تُـ",
+              "text": "تُ",
               "role": "secondary",
               "cellBreakAfter": true
             },
@@ -83,7 +83,7 @@
           "searchText": "ثثو",
           "segments": [
             {
-              "text": "ثُـ",
+              "text": "ثُ",
               "role": "secondary",
               "cellBreakAfter": true
             },
