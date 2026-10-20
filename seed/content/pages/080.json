@@ -36,7 +36,7 @@
             },
             {
               "text": "(ء ـ هـ ـ ع ـ ح ـ غ ـ خ)",
-              "role": "rule"
+              "role": "target"
             },
             {
               "text": " .",
@@ -66,7 +66,7 @@
           "segments": [
             {
               "text": "ء",
-              "role": "rule"
+              "role": "target"
             }
           ]
         },
@@ -114,7 +114,7 @@
           "segments": [
             {
               "text": "هـ",
-              "role": "rule"
+              "role": "target"
             }
           ]
         },
@@ -162,7 +162,7 @@
           "segments": [
             {
               "text": "ع",
-              "role": "rule"
+              "role": "target"
             }
           ]
         },
@@ -210,7 +210,7 @@
           "segments": [
             {
               "text": "ح",
-              "role": "rule"
+              "role": "target"
             }
           ]
         },
@@ -258,7 +258,7 @@
           "segments": [
             {
               "text": "غ",
-              "role": "rule"
+              "role": "target"
             }
           ]
         },
@@ -306,7 +306,7 @@
           "segments": [
             {
               "text": "خ",
-              "role": "rule"
+              "role": "target"
             }
           ]
         },
@@ -371,11 +371,15 @@
             },
             {
               "text": "(م ـ ن ـ و ـ ي)",
-              "role": "rule"
+              "role": "target"
             },
             {
-              "text": " ومن الأمثلة:",
+              "text": " ",
               "role": "base"
+            },
+            {
+              "text": "ومن الأمثلة:",
+              "role": "rule"
             }
           ]
         }
@@ -401,7 +405,7 @@
           "segments": [
             {
               "text": "م",
-              "role": "rule"
+              "role": "secondary"
             }
           ]
         },
@@ -449,10 +453,10 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "مبركࣱ مصدق",
+          "searchText": "مباركࣱ مصدق",
           "segments": [
             {
-              "text": "مُّبَٰرَكࣱ ",
+              "text": "مُبَارَكࣱ ",
               "role": "base"
             },
             {
@@ -473,7 +477,7 @@
           "segments": [
             {
               "text": "ن",
-              "role": "rule"
+              "role": "secondary"
             }
           ]
         },
@@ -545,7 +549,7 @@
           "segments": [
             {
               "text": "و",
-              "role": "rule"
+              "role": "secondary"
             }
           ]
         },
@@ -617,7 +621,7 @@
           "segments": [
             {
               "text": "ي",
-              "role": "rule"
+              "role": "secondary"
             }
           ]
         },
@@ -706,7 +710,7 @@
             },
             {
               "text": "( الراء واللام )",
-              "role": "rule"
+              "role": "target"
             },
             {
               "text": " بحيث لا يبقى للنون الساكنة والتنوين أثر فى النطق ",
@@ -738,7 +742,7 @@
           "segments": [
             {
               "text": "الراء",
-              "role": "rule"
+              "role": "target"
             }
           ]
         },
@@ -809,7 +813,7 @@
           "searchText": "مثلࣰا رجلين",
           "segments": [
             {
-              "text": "مَّثَلࣰا ",
+              "text": "مَثَلࣰا ",
               "role": "base"
             },
             {
@@ -830,7 +834,7 @@
           "segments": [
             {
               "text": "اللام",
-              "role": "rule"
+              "role": "target"
             }
           ]
         },
@@ -861,7 +865,7 @@
           "searchText": "مبركࣱ ليدبروا",
           "segments": [
             {
-              "text": "مُّبَٰرَكࣱ ",
+              "text": "مُبَٰرَكࣱ ",
               "role": "base"
             },
             {

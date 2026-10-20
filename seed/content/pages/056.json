@@ -7,7 +7,7 @@
   "i18n": {
     "ar": {
       "title": "التنوين",
-      "subtitle": "٣ـ تنوين الضم (ـٌ) الضمتان",
+      "subtitle": "٣ـ تنوين الضم (ـࣱ) الضمتان",
       "teacherNote": "[للمعلم والآباء:] يعرف المتعلم على الفرق بين أشكال التنوين كما سبق فى الدرس السابق على أن يتم التطبيق لها فى درس أحكام ترتيل القرآن، [مع المراجعة اليومية] لقاعدة الحركات والمدود والسكون صفحة [( ١٨، ٣٢، ٣٩)]",
       "lessonTag": "الدرس الأول",
       "observeTag": "اقرأ ولاحظ"
@@ -29,18 +29,18 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "ثن = ث",
+          "searchText": "ثن - ثࣱ",
           "segments": [
             {
               "text": "ثُنۡ",
               "role": "base"
             },
             {
-              "text": " = ",
+              "text": " - ",
               "role": "separator"
             },
             {
-              "text": "ثٌ",
+              "text": "ثࣱ",
               "role": "target"
             }
           ]
@@ -49,18 +49,18 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "خن = خ",
+          "searchText": "خن - خࣱ",
           "segments": [
             {
               "text": "خُنۡ",
               "role": "base"
             },
             {
-              "text": " = ",
+              "text": " - ",
               "role": "separator"
             },
             {
-              "text": "خٌ",
+              "text": "خࣱ",
               "role": "target"
             }
           ]
@@ -69,18 +69,18 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "رن = ر",
+          "searchText": "رن - رࣱ",
           "segments": [
             {
               "text": "رُنۡ",
               "role": "base"
             },
             {
-              "text": " = ",
+              "text": " - ",
               "role": "separator"
             },
             {
-              "text": "رٌ",
+              "text": "رࣱ",
               "role": "target"
             }
           ]
@@ -102,10 +102,10 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "ب",
+          "searchText": "بࣱ",
           "segments": [
             {
-              "text": "بٌ",
+              "text": "بࣱ",
               "role": "base"
             }
           ]
@@ -114,10 +114,10 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "ت",
+          "searchText": "تࣱ",
           "segments": [
             {
-              "text": "تٌ",
+              "text": "تࣱ",
               "role": "base"
             }
           ]
@@ -126,10 +126,10 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "ج",
+          "searchText": "جࣱ",
           "segments": [
             {
-              "text": "جٌ",
+              "text": "جࣱ",
               "role": "base"
             }
           ]
@@ -138,10 +138,10 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "ح",
+          "searchText": "حࣱ",
           "segments": [
             {
-              "text": "حٌ",
+              "text": "حࣱ",
               "role": "base"
             }
           ]
@@ -150,10 +150,10 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "د",
+          "searchText": "دࣱ",
           "segments": [
             {
-              "text": "دٌ",
+              "text": "دࣱ",
               "role": "base"
             }
           ]
@@ -162,10 +162,10 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "ز",
+          "searchText": "زࣱ",
           "segments": [
             {
-              "text": "زٌ",
+              "text": "زࣱ",
               "role": "base"
             }
           ]
@@ -174,10 +174,10 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 1,
-          "searchText": "س",
+          "searchText": "سࣱ",
           "segments": [
             {
-              "text": "سٌ",
+              "text": "سࣱ",
               "role": "base"
             }
           ]
@@ -186,10 +186,10 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 1,
-          "searchText": "ص",
+          "searchText": "صࣱ",
           "segments": [
             {
-              "text": "صٌ",
+              "text": "صࣱ",
               "role": "base"
             }
           ]
@@ -228,7 +228,7 @@
           "searchText": "ه",
           "segments": [
             {
-              "text": "هٌ",
+              "text": "ـهٌ",
               "role": "base"
             }
           ]
@@ -266,14 +266,14 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "ظمأ",
+          "searchText": "ظمأࣱ",
           "segments": [
             {
               "text": "ظَمَ",
               "role": "base"
             },
             {
-              "text": "أٌ",
+              "text": "أࣱ",
               "role": "target"
             }
           ]
@@ -282,14 +282,14 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "خشب",
+          "searchText": "خشبࣱ",
           "segments": [
             {
               "text": "خُشُ",
               "role": "base"
             },
             {
-              "text": "بٌ",
+              "text": "بࣱ",
               "role": "target"
             }
           ]
@@ -298,14 +298,14 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "فرات",
+          "searchText": "فراتࣱ",
           "segments": [
             {
               "text": "فُرَا",
               "role": "base"
             },
             {
-              "text": "تٌ",
+              "text": "تࣱ",
               "role": "target"
             }
           ]
@@ -314,14 +314,14 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "ثابت",
+          "searchText": "ثابتࣱ",
           "segments": [
             {
               "text": "ثَابِ",
               "role": "base"
             },
             {
-              "text": "تٌ",
+              "text": "تࣱ",
               "role": "target"
             }
           ]
@@ -330,14 +330,14 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "حرج",
+          "searchText": "حرجࣱ",
           "segments": [
             {
               "text": "حَرَ",
               "role": "base"
             },
             {
-              "text": "جٌ",
+              "text": "جࣱ",
               "role": "target"
             }
           ]
@@ -362,14 +362,14 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 1,
-          "searchText": "شيخ",
+          "searchText": "شيخࣱ",
           "segments": [
             {
               "text": "شَيۡ",
               "role": "base"
             },
             {
-              "text": "خٌ",
+              "text": "خࣱ",
               "role": "target"
             }
           ]
@@ -378,14 +378,14 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 1,
-          "searchText": "عابد",
+          "searchText": "عابدࣱ",
           "segments": [
             {
               "text": "عَابِ",
               "role": "base"
             },
             {
-              "text": "دٌ",
+              "text": "دࣱ",
               "role": "target"
             }
           ]
@@ -458,14 +458,14 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 2,
-          "searchText": "قصاص",
+          "searchText": "قصاصࣱ",
           "segments": [
             {
               "text": "قِصَا",
               "role": "base"
             },
             {
-              "text": "صٌ",
+              "text": "صࣱ",
               "role": "target"
             }
           ]
@@ -506,14 +506,14 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 3,
-          "searchText": "شواظ",
+          "searchText": "شواظࣱ",
           "segments": [
             {
               "text": "شُوَا",
               "role": "base"
             },
             {
-              "text": "ظٌ",
+              "text": "ظࣱ",
               "role": "target"
             }
           ]
@@ -554,14 +554,14 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 3,
-          "searchText": "عاصف",
+          "searchText": "عاصفࣱ",
           "segments": [
             {
               "text": "عَاصِ",
               "role": "base"
             },
             {
-              "text": "فٍ",
+              "text": "فࣱ",
               "role": "target"
             }
           ]
@@ -570,14 +570,14 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 3,
-          "searchText": "زاهق",
+          "searchText": "زاهقࣱ",
           "segments": [
             {
               "text": "زَاهِ",
               "role": "base"
             },
             {
-              "text": "قٌ",
+              "text": "قࣱ",
               "role": "target"
             }
           ]
@@ -602,14 +602,14 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 4,
-          "searchText": "رجال",
+          "searchText": "رجالࣱ",
           "segments": [
             {
               "text": "رِجَا",
               "role": "base"
             },
             {
-              "text": "لٌ",
+              "text": "لࣱ",
               "role": "target"
             }
           ]

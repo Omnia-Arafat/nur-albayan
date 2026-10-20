@@ -28,6 +28,8 @@ export type Item = {
   rowBand: number;
   isDrillable: boolean;
   searchText: string;
+  /** The book's decorative colour for the item's letters (a colour name), or null. */
+  tint: string | null;
   segments: Segment[];
 };
 export type Section = {
@@ -169,6 +171,7 @@ export async function getLesson(db: Db, bookPage: number, locale: string): Promi
             rowBand: i.rowBand,
             isDrillable: i.isDrillable,
             searchText: i.searchText,
+            tint: i.tintTokenKey?.replace(/^color\./, "") ?? null,
             segments: segs
               .filter((g) => g.itemId === i.id)
               .map((g) => ({ text: g.text, role: g.roleKey, cellBreakAfter: g.cellBreakAfter })),

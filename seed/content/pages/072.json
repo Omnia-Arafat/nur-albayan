@@ -18,6 +18,7 @@
       "kind": "sentences",
       "config": {
         "columns": 2,
+        "markColor": "red",
         "columnColors": [
           "pink",
           "lime"
@@ -48,7 +49,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "وسع ربنا كل شىء علمࣰا",
+          "searchText": "وسع ربنا كل شىء علما",
           "segments": [
             {
               "text": "وَسِعَ رَ",
@@ -67,7 +68,7 @@
               "role": "target"
             },
             {
-              "text": "شَىۡءٍ عِلۡمࣰا",
+              "text": "شَىۡءٍ عِلۡمًا",
               "role": "base"
             }
           ]
@@ -200,7 +201,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 3,
-          "searchText": "قل نار جهنم أشد حرࣰا",
+          "searchText": "قل نار جهنم أشد حرا",
           "segments": [
             {
               "text": "قُلۡ نَارُ جَهَ",
@@ -223,7 +224,7 @@
               "role": "base"
             },
             {
-              "text": "رࣰّ",
+              "text": "رًّ",
               "role": "target"
             },
             {

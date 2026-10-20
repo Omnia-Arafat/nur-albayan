@@ -8,7 +8,7 @@
     "ar": {
       "title": "الشَّدَّةُ",
       "subtitle": "١ـ الشدة مع حركة الفتح والمد بالألف (ـَّ)",
-      "teacherNote": "[للمعلم والآباء:] يعرف المتعلم أن الحرف المشدد عبارة عن حرفين الأول ساكن والثانى متحرك [وطريقة الهجاء] (زَ) دال مشددة بالفتح [(زَدَّ)] ، [نقرأ] كل كلمة على حده ثم نجمع بين كل كلمتين فى صوت واحد لنتعلم الفرق بين الحرف المتحرك بالفتح والمشدد بحركة الفتح.",
+      "teacherNote": "[للمعلم والآباء:] يعرف المتعلم أن الحرف المشدد عبارة عن حرفين الأول ساكن والثانى متحرك [وطريقة الهجاء (زَ)] دال مشددة بالفتح [(زَدَّ)] ، [نقرأ] كل كلمة على حده ثم نجمع بين كل كلمتين فى صوت واحد لنتعلم الفرق بين الحرف المتحرك بالفتح والمشدد بحركة الفتح.",
       "unitTag": "الوحدة الخامسة",
       "lessonTag": "الدرس الأول",
       "observeTag": "اقرأ ولاحظ"
@@ -33,7 +33,7 @@
           "segments": [
             {
               "text": "بَدْدَ",
-              "role": "base"
+              "role": "contrast"
             },
             {
               "text": " = ",
@@ -41,7 +41,7 @@
             },
             {
               "text": "بَدَّ",
-              "role": "target"
+              "role": "base"
             }
           ]
         },
@@ -49,11 +49,11 @@
           "cardType": "normal",
           "script": "naskh",
           "rowBand": 0,
-          "searchText": "وفف = وف",
+          "searchText": "وف ف = وف",
           "segments": [
             {
-              "text": "وَفْفَ",
-              "role": "base"
+              "text": "وَفْ فَ",
+              "role": "contrast"
             },
             {
               "text": " = ",
@@ -61,7 +61,7 @@
             },
             {
               "text": "وَفَّ",
-              "role": "target"
+              "role": "base"
             }
           ]
         },
@@ -69,11 +69,11 @@
           "cardType": "normal",
           "script": "naskh",
           "rowBand": 0,
-          "searchText": "حقق = حق",
+          "searchText": "حق ق = حق",
           "segments": [
             {
-              "text": "حَقْقَ",
-              "role": "base"
+              "text": "حَقْ قَ",
+              "role": "contrast"
             },
             {
               "text": " = ",
@@ -81,7 +81,7 @@
             },
             {
               "text": "حَقَّ",
-              "role": "target"
+              "role": "base"
             }
           ]
         },
@@ -89,11 +89,11 @@
           "cardType": "normal",
           "script": "naskh",
           "rowBand": 0,
-          "searchText": "فصصا = فصا",
+          "searchText": "فص صا = فصا",
           "segments": [
             {
-              "text": "فَصْصَا",
-              "role": "base"
+              "text": "فَصْ صَا",
+              "role": "contrast"
             },
             {
               "text": " = ",
@@ -101,7 +101,7 @@
             },
             {
               "text": "فَصَّا",
-              "role": "target"
+              "role": "base"
             }
           ]
         },
@@ -109,11 +109,11 @@
           "cardType": "normal",
           "script": "naskh",
           "rowBand": 1,
-          "searchText": "دعع = دع",
+          "searchText": "دع ع = دع",
           "segments": [
             {
-              "text": "دَعْعَ",
-              "role": "base"
+              "text": "دَعْ عَ",
+              "role": "contrast"
             },
             {
               "text": " = ",
@@ -129,11 +129,11 @@
           "cardType": "normal",
           "script": "naskh",
           "rowBand": 1,
-          "searchText": "دععا = دعا",
+          "searchText": "دع عا = دعا",
           "segments": [
             {
-              "text": "دَعْعَا",
-              "role": "base"
+              "text": "دَعْ عَا",
+              "role": "contrast"
             },
             {
               "text": " = ",
@@ -153,7 +153,7 @@
           "segments": [
             {
               "text": "خَصْصَ",
-              "role": "base"
+              "role": "contrast"
             },
             {
               "text": " = ",
@@ -169,11 +169,11 @@
           "cardType": "normal",
           "script": "naskh",
           "rowBand": 1,
-          "searchText": "خصصا = خصا",
+          "searchText": "خص صا = خصا",
           "segments": [
             {
-              "text": "خَصْصَا",
-              "role": "base"
+              "text": "خَصْ صَا",
+              "role": "contrast"
             },
             {
               "text": " = ",
@@ -195,12 +195,13 @@
           "pink",
           "pink"
         ],
-        "label": "تدريب ( ١)"
+        "label": "تدريب ( ١)",
+        "markColor": "red"
       },
       "items": [
         {
           "cardType": "normal",
-          "tint": "red",
+          "tint": "blue",
           "script": "naskh",
           "rowBand": 0,
           "searchText": "رد",
@@ -213,7 +214,7 @@
         },
         {
           "cardType": "normal",
-          "tint": "purple",
+          "tint": "blue",
           "script": "naskh",
           "rowBand": 0,
           "searchText": "حج",
@@ -226,7 +227,7 @@
         },
         {
           "cardType": "normal",
-          "tint": "red",
+          "tint": "blue",
           "script": "naskh",
           "rowBand": 0,
           "searchText": "حى",
@@ -252,7 +253,7 @@
         },
         {
           "cardType": "normal",
-          "tint": "purple",
+          "tint": "blue",
           "script": "naskh",
           "rowBand": 0,
           "searchText": "هش",
@@ -381,8 +382,16 @@
               "role": "separator"
             },
             {
-              "text": "قَطَّعَ",
-              "role": "secondary"
+              "text": "قَ",
+              "role": "contrast"
+            },
+            {
+              "text": "طَّ",
+              "role": "target"
+            },
+            {
+              "text": "عَ",
+              "role": "contrast"
             }
           ]
         },
@@ -401,8 +410,16 @@
               "role": "separator"
             },
             {
-              "text": "جَمَّعَ",
-              "role": "secondary"
+              "text": "جَ",
+              "role": "contrast"
+            },
+            {
+              "text": "مَّ",
+              "role": "target"
+            },
+            {
+              "text": "عَ",
+              "role": "contrast"
             }
           ]
         },
@@ -421,8 +438,16 @@
               "role": "separator"
             },
             {
-              "text": "فَتَّحَ",
+              "text": "فَ",
+              "role": "contrast"
+            },
+            {
+              "text": "تَّ",
               "role": "target"
+            },
+            {
+              "text": "حَ",
+              "role": "contrast"
             }
           ]
         },
@@ -441,8 +466,16 @@
               "role": "separator"
             },
             {
-              "text": "دَرَّسَ",
-              "role": "secondary"
+              "text": "دَ",
+              "role": "contrast"
+            },
+            {
+              "text": "رَّ",
+              "role": "target"
+            },
+            {
+              "text": "سَ",
+              "role": "contrast"
             }
           ]
         },
@@ -461,8 +494,16 @@
               "role": "separator"
             },
             {
-              "text": "رَسَّخَ",
+              "text": "رَ",
+              "role": "contrast"
+            },
+            {
+              "text": "سَّ",
               "role": "target"
+            },
+            {
+              "text": "خَ",
+              "role": "contrast"
             }
           ]
         },
@@ -481,8 +522,16 @@
               "role": "separator"
             },
             {
-              "text": "وَقَّعَ",
+              "text": "وَ",
+              "role": "contrast"
+            },
+            {
+              "text": "قَّ",
               "role": "target"
+            },
+            {
+              "text": "عَ",
+              "role": "contrast"
             }
           ]
         }
@@ -505,16 +554,32 @@
           "searchText": "نجر ← نجار",
           "segments": [
             {
-              "text": "نَجَرَ",
+              "text": "نَ",
               "role": "base"
+            },
+            {
+              "text": "جَّ",
+              "role": "target"
+            },
+            {
+              "text": "رَ",
+              "role": "contrast"
             },
             {
               "text": " ← ",
               "role": "separator"
             },
             {
-              "text": "نَجَّارُ",
-              "role": "secondary"
+              "text": "نَ",
+              "role": "base"
+            },
+            {
+              "text": "جَّا",
+              "role": "target"
+            },
+            {
+              "text": "رُ",
+              "role": "contrast"
             }
           ]
         },
@@ -525,16 +590,32 @@
           "searchText": "بحر ← بحار",
           "segments": [
             {
-              "text": "بَحَرَ",
+              "text": "بَ",
               "role": "base"
+            },
+            {
+              "text": "حَّ",
+              "role": "target"
+            },
+            {
+              "text": "رَ",
+              "role": "contrast"
             },
             {
               "text": " ← ",
               "role": "separator"
             },
             {
-              "text": "بَحَّارُ",
+              "text": "بَ",
+              "role": "base"
+            },
+            {
+              "text": "حَّا",
               "role": "target"
+            },
+            {
+              "text": "رُ",
+              "role": "contrast"
             }
           ]
         },
@@ -545,16 +626,32 @@
           "searchText": "طوف ← طواف",
           "segments": [
             {
-              "text": "طَوَفَ",
+              "text": "طَ",
               "role": "base"
+            },
+            {
+              "text": "وَّ",
+              "role": "target"
+            },
+            {
+              "text": "فَ",
+              "role": "contrast"
             },
             {
               "text": " ← ",
               "role": "separator"
             },
             {
-              "text": "طَوَّافُ",
-              "role": "secondary"
+              "text": "طَ",
+              "role": "base"
+            },
+            {
+              "text": "وَّا",
+              "role": "target"
+            },
+            {
+              "text": "فُ",
+              "role": "contrast"
             }
           ]
         },
@@ -565,16 +662,32 @@
           "searchText": "عدد ← عداد",
           "segments": [
             {
-              "text": "عَدَدَ",
+              "text": "عَ",
               "role": "base"
+            },
+            {
+              "text": "دَّ",
+              "role": "target"
+            },
+            {
+              "text": "دَ",
+              "role": "contrast"
             },
             {
               "text": " ← ",
               "role": "separator"
             },
             {
-              "text": "عَدَّادُ",
+              "text": "عَ",
+              "role": "base"
+            },
+            {
+              "text": "دَّا",
               "role": "target"
+            },
+            {
+              "text": "دُ",
+              "role": "contrast"
             }
           ]
         },
@@ -585,16 +698,32 @@
           "searchText": "حمل ← حمال",
           "segments": [
             {
-              "text": "حَمَلَ",
+              "text": "حَ",
               "role": "base"
+            },
+            {
+              "text": "مَّ",
+              "role": "target"
+            },
+            {
+              "text": "لَ",
+              "role": "contrast"
             },
             {
               "text": " ← ",
               "role": "separator"
             },
             {
-              "text": "حَمَّالُ",
-              "role": "secondary"
+              "text": "حَ",
+              "role": "base"
+            },
+            {
+              "text": "مَّا",
+              "role": "target"
+            },
+            {
+              "text": "لُ",
+              "role": "contrast"
             }
           ]
         },
@@ -605,16 +734,32 @@
           "searchText": "وقف ← وقاف",
           "segments": [
             {
-              "text": "وَقَفَ",
+              "text": "وَ",
               "role": "base"
+            },
+            {
+              "text": "قَّ",
+              "role": "target"
+            },
+            {
+              "text": "فَ",
+              "role": "contrast"
             },
             {
               "text": " ← ",
               "role": "separator"
             },
             {
-              "text": "وَقَّافُ",
-              "role": "secondary"
+              "text": "وَ",
+              "role": "base"
+            },
+            {
+              "text": "قَّا",
+              "role": "target"
+            },
+            {
+              "text": "فُ",
+              "role": "contrast"
             }
           ]
         }

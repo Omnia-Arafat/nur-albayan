@@ -109,11 +109,11 @@
               "role": "base"
             },
             {
-              "text": "شُّقَّ",
+              "text": "شُّ",
               "role": "target"
             },
             {
-              "text": "ةُ",
+              "text": "قَّةُ",
               "role": "base"
             }
           ]
@@ -129,8 +129,12 @@
               "role": "base"
             },
             {
-              "text": "سِّرَّ",
+              "text": "سِّ",
               "role": "target"
+            },
+            {
+              "text": "رَّ",
+              "role": "base"
             }
           ]
         },
@@ -181,11 +185,11 @@
           "searchText": "ٱلتنور",
           "segments": [
             {
-              "text": "ٱل",
+              "text": "ٱلتَّ",
               "role": "base"
             },
             {
-              "text": "تَّنُّ",
+              "text": "نُّ",
               "role": "target"
             },
             {
@@ -365,8 +369,12 @@
               "role": "base"
             },
             {
-              "text": "لُّنَّ",
+              "text": "لُّ",
               "role": "target"
+            },
+            {
+              "text": "نَّ",
+              "role": "base"
             }
           ]
         },
@@ -485,12 +493,8 @@
               "role": "target"
             },
             {
-              "text": "هُ",
+              "text": "هُنَّ",
               "role": "base"
-            },
-            {
-              "text": "نَّ",
-              "role": "target"
             }
           ]
         },
@@ -541,11 +545,11 @@
           "searchText": "يسمعون",
           "segments": [
             {
-              "text": "يَ",
+              "text": "يَسَّ",
               "role": "base"
             },
             {
-              "text": "سَّمَّ",
+              "text": "مَّ",
               "role": "target"
             },
             {

@@ -79,11 +79,11 @@
           "segments": [
             {
               "text": "رَ",
-              "role": "target"
+              "role": "contrast"
             },
             {
               "text": "بْ",
-              "role": "contrast"
+              "role": "target"
             }
           ]
         },
@@ -95,11 +95,11 @@
           "segments": [
             {
               "text": "أَ",
-              "role": "target"
+              "role": "contrast"
             },
             {
               "text": "خْ",
-              "role": "contrast"
+              "role": "target"
             }
           ]
         },
@@ -111,11 +111,11 @@
           "segments": [
             {
               "text": "جَ",
-              "role": "target"
+              "role": "contrast"
             },
             {
               "text": "دْ",
-              "role": "contrast"
+              "role": "target"
             }
           ]
         },
@@ -127,11 +127,11 @@
           "segments": [
             {
               "text": "أَ",
-              "role": "target"
+              "role": "contrast"
             },
             {
               "text": "وْ",
-              "role": "contrast"
+              "role": "target"
             }
           ]
         },
@@ -143,11 +143,11 @@
           "segments": [
             {
               "text": "طِ",
-              "role": "target"
+              "role": "contrast"
             },
             {
               "text": "بْ",
-              "role": "contrast"
+              "role": "target"
             }
           ]
         },
@@ -159,11 +159,11 @@
           "segments": [
             {
               "text": "مِ",
-              "role": "target"
+              "role": "contrast"
             },
             {
               "text": "نْ",
-              "role": "contrast"
+              "role": "target"
             }
           ]
         },
@@ -590,11 +590,11 @@
           "searchText": "العرض",
           "segments": [
             {
-              "text": "الْعَرْ",
+              "text": "الْعَ",
               "role": "target"
             },
             {
-              "text": "ضُ",
+              "text": "رَضُ",
               "role": "contrast"
             }
           ]
