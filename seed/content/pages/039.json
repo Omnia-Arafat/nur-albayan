@@ -19,11 +19,11 @@
       "kind": "segmented_rows",
       "config": {
         "columns": 4,
-        "rowColors": [
+        "columnColors": [
           "green",
           "green",
-          "green",
-          "green"
+          "salmon",
+          "salmon"
         ]
       },
       "items": [

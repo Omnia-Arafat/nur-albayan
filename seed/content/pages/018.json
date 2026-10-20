@@ -96,7 +96,7 @@
           "searchText": "ح",
           "segments": [
             {
-              "text": "حُـ",
+              "text": "ـحُ",
               "role": "base"
             }
           ]
@@ -109,7 +109,7 @@
           "searchText": "خ",
           "segments": [
             {
-              "text": "خُـ",
+              "text": "ـخُ",
               "role": "base"
             }
           ]

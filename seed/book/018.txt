@@ -7,7 +7,7 @@ note: [للمعلم والآباء:] طريقة الهجاء للقاعدة: ن�
 // Letters with damma; the letter colours are the book's decoration.
 ## letter_tiles cols=5 colors=sky,sky
 ـأُ@red ; ـبُ@purple ; ـتُ@teal ; ـثُ@ink ; ـجُ@red
-حُـ@purple ; خُـ@teal ; ـدُ@ink ; ـذُ@red ; ـرُ@purple
+ـحُ@purple ; ـخُ@teal ; ـدُ@ink ; ـذُ@red ; ـرُ@purple
 // Each pill: one letter with the three harakat, first red, second purple, third teal-green.
 ## letter_tiles cols=3 colors=yellow,yellow,pink,pink,salmon,salmon
 [زَ]/<ـزِ>/~زُ~ ; [سَـ]/<ـسِـ>/~ـسُ~ ; [شَـ]/<ـشِـ>/~ـشُ~

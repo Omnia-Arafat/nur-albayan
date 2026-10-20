@@ -38,7 +38,7 @@
               "role": "separator"
             },
             {
-              "text": "أُفُّ",
+              "text": "أَفُّ",
               "role": "target"
             }
           ]
@@ -58,7 +58,7 @@
               "role": "separator"
             },
             {
-              "text": "عَدُوُّ",
+              "text": "عَدُّو",
               "role": "target"
             }
           ]
@@ -198,12 +198,8 @@
               "role": "base"
             },
             {
-              "text": "مُّ",
+              "text": "مُّوا۟",
               "role": "target"
-            },
-            {
-              "text": "وا۟",
-              "role": "base"
             }
           ]
         },
@@ -218,12 +214,8 @@
               "role": "base"
             },
             {
-              "text": "رُّ",
+              "text": "رُّوا۟",
               "role": "target"
-            },
-            {
-              "text": "وا۟",
-              "role": "base"
             }
           ]
         },
@@ -238,12 +230,8 @@
               "role": "base"
             },
             {
-              "text": "لُّ",
+              "text": "لُّوا۟",
               "role": "target"
-            },
-            {
-              "text": "وا۟",
-              "role": "base"
             }
           ]
         }
@@ -267,8 +255,12 @@
           "searchText": "صب - يصب",
           "segments": [
             {
-              "text": "صَبَّ",
+              "text": "صَ",
               "role": "base"
+            },
+            {
+              "text": "بَّ",
+              "role": "target"
             },
             {
               "text": " - ",
@@ -291,8 +283,12 @@
           "searchText": "دق - يدق",
           "segments": [
             {
-              "text": "دَقَّ",
+              "text": "دَ",
               "role": "base"
+            },
+            {
+              "text": "قَّ",
+              "role": "target"
             },
             {
               "text": " - ",
@@ -315,8 +311,12 @@
           "searchText": "حج - يحج",
           "segments": [
             {
-              "text": "حَجَّ",
+              "text": "حَ",
               "role": "base"
+            },
+            {
+              "text": "جَّ",
+              "role": "target"
             },
             {
               "text": " - ",
@@ -339,8 +339,12 @@
           "searchText": "لف - يلف",
           "segments": [
             {
-              "text": "لَفَّ",
+              "text": "لَ",
               "role": "base"
+            },
+            {
+              "text": "فَّ",
+              "role": "target"
             },
             {
               "text": " - ",
@@ -360,22 +364,26 @@
           "cardType": "normal",
           "script": "naskh",
           "rowBand": 1,
-          "searchText": "خط - يخط",
+          "searchText": "يخط - خط",
           "segments": [
-            {
-              "text": "خَطَّ",
-              "role": "base"
-            },
-            {
-              "text": " - ",
-              "role": "separator"
-            },
             {
               "text": "يَخُ",
               "role": "base"
             },
             {
               "text": "طُّ",
+              "role": "target"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "خَ",
+              "role": "base"
+            },
+            {
+              "text": "طَّ",
               "role": "target"
             }
           ]
@@ -384,22 +392,26 @@
           "cardType": "normal",
           "script": "naskh",
           "rowBand": 1,
-          "searchText": "فر - يفر",
+          "searchText": "يفر - فر",
           "segments": [
-            {
-              "text": "فَرَّ",
-              "role": "base"
-            },
-            {
-              "text": " - ",
-              "role": "separator"
-            },
             {
               "text": "يَفِ",
               "role": "base"
             },
             {
               "text": "رُّ",
+              "role": "target"
+            },
+            {
+              "text": " - ",
+              "role": "separator"
+            },
+            {
+              "text": "فَ",
+              "role": "base"
+            },
+            {
+              "text": "رَّ",
               "role": "target"
             }
           ]
@@ -444,7 +456,7 @@
               "role": "base"
             },
             {
-              "text": "فُّ",
+              "text": "فَّ",
               "role": "target"
             }
           ]
@@ -564,15 +576,7 @@
           "searchText": "زين",
           "segments": [
             {
-              "text": "زُ",
-              "role": "base"
-            },
-            {
-              "text": "يِّ",
-              "role": "target"
-            },
-            {
-              "text": "نَ",
+              "text": "زُيِّنَ",
               "role": "base"
             }
           ]
@@ -584,16 +588,12 @@
           "searchText": "تبعࣲ",
           "segments": [
             {
-              "text": "تُ",
+              "text": "تُبَّ",
               "role": "base"
-            },
-            {
-              "text": "بَّ",
-              "role": "target"
             },
             {
               "text": "عࣲ",
-              "role": "base"
+              "role": "target"
             }
           ]
         },

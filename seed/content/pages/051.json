@@ -111,14 +111,14 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 1,
-          "searchText": "بطانة",
+          "searchText": "بطانةࣰ",
           "segments": [
             {
               "text": "بِطَانَ",
               "role": "base"
             },
             {
-              "text": "ةً",
+              "text": "ةࣰ",
               "role": "target"
             }
           ]
@@ -127,14 +127,14 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 1,
-          "searchText": "وبيلا",
+          "searchText": "وبيلࣰا",
           "segments": [
             {
               "text": "وَبِي",
               "role": "base"
             },
             {
-              "text": "لًا",
+              "text": "لࣰا",
               "role": "target"
             }
           ]
@@ -143,14 +143,14 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 1,
-          "searchText": "حيوة",
+          "searchText": "حيوةࣰ",
           "segments": [
             {
               "text": "حَيَوٰ",
               "role": "base"
             },
             {
-              "text": "ةً",
+              "text": "ةࣰ",
               "role": "target"
             }
           ]
@@ -230,7 +230,7 @@
               "role": "base"
             },
             {
-              "text": "عًا",
+              "text": "عَۢا",
               "role": "target"
             }
           ]
@@ -271,14 +271,14 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 3,
-          "searchText": "لواذا",
+          "searchText": "لواذࣰا",
           "segments": [
             {
               "text": "لِوَا",
               "role": "base"
             },
             {
-              "text": "ذًا",
+              "text": "ذࣰا",
               "role": "target"
             }
           ]
@@ -287,14 +287,14 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 3,
-          "searchText": "وحدة",
+          "searchText": "وحدةࣰ",
           "segments": [
             {
               "text": "وَٰحِدَ",
               "role": "base"
             },
             {
-              "text": "ةً",
+              "text": "ةࣰ",
               "role": "target"
             }
           ]
@@ -319,14 +319,14 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 3,
-          "searchText": "قاصدا",
+          "searchText": "قاصدࣰا",
           "segments": [
             {
               "text": "قَاصِ",
               "role": "base"
             },
             {
-              "text": "دًا",
+              "text": "دࣰا",
               "role": "target"
             }
           ]
@@ -342,7 +342,7 @@
               "role": "base"
             },
             {
-              "text": "ةًۢ",
+              "text": "ةَۢ",
               "role": "target"
             }
           ]
@@ -351,14 +351,14 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 4,
-          "searchText": "إرصادا",
+          "searchText": "إرصادࣰا",
           "segments": [
             {
               "text": "إِرۡصَا",
               "role": "base"
             },
             {
-              "text": "دًا",
+              "text": "دࣰا",
               "role": "target"
             }
           ]
@@ -367,14 +367,14 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 4,
-          "searchText": "رءيا",
+          "searchText": "رءيࣰا",
           "segments": [
             {
               "text": "رِءۡ",
               "role": "base"
             },
             {
-              "text": "يًا",
+              "text": "يࣰا",
               "role": "target"
             }
           ]
@@ -383,14 +383,14 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 4,
-          "searchText": "ريبة",
+          "searchText": "ريبةࣰ",
           "segments": [
             {
               "text": "رِيبَ",
               "role": "base"
             },
             {
-              "text": "ةً",
+              "text": "ةࣰ",
               "role": "target"
             }
           ]
@@ -399,14 +399,14 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 4,
-          "searchText": "وردا",
+          "searchText": "وردࣰا",
           "segments": [
             {
               "text": "وِرۡ",
               "role": "base"
             },
             {
-              "text": "دًا",
+              "text": "دࣰا",
               "role": "target"
             }
           ]
@@ -415,14 +415,14 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 4,
-          "searchText": "كسفا",
+          "searchText": "كسفࣰا",
           "segments": [
             {
-              "text": "كِسَ",
+              "text": "كِسۡ",
               "role": "base"
             },
             {
-              "text": "فًا",
+              "text": "فࣰا",
               "role": "target"
             }
           ]
@@ -442,14 +442,14 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "وجعل فيها سراجا",
+          "searchText": "وجعل فيها سرجࣰا",
           "segments": [
             {
-              "text": "وَجَعَلَ فِيهَا سِرَا",
+              "text": "وَجَعَلَ فِيهَا سِرَٰ",
               "role": "base"
             },
             {
-              "text": "جًا",
+              "text": "جࣰا",
               "role": "target"
             }
           ]
@@ -482,14 +482,14 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "لأهب لك غلاما",
+          "searchText": "لأهب لك غلمࣰا",
           "segments": [
             {
-              "text": "لِأَهَبَ لَكِ غُلَا",
+              "text": "لِأَهَبَ لَكِ غُلَٰ",
               "role": "base"
             },
             {
-              "text": "مًا",
+              "text": "مࣰا",
               "role": "target"
             }
           ]
@@ -501,8 +501,8 @@
       "config": {
         "columns": 2,
         "rowColors": [
-          "pink",
-          "pink"
+          "rose",
+          "rose"
         ]
       },
       "items": [
@@ -510,14 +510,14 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "قرءان ٱلفجر كان مشهودا",
+          "searchText": "قرءان ٱلفجر كان مشهودࣰا",
           "segments": [
             {
               "text": "قُرۡءَانَ ٱلۡفَجۡرِ كَانَ مَشۡهُو",
               "role": "base"
             },
             {
-              "text": "دًا",
+              "text": "دࣰا",
               "role": "target"
             }
           ]
@@ -526,14 +526,14 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "ووجدوا ما عملوا حاضرا",
+          "searchText": "ووجدوا ما عملوا حاضرࣰا",
           "segments": [
             {
               "text": "وَوَجَدُوا۟ مَا عَمِلُوا۟ حَاضِ",
               "role": "base"
             },
             {
-              "text": "رًا",
+              "text": "رࣰا",
               "role": "target"
             }
           ]
@@ -542,14 +542,14 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 1,
-          "searchText": "فأخرج لهم عجلا",
+          "searchText": "فأخرج لهم عجلࣰا",
           "segments": [
             {
               "text": "فَأَخۡرَجَ لَهُمۡ عِجۡ",
               "role": "base"
             },
             {
-              "text": "لًا",
+              "text": "لࣰا",
               "role": "target"
             }
           ]
@@ -558,7 +558,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 1,
-          "searchText": "لقد جئت شيا إمرا",
+          "searchText": "لقد جئت شيا إمرࣰا",
           "segments": [
             {
               "text": "لَقَدۡ جِئۡتَ شَيۡ",
@@ -573,7 +573,7 @@
               "role": "base"
             },
             {
-              "text": "رًا",
+              "text": "رࣰا",
               "role": "target"
             }
           ]

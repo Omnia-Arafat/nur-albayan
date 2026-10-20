@@ -18,6 +18,7 @@
       "kind": "sentences",
       "config": {
         "columns": 2,
+        "markColor": "red",
         "columnColors": [
           "sky",
           "pink"

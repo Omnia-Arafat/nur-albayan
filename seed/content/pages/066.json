@@ -28,10 +28,10 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "ربب = رب",
+          "searchText": "رب ب = رب",
           "segments": [
             {
-              "text": "رَبۡبِ",
+              "text": "رَبۡ بِ",
               "role": "base"
             },
             {
@@ -48,10 +48,10 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "عفف = عف",
+          "searchText": "عف ف = عف",
           "segments": [
             {
-              "text": "عَفۡفِ",
+              "text": "عَفۡ فِ",
               "role": "base"
             },
             {
@@ -88,10 +88,10 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 1,
-          "searchText": "جددى = جدى",
+          "searchText": "جد دى = جدى",
           "segments": [
             {
-              "text": "جَدۡدِى",
+              "text": "جَدۡ دِى",
               "role": "base"
             },
             {
@@ -187,7 +187,7 @@
           "searchText": "قر",
           "segments": [
             {
-              "text": "قِ",
+              "text": "قَ",
               "role": "base"
             },
             {
@@ -203,7 +203,7 @@
           "searchText": "حق",
           "segments": [
             {
-              "text": "حِ",
+              "text": "حَ",
               "role": "base"
             },
             {
@@ -255,8 +255,12 @@
               "role": "base"
             },
             {
-              "text": "زِّى",
+              "text": "زِّ",
               "role": "target"
+            },
+            {
+              "text": "ى",
+              "role": "base"
             }
           ]
         },
@@ -271,8 +275,12 @@
               "role": "base"
             },
             {
-              "text": "مِّى",
+              "text": "مِّ",
               "role": "target"
+            },
+            {
+              "text": "ى",
+              "role": "base"
             }
           ]
         },
@@ -287,8 +295,12 @@
               "role": "base"
             },
             {
-              "text": "دِّى",
+              "text": "دِّ",
               "role": "target"
+            },
+            {
+              "text": "ى",
+              "role": "base"
             }
           ]
         },
@@ -303,8 +315,12 @@
               "role": "base"
             },
             {
-              "text": "مِّى",
+              "text": "مِّ",
               "role": "target"
+            },
+            {
+              "text": "ى",
+              "role": "base"
             }
           ]
         }
@@ -328,7 +344,15 @@
           "searchText": "فصل ← فصل",
           "segments": [
             {
-              "text": "فَصَّلَ",
+              "text": "فَ",
+              "role": "base"
+            },
+            {
+              "text": "صَّ",
+              "role": "target"
+            },
+            {
+              "text": "لَ",
               "role": "base"
             },
             {
@@ -356,7 +380,15 @@
           "searchText": "ملك ← ملك",
           "segments": [
             {
-              "text": "مَلَّكَ",
+              "text": "مَ",
+              "role": "base"
+            },
+            {
+              "text": "لَّ",
+              "role": "target"
+            },
+            {
+              "text": "كَ",
               "role": "base"
             },
             {
@@ -384,7 +416,15 @@
           "searchText": "علم ← علم",
           "segments": [
             {
-              "text": "عَلَّمَ",
+              "text": "عَ",
+              "role": "base"
+            },
+            {
+              "text": "لَّ",
+              "role": "target"
+            },
+            {
+              "text": "مَ",
               "role": "base"
             },
             {
@@ -412,7 +452,15 @@
           "searchText": "قدر ← قدر",
           "segments": [
             {
-              "text": "قَدَّرَ",
+              "text": "قَ",
+              "role": "base"
+            },
+            {
+              "text": "دَّ",
+              "role": "target"
+            },
+            {
+              "text": "رَ",
               "role": "base"
             },
             {
@@ -440,7 +488,15 @@
           "searchText": "بشر ← بشر",
           "segments": [
             {
-              "text": "بَشَّرَ",
+              "text": "بَ",
+              "role": "base"
+            },
+            {
+              "text": "شَّ",
+              "role": "target"
+            },
+            {
+              "text": "رَ",
               "role": "base"
             },
             {
@@ -468,7 +524,15 @@
           "searchText": "فسر ← فسر",
           "segments": [
             {
-              "text": "فَسَّرَ",
+              "text": "فَ",
+              "role": "base"
+            },
+            {
+              "text": "سَّ",
+              "role": "target"
+            },
+            {
+              "text": "رَ",
               "role": "base"
             },
             {
@@ -669,8 +733,12 @@
               "role": "base"
             },
             {
-              "text": "ثِّى",
+              "text": "ثِّ",
               "role": "target"
+            },
+            {
+              "text": "ى",
+              "role": "base"
             }
           ]
         },
@@ -741,8 +809,12 @@
               "role": "base"
             },
             {
-              "text": "وِّى",
+              "text": "وِّ",
               "role": "target"
+            },
+            {
+              "text": "ى",
+              "role": "base"
             }
           ]
         },
@@ -768,9 +840,9 @@
         },
         {
           "cardType": "normal",
-          "script": "uthmani",
+          "script": "naskh",
           "rowBand": 2,
-          "searchText": "أعزةࣲ",
+          "searchText": "أعزة",
           "segments": [
             {
               "text": "أَعِ",
@@ -781,7 +853,7 @@
               "role": "target"
             },
             {
-              "text": "ةࣲ",
+              "text": "ةٍ",
               "role": "base"
             }
           ]

@@ -361,10 +361,14 @@
             },
             {
               "text": "بُ",
+              "role": "base"
+            },
+            {
+              "text": "رَ",
               "role": "secondary"
             },
             {
-              "text": "رُهُ",
+              "text": "هُ",
               "role": "base"
             }
           ]
@@ -376,15 +380,15 @@
           "searchText": "فقطع",
           "segments": [
             {
-              "text": "فَ",
+              "text": "فَقُ",
               "role": "target"
             },
             {
-              "text": "قُ",
+              "text": "طِ",
               "role": "secondary"
             },
             {
-              "text": "طِعَ",
+              "text": "عَ",
               "role": "base"
             }
           ]
@@ -396,15 +400,15 @@
           "searchText": "عمرك",
           "segments": [
             {
-              "text": "عُ",
+              "text": "عُمُ",
               "role": "target"
             },
             {
-              "text": "مُ",
+              "text": "رِ",
               "role": "secondary"
             },
             {
-              "text": "رِكَ",
+              "text": "كَ",
               "role": "base"
             }
           ]
@@ -416,15 +420,15 @@
           "searchText": "يعده",
           "segments": [
             {
-              "text": "يَ",
+              "text": "يَعِ",
               "role": "target"
             },
             {
-              "text": "عِ",
+              "text": "دُ",
               "role": "secondary"
             },
             {
-              "text": "دُهُ",
+              "text": "هُ",
               "role": "base"
             }
           ]
@@ -436,15 +440,15 @@
           "searchText": "فقتل",
           "segments": [
             {
-              "text": "فَ",
+              "text": "فَقُ",
               "role": "target"
             },
             {
-              "text": "قُ",
+              "text": "تِ",
               "role": "secondary"
             },
             {
-              "text": "تِلَ",
+              "text": "لَ",
               "role": "base"
             }
           ]
@@ -456,15 +460,15 @@
           "searchText": "نبؤه",
           "segments": [
             {
-              "text": "نَ",
+              "text": "نَبَ",
               "role": "target"
             },
             {
-              "text": "بَ",
+              "text": "ؤُ",
               "role": "secondary"
             },
             {
-              "text": "ؤُهُ",
+              "text": "هُ",
               "role": "base"
             }
           ]
@@ -476,15 +480,15 @@
           "searchText": "غلبت",
           "segments": [
             {
-              "text": "غُ",
+              "text": "غُلِ",
               "role": "target"
             },
             {
-              "text": "لِ",
+              "text": "بَ",
               "role": "secondary"
             },
             {
-              "text": "بَتِ",
+              "text": "تِ",
               "role": "base"
             }
           ]
@@ -496,15 +500,15 @@
           "searchText": "خمسه",
           "segments": [
             {
-              "text": "خُ",
+              "text": "خُمُ",
               "role": "target"
             },
             {
-              "text": "مُ",
+              "text": "سَ",
               "role": "secondary"
             },
             {
-              "text": "سَهُ",
+              "text": "هُ",
               "role": "base"
             }
           ]
@@ -516,15 +520,15 @@
           "searchText": "سدسه",
           "segments": [
             {
-              "text": "سُ",
+              "text": "سُدُ",
               "role": "target"
             },
             {
-              "text": "دُ",
+              "text": "سَ",
               "role": "secondary"
             },
             {
-              "text": "سَهُ",
+              "text": "هُ",
               "role": "base"
             }
           ]
@@ -536,15 +540,15 @@
           "searchText": "لنبذ",
           "segments": [
             {
-              "text": "لَ",
+              "text": "لَنُ",
               "role": "target"
             },
             {
-              "text": "نُ",
+              "text": "بِ",
               "role": "secondary"
             },
             {
-              "text": "بِذَ",
+              "text": "ذَ",
               "role": "base"
             }
           ]
@@ -556,15 +560,15 @@
           "searchText": "فسقى",
           "segments": [
             {
-              "text": "فَ",
+              "text": "فَسُ",
               "role": "target"
             },
             {
-              "text": "سُ",
+              "text": "قِ",
               "role": "secondary"
             },
             {
-              "text": "قِىَ",
+              "text": "ىَ",
               "role": "base"
             }
           ]
@@ -576,15 +580,15 @@
           "searchText": "فبهت",
           "segments": [
             {
-              "text": "فَ",
+              "text": "فَبُ",
               "role": "target"
             },
             {
-              "text": "بُ",
+              "text": "هِ",
               "role": "secondary"
             },
             {
-              "text": "هِتَ",
+              "text": "تَ",
               "role": "base"
             }
           ]
@@ -596,15 +600,15 @@
           "searchText": "يعدكم",
           "segments": [
             {
-              "text": "يَ",
+              "text": "يَعِ",
               "role": "target"
             },
             {
-              "text": "عِ",
+              "text": "دُكُ",
               "role": "secondary"
             },
             {
-              "text": "دُكُمُ",
+              "text": "مُ",
               "role": "base"
             }
           ]
@@ -616,15 +620,15 @@
           "searchText": "كلمته",
           "segments": [
             {
-              "text": "كَ",
+              "text": "كَلِ",
               "role": "target"
             },
             {
-              "text": "لِ",
+              "text": "مَتُ",
               "role": "secondary"
             },
             {
-              "text": "مَتُهُ",
+              "text": "هُ",
               "role": "base"
             }
           ]
@@ -636,15 +640,15 @@
           "searchText": "يعظه",
           "segments": [
             {
-              "text": "يَ",
+              "text": "يَعِ",
               "role": "target"
             },
             {
-              "text": "عِ",
+              "text": "ظُ",
               "role": "secondary"
             },
             {
-              "text": "ظُهُ",
+              "text": "هُ",
               "role": "base"
             }
           ]
@@ -656,15 +660,15 @@
           "searchText": "عنقك",
           "segments": [
             {
-              "text": "عُ",
+              "text": "عُنُ",
               "role": "target"
             },
             {
-              "text": "نُ",
+              "text": "قِ",
               "role": "secondary"
             },
             {
-              "text": "قِكَ",
+              "text": "كَ",
               "role": "base"
             }
           ]

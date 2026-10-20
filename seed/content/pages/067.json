@@ -538,7 +538,9 @@
           "sky",
           "salmon",
           "salmon"
-        ]
+        ],
+        "label": "تدريب ( ٣)",
+        "markColor": "red"
       },
       "items": [
         {
@@ -608,11 +610,11 @@
               "role": "base"
             },
             {
-              "text": "ىِّ ",
+              "text": "ـِّۧ",
               "role": "target"
             },
             {
-              "text": "ٱللَّهُ",
+              "text": "ىَ ٱللَّهُ",
               "role": "base"
             }
           ]
@@ -657,7 +659,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 2,
-          "searchText": "لكل أوابࣲ حفيظࣲ",
+          "searchText": "لكل أواب حفيظࣲ",
           "segments": [
             {
               "text": "لِكُ",
@@ -676,7 +678,7 @@
               "role": "target"
             },
             {
-              "text": "ابࣲ حَفِيظࣲ",
+              "text": "ابٍ حَفِيظࣲ",
               "role": "base"
             }
           ]
@@ -732,7 +734,7 @@
               "role": "target"
             },
             {
-              "text": "أَيۡدِيَكُمۡ وَأَرۡجُلَكُمۡ",
+              "text": "أَيۡدِيَكُمۡ وَأَرۡجُلَكُم",
               "role": "base"
             }
           ]

@@ -27,7 +27,8 @@
           "pink",
           "green",
           "green"
-        ]
+        ],
+        "markColor": "red"
       },
       "items": [
         {
@@ -374,7 +375,7 @@
             },
             {
               "text": "لِى",
-              "role": "target"
+              "role": "base"
             }
           ]
         },
@@ -662,10 +663,10 @@
           "cardType": "normal",
           "script": "naskh",
           "rowBand": 7,
-          "searchText": "سربيل",
+          "searchText": "سرابيل",
           "segments": [
             {
-              "text": "سَرَٰ",
+              "text": "سَرَا",
               "role": "base"
             },
             {

@@ -154,7 +154,15 @@
           "searchText": "كره وسخط",
           "segments": [
             {
-              "text": "كَرِهَ وَسَخِطَ",
+              "text": "كَرِهَ",
+              "role": "target"
+            },
+            {
+              "text": " ",
+              "role": "base"
+            },
+            {
+              "text": "وَسَخِطَ",
               "role": "secondary"
             }
           ]

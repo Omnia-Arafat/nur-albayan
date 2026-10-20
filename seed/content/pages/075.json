@@ -100,7 +100,7 @@
           "searchText": "طب",
           "segments": [
             {
-              "text": "طَ",
+              "text": "طِ",
               "role": "base"
             },
             {
@@ -116,7 +116,7 @@
           "searchText": "طبࣰا",
           "segments": [
             {
-              "text": "طَ",
+              "text": "طِ",
               "role": "base"
             },
             {
@@ -132,7 +132,7 @@
           "searchText": "طبࣲ",
           "segments": [
             {
-              "text": "طَ",
+              "text": "طِ",
               "role": "base"
             },
             {
@@ -148,7 +148,7 @@
           "searchText": "طب",
           "segments": [
             {
-              "text": "طَ",
+              "text": "طِ",
               "role": "base"
             },
             {
@@ -176,16 +176,12 @@
           "searchText": "قوى",
           "segments": [
             {
-              "text": "قَ",
+              "text": "قَوِ",
               "role": "base"
             },
             {
-              "text": "وَّ",
+              "text": "ىَّ",
               "role": "target"
-            },
-            {
-              "text": "ى",
-              "role": "base"
             }
           ]
         },
@@ -333,14 +329,14 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "مرࣲ",
+          "searchText": "مردࣲ",
           "segments": [
             {
-              "text": "مَ",
+              "text": "مَرَ",
               "role": "base"
             },
             {
-              "text": "رࣲّ",
+              "text": "دࣲّ",
               "role": "target"
             }
           ]

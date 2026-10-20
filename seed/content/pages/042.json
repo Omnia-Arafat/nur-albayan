@@ -71,7 +71,15 @@
               "cellBreakAfter": true
             },
             {
-              "text": "وُۥنَ",
+              "text": "وُ",
+              "role": "contrast"
+            },
+            {
+              "text": "ۥ",
+              "role": "target"
+            },
+            {
+              "text": "نَ",
               "role": "contrast"
             }
           ]
@@ -151,7 +159,7 @@
           "searchText": "ٱلخلق",
           "segments": [
             {
-              "text": "ٱلۡخَٰ",
+              "text": "ٱلۡخٰ",
               "role": "target",
               "cellBreakAfter": true
             },
@@ -248,11 +256,11 @@
           "searchText": "ٱلهوى",
           "segments": [
             {
-              "text": "ٱلۡ",
+              "text": "ٱلۡهَ",
               "role": "target"
             },
             {
-              "text": "هَوَىٰ",
+              "text": "وَىٰ",
               "role": "contrast"
             }
           ]
@@ -264,11 +272,11 @@
           "searchText": "ٱليهود",
           "segments": [
             {
-              "text": "ٱلۡ",
+              "text": "ٱلۡيَ",
               "role": "target"
             },
             {
-              "text": "يَهُودُ",
+              "text": "هُودُ",
               "role": "contrast"
             }
           ]
@@ -280,11 +288,11 @@
           "searchText": "ٱليوم",
           "segments": [
             {
-              "text": "ٱلۡ",
+              "text": "ٱلۡيَ",
               "role": "target"
             },
             {
-              "text": "يَوۡمُ",
+              "text": "وۡمُ",
               "role": "contrast"
             }
           ]
@@ -296,11 +304,11 @@
           "searchText": "ٱلخوف",
           "segments": [
             {
-              "text": "ٱلۡ",
+              "text": "ٱلۡخَ",
               "role": "target"
             },
             {
-              "text": "خَوۡفُ",
+              "text": "وۡفُ",
               "role": "contrast"
             }
           ]
@@ -312,11 +320,11 @@
           "searchText": "ٱلواقعة",
           "segments": [
             {
-              "text": "ٱلۡ",
+              "text": "ٱلۡوَ",
               "role": "target"
             },
             {
-              "text": "وَاقِعَةُ",
+              "text": "اقِعَةُ",
               "role": "contrast"
             }
           ]
@@ -328,11 +336,11 @@
           "searchText": "ٱلملك",
           "segments": [
             {
-              "text": "ٱلۡ",
+              "text": "ٱلۡمَ",
               "role": "target"
             },
             {
-              "text": "مُلۡكُ",
+              "text": "لِكُ",
               "role": "contrast"
             }
           ]
@@ -344,11 +352,11 @@
           "searchText": "ٱلجحيم",
           "segments": [
             {
-              "text": "ٱلۡ",
+              "text": "ٱلۡجَ",
               "role": "target"
             },
             {
-              "text": "جَحِيمُ",
+              "text": "حِيمُ",
               "role": "contrast"
             }
           ]
@@ -360,11 +368,11 @@
           "searchText": "ٱلكريم",
           "segments": [
             {
-              "text": "ٱلۡ",
+              "text": "ٱلۡكَ",
               "role": "target"
             },
             {
-              "text": "كَرِيمُ",
+              "text": "رِيمُ",
               "role": "contrast"
             }
           ]

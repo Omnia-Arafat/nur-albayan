@@ -9,7 +9,7 @@ title: السُّكُونُ ( ـۡ ـْ )
 subtitle: ١ـ السكون فى الرسم القرآنى (ـۡ)
 note: [للمعلم والآباء:] يعرف المتعلم أن السكون عكس الحركة ، والسكون فى الكلمات القرآنية يكون مثل رأس الحاء [(ـۡ)] [وطريقة التهجى للقاعدة (أَ)] نون سكون [(أَنۡ)] تقرأ مرة بالهجاء ثم نعيد القراءة بدون هجاء [(أَنۡ . هَبۡ . قَطۡ)]
 // Each row: a letter with the three harakat, a sukun syllable, the three madds, a sukun syllable.
-## segmented_rows cols=4 colors=green,green,green,green
+## segmented_rows cols=4 colcolors=green,green,salmon,salmon
 <بَـ> - [بِـ] - <بُـ> ; ~أَبۡ~ ; <تَا> - [تِى] - <تُو> ; ~أَتۡ~
 <ثَـ> - [ثِـ] - <ثُـ> ; ~أَثۡ~ ; <جَا> - [جِيـ] - <جُو> ; ~أَجۡ~
 <حَـ> - [حِـ] - <حُـ> ; ~بَحۡ~ ; <خَا> - [خِيـ] - <خُو> ; ~أَخۡ~
