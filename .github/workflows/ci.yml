@@ -20,7 +20,10 @@ jobs:
       - run: pnpm typecheck
       - run: pnpm check:hardcoded
       - run: pnpm test
+      # Some routes (the web manifest) read the database while prerendering, so the build gets a seeded local one.
+      - run: pnpm db:local
+        env:
+          DATABASE_URL: pglite:.data/ci
       - run: pnpm build
         env:
-          # The build only imports the database client; it never connects.
           DATABASE_URL: pglite:.data/ci
