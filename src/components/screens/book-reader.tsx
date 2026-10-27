@@ -95,17 +95,12 @@ export function BookReader({ initialPage }: { initialPage?: number }) {
     seen.current = true;
   }, [page]);
 
-  // The arrows work while the reader can be seen, so they don't turn pages from elsewhere on home.
-  const visible = useRef(false);
-  useEffect(() => {
-    const el = box.current;
-    if (!el) return;
-    const io = new IntersectionObserver(([e]) => (visible.current = e.intersectionRatio > 0.2), {
-      threshold: [0, 0.2, 0.5],
-    });
-    io.observe(el);
-    return () => io.disconnect();
-  }, []);
+  // The keys work while any real part of the reader is on screen (measured at the key press, since a long
+  // page is far taller than the window), so they don't turn pages from further down home.
+  const onScreen = () => {
+    const r = box.current?.getBoundingClientRect();
+    return !!r && Math.min(r.bottom, window.innerHeight) - Math.max(r.top, 0) >= 80;
+  };
 
   const go = (n: number | undefined, how?: "next" | "prev") => {
     if (n === undefined || n === page) return;
@@ -137,7 +132,7 @@ export function BookReader({ initialPage }: { initialPage?: number }) {
       },
       "book.open": () => router.push(openHref),
     },
-    () => visible.current || !!box.current?.contains(document.activeElement),
+    () => onScreen() || !!box.current?.contains(document.activeElement),
   );
 
   const submit = (e: React.FormEvent) => {
