@@ -1,10 +1,13 @@
 "use client";
 
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
 
 import { useSound } from "@/components/app/sound";
 import { useApp, useT } from "@/components/app/app-data";
+import { useDir, useShortcuts } from "@/components/app/keys";
+import { ariaKeys } from "@/modules/keyboard/keys";
 import { ensureProfile } from "@/components/app/profiles";
 import { Seg } from "@/components/book/controls";
 import { Icon } from "@/components/book/icon";
@@ -38,9 +41,13 @@ function cheerOf(list: { text: string; weight: number }[], seed: number) {
   return list[0]?.text ?? "";
 }
 
-export function LessonPlayer({ lesson, prev, next }: { lesson: Lesson; prev: number | null; next: number | null }) {
+type Neighbours = { prev: number | null; next: number | null; first: number | null; last: number | null };
+
+export function LessonPlayer({ lesson, prev, next, first, last }: { lesson: Lesson } & Neighbours) {
   const { catalog, feedback } = useApp();
   const t = useT();
+  const router = useRouter();
+  const dir = useDir();
   const device = useDevice();
   const [mode, setMode] = useState<Mode>("page");
   const [grader, setGrader] = useState<"teacher" | "self">("teacher");
@@ -164,6 +171,27 @@ export function LessonPlayer({ lesson, prev, next }: { lesson: Lesson; prev: num
     setRound(round + 1);
   };
 
+  // Keys: on the page the arrows turn pages in reading direction; on the cards 1 and 2 grade, Escape goes back.
+  const open = (n: number | null) => n !== null && n !== lesson.bookPage && router.push(t.href(`/lesson/${n}`));
+  useShortcuts(
+    result
+      ? {}
+      : mode === "page"
+        ? {
+            "book.next": () => open(next),
+            "book.prev": () => open(prev),
+            "book.first": () => open(first),
+            "book.last": () => open(last),
+          }
+        : mode === "cards"
+          ? {
+              "cards.right": () => grade("correct"),
+              "cards.again": () => grade("wrong"),
+              "cards.back": () => setMode("page"),
+            }
+          : {},
+  );
+
   if (result) return <Result lesson={lesson} data={result} next={next} onAgain={restart} />;
 
   return (
@@ -238,14 +266,22 @@ export function LessonPlayer({ lesson, prev, next }: { lesson: Lesson; prev: num
           </div>
           <nav className="nb-spread nb-pager" aria-label={t("lesson.pageTag", { page: lesson.bookPage })}>
             {prev !== null ? (
-              <Link href={t.href(`/lesson/${prev}`)} className="nb-btn nb-btn-quiet">
+              <Link
+                href={t.href(`/lesson/${prev}`)}
+                className="nb-btn nb-btn-quiet"
+                aria-keyshortcuts={ariaKeys("book.prev", dir)}
+              >
                 <Icon name="next" size={20} tone="lavender" className="nb-flip nb-dir-flip" /> {t("lesson.prev")}
               </Link>
             ) : (
               <span />
             )}
             {next !== null && (
-              <Link href={t.href(`/lesson/${next}`)} className="nb-btn nb-btn-quiet">
+              <Link
+                href={t.href(`/lesson/${next}`)}
+                className="nb-btn nb-btn-quiet"
+                aria-keyshortcuts={ariaKeys("book.next", dir)}
+              >
                 {t("lesson.next")} <Icon name="next" size={20} tone="lavender" className="nb-dir-flip" />
               </Link>
             )}
@@ -289,11 +325,21 @@ export function LessonPlayer({ lesson, prev, next }: { lesson: Lesson; prev: num
             )}
             <p className="nb-muted nb-center">{t("lesson.readAloud")}</p>
             <div className="nb-row nb-row-btns nb-center">
-              <button type="button" className="nb-btn nb-btn-ok nb-btn-big" onClick={() => grade("correct")}>
+              <button
+                type="button"
+                className="nb-btn nb-btn-ok nb-btn-big"
+                aria-keyshortcuts={ariaKeys("cards.right", dir)}
+                onClick={() => grade("correct")}
+              >
                 <Icon name="check" size={26} colours={{ fill: "color.surface", line: "color.surface" }} />{" "}
                 {t("lesson.right")}
               </button>
-              <button type="button" className="nb-btn nb-btn-again nb-btn-big" onClick={() => grade("wrong")}>
+              <button
+                type="button"
+                className="nb-btn nb-btn-again nb-btn-big"
+                aria-keyshortcuts={ariaKeys("cards.again", dir)}
+                onClick={() => grade("wrong")}
+              >
                 {t("lesson.again")}
               </button>
             </div>

@@ -183,6 +183,38 @@
         "0%": "opacity:0",
         "100%": "opacity:1"
       }
+    },
+    {
+      "key": "turn-next",
+      "use": "A book page arriving after turning forward (it slides in from the side the reading moves to)",
+      "duration": "motion.normal",
+      "easing": "easing.standard",
+      "iterations": "1",
+      "fill": "both",
+      "frames": {
+        "0%": "transform:translateX(calc(var(--nb-read-dir,1) * -1 * 28px));opacity:0",
+        "100%": "transform:translateX(0);opacity:1"
+      },
+      "reduced": {
+        "0%": "opacity:0",
+        "100%": "opacity:1"
+      }
+    },
+    {
+      "key": "turn-prev",
+      "use": "A book page arriving after turning back",
+      "duration": "motion.normal",
+      "easing": "easing.standard",
+      "iterations": "1",
+      "fill": "both",
+      "frames": {
+        "0%": "transform:translateX(calc(var(--nb-read-dir,1) * 1 * 28px));opacity:0",
+        "100%": "transform:translateX(0);opacity:1"
+      },
+      "reduced": {
+        "0%": "opacity:0",
+        "100%": "opacity:1"
+      }
     }
   ],
   "transitions": [

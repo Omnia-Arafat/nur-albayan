@@ -14,5 +14,13 @@ export default async function Page(props: PageProps<"/[locale]/lesson/[page]">) 
   if (!lesson) notFound();
   const pages = (await listLessons(db, locale)).map((l) => l.bookPage);
   const at = pages.indexOf(lesson.bookPage);
-  return <LessonPlayer lesson={lesson} prev={pages[at - 1] ?? null} next={pages[at + 1] ?? null} />;
+  return (
+    <LessonPlayer
+      lesson={lesson}
+      prev={pages[at - 1] ?? null}
+      next={pages[at + 1] ?? null}
+      first={pages[0] ?? null}
+      last={pages.at(-1) ?? null}
+    />
+  );
 }
