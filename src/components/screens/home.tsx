@@ -9,13 +9,15 @@ import { pillVars, tokenVar, Word } from "@/components/book/word";
 import { active, openMistakes } from "@/modules/progress/local";
 import { useDevice } from "@/modules/progress/store";
 
+import { BookReader } from "./book-reader";
 import { bookMap, currentPage, isDone } from "./journey";
 import { useLesson } from "./use-lesson";
 
 /** Where each node sits across the path, as a share of the free width: the book's zigzag. */
 const ZIGZAG = [0, 0.5, 1, 0.5];
 
-export function Home() {
+/** The learner's home: where to continue, the whole book to page through, the journey path and today's goal. */
+export function Home({ initialPage }: { initialPage?: number }) {
   const { lessons, catalog, locale } = useApp();
   const t = useT();
   const me = active(useDevice());
@@ -92,6 +94,8 @@ export function Home() {
             </div>
           </div>
         )}
+
+        <BookReader initialPage={initialPage} />
 
         {stages.map((st, si) => {
           const pal = catalog.palette[si % catalog.palette.length] ?? "yellow";
