@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo } from "react";
+import { createContext, useContext, useMemo } from "react";
 
 import { useSound } from "@/components/app/sound";
 import { useApp, useT } from "@/components/app/app-data";
@@ -95,6 +95,9 @@ export function useGradeWord() {
 /** Palette of a game from its fill token (color.pill.<palette>.fill). */
 export const paletteOf = (fillTokenKey?: string, fallback = "lavender") => fillTokenKey?.split(".")[2] ?? fallback;
 
+/** True when a game plays inside a lesson page: the lesson already shows where you are and the other games. */
+export const GameEmbedded = createContext(false);
+
 /** Shared frame for every game screen: back to the games, the game's tag and any tools on the same row. */
 export function GameShell({
   gameKey,
@@ -109,8 +112,16 @@ export function GameShell({
 }) {
   const { catalog } = useApp();
   const t = useT();
+  const embedded = useContext(GameEmbedded);
   const game = catalog.games.find((g) => g.key === gameKey);
   const pal = paletteOf(game?.fillTokenKey);
+  if (embedded)
+    return (
+      <div className="nb-stack-lg">
+        {tools && <div className="nb-row nb-center">{tools}</div>}
+        {children}
+      </div>
+    );
   return (
     <main className="nb-page nb-narrow-wide">
       <div className="nb-spread">
@@ -134,6 +145,7 @@ export function GameShell({
 /** Shown instead of a board when the chosen page has no words to read aloud (an intro page, say). */
 export function NoWords({ from, loading }: { from: string; loading?: boolean }) {
   const t = useT();
+  const embedded = useContext(GameEmbedded);
   return (
     <section className="nb-card nb-anim-rise nb-empty" aria-busy={loading || undefined}>
       {loading ? (
@@ -147,9 +159,11 @@ export function NoWords({ from, loading }: { from: string; loading?: boolean }) 
           <p className="nb-muted nb-center nb-m0">
             {t(from === "bank" ? "games.noBankWordsText" : "games.noWordsText")}
           </p>
-          <Link href={t.href("/games")} className="nb-btn nb-btn-soft nb-self-center">
-            {t("games.pickPage")}
-          </Link>
+          {!embedded && (
+            <Link href={t.href("/games")} className="nb-btn nb-btn-soft nb-self-center">
+              {t("games.pickPage")}
+            </Link>
+          )}
         </>
       )}
     </section>

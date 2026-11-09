@@ -10,6 +10,7 @@ import { active, openMistakes } from "@/modules/progress/local";
 import { useDevice } from "@/modules/progress/store";
 
 import { BookReader } from "./book-reader";
+import { QuickIndex } from "./quick-index";
 import { bookMap, currentPage, isDone } from "./journey";
 import { useLesson } from "./use-lesson";
 
@@ -86,14 +87,22 @@ export function Home({ initialPage }: { initialPage?: number }) {
                 {t("home.read")} <Icon name="next" size={24} />
               </Link>
               {here.drillable > 0 && (
-                <Link href={t.href(`/games?page=${here.bookPage}`)} className="nb-btn-secondary">
+                <Link href={t.href(`/lesson/${here.bookPage}?view=cards`)} className="nb-btn-secondary">
                   <Icon name="cards" size={28} />
+                  {t("home.cards")}
+                </Link>
+              )}
+              {here.drillable > 0 && (
+                <Link href={t.href(`/lesson/${here.bookPage}?view=games`)} className="nb-btn-secondary">
+                  <Icon name="wheel" size={28} />
                   {t("home.play")}
                 </Link>
               )}
             </div>
           </div>
         )}
+
+        <QuickIndex />
 
         <BookReader initialPage={initialPage} />
 

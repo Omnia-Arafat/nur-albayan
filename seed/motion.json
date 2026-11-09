@@ -215,6 +215,89 @@
         "0%": "opacity:0",
         "100%": "opacity:1"
       }
+    },
+    {
+      "key": "burst",
+      "use": "A piece of the celebration flying out of a card read right",
+      "duration": "motion.celebrate",
+      "easing": "easing.out",
+      "iterations": "1",
+      "fill": "both",
+      "frames": {
+        "0%": "transform:translate(0,0) scale(.3) rotate(0);opacity:1",
+        "70%": "opacity:1",
+        "100%": "transform:translate(var(--dx),var(--dy)) scale(1) rotate(var(--r));opacity:0"
+      },
+      "reduced": {
+        "0%": "opacity:0",
+        "100%": "opacity:0"
+      }
+    },
+    {
+      "key": "shower",
+      "use": "Pieces falling over the whole screen for a run of right reads or a finished deck",
+      "duration": "motion.spin",
+      "easing": "easing.out",
+      "iterations": "1",
+      "fill": "both",
+      "frames": {
+        "0%": "transform:translate(0,-12vh) rotate(0);opacity:1",
+        "85%": "opacity:1",
+        "100%": "transform:translate(var(--dx),105vh) rotate(var(--r));opacity:0"
+      },
+      "reduced": {
+        "0%": "opacity:0",
+        "100%": "opacity:0"
+      }
+    },
+    {
+      "key": "cheer",
+      "use": "The cheer word and the points popping over the card",
+      "duration": "motion.celebrate",
+      "easing": "easing.out",
+      "iterations": "1",
+      "fill": "both",
+      "frames": {
+        "0%": "transform:translateY(10px) scale(.3);opacity:0",
+        "25%": "transform:translateY(0) scale(1.15);opacity:1",
+        "70%": "transform:translateY(-6px) scale(1);opacity:1",
+        "100%": "transform:translateY(-36px) scale(1);opacity:0"
+      },
+      "reduced": {
+        "0%": "opacity:0",
+        "20%": "opacity:1",
+        "80%": "opacity:1",
+        "100%": "opacity:0"
+      }
+    },
+    {
+      "key": "right",
+      "use": "The card jumping when it is read right",
+      "duration": "motion.normal",
+      "easing": "easing.bounce",
+      "iterations": "1",
+      "fill": "none",
+      "frames": {
+        "0%": "transform:scale(1)",
+        "45%": "transform:scale(1.07)",
+        "100%": "transform:scale(1)"
+      }
+    },
+    {
+      "key": "shake",
+      "use": "The card shaking gently when it needs another try",
+      "duration": "motion.normal",
+      "easing": "easing.standard",
+      "iterations": "1",
+      "fill": "none",
+      "frames": {
+        "0%": "transform:translateX(0)",
+        "20%": "transform:translateX(-8px)",
+        "40%": "transform:translateX(8px)",
+        "60%": "transform:translateX(-5px)",
+        "80%": "transform:translateX(5px)",
+        "100%": "transform:translateX(0)"
+      }
     }
   ],
   "transitions": [

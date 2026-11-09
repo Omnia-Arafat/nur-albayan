@@ -6,7 +6,7 @@ import { pageParam } from "@/lib/api";
 import { getLesson, listLessons } from "@/modules/content/service";
 
 export default async function Page(props: PageProps<"/[locale]/lesson/[page]">) {
-  const { locale, page } = await props.params;
+  const [{ locale, page }, q] = await Promise.all([props.params, props.searchParams]);
   const n = pageParam.safeParse(page);
   if (!n.success) notFound();
   const db = await getDb();
@@ -21,6 +21,8 @@ export default async function Page(props: PageProps<"/[locale]/lesson/[page]">) 
       next={pages[at + 1] ?? null}
       first={pages[0] ?? null}
       last={pages.at(-1) ?? null}
+      view={q.view === "cards" || q.view === "games" ? q.view : "page"}
+      game={typeof q.game === "string" && /^[a-z0-9-]+$/.test(q.game) ? q.game : null}
     />
   );
 }

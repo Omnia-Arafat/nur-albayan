@@ -302,5 +302,53 @@
       "classroom"
     ],
     "position": 3
+  },
+  {
+    "key": "lesson.celebrate",
+    "type": "boolean",
+    "defaultValue": true,
+    "group": "lesson",
+    "allowedScopes": [
+      "platform",
+      "teacher",
+      "classroom",
+      "student",
+      "device"
+    ],
+    "position": 6
+  },
+  {
+    "key": "lesson.advanceDelayMs",
+    "type": "integer",
+    "defaultValue": 700,
+    "group": "lesson",
+    "allowedScopes": [
+      "platform",
+      "teacher",
+      "classroom",
+      "student",
+      "device"
+    ],
+    "position": 7,
+    "min": 0,
+    "max": 3000,
+    "step": 100
+  },
+  {
+    "key": "lesson.bigCheerEvery",
+    "type": "integer",
+    "defaultValue": 5,
+    "group": "lesson",
+    "allowedScopes": [
+      "platform",
+      "teacher",
+      "classroom",
+      "student",
+      "device"
+    ],
+    "position": 8,
+    "min": 2,
+    "max": 20,
+    "step": 1
   }
 ]

@@ -737,3 +737,89 @@ html[data-offline] .nb-app{padding-bottom:110px}
 .nb-keys{display:none}
 }
 @media (hover: none) and (pointer: coarse){.nb-keys{display:none}}
+
+/* lesson: one bar for the page, its progress, the whole book and the three views */
+.nb-lesson-nav{gap:12px}
+.nb-lesson-head{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 16px}
+.nb-min0{min-width:0}
+.nb-lesson-title{margin:0;font-weight:900;font-size:30px;line-height:1.6;color:var(--nb-color-red)}
+.nb-page-badges{display:flex;flex-wrap:wrap;align-items:center;gap:8px}
+.nb-page-stars{display:inline-flex;align-items:center;gap:2px;height:40px;box-sizing:border-box;padding-inline:8px;border-radius:999px;background:var(--nb-color-paper);border:2px solid var(--nb-color-pill-yellow-line)}
+.nb-chip{display:inline-flex;align-items:center;gap:6px;min-height:40px;box-sizing:border-box;padding-inline:10px 14px;border-radius:999px;background:var(--fill);border:2px solid var(--line);color:var(--nb-color-ink);font-weight:800;font-size:14px;line-height:1.2;text-decoration:none;white-space:nowrap}
+.nb-lesson-turns{display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:8px}
+.nb-lesson-turns .nb-pages{padding-block:6px 10px;scrollbar-width:none;-webkit-mask-image:linear-gradient(to left,transparent 0,black 12px,black calc(100% - 12px),transparent 100%);mask-image:linear-gradient(to left,transparent 0,black 12px,black calc(100% - 12px),transparent 100%)}
+.nb-lesson-turns .nb-pages::-webkit-scrollbar{display:none}
+.nb-lesson-turns .nb-pg{text-decoration:none}
+.nb-turn-off{visibility:hidden}
+.nb-card-stage{display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:12px;width:100%;justify-items:center}
+.nb-bigcard[data-graded="correct"]{border-color:var(--nb-color-success)}
+.nb-bigcard[data-graded="wrong"]{border-color:var(--nb-color-danger)}
+.nb-btn-big[aria-pressed="true"]{outline:3px solid var(--nb-color-ink);outline-offset:3px}
+.nb-lesson-games{gap:16px}
+.nb-game-chip{display:inline-flex;align-items:center;gap:8px;padding-inline:10px 16px}
+@container nb (max-width: 640px){
+.nb-lesson-title{font-size:24px}
+.nb-lesson-turns{gap:4px}
+.nb-lesson-turns .nb-turn{width:44px;height:44px;box-shadow:0 4px 0 var(--nb-color-pill-lavender-fill)}
+.nb-card-stage{gap:6px}
+.nb-card-stage .nb-turn{width:44px;height:44px}
+.nb-card-stage .nb-bigcard{width:100%}
+.nb-page-badges{gap:6px}
+.nb-chip{min-height:36px;font-size:13px;padding-inline:8px 12px}
+}
+/* home: the book's contents, one tap to any page */
+.nb-index{gap:14px}
+.nb-index-units{display:flex;flex-direction:column;gap:10px;margin:0;padding:0;list-style:none}
+.nb-index-unit{display:grid;grid-template-columns:minmax(140px,220px) minmax(0,1fr);align-items:center;gap:8px 14px;padding:10px 12px;border-radius:18px;background:var(--nb-color-paper);border:2px dashed var(--line)}
+.nb-index-unit-title{font-weight:900;font-size:16px;line-height:1.5;color:var(--nb-color-ink)}
+.nb-index-pages{display:flex;flex-wrap:wrap;gap:6px}
+.nb-index-pages .nb-pg{text-decoration:none}
+@container nb (max-width: 640px){
+.nb-index-unit{grid-template-columns:minmax(0,1fr)}
+.nb-index-pages .nb-pg{width:42px;height:48px}
+}
+.nb-pg:hover{color:var(--nb-color-ink)}
+/* card by card: a clean screen, just the card, its number and the numbers of the deck */
+html[data-focus="cards"] .nb-header{display:none}
+html[data-focus="cards"]{--nb-header-h:0px}
+.nb-focus-bar{display:flex;flex-wrap:wrap;align-items:center;gap:10px}
+.nb-focus-title{flex:1;min-width:0;font-weight:900;font-size:20px;line-height:1.5;color:var(--nb-color-red);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.nb-bigcard{position:relative}
+.nb-bigcard-num{position:absolute;inset-block-start:10px;inset-inline-start:16px;font-family:var(--nb-font-ui);font-size:14px;font-weight:800;line-height:1;color:var(--nb-color-ink-muted)}
+.nb-card-nums{width:100%;justify-content:safe center;scrollbar-width:none}
+.nb-card-nums::-webkit-scrollbar{display:none}
+.nb-card-nums .nb-pg{width:42px;height:46px;font-size:15px;--line:var(--nb-color-pill-lavender-line);--fill:var(--nb-color-pill-lavender-fill)}
+.nb-card-nums .nb-pg[data-graded="correct"]{background:var(--nb-color-pill-green-fill);border-color:var(--nb-color-pill-green-line)}
+.nb-card-nums .nb-pg[data-graded="wrong"]{background:var(--nb-color-pill-salmon-fill);border-color:var(--nb-color-pill-salmon-line)}
+@container nb (max-width: 640px){
+.nb-focus-bar .nb-page-stars{display:none}
+}
+/* the number box: an arrow either side, the number typed over in the middle */
+.nb-numnav{display:inline-flex;align-items:stretch;align-self:center;max-width:100%;height:56px;box-sizing:border-box;border-radius:18px;border:2px solid var(--nb-color-pill-lavender-line);background:var(--nb-color-surface);box-shadow:0 5px 0 var(--nb-color-pill-lavender-fill);overflow:hidden}
+.nb-numnav-arrow{font:inherit;flex:none;width:56px;border:0;margin:0;padding:0;background:var(--nb-color-pill-lavender-fill);display:flex;align-items:center;justify-content:center;cursor:pointer}
+.nb-numnav-arrow:active{transform:scale(.94)}
+.nb-numnav-arrow:disabled{opacity:.35;cursor:default}
+.nb-numnav-mid{display:flex;align-items:center;justify-content:center;gap:8px;padding-inline:14px;min-width:0;font-weight:800;font-size:16px;color:var(--nb-color-ink);white-space:nowrap;cursor:text}
+.nb-numnav-input{font:inherit;font-weight:900;font-size:20px;width:3.2em;height:40px;box-sizing:border-box;padding:0;text-align:center;border-radius:12px;border:2px dashed var(--nb-color-pill-lavender-line);background:var(--nb-color-paper);color:var(--nb-color-purple-deep)}
+.nb-numnav-input:focus{outline:3px solid var(--nb-color-pill-lavender-line);outline-offset:1px;border-style:solid}
+.nb-lesson-nav>.nb-pages{padding-block:6px 10px;scrollbar-width:none;-webkit-mask-image:linear-gradient(to left,transparent 0,black 12px,black calc(100% - 12px),transparent 100%);mask-image:linear-gradient(to left,transparent 0,black 12px,black calc(100% - 12px),transparent 100%)}
+.nb-lesson-nav>.nb-pages::-webkit-scrollbar{display:none}
+.nb-lesson-nav>.nb-pages .nb-pg{text-decoration:none}
+.nb-focus-bar .nb-numnav{height:48px;box-shadow:none}
+.nb-focus-bar .nb-numnav-arrow{width:46px}
+@container nb (max-width: 640px){
+.nb-focus-bar .nb-numnav{order:5;width:100%}
+.nb-focus-bar .nb-numnav-mid{flex:1}
+}
+.nb-numnav-input::placeholder{color:var(--nb-color-ink-muted);opacity:1}
+/* the celebration over a card read right (motions in seed/motion.json) */
+.nb-card-stage{position:relative;display:flex;justify-content:center;width:100%}
+.nb-cheer{position:absolute;inset-inline:0;inset-block-start:-18px;display:flex;justify-content:center;pointer-events:none;z-index:3}
+.nb-cheer-word{display:inline-flex;align-items:center;gap:8px;min-height:52px;box-sizing:border-box;padding-inline:16px 20px;border-radius:999px;background:var(--nb-color-surface);border:3px solid var(--nb-color-success);box-shadow:var(--nb-shadow-soft);color:var(--nb-color-success);font-weight:900;font-size:24px;line-height:1.2;white-space:nowrap}
+.nb-cheer-calm{border-color:var(--nb-color-pill-lavender-line);color:var(--nb-color-purple-deep);font-size:20px}
+.nb-cheer-points{display:inline-flex;align-items:center;min-height:32px;padding-inline:10px;border-radius:999px;background:var(--nb-color-pill-yellow-fill);border:2px solid var(--nb-color-pill-yellow-line);color:var(--nb-color-ink);font-size:18px}
+.nb-burst{position:absolute;inset-block-start:50%;inset-inline-start:50%;width:0;height:0;pointer-events:none;z-index:2}
+.nb-shower{position:fixed;inset:0;overflow:hidden;pointer-events:none;z-index:80}
+.nb-piece{position:absolute;display:block;width:12px;height:20px;margin:-10px 0 0 -6px;border-radius:6px;background:var(--fill);border:2px solid var(--line)}
+.nb-shower .nb-piece{inset-block-start:0;margin:0}
+.nb-piece-star{width:auto;height:auto;margin:-13px 0 0 -13px;border:0;background:transparent}
