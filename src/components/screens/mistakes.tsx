@@ -6,7 +6,14 @@ import { useApp, useT } from "@/components/app/app-data";
 import { Icon } from "@/components/book/icon";
 import { Dots, Meter } from "@/components/book/parts";
 import { Pill, pillVars, Word } from "@/components/book/word";
-import { active, type Mistake, masteredCount, openMistakes, reviewMistake } from "@/modules/progress/local";
+import {
+  active,
+  type Mistake,
+  masteredCount,
+  openMistakes,
+  reviewMistake,
+  scriptOfMistake,
+} from "@/modules/progress/local";
 import { updateProfile, useDevice } from "@/modules/progress/store";
 
 type Mode = "loop" | "single_pass" | "instant_repeat";
@@ -51,7 +58,12 @@ export function Mistakes() {
           {w ? (
             <>
               <span className="nb-muted">{t("mistakes.words", { n: queue.length })}</span>
-              <div key={w.itemId + (miss ?? "")} className="nb-bigcard nb-anim-pop" style={pillVars("pink")}>
+              <div key={w.itemId + (miss ?? "")} className="nb-bigcard nb-anim-pop"
+                style={{
+                  ...pillVars("pink"),
+                  fontFamily: scriptOfMistake(w) === "uthmani" ? "var(--nb-font-quran)" : undefined,
+                }}
+              >
                 <Word segments={w.segments} />
               </div>
               <p className="nb-muted nb-center">{t("lesson.readAloud")}</p>
@@ -134,7 +146,7 @@ export function Mistakes() {
                 <div className="nb-grid nb-grid-140">
                   {words.map((m) => (
                     <div key={m.itemId} className="nb-mcell">
-                      <Pill segments={m.segments} palette="pink" size={26} />
+                      <Pill segments={m.segments} script={scriptOfMistake(m)} palette="pink" size={26} />
                       <Dots
                         n={m.correctStreak}
                         total={need}

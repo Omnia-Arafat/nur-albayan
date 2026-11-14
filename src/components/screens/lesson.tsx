@@ -132,6 +132,7 @@ export function LessonPlayer({ lesson, prev, next, first, last }: { lesson: Less
         itemId: card.it.id,
         cardTypeKey: card.it.cardType,
         segments: card.it.segments,
+        script: card.it.script,
         result,
         gradedBy: grader,
         timedOut: timed && left <= 0,

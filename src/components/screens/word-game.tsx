@@ -8,7 +8,7 @@ import { useApp, useT } from "@/components/app/app-data";
 import { ensureProfile } from "@/components/app/profiles";
 import { Icon } from "@/components/book/icon";
 import { Meter, Tag } from "@/components/book/parts";
-import { earnedBadges, gameRead, openMistakes, active } from "@/modules/progress/local";
+import { earnedBadges, gameRead, openMistakes, active, scriptOfMistake } from "@/modules/progress/local";
 import { updateProfile, useDevice } from "@/modules/progress/store";
 import { pointsFor } from "@/modules/scoring/engine";
 
@@ -45,7 +45,7 @@ export function useGameWords(from: string): { words: Word[]; ready: boolean } {
               id: m.itemId,
               bookPage: m.bookPage,
               segments: m.segments,
-              script: "naskh" as const,
+              script: scriptOfMistake(m),
               cardType: "normal",
             }))
           : [],
@@ -83,7 +83,7 @@ export function useGradeWord() {
       const next = gameRead(
         p,
         rules,
-        { itemId: word.id, bookPage: word.bookPage, segments: word.segments, result },
+        { itemId: word.id, bookPage: word.bookPage, segments: word.segments, script: word.script, result },
         points,
       );
       return { ...next, badges: [...new Set([...p.badges, ...earnedBadges(next, catalog.badges)])] };

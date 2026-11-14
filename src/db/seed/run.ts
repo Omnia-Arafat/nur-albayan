@@ -79,6 +79,18 @@ export async function runSeed(db: AnyDb, data: SeedData) {
         .from(s.fonts)
         .where(and(eq(s.fonts.role, font.role), eq(s.fonts.family, font.family)));
       if (existing.length === 0) await tx.insert(s.fonts).values(font);
+      // Fonts are not edited in the app, so the seed keeps where a font comes from and which is default.
+      else
+        await tx
+          .update(s.fonts)
+          .set({
+            fallbacks: font.fallbacks,
+            cssUrl: font.cssUrl ?? null,
+            assetPath: font.assetPath ?? null,
+            weights: font.weights,
+            isDefault: font.isDefault,
+          })
+          .where(eq(s.fonts.id, existing[0].id));
     }
 
     await tx

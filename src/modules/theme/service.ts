@@ -13,7 +13,8 @@ import { compileMotionCss, motionSet } from "./motion";
 export const icons = iconSet.parse(iconSeed);
 export const motion = motionSet.parse(motionSeed);
 
-export type Theme = { css: string; fontUrls: string[] };
+/** bookFonts: the families that draw book and Qur'anic words, which must load before those words show. */
+export type Theme = { css: string; fontUrls: string[]; bookFonts: string[] };
 
 /** The default theme as one stylesheet (tokens, fonts, teaching roles, motion) plus the font stylesheets to load. */
 export async function getTheme(db: Db): Promise<Theme> {
@@ -44,7 +45,8 @@ export async function getTheme(db: Db): Promise<Theme> {
     compileMotionCss(motion),
   ].join("\n");
   const fontUrls = [...new Set(fontRows.map((f) => f.cssUrl).filter((u): u is string => !!u))];
-  return { css, fontUrls };
+  const bookFonts = [...new Set(fontRows.filter((f) => f.role === "naskh" || f.role === "quran").map((f) => f.family))];
+  return { css, fontUrls, bookFonts };
 }
 
 /** The default theme's token values by key, for places that cannot read the theme's CSS (icons, the manifest). */

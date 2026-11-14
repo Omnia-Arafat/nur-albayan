@@ -60,7 +60,7 @@ export function Board() {
       {s.card ? (
         <div
           key={`${s.n}`}
-          className="nb-board-word nb-anim-pop"
+          className="nb-board-word nb-fit nb-anim-pop"
           style={{
             ...pillVars(s.card.palette),
             fontFamily: s.card.script === "uthmani" ? "var(--nb-font-quran)" : undefined,

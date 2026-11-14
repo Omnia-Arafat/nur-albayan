@@ -167,9 +167,10 @@ export async function progressSnapshot(db: Db, studentId: string, today = new Da
       .innerJoin(s.lessons, eq(s.lessons.id, s.lessonRecords.lessonId))
       .where(eq(s.lessonRecords.studentId, studentId)),
     db
-      .select({ m: s.mistakeBank, page: s.lessons.bookPage })
+      .select({ m: s.mistakeBank, page: s.lessons.bookPage, script: s.items.script })
       .from(s.mistakeBank)
       .innerJoin(s.lessons, eq(s.lessons.id, s.mistakeBank.lessonId))
+      .innerJoin(s.items, eq(s.items.id, s.mistakeBank.itemId))
       .where(eq(s.mistakeBank.studentId, studentId)),
     db.select({ key: s.studentBadges.badgeKey }).from(s.studentBadges).where(eq(s.studentBadges.studentId, studentId)),
     db
@@ -227,12 +228,13 @@ export async function progressSnapshot(db: Db, studentId: string, today = new Da
       ]),
     ),
     mistakes: Object.fromEntries(
-      words.map(({ m, page }) => [
+      words.map(({ m, page, script }) => [
         m.itemId,
         {
           itemId: m.itemId,
           bookPage: page,
           segments: segs.filter((g) => g.itemId === m.itemId).map((g) => ({ text: g.text, role: g.roleKey })),
+          script,
           missCount: m.missCount,
           correctStreak: m.correctStreak,
           mastered: m.masteredAt !== null,

@@ -42,7 +42,8 @@ export const seedSchemas = {
       role: z.enum(["display", "naskh", "quran", "ui"]),
       family: z.string(),
       fallbacks: z.string(),
-      cssUrl: z.url().optional(),
+      /** A stylesheet: a full URL, or a path on this site (/fonts/...) for a font served with the app. */
+      cssUrl: z.union([z.url(), z.string().regex(/^\/[^/]/)]).optional(),
       assetPath: z.string().optional(),
       weights: z.array(z.number().int()),
       isDefault: z.boolean(),

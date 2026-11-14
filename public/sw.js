@@ -28,6 +28,7 @@ const isStatic = (url) =>
   FONT_HOSTS.includes(url.hostname) ||
   (url.origin === self.location.origin &&
     (url.pathname.startsWith("/_next/static/") ||
+      url.pathname.startsWith("/fonts/") ||
       url.pathname.startsWith("/app-icon/") ||
       url.pathname.startsWith("/brand/")));
 
