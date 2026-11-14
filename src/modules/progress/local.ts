@@ -14,6 +14,7 @@ import {
   type SessionSummary,
   summarize,
 } from "@/modules/scoring/engine";
+import { scriptOf } from "@/modules/book/item-dsl";
 import type { ScoringRules } from "@/modules/scoring/profile";
 
 const record = z.object({
@@ -30,6 +31,8 @@ const mistake = z.object({
   itemId: z.string(),
   bookPage: z.number(),
   segments: z.array(segment),
+  /** Uthmani for a Qur'anic word. Older records have none: see scriptOfMistake. */
+  script: z.enum(["naskh", "uthmani"]).optional(),
   missCount: z.number(),
   correctStreak: z.number(),
   mastered: z.boolean(),
@@ -126,6 +129,7 @@ export type CardRead = {
   itemId: string;
   cardTypeKey: string;
   segments: { text: string; role: string }[];
+  script?: "naskh" | "uthmani";
   result: "correct" | "wrong";
   gradedBy: "self" | "teacher";
   /** A speed card read after its timer ran out. */
@@ -159,7 +163,7 @@ export function finishLesson(
     if (!prev && r.result === "correct") continue;
     const base = prev ?? { missCount: 0, correctStreak: 0, mastered: false };
     const step = masteryStep(rules, base, r.result);
-    mistakes[r.itemId] = { ...step, itemId: r.itemId, bookPage, segments: r.segments, updatedAt: now.toISOString() };
+    mistakes[r.itemId] = { ...step, itemId: r.itemId, bookPage, segments: r.segments, script: r.script, updatedAt: now.toISOString() };
   }
   const day = dayKey(now);
   const days = p.days.includes(day) ? p.days : [...p.days, day];
@@ -191,7 +195,13 @@ export function reviewMistake(
 export function gameRead(
   p: LocalProfile,
   rules: ScoringRules,
-  read: { itemId: string; bookPage: number; segments: { text: string; role: string }[]; result: "correct" | "wrong" },
+  read: {
+    itemId: string;
+    bookPage: number;
+    segments: { text: string; role: string }[];
+    script?: "naskh" | "uthmani";
+    result: "correct" | "wrong";
+  },
   points: number,
   now = new Date(),
 ): LocalProfile {
@@ -206,11 +216,16 @@ export function gameRead(
             itemId: read.itemId,
             bookPage: prev?.bookPage ?? read.bookPage,
             segments: prev?.segments ?? read.segments,
+            script: prev?.script ?? read.script,
             updatedAt: now.toISOString(),
           },
         };
   return { ...p, gamePoints: p.gamePoints + points, mistakes };
 }
+
+/** The script a banked word is drawn in: as stored, or read from its marks for records kept before it was. */
+export const scriptOfMistake = (m: { segments: { text: string; role: string }[]; script?: "naskh" | "uthmani" }) =>
+  m.script ?? scriptOf(m.segments, "naskh");
 
 export const openMistakes = (p: LocalProfile) => Object.values(p.mistakes).filter((m) => !m.mastered);
 export const masteredCount = (p: LocalProfile) => Object.values(p.mistakes).filter((m) => m.mastered).length;
@@ -283,6 +298,7 @@ export function mergeRemote(local: LocalProfile, remote: LocalProfile): LocalPro
       missCount: Math.max(a.missCount, b.missCount),
       mastered: a.mastered || b.mastered,
       segments: a.segments.length ? a.segments : b.segments,
+      script: newer.script ?? a.script ?? b.script,
     };
   }
   const pagesByDay = { ...remote.pagesByDay };

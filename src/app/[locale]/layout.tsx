@@ -5,6 +5,7 @@ import type { Metadata, Viewport } from "next";
 import { notFound } from "next/navigation";
 
 import { AppDataProvider } from "@/components/app/app-data";
+import { BookFontNotice } from "@/components/app/book-font";
 import { DeviceSettings } from "@/components/app/device-settings";
 import { OfflineSupport } from "@/components/app/offline";
 import { FitText } from "@/components/book/fit-text";
@@ -58,6 +59,8 @@ export default async function LocaleLayout(props: LayoutProps<"/[locale]">) {
           <link key={u} rel="stylesheet" href={u} />
         ))}
         <style id="nb-theme" dangerouslySetInnerHTML={{ __html: theme.css }} />
+        {/* After the font stylesheets, so it runs once they are in: book words stay hidden until their font is ready. */}
+        <script dangerouslySetInnerHTML={{ __html: bookFontBoot(theme.bookFonts) }} />
         {/* Picks day or night before the first paint, so a night reader never sees a white flash. */}
         <script dangerouslySetInnerHTML={{ __html: themeBoot(catalog.settings["display.themeMode"]) }} />
       </head>
@@ -74,6 +77,7 @@ export default async function LocaleLayout(props: LayoutProps<"/[locale]">) {
         >
           <div className="nb-app">
             <DeviceSettings />
+            <BookFontNotice />
             <OfflineSupport />
             <FitText />
             {props.children}
@@ -83,6 +87,23 @@ export default async function LocaleLayout(props: LayoutProps<"/[locale]">) {
     </html>
   );
 }
+
+/**
+ * The inline script that waits for the book fonts and sets data-book-font on <html>: "ready" once every
+ * book font has loaded its Arabic letters and Qur'anic marks, "failed" if one cannot load. Until "ready",
+ * book.css hides book words, so a word is never drawn in a fallback font that lacks its marks (a letter
+ * with the Uthmani sukun or an open tanween would vanish). A browser without the font loading API is
+ * left as "ready".
+ */
+function bookFontBoot(families: string[]) {
+  // Hamza, an open kasratan and the Uthmani sukun: the Arabic face and its Qur'anic marks.
+  const sample = JSON.stringify("\u0621\u08F2\u06E1");
+  const fonts = JSON.stringify(families.flatMap((f) => [`400 1em '${f.replace(/'/g, "")}'`, `700 1em '${f.replace(/'/g, "")}'`]));
+  return `(function(){var r=document.documentElement,done=0;function set(v){r.dataset.bookFont=v;try{window.dispatchEvent(new Event("nb-book-font"))}catch(e){}}if(!document.fonts||!document.fonts.load){set("ready");return}Promise.all(${fonts}.map(function(f){return document.fonts.load(f,${sample})})).then(function(all){done=1;set(all.every(function(faces){return faces.length&&faces.every(function(x){return x.status==="loaded"})})?"ready":"failed")},function(){done=1;set("failed")});setTimeout(function(){if(!done)set("failed")},${BOOK_FONT_WAIT_MS})})()`;
+}
+
+/** How long a book word may wait for its font before the reader is told it could not load. */
+const BOOK_FONT_WAIT_MS = 15000;
 
 /** The inline script that sets data-theme from the active device profile, else the platform default. */
 function themeBoot(platform: unknown) {

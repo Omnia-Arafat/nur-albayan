@@ -7,7 +7,7 @@ import { Icon } from "@/components/book/icon";
 import { Ribbon, Ring, Tag } from "@/components/book/parts";
 import { Pill, pillVars } from "@/components/book/word";
 import type { Lesson } from "@/modules/content/service";
-import { type CardRead, levelOf, type LocalProfile, streakOf, xpOf } from "@/modules/progress/local";
+import { type CardRead, levelOf, type LocalProfile, scriptOfMistake, streakOf, xpOf } from "@/modules/progress/local";
 import type { SessionSummary } from "@/modules/scoring/engine";
 
 export type ResultData = {
@@ -126,7 +126,7 @@ export function Result({
         {missed.length ? (
           <div className="nb-grid" style={{ "--min": "150px" } as React.CSSProperties}>
             {missed.map((m) => (
-              <Pill key={m.itemId} segments={m.segments} palette="pink" size={28} />
+              <Pill key={m.itemId} segments={m.segments} script={scriptOfMistake(m)} palette="pink" size={28} />
             ))}
           </div>
         ) : (

@@ -28,8 +28,8 @@
   {
     "role": "naskh",
     "family": "Noto Naskh Arabic",
-    "fallbacks": "'Scheherazade New', serif",
-    "cssUrl": "https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;700&family=Scheherazade+New:wght@400;700&display=swap",
+    "fallbacks": "serif",
+    "cssUrl": "/fonts/noto-naskh-arabic.css",
     "weights": [
       400,
       700
@@ -59,8 +59,8 @@
   {
     "role": "quran",
     "family": "Noto Naskh Arabic",
-    "fallbacks": "'Scheherazade New', serif",
-    "cssUrl": "https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;700&family=Scheherazade+New:wght@400;700&display=swap",
+    "fallbacks": "serif",
+    "cssUrl": "/fonts/noto-naskh-arabic.css",
     "weights": [
       400,
       700

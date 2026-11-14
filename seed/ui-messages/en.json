@@ -1148,6 +1148,8 @@
     "keys.back": "Back to the page",
     "keys.help": "This list",
     "keys.hintFirst": "Start of the book",
-    "keys.hintLast": "End of the book"
+    "keys.hintLast": "End of the book",
+    "font.failed": "The font for the book words could not load, so the words are hidden rather than shown with missing marks. Check the connection and try again.",
+    "font.retry": "Try again"
   }
 }

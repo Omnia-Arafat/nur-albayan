@@ -313,7 +313,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 2,
-          "searchText": "فيها كتبࣱ قيمة",
+          "searchText": "فيها كتبࣱ قيمةࣱ",
           "segments": [
             {
               "text": "فِيهَا كُتُبࣱ ",
@@ -324,7 +324,7 @@
               "role": "target"
             },
             {
-              "text": "يِّمَةٌ",
+              "text": "يِّمَةࣱ",
               "role": "base"
             }
           ]
@@ -472,7 +472,7 @@
           "cardType": "normal",
           "script": "uthmani",
           "rowBand": 0,
-          "searchText": "فكأين من قرية أهلكنها وهى ظالمةࣱ فهى خاوية على عروشها وبئرࣲ معطلةࣲ وقصرࣲ مشيدࣲ",
+          "searchText": "فكأين من قرية أهلكنها وهى ظالمةࣱ فهى خاوية على عروشها وبئرࣲ معطلةࣲ وقصرࣲ مشيد",
           "segments": [
             {
               "text": "فَكَأَيِّن ",
@@ -515,7 +515,7 @@
               "role": "target"
             },
             {
-              "text": "شِيدࣲ",
+              "text": "شِيدٍ",
               "role": "base"
             }
           ]
